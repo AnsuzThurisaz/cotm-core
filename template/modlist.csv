@@ -1,4 +1,0 @@
-name,authors,page,license
-{{#entries}}
-"{{name}}","{{#authors}}{{authors}}{{/authors}}{{^authors}}unknown{{/authors}}","{{#projectPage}}{{projectPage}}{{/projectPage}}{{^projectPage}}unknown{{/projectPage}}","{{#license}}{{license}}{{/license}}{{^license}}unknown{{/license}}"
-{{/entries}}

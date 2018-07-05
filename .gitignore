@@ -1,6 +1,6 @@
 *.jar
+*.entry.hjson
 loaders/
-mods/
 .curse/
 _upload/
 .voodoo/
