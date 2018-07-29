@@ -4,9 +4,9 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.13
+version: 2.1.8.14
 mcVersion: 1.12.2
-forge: 2727
+forge: 2744
 minecraftDir: src
 
 #================#
@@ -122,9 +122,7 @@ root:
   - NoMoreGlowingPots
 
   # CrazyPants
-  # Ender IO
-  - name: Ender IO
-    version: 5.0.26
+  - Ender IO
 
   # Subaraki
   # Paintings ++
@@ -231,6 +229,8 @@ root:
   - "Shadowfacts' Forgelin"
   - Catwalks 4
   - "Wall-Jump!"
+  - Outfox
+  - Thaumic Tinkerer
 
   # Pulled due to outstanding issues
   #- The Erebus
@@ -258,6 +258,9 @@ root:
     # b0undrybreaker
     - job: elytra/FriendshipBracelet/master
       name: Friendship Bracelet
+
+    - job: elytra/InfraRedstone/1.12.2
+      name: Infra Redstone
 
     # Falkreon
     - job: elytra/Thermionics/master
