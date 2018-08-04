@@ -147,6 +147,8 @@ root:
   - FoamFix for Minecraft
   - Unlimited Chisel Works
   - Unlimited Chisel Works - Botany
+  - SimpleLogic Gates
+  - SimpleLogic Wires
 
   - Embers
   - Ender Storage 1.8.+
@@ -220,7 +222,6 @@ root:
   - FastWorkbench
   - DimensionalDoors
   - "Better Builder's Wands"
-  - AntiGhost
   - Login Shield
   - Caliper
   - Refined Storage
@@ -358,6 +359,7 @@ root:
     - ReAuth
     - CleanView
     - Crafting Tweaks
+    - AntiGhost
 
     # Way2muchnoise
     - Better Advancements
