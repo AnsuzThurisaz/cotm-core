@@ -246,11 +246,21 @@ root:
 
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.5.0/Nutrition-1.12.2-3.5.0.jar
-      name: Nutrition 
+      name: Nutrition
 
   # Correlated 2
     - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.123.jar
       name: Correlated
+
+  # Galacticraft
+    - url: https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar
+      name: Galacticraft Core
+  
+    - url: https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar
+      name: Galacticraft Planets
+
+    - url: https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar
+      name: MicdoodleCore
 
   # Jenkins Downloads      
   - provider: JENKINS
