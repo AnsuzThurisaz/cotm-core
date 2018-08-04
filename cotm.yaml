@@ -6,7 +6,7 @@ title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
 version: 2.1.8.14
 mcVersion: 1.12.2
-forge: 2744
+forge: 2747
 minecraftDir: src
 
 #================#
@@ -145,7 +145,6 @@ root:
   - CharsetPatches
   - Charset Immersion
   - FoamFix for Minecraft
-  - SimpleLogic
   - Unlimited Chisel Works
   - Unlimited Chisel Works - Botany
 
