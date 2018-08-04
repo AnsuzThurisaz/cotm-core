@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.14
+version: 2.1.9
 mcVersion: 1.12.2
 forge: 2747
 minecraftDir: src
@@ -244,11 +244,11 @@ root:
     entries:
 
   # Nutrition
-    - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
+    - url: https://github.com/WesCook/Nutrition/releases/download/v3.5.0/Nutrition-1.12.2-3.5.0.jar
       name: Nutrition 
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.121.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.123.jar
       name: Correlated
 
   # Jenkins Downloads      
