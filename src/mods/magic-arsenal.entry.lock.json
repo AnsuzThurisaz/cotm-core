@@ -1,0 +1,8 @@
+{ 
+  "provider": "JENKINS",
+  "id": "magic-arsenal",
+  "name": "elytra/MagicArsenal/master 90",
+  "jenkinsUrl": "https://ci.elytradev.com",
+  "job": "elytra/MagicArsenal/master",
+  "buildNumber": 90
+}

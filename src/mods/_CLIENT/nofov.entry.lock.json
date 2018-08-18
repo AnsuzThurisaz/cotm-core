@@ -1,0 +1,8 @@
+{ 
+  "provider": "CURSE",
+  "id": "nofov",
+  "name": "NoFov",
+  "side": "CLIENT",
+  "projectID": 227965,
+  "fileID": 2432421
+}
