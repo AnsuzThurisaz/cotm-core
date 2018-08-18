@@ -6,7 +6,7 @@ title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
 version: 2.1.9
 mcVersion: 1.12.2
-forge: 2747
+forge: 2756
 minecraftDir: src
 
 #================#
@@ -83,8 +83,6 @@ root:
   - Cosmetic Armor Reworked
 
   # jaredlll08
-  - CraftTweaker
-  - ModTweaker
   - Diamond Glass
 
   # copygirl
@@ -125,10 +123,7 @@ root:
   - Ender IO
 
   # Subaraki
-  # Paintings ++
-  - name: "Paintings ++"
-    version: 3.3.0.0
-  - Painting Selection Gui Revamped
+  - Paintings ++
 
   # azanor
   - Thaumcraft
@@ -149,8 +144,9 @@ root:
   - Unlimited Chisel Works - Botany
   - SimpleLogic Gates
   - SimpleLogic Wires
+  - Charset Tools
 
-  - Embers
+  - Embers Rekindleated
   - Ender Storage 1.8.+
   - Exchangers
   - Extra Bit Manipulation
@@ -232,13 +228,17 @@ root:
   - Outfox
   - Thaumic Tinkerer
   - ChocoCraft 3
-  - Reborn Storage 
+  - Reborn Storage
+  - Grappling Hook Mod
+  - Ariente
 
   # Pulled due to outstanding issues
   #- The Erebus
 
   # Unused mods
   #- Just Enough Dimensions
+  #- CraftTweaker
+  #- ModTweaker
 
   # Direct Downloads
   - provider: DIRECT
