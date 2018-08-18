@@ -15,7 +15,7 @@ fi
 find . -name \*.entry.lock.json -type f -delete
 
 echo "Building Modpack"
-java -jar "$DIR/bootstrap-voodoo.jar" build "$DIR/cotm.json" -o cotm.lock.json --updateAll
+java -jar "$DIR/bootstrap-voodoo.jar" build "$DIR/cotm.pack.hjson" -o cotm.lock.json --updateAll
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Build"
     exit 1

@@ -137,6 +137,7 @@ root:
   - charset-crafting
   - charset-audio
   - charset-storage-locks
+  - charset-tools
   - charsetpatches
   - charset-immersion
   - foamfix-for-minecraft
