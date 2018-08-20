@@ -14,5 +14,3 @@ cd $DIR
 ./deploy_multimc.sh
 
 ./deploy_curse.sh
-
-./changelog.sh
