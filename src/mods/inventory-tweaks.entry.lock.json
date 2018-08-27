@@ -2,7 +2,6 @@
   "provider": "CURSE",
   "id": "inventory-tweaks",
   "name": "Inventory Tweaks",
-  "side": "CLIENT",
   "projectID": 223094,
   "fileID": 2514356
 }

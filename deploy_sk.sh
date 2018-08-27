@@ -3,6 +3,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
 
+./init.sh
+
 echo "packing sk"
 java -jar "$DIR/bootstrap-voodoo.jar" pack sk "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then

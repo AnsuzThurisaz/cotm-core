@@ -3,6 +3,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
 
+./init.sh
+
 echo "copying defaultioptions to serverside"
 serverConfig="$DIR/src/config/_SERVER"
 # do not delete the old server config for now, just overwrite all files

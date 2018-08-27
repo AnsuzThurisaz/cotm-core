@@ -2,6 +2,7 @@
   "id": "cotm",
   "title": "Center of the Multiverse",
   "version": "2.1.9",
+  "icon": "icon.png",
   "authors": [ 
     "AnsuzThuriaz",
     "Falkreon",
@@ -357,23 +358,6 @@
         "name": "Vise",
         "selected": true,
         "description": "More granular control over UI/HUD elements.",
-        "recommendation": "starred"
-      },
-      "files": { 
-        "include": [ 
-          ],
-        "exclude": [ 
-          ]
-      }
-    },
-    { 
-      "entries": [ 
-        "inventory-tweaks"
-      ],
-      "properties": { 
-        "name": "Inventory Tweaks",
-        "selected": true,
-        "description": "Adds amll changes to invetory handling to minor conviniences.",
         "recommendation": "starred"
       },
       "files": { 

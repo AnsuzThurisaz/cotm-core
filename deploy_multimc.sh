@@ -3,6 +3,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
 
+./init.sh
+
 echo "packing mmc instance"
 java -jar "$DIR/bootstrap-voodoo.jar" pack mmc "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
