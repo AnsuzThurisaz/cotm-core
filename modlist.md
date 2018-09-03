@@ -150,21 +150,21 @@ Author | `Binnie567, mezz`
 Mod | Blood Magic 
 ---|---
 Provider | `CURSE`
-Version | `BloodMagic-1.12.2-2.3.2-100.jar`
+Version | `BloodMagic-1.12.2-2.3.3-101.jar`
 Release Type | `BETA`
 Author | `TehNut, WayofTime`
 
 Mod | Bookshelf
 ---|---
 Provider | `CURSE`
-Version | `Bookshelf-1.12.2-2.3.557.jar`
+Version | `Bookshelf-1.12.2-2.3.559.jar`
 Release Type | `ALPHA`
 Author | `Darkhax`
 
 Mod | Botania
 ---|---
 Provider | `CURSE`
-Version | `Botania r1.10-354.jar`
+Version | `Botania r1.10-356.jar`
 Release Type | `RELEASE`
 Author | `Vazkii`
 
@@ -185,7 +185,7 @@ Author | `Darkhax`
 Mod | Catwalks 4
 ---|---
 Provider | `CURSE`
-Version | `catwalks-1.12.2-4.0.43.jar`
+Version | `catwalks-1.12.2-4.0.44.jar`
 Release Type | `RELEASE`
 Author | `dmf444, mincrmatt12`
 
@@ -276,7 +276,7 @@ Author | `Drullkus, Minecreatr, tterrag1098`
 Mod | Chisels & Bits
 ---|---
 Provider | `CURSE`
-Version | `chiselsandbits-14.22.jar`
+Version | `chiselsandbits-14.23.jar`
 Release Type | `RELEASE`
 Author | `AlgorithmX2`
 
@@ -297,7 +297,7 @@ Author | `ZLainSama`
 Mod | Client Tweaks
 ---|---
 Provider | `CURSE`
-Version | `ClientTweaks_1.12.2-3.1.8.jar`
+Version | `ClientTweaks_1.12.2-3.1.9.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -346,7 +346,7 @@ Author | `BillyGalbreath`
 Mod | Comforts
 ---|---
 Provider | `CURSE`
-Version | `comforts-1.12.2-1.2.0.jar`
+Version | `comforts-1.12.2-1.3.0.jar`
 Release Type | `RELEASE`
 Author | `theillusivec4`
 
@@ -360,7 +360,7 @@ Author | `tterrag1098`
 Mod | Construct's Armory
 ---|---
 Provider | `CURSE`
-Version | `conarm-1.12.2-1.0.2.jar`
+Version | `conarm-1.12.2-1.1.0.jar`
 Release Type | `RELEASE`
 Author | `theillusivec4`
 
@@ -463,7 +463,7 @@ Author | `61352151511`
 Mod | Dynamic Surroundings
 ---|---
 Provider | `CURSE`
-Version | `DynamicSurroundings-1.12.2-3.4.9.14.jar`
+Version | `DynamicSurroundings-1.12.2-3.4.9.15.jar`
 Release Type | `RELEASE`
 Author | `OreCruncher`
 
@@ -603,7 +603,7 @@ Author | `MolecularPhylo`
 Mod | Extra Utilities
 ---|---
 Provider | `CURSE`
-Version | `Extra Utilities 2 - 1.12 - 1.8.5`
+Version | `Extra Utilities 2 - 1.12 - 1.9.1`
 Release Type | `RELEASE`
 Author | `RWTema`
 
@@ -631,7 +631,7 @@ Author | `TominoCZ`
 Mod | Farming for Blockheads
 ---|---
 Provider | `CURSE`
-Version | `FarmingForBlockheads_1.12.2-3.1.21.jar`
+Version | `FarmingForBlockheads_1.12.2-3.1.25.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -673,14 +673,14 @@ Author | `CovertJaguar, mezz, MysteriousAges, SirSengir`
 Mod | FTB Utilities
 ---|---
 Provider | `CURSE`
-Version | `FTBUtilities-5.3.0.45.jar`
+Version | `FTBUtilities-5.3.0.48.jar`
 Release Type | `RELEASE`
 Author | `FTB, LatvianModder`
 
 Mod | FTBLib
 ---|---
 Provider | `CURSE`
-Version | `FTBLib-5.3.0.42.jar`
+Version | `FTBLib-5.3.0.48.jar`
 Release Type | `RELEASE`
 Author | `FTB, jaredlll08, LatvianModder`
 
@@ -813,7 +813,7 @@ Author | `mrnerdy42`
 Mod | KleeSlabs
 ---|---
 Provider | `CURSE`
-Version | `KleeSlabs_1.12.2-5.4.10.jar`
+Version | `KleeSlabs_1.12.2-5.4.11.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -897,7 +897,7 @@ Author | `McJty`
 Mod | MCMultiPart
 ---|---
 Provider | `CURSE`
-Version | `MCMultiPart 2.5.1`
+Version | `MCMultiPart 2.5.2`
 Release Type | `RELEASE`
 Author | `amadornes`
 
@@ -946,7 +946,7 @@ Author | `YaLTeR97`
 Mod | MrCrayfish's Furniture Mod
 ---|---
 Provider | `CURSE`
-Version | `Furniture Mod 5.7.0`
+Version | `Furniture Mod 5.8.0`
 Release Type | `RELEASE`
 Author | `Mr_Crayfish`
 
@@ -988,7 +988,7 @@ Author | `LogicTechCorp, Nazenn`
 Mod | NetherPortalFix
 ---|---
 Provider | `CURSE`
-Version | `NetherPortalFix_1.12.1-5.3.13.jar`
+Version | `NetherPortalFix_1.12.1-5.3.17.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -1091,8 +1091,8 @@ Author | `InsomniaKitten`
 Mod | Pewter
 ---|---
 Provider | `CURSE`
-Version | `Pewter-0.5.0.jar`
-Release Type | `BETA`
+Version | `Pewter-1.1.2.jar`
+Release Type | `RELEASE`
 Author | `ejektaflex`
 
 Mod | Placebo
@@ -1119,7 +1119,7 @@ Author | `Vazkii`
 Mod | Quark
 ---|---
 Provider | `CURSE`
-Version | `Quark-r1.5-127.jar`
+Version | `Quark-r1.5-129.jar`
 Release Type | `RELEASE`
 Author | `Vazkii`
 
@@ -1140,8 +1140,8 @@ Author | `lumien231`
 Mod | RandomTweaks
 ---|---
 Provider | `CURSE`
-Version | `RandomTweaks 1.12.2-2.1.3.0`
-Release Type | `BETA`
+Version | `RandomTweaks 1.12.2-2.1.3.1`
+Release Type | `RELEASE`
 Author | `TheRandomLabs`
 
 Mod | Ranged Pumps
@@ -1189,7 +1189,7 @@ Author | `FyberOptic`
 Mod | Refined Storage
 ---|---
 Provider | `CURSE`
-Version | `Refined Storage 1.6.3`
+Version | `Refined Storage 1.6.4`
 Release Type | `RELEASE`
 Author | `raoulvdberge`
 
@@ -1306,7 +1306,7 @@ Version | `Slice`
 Mod | Smooth Font
 ---|---
 Provider | `CURSE`
-Version | `SmoothFont-1.12.2-1.16-b2.jar`
+Version | `SmoothFont-1.12.2-1.16-b3.jar`
 Release Type | `BETA`
 Author | `bre2el`
 
@@ -1509,14 +1509,14 @@ Author | `genandnic`
 Mod | Wawla - What Are We Looking At
 ---|---
 Provider | `CURSE`
-Version | `Wawla-1.12.2-2.5.257.jar`
-Release Type | `RELEASE`
+Version | `Wawla-1.12.2-2.5.259.jar`
+Release Type | `ALPHA`
 Author | `Darkhax`
 
 Mod | Waystones
 ---|---
 Provider | `CURSE`
-Version | `Waystones_1.12.2-4.0.54.jar`
+Version | `Waystones_1.12.2-4.0.62.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
