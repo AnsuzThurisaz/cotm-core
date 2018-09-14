@@ -10,4 +10,3 @@ if [ ! -f modpack-creator.jar ]; then
   curl -L -o modpack-creator.jar https://github.com/SKCraft/Launcher/releases/download/creator-2.0.1/modpack-creator-2.0.1.jar
 fi
 
-# cp /home/nikky/dev/Voodoo/build/libs/voodoo.jar bootstrap-voodoo.jar
