@@ -395,7 +395,7 @@ Author | `theillusivec4`
 Mod | correlated
 ---|---
 Provider | `DIRECT`
-Version | `Correlated-1.12.2-2.1.123`
+Version | `Correlated-1.12.2-2.1.125`
 
 Mod | Cosmetic Armor Reworked
 ---|---
@@ -1379,6 +1379,13 @@ Provider | `CURSE`
 Version | `ThaumicJEI-1.12.2-1.5.3-20.jar`
 Release Type | `RELEASE`
 Author | `Buuz135`
+
+Mod | The Erebus
+---|---
+Provider | `CURSE`
+Version | `Erebus-1.0.23.jar`
+Release Type | `BETA`
+Author | `Bryuf, DylanKaizer, sokratis12GR, Vadis365`
 
 Mod | The Twilight Forest
 ---|---
