@@ -1,8 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "id": "itemzoom",
-  "name": "ItemZoom",
-  "side": "CLIENT",
-  "projectID": 261725,
-  "fileID": 2463740
-}

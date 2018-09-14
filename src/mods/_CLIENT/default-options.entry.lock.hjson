@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: default-options,
+  name: "Default Options",
+  side: CLIENT,
+  projectID: 232131,
+  fileID: 2549234
+}

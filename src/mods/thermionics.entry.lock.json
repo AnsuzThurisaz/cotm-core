@@ -1,8 +1,0 @@
-{ 
-  "provider": "JENKINS",
-  "id": "thermionics",
-  "name": "elytra/Thermionics/master 40",
-  "jenkinsUrl": "https://ci.elytradev.com",
-  "job": "elytra/Thermionics/master",
-  "buildNumber": 40
-}

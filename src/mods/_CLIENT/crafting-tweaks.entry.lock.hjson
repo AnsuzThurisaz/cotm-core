@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: crafting-tweaks,
+  name: "Crafting Tweaks",
+  side: CLIENT,
+  projectID: 233071,
+  fileID: 2562139
+}

@@ -1,8 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "id": "custom-main-menu",
-  "name": "Custom Main Menu",
-  "side": "CLIENT",
-  "projectID": 226406,
-  "fileID": 2482584
-}

@@ -1,8 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "id": "rpg-hud",
-  "name": "RPG-Hud",
-  "side": "CLIENT",
-  "projectID": 235670,
-  "fileID": 2483068
-}

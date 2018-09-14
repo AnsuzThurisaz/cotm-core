@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: reauth,
+  name: ReAuth,
+  side: CLIENT,
+  projectID: 237701,
+  fileID: 2560638
+}

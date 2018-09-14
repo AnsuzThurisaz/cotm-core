@@ -1,9 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "id": "unity",
-  "name": "Unity",
-  "fileName": "Unity.zip",
-  "side": "CLIENT",
-  "projectID": 222097,
-  "fileID": 2576530
-}

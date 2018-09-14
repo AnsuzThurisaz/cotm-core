@@ -1,8 +1,0 @@
-{ 
-  "provider": "JENKINS",
-  "id": "infra-redstone",
-  "name": "elytra/InfraRedstone/1.12.2 20",
-  "jenkinsUrl": "https://ci.elytradev.com",
-  "job": "elytra/InfraRedstone/1.12.2",
-  "buildNumber": 20
-}

@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: thaumcraft,
+  name: Thaumcraft,
+  projectID: 223628,
+  fileID: 2614113
+}

@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: magic-bees,
+  name: "Magic Bees",
+  projectID: 65764,
+  fileID: 2566282
+}

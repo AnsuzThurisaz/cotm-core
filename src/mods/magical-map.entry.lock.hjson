@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: magical-map,
+  name: "Magical Map",
+  projectID: 261281,
+  fileID: 2601821
+}

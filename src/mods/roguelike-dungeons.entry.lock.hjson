@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: roguelike-dungeons,
+  name: "Roguelike Dungeons",
+  projectID: 221585,
+  fileID: 2492586
+}

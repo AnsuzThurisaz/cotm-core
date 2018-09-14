@@ -1,8 +1,0 @@
-{ 
-  "provider": "JENKINS",
-  "id": "engination",
-  "name": "elytra/Engination/master 9",
-  "jenkinsUrl": "https://ci.elytradev.com",
-  "job": "elytra/Engination/master",
-  "buildNumber": 9
-}

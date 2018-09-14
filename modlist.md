@@ -10,7 +10,7 @@ Icon | <img src="icon.png" alt="icon" style="max-height: 128px;"/>
 Mod | [ANGRY PIXEL] The Betweenlands
 ---|---
 Provider | `CURSE`
-Version | `The Betweenlands v3.3.11`
+Version | `The Betweenlands v3.3.12`
 Release Type | `RELEASE`
 Author | `BobMowzie, Gory_Moon, iLexiconn, imdutch21, MrCompost, pau101, reporrted, TheCyberBrick, TripleHeadedSheep, Vadis365, voog2, WightofShadows`
 
@@ -199,7 +199,7 @@ Author | `jaquadro`
 Mod | Charset Audio
 ---|---
 Provider | `CURSE`
-Version | `Charset Audio 0.5.2.0`
+Version | `Charset Audio 0.5.5.5`
 Release Type | `BETA`
 Author | `asiekierka`
 
@@ -220,14 +220,14 @@ Author | `asiekierka`
 Mod | Charset Immersion
 ---|---
 Provider | `CURSE`
-Version | `Charset Immersion 0.5.0.248e`
+Version | `Charset Immersion 0.5.5.5`
 Release Type | `BETA`
 Author | `asiekierka`
 
 Mod | Charset Lib
 ---|---
 Provider | `CURSE`
-Version | `Charset Lib 0.5.5.3`
+Version | `Charset Lib 0.5.5.5`
 Release Type | `RELEASE`
 Author | `asiekierka`
 
@@ -255,7 +255,7 @@ Author | `asiekierka`
 Mod | Charset Tweaks
 ---|---
 Provider | `CURSE`
-Version | `Charset Tweaks 0.5.2.0`
+Version | `Charset Tweaks 0.5.5.5`
 Release Type | `RELEASE`
 Author | `asiekierka`
 
@@ -269,7 +269,7 @@ Author | `asiekierka`
 Mod | Chisel
 ---|---
 Provider | `CURSE`
-Version | `Chisel - MC1.12.2-0.2.0.31`
+Version | `Chisel - MC1.12.2-0.2.1.34`
 Release Type | `BETA`
 Author | `Drullkus, Minecreatr, tterrag1098`
 
@@ -360,7 +360,7 @@ Author | `tterrag1098`
 Mod | Construct's Armory
 ---|---
 Provider | `CURSE`
-Version | `conarm-1.12.2-1.1.0.jar`
+Version | `conarm-1.12.2-1.1.1.jar`
 Release Type | `RELEASE`
 Author | `theillusivec4`
 
@@ -428,7 +428,7 @@ Author | `lumien231`
 Mod | Cyclops Core
 ---|---
 Provider | `CURSE`
-Version | `CyclopsCore-1.12.2-0.11.9.jar`
+Version | `CyclopsCore-1.12.2-0.11.10.jar`
 Release Type | `RELEASE`
 Author | `kroeser`
 
@@ -463,7 +463,7 @@ Author | `61352151511`
 Mod | Dynamic Surroundings
 ---|---
 Provider | `CURSE`
-Version | `DynamicSurroundings-1.12.2-3.4.9.15.jar`
+Version | `DynamicSurroundings-1.12.2-3.4.9.16.jar`
 Release Type | `RELEASE`
 Author | `OreCruncher`
 
@@ -596,14 +596,14 @@ Author | `zabi94`
 Mod | Extra Bit Manipulation
 ---|---
 Provider | `CURSE`
-Version | `ExtraBitManipulation-1.12.2-3.3.0.jar`
+Version | `ExtraBitManipulation-1.12.2-3.3.1.jar`
 Release Type | `RELEASE`
 Author | `MolecularPhylo`
 
 Mod | Extra Utilities
 ---|---
 Provider | `CURSE`
-Version | `Extra Utilities 2 - 1.12 - 1.9.1`
+Version | `Extra Utilities 2 - 1.12 - 1.9.2`
 Release Type | `RELEASE`
 Author | `RWTema`
 
@@ -617,7 +617,7 @@ Author | `ZeroNoRyouki`
 Mod | Fairy Lights
 ---|---
 Provider | `CURSE`
-Version | `fairylights-2.1.2-1.12.x`
+Version | `fairylights-2.1.3-1.12.2`
 Release Type | `RELEASE`
 Author | `pau101`
 
@@ -645,7 +645,7 @@ Author | `MadDachshund`
 Mod | FastWorkbench
 ---|---
 Provider | `CURSE`
-Version | `FastWorkbench-1.12.2-1.5.1.jar`
+Version | `FastWorkbench-1.12.2-1.5.3.jar`
 Release Type | `RELEASE`
 Author | `Shadows_of_Fire`
 
@@ -666,21 +666,21 @@ Author | `asiekierka`
 Mod | Forestry
 ---|---
 Provider | `CURSE`
-Version | `forestry_1.12.2-5.8.1.339.jar`
+Version | `forestry_1.12.2-5.8.1.341.jar`
 Release Type | `BETA`
 Author | `CovertJaguar, mezz, MysteriousAges, SirSengir`
 
 Mod | FTB Utilities
 ---|---
 Provider | `CURSE`
-Version | `FTBUtilities-5.3.0.48.jar`
+Version | `FTBUtilities-5.3.0.50.jar`
 Release Type | `RELEASE`
 Author | `FTB, LatvianModder`
 
 Mod | FTBLib
 ---|---
 Provider | `CURSE`
-Version | `FTBLib-5.3.0.48.jar`
+Version | `FTBLib-5.3.0.51.jar`
 Release Type | `RELEASE`
 Author | `FTB, jaredlll08, LatvianModder`
 
@@ -785,7 +785,7 @@ Author | `mrAppleXZ`
 Mod | Just Enough Items (JEI)
 ---|---
 Provider | `CURSE`
-Version | `jei_1.12.2-4.12.0.215.jar`
+Version | `jei_1.12.2-4.12.0.216.jar`
 Release Type | `BETA`
 Author | `mezz`
 
@@ -890,14 +890,14 @@ Author | `bonusboni, mDiyo, progwml6`
 Mod | McJtyLib
 ---|---
 Provider | `CURSE`
-Version | `McJtyLib - 1.12-3.0.4`
+Version | `McJtyLib - 1.12-3.0.5`
 Release Type | `RELEASE`
 Author | `McJty`
 
 Mod | MCMultiPart
 ---|---
 Provider | `CURSE`
-Version | `MCMultiPart 2.5.2`
+Version | `MCMultiPart 2.5.3`
 Release Type | `RELEASE`
 Author | `amadornes`
 
@@ -946,7 +946,7 @@ Author | `YaLTeR97`
 Mod | MrCrayfish's Furniture Mod
 ---|---
 Provider | `CURSE`
-Version | `Furniture Mod 5.8.0`
+Version | `Furniture Mod 5.9.1`
 Release Type | `RELEASE`
 Author | `Mr_Crayfish`
 
@@ -1070,7 +1070,7 @@ Author | `senpaisubaraki`
 Mod | Pam's HarvestCraft
 ---|---
 Provider | `CURSE`
-Version | `Pam's HarvestCraft 1.12.2y.jar`
+Version | `Pam's HarvestCraft 1.12.2z.jar`
 Release Type | `RELEASE`
 Author | `MatrexsVigil`
 
@@ -1091,7 +1091,7 @@ Author | `InsomniaKitten`
 Mod | Pewter
 ---|---
 Provider | `CURSE`
-Version | `Pewter-1.1.2.jar`
+Version | `Pewter-1.1.4.jar`
 Release Type | `RELEASE`
 Author | `ejektaflex`
 
@@ -1105,7 +1105,7 @@ Author | `Shadows_of_Fire`
 Mod | Platforms
 ---|---
 Provider | `CURSE`
-Version | `platforms-1.12.0-1.4.5.jar`
+Version | `platforms-1.12.0-1.4.6.jar`
 Release Type | `RELEASE`
 Author | `ShetiPhian`
 
@@ -1140,8 +1140,8 @@ Author | `lumien231`
 Mod | RandomTweaks
 ---|---
 Provider | `CURSE`
-Version | `RandomTweaks 1.12.2-2.1.3.1`
-Release Type | `RELEASE`
+Version | `RandomTweaks 1.12.2-2.1.4.0`
+Release Type | `BETA`
 Author | `TheRandomLabs`
 
 Mod | Ranged Pumps
@@ -1189,7 +1189,7 @@ Author | `FyberOptic`
 Mod | Refined Storage
 ---|---
 Provider | `CURSE`
-Version | `Refined Storage 1.6.4`
+Version | `Refined Storage 1.6.5`
 Release Type | `RELEASE`
 Author | `raoulvdberge`
 
@@ -1203,14 +1203,14 @@ Author | `P3pp3rF1y`
 Mod | RFTools
 ---|---
 Provider | `CURSE`
-Version | `RFTools - 1.12-7.55`
+Version | `RFTools - 1.12-7.56`
 Release Type | `RELEASE`
 Author | `McJty`
 
 Mod | RFTools Dimensions
 ---|---
 Provider | `CURSE`
-Version | `RFToolsDimensions - 1.12-5.60`
+Version | `RFToolsDimensions - 1.12-5.61`
 Release Type | `RELEASE`
 Author | `McJty`
 
@@ -1266,7 +1266,7 @@ Author | `shadowfactsmc`
 Mod | ShetiPhianCore
 ---|---
 Provider | `CURSE`
-Version | `shetiphiancore-1.12.0-3.5.7.jar`
+Version | `shetiphiancore-1.12.0-3.5.8.jar`
 Release Type | `RELEASE`
 Author | `ShetiPhian`
 
@@ -1362,7 +1362,7 @@ Author | `Tamaized`
 Mod | Thaumcraft
 ---|---
 Provider | `CURSE`
-Version | `Thaumcraft-1.12.2-6.1.BETA23.jar`
+Version | `Thaumcraft-1.12.2-6.1.BETA24.jar`
 Release Type | `BETA`
 Author | `azanor`
 
@@ -1432,7 +1432,7 @@ Author | `bonusboni`
 Mod | Toast Control
 ---|---
 Provider | `CURSE`
-Version | `Toast Control-1.12.2-1.7.0.jar`
+Version | `Toast Control-1.12.2-1.7.1.jar`
 Release Type | `RELEASE`
 Author | `Shadows_of_Fire`
 
@@ -1509,14 +1509,14 @@ Author | `genandnic`
 Mod | Wawla - What Are We Looking At
 ---|---
 Provider | `CURSE`
-Version | `Wawla-1.12.2-2.5.259.jar`
+Version | `Wawla-1.12.2-2.5.261.jar`
 Release Type | `ALPHA`
 Author | `Darkhax`
 
 Mod | Waystones
 ---|---
 Provider | `CURSE`
-Version | `Waystones_1.12.2-4.0.62.jar`
+Version | `Waystones_1.12.2-4.0.63.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -1537,7 +1537,7 @@ Author | `Ipsis`
 Mod | Xaero's Minimap
 ---|---
 Provider | `CURSE`
-Version | `v1.15.3 for Minecraft 1.12.2 \| 1.12.1 \| 1.12`
+Version | `v1.15.4 for Minecraft 1.12.2 \| 1.12.1 \| 1.12`
 Release Type | `RELEASE`
 Author | `xaero96`
 
