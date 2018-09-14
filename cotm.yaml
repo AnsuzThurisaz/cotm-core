@@ -6,7 +6,7 @@ title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
 version: 2.1.9
 mcVersion: 1.12.2
-forge: 2756
+forge: 2759
 icon: icon.png
 sourceDir: src
 
@@ -229,16 +229,16 @@ root:
   - flopper
   - catwalks-4
   - wall-jump
+  - magical-map
+  - pewter
+  - the-erebus
 
-  # because curse is stupid and there is just a lpha of this, 
+  # because curse is stupid and there is just alpha of this, 
   # will be fixed in CurseProxy soon
   - id: ariente
     curseProjectID: 301076
-  - magical-map
-  - pewter
 
   # Pulled due to outstanding issues
-  #- the-erebus
 
   # Unused mods
   #- just-enough-dimensions
@@ -254,7 +254,7 @@ root:
       id: nutrition
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.123.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.125.jar
       id: correlated
 
   # Jenkins Downloads      
