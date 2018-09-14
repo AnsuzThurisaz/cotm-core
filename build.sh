@@ -14,7 +14,7 @@ if [ ! $? -eq 0 ]; then
     exit 1
 fi
 
-find . -name \*.lock.jjson -type f -delete
+find . -name \*.lock.hjson -type f -delete
 
 echo "Building Modpack"
 java -jar "$DIR/bootstrap-voodoo.jar" build "$DIR/cotm.pack.hjson" -o cotm.lock.json --updateAll
