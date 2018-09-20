@@ -101,7 +101,7 @@ Author | `SangarWasTaken`
 Mod | Better Advancements
 ---|---
 Provider | `CURSE`
-Version | `BetterAdvancements-1.12.2-0.0.12.59`
+Version | `BetterAdvancements-1.12.2-0.0.13.61`
 Release Type | `ALPHA`
 Author | `Way2muchnoise`
 
@@ -311,7 +311,7 @@ Author | `jaredlll08`
 Mod | CodeChicken Lib 1.8.+
 ---|---
 Provider | `CURSE`
-Version | `CodeChicken Lib 1.12.2-3.2.1.351-universal`
+Version | `CodeChicken Lib 1.12.2-3.2.2.353-universal`
 Release Type | `RELEASE`
 Author | `chicken_bones, covers1624`
 
@@ -381,7 +381,7 @@ Author | `EphysPotato`
 Mod | Cooking for Blockheads
 ---|---
 Provider | `CURSE`
-Version | `CookingForBlockheads_1.12.2-6.4.62.jar`
+Version | `CookingForBlockheads_1.12.2-6.4.63.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -617,7 +617,7 @@ Author | `ZeroNoRyouki`
 Mod | Fairy Lights
 ---|---
 Provider | `CURSE`
-Version | `fairylights-2.1.3-1.12.2`
+Version | `fairylights-2.1.4-1.12.2`
 Release Type | `RELEASE`
 Author | `pau101`
 
@@ -666,7 +666,7 @@ Author | `asiekierka`
 Mod | Forestry
 ---|---
 Provider | `CURSE`
-Version | `forestry_1.12.2-5.8.1.341.jar`
+Version | `forestry_1.12.2-5.8.1.344.jar`
 Release Type | `BETA`
 Author | `CovertJaguar, mezz, MysteriousAges, SirSengir`
 
@@ -680,7 +680,7 @@ Author | `FTB, LatvianModder`
 Mod | FTBLib
 ---|---
 Provider | `CURSE`
-Version | `FTBLib-5.3.0.52.jar`
+Version | `FTBLib-5.3.0.53.jar`
 Release Type | `RELEASE`
 Author | `FTB, jaredlll08, LatvianModder`
 
@@ -1168,7 +1168,7 @@ Author | `TechnicianLP`
 Mod | Reborn Core
 ---|---
 Provider | `CURSE`
-Version | `RebornCore-1.12.2-3.10.0.332-universal.jar`
+Version | `RebornCore-1.12.2-3.10.1.335-universal.jar`
 Release Type | `RELEASE`
 Author | `Gigabit1011, modmuss50, ProfessorProspector`
 
