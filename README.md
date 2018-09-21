@@ -13,5 +13,5 @@ download a voodoo jar from the [buildserver](https://ci.elytradev.com/job/elytra
 # cd Center-of-the-Multiverse
 # git pull
 
-java -jar bootstrap-0.1.jar cotm.yaml -o .
+./build.sh
 ```
