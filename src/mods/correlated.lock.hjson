@@ -1,0 +1,6 @@
+{
+  provider: DIRECT,
+  id: correlated,
+  name: correlated,
+  url: "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.133.jar"
+}

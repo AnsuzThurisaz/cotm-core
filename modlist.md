@@ -101,7 +101,7 @@ Author | `SangarWasTaken`
 Mod | Better Advancements
 ---|---
 Provider | `CURSE`
-Version | `BetterAdvancements-1.12.2-0.0.11.56`
+Version | `BetterAdvancements-1.12.2-0.0.13.61`
 Release Type | `ALPHA`
 Author | `Way2muchnoise`
 
@@ -158,7 +158,7 @@ Mod | Bookshelf
 ---|---
 Provider | `CURSE`
 Version | `Bookshelf-1.12.2-2.3.559.jar`
-Release Type | `ALPHA`
+Release Type | `RELEASE`
 Author | `Darkhax`
 
 Mod | Botania
@@ -276,7 +276,7 @@ Author | `Drullkus, Minecreatr, tterrag1098`
 Mod | Chisels & Bits
 ---|---
 Provider | `CURSE`
-Version | `chiselsandbits-14.23.jar`
+Version | `chiselsandbits-14.24.jar`
 Release Type | `RELEASE`
 Author | `AlgorithmX2`
 
@@ -311,7 +311,7 @@ Author | `jaredlll08`
 Mod | CodeChicken Lib 1.8.+
 ---|---
 Provider | `CURSE`
-Version | `CodeChicken Lib 1.12.2-3.2.1.351-universal`
+Version | `CodeChicken Lib 1.12.2-3.2.2.353-universal`
 Release Type | `RELEASE`
 Author | `chicken_bones, covers1624`
 
@@ -381,7 +381,7 @@ Author | `EphysPotato`
 Mod | Cooking for Blockheads
 ---|---
 Provider | `CURSE`
-Version | `CookingForBlockheads_1.12.2-6.4.44.jar`
+Version | `CookingForBlockheads_1.12.2-6.4.63.jar`
 Release Type | `RELEASE`
 Author | `BlayTheNinth`
 
@@ -395,7 +395,7 @@ Author | `theillusivec4`
 Mod | correlated
 ---|---
 Provider | `DIRECT`
-Version | `Correlated-1.12.2-2.1.125`
+Version | `Correlated-1.12.2-2.1.133`
 
 Mod | Cosmetic Armor Reworked
 ---|---
@@ -474,12 +474,12 @@ Version | `Electroblob's Wizardry - 4.1.2 - MC 1.12.2.jar`
 Release Type | `RELEASE`
 Author | `electroblob`
 
-Mod | elytra/ArchitectureCraft/1.12 63
+Mod | elytra/ArchitectureCraft/1.12 70
 ---|---
 Provider | `JENKINS`
-Version | `architecturecraft-1.12-2.68.jar`
+Version | `architecturecraft-1.12-2.76.jar`
 Job | `elytra/ArchitectureCraft/1.12`
-Build | `63`
+Build | `70`
 
 Mod | elytra/Engination/master 9
 ---|---
@@ -551,17 +551,17 @@ Version | `ThermionicsWorld-MC1.12.2_ver1.0.jar`
 Job | `elytra/ThermionicsWorld/master`
 Build | `13`
 
-Mod | Embers
+Mod | Embers Rekindled
 ---|---
 Provider | `CURSE`
-Version | `embers-0.230.jar`
+Version | `EmbersRekindled-1.8.jar`
 Release Type | `RELEASE`
-Author | `epicsquid319`
+Author | `BordListian`
 
 Mod | Ender IO
 ---|---
 Provider | `CURSE`
-Version | `Ender IO - 5.0.31`
+Version | `Ender IO - 5.0.33`
 Release Type | `RELEASE`
 Author | `CrazyPants_MC, epicsquid319, Henry_Loenwind, MatthiasMann, tterrag1098`
 
@@ -575,7 +575,7 @@ Author | `chicken_bones, covers1624`
 Mod | EnderCore
 ---|---
 Provider | `CURSE`
-Version | `EnderCore - 1.12.2-0.5.37`
+Version | `EnderCore - 1.12.2-0.5.39`
 Release Type | `RELEASE`
 Author | `CrazyPants_MC, Henry_Loenwind, tterrag1098`
 
@@ -603,7 +603,7 @@ Author | `MolecularPhylo`
 Mod | Extra Utilities
 ---|---
 Provider | `CURSE`
-Version | `Extra Utilities 2 - 1.12 - 1.9.2`
+Version | `Extra Utilities 2 - 1.12 - 1.9.3`
 Release Type | `RELEASE`
 Author | `RWTema`
 
@@ -617,7 +617,7 @@ Author | `ZeroNoRyouki`
 Mod | Fairy Lights
 ---|---
 Provider | `CURSE`
-Version | `fairylights-2.1.3-1.12.2`
+Version | `fairylights-2.1.4-1.12.2`
 Release Type | `RELEASE`
 Author | `pau101`
 
@@ -666,21 +666,21 @@ Author | `asiekierka`
 Mod | Forestry
 ---|---
 Provider | `CURSE`
-Version | `forestry_1.12.2-5.8.1.341.jar`
+Version | `forestry_1.12.2-5.8.1.344.jar`
 Release Type | `BETA`
 Author | `CovertJaguar, mezz, MysteriousAges, SirSengir`
 
 Mod | FTB Utilities
 ---|---
 Provider | `CURSE`
-Version | `FTBUtilities-5.3.0.50.jar`
+Version | `FTBUtilities-5.3.0.51.jar`
 Release Type | `RELEASE`
 Author | `FTB, LatvianModder`
 
 Mod | FTBLib
 ---|---
 Provider | `CURSE`
-Version | `FTBLib-5.3.0.51.jar`
+Version | `FTBLib-5.3.0.53.jar`
 Release Type | `RELEASE`
 Author | `FTB, jaredlll08, LatvianModder`
 
@@ -697,6 +697,13 @@ Provider | `CURSE`
 Version | `Gendustry 1.6.5.8 (MC 1.12.2)`
 Release Type | `BETA`
 Author | `bdew`
+
+Mod | Grappling Hook Mod
+---|---
+Provider | `CURSE`
+Version | `Grappling Hook Mod v11.1 for 1.12.2`
+Release Type | `RELEASE`
+Author | `Yyon`
 
 Mod | Guide-API
 ---|---
@@ -946,7 +953,7 @@ Author | `YaLTeR97`
 Mod | MrCrayfish's Furniture Mod
 ---|---
 Provider | `CURSE`
-Version | `Furniture Mod 5.9.1`
+Version | `Furniture Mod 5.10.0`
 Release Type | `RELEASE`
 Author | `Mr_Crayfish`
 
@@ -1140,8 +1147,8 @@ Author | `lumien231`
 Mod | RandomTweaks
 ---|---
 Provider | `CURSE`
-Version | `RandomTweaks 1.12.2-2.1.4.0`
-Release Type | `BETA`
+Version | `RandomTweaks 1.12.2-2.1.5.0`
+Release Type | `RELEASE`
 Author | `TheRandomLabs`
 
 Mod | Ranged Pumps
@@ -1161,7 +1168,7 @@ Author | `TechnicianLP`
 Mod | Reborn Core
 ---|---
 Provider | `CURSE`
-Version | `RebornCore-1.12.2-3.10.0.332-universal.jar`
+Version | `RebornCore-1.12.2-3.10.1.335-universal.jar`
 Release Type | `RELEASE`
 Author | `Gigabit1011, modmuss50, ProfessorProspector`
 
@@ -1306,8 +1313,8 @@ Version | `Slice`
 Mod | Smooth Font
 ---|---
 Provider | `CURSE`
-Version | `SmoothFont-1.12.2-1.16-b3.jar`
-Release Type | `BETA`
+Version | `SmoothFont-1.12.2-1.16.jar`
+Release Type | `RELEASE`
 Author | `bre2el`
 
 Mod | Spartan Shields
@@ -1390,7 +1397,7 @@ Author | `Bryuf, DylanKaizer, sokratis12GR, Vadis365`
 Mod | The Twilight Forest
 ---|---
 Provider | `CURSE`
-Version | `Twilight Forest - MC 1.12.2 - 3.8.654`
+Version | `Twilight Forest - MC 1.12.2 - 3.8.689`
 Release Type | `RELEASE`
 Author | `AtomicBlom, Benimatic, Drullkus, Tamaized, williewillus`
 
@@ -1517,7 +1524,7 @@ Mod | Wawla - What Are We Looking At
 ---|---
 Provider | `CURSE`
 Version | `Wawla-1.12.2-2.5.261.jar`
-Release Type | `ALPHA`
+Release Type | `RELEASE`
 Author | `Darkhax`
 
 Mod | Waystones
@@ -1544,7 +1551,7 @@ Author | `Ipsis`
 Mod | Xaero's Minimap
 ---|---
 Provider | `CURSE`
-Version | `v1.15.4 for Minecraft 1.12.2 \| 1.12.1 \| 1.12`
+Version | `v1.15.5 for Minecraft 1.12.2 \| 1.12.1 \| 1.12`
 Release Type | `RELEASE`
 Author | `xaero96`
 

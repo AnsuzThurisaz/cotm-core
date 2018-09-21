@@ -254,7 +254,7 @@ root:
       id: nutrition
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.125.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.133.jar
       id: correlated
 
   # Jenkins Downloads      
