@@ -157,8 +157,8 @@ Author | `TehNut, WayofTime`
 Mod | Bookshelf
 ---|---
 Provider | `CURSE`
-Version | `Bookshelf-1.12.2-2.3.559.jar`
-Release Type | `RELEASE`
+Version | `Bookshelf-1.12.2-2.3.560.jar`
+Release Type | `ALPHA`
 Author | `Darkhax`
 
 Mod | Botania
@@ -269,7 +269,7 @@ Author | `asiekierka`
 Mod | Chisel
 ---|---
 Provider | `CURSE`
-Version | `Chisel - MC1.12.2-0.2.1.34`
+Version | `Chisel - MC1.12.2-0.2.1.35`
 Release Type | `BETA`
 Author | `Drullkus, Minecreatr, tterrag1098`
 
@@ -395,7 +395,7 @@ Author | `theillusivec4`
 Mod | correlated
 ---|---
 Provider | `DIRECT`
-Version | `Correlated-1.12.2-2.1.133`
+Version | `Correlated-1.12.2-2.1.137`
 
 Mod | Cosmetic Armor Reworked
 ---|---
@@ -953,7 +953,7 @@ Author | `YaLTeR97`
 Mod | MrCrayfish's Furniture Mod
 ---|---
 Provider | `CURSE`
-Version | `Furniture Mod 5.10.0`
+Version | `Furniture Mod 5.11.0`
 Release Type | `RELEASE`
 Author | `Mr_Crayfish`
 

@@ -127,6 +127,78 @@
       "minGroupCount": 8,
       "maxGroupCount": 12,
       "spawn": true
+    },
+    {
+      "entity": "erebus:erebus.black_widow",
+      "creatureType": "monster",
+      "weight": 100,
+      "minGroupCount": 2,
+      "maxGroupCount": 5,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:blaze",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "quark:wraith",
+      "creatureType": "monster",
+      "weight": 60,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "natura:heatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "natura:babyheatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "natura:nitrocreeper",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": true
     }
   ],
   "features": [
