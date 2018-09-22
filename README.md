@@ -2,16 +2,22 @@
 
 ## Setup
 
+### Clone CotM
+
+```sh
+git clone git@github.com:elytra/Center-of-the-Multiverse.git
+cd Center-of-the-Multiverse
+git pull
+```
+
 ### Installing Voodoo
 
-download a voodoo jar from the [buildserver](https://ci.elytradev.com/job/elytra/job/Voodoo/job/master/)
+```sh
+./init.sh
+```
 
 ## Building CotM
 
-```
-# git clone git@github.com:elytra/Center-of-the-Multiverse.git
-# cd Center-of-the-Multiverse
-# git pull
-
+```sh
 ./build.sh
 ```
