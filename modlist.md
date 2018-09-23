@@ -1,7 +1,7 @@
 Title | Center of the Multiverse
 ---|---
 ID | `cotm`
-Pack Version | `2.1.9`
+Pack Version | `2.1.9.1`
 MC Version | `1.12.2`
 Author | `AnsuzThuriaz, Falkreon, NikkyAi`
 Icon | <img src="icon.png" alt="icon" style="max-height: 128px;"/>
@@ -1148,6 +1148,13 @@ Provider | `CURSE`
 Version | `portality-1.12.2-1.1.0-9.jar`
 Release Type | `RELEASE`
 Author | `Buuz135`
+
+Mod | Preston
+---|---
+Provider | `CURSE`
+Version | `Preston 0.3.4`
+Release Type | `RELEASE`
+Author | `asiekierka`
 
 Mod | Psi
 ---|---
