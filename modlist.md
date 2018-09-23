@@ -280,6 +280,13 @@ Version | `chiselsandbits-14.24.jar`
 Release Type | `RELEASE`
 Author | `AlgorithmX2`
 
+Mod | ChocoCraft
+---|---
+Provider | `CURSE`
+Version | `chococraft_1.12.1-0.9.1.52.jar`
+Release Type | `BETA`
+Author | `clienthax, xalcon`
+
 Mod | Chunk Animator
 ---|---
 Provider | `CURSE`
@@ -1059,6 +1066,13 @@ Provider | `CURSE`
 Version | `OpenModsLib-1.12.2-0.11.5.jar`
 Release Type | `RELEASE`
 Author | `OpenMods, other_boq`
+
+Mod | Outfox
+---|---
+Provider | `CURSE`
+Version | `outfox-0.1.3-mc1.12.2.jar`
+Release Type | `BETA`
+Author | `KaiserYoshi`
 
 Mod | Packing Tape
 ---|---

@@ -232,6 +232,8 @@ root:
   - the-erebus
   - grappling-hook-mod
   - embers-rekindled
+  - outfox
+  - chococraft
 
   # because curse is stupid and there is just alpha of this, 
   # will be fixed in CurseProxy soon
