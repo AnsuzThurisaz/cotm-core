@@ -1042,7 +1042,7 @@ Version | `Nutrition-1.12.2-3.5.0`
 Mod | OpenBlocks
 ---|---
 Provider | `CURSE`
-Version | `OpenBlocks-1.12.2-1.7.6.jar`
+Version | `OpenBlocks-1.12.2-1.8.jar`
 Release Type | `RELEASE`
 Author | `OpenMods, other_boq`
 
@@ -1063,7 +1063,7 @@ Author | `OpenMods, other_boq`
 Mod | OpenModsLib
 ---|---
 Provider | `CURSE`
-Version | `OpenModsLib-1.12.2-0.11.5.jar`
+Version | `OpenModsLib-1.12.2-0.12.jar`
 Release Type | `RELEASE`
 Author | `OpenMods, other_boq`
 
@@ -1088,12 +1088,10 @@ Version | `morepaintings-paintings-1.12.2-5.0.0.2.jar`
 Release Type | `RELEASE`
 Author | `senpaisubaraki`
 
-Mod | Pam's HarvestCraft
+Mod | pams-harvestcraft
 ---|---
-Provider | `CURSE`
-Version | `Pam's HarvestCraft 1.12.2z.jar`
-Release Type | `RELEASE`
-Author | `MatrexsVigil`
+Provider | `DIRECT`
+Version | `Pams_HarvestCraft_1.12.2z`
 
 Mod | Passthrough Signs
 ---|---

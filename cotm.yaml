@@ -175,7 +175,7 @@ root:
   - opencomputers
   - openblocks
   - packing-tape
-  - pams-harvestcraft
+  #- pams-harvestcraft
   - passthrough-signs
   - platforms
   - random-things
@@ -250,6 +250,10 @@ root:
   # Direct Downloads
   - provider: DIRECT
     entries:
+
+  # Pam's Harvestcraft (SK redirect stupidity)
+    - url: https://centerofthemultiverse.net/launcher/mirror/Pams_HarvestCraft_1.12.2z.jar
+      id: pams-harvestcraft
 
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.5.0/Nutrition-1.12.2-3.5.0.jar

@@ -1,7 +1,6 @@
 {
-  provider: CURSE,
+  provider: DIRECT,
   id: pams-harvestcraft,
-  name: "Pam's HarvestCraft",
-  projectID: 221857,
-  fileID: 2616512
+  name: pams-harvestcraft,
+  url: "https://centerofthemultiverse.net/launcher/mirror/Pams_HarvestCraft_1.12.2z.jar"
 }
