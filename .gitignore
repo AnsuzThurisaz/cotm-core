@@ -15,3 +15,6 @@ cotm.json
 cotm.changelog.md
 server_cotm/
 debug\.log
+push_pack.sh
+push_server.sh
+push_sk_client.sh
