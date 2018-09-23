@@ -234,6 +234,9 @@ root:
   - embers-rekindled
   - outfox
   - chococraft
+  - portality
+  - modular-powersuits
+  - grimoire-of-gaia
 
   # because curse is stupid and there is just alpha of this, 
   # will be fixed in CurseProxy soon
@@ -260,7 +263,7 @@ root:
       id: nutrition
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.137.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.139.jar
       id: correlated
 
   # Jenkins Downloads      

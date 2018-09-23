@@ -402,7 +402,7 @@ Author | `theillusivec4`
 Mod | correlated
 ---|---
 Provider | `DIRECT`
-Version | `Correlated-1.12.2-2.1.137`
+Version | `Correlated-1.12.2-2.1.139`
 
 Mod | Cosmetic Armor Reworked
 ---|---
@@ -712,6 +712,13 @@ Version | `Grappling Hook Mod v11.1 for 1.12.2`
 Release Type | `RELEASE`
 Author | `Yyon`
 
+Mod | Grimoire of Gaia
+---|---
+Provider | `CURSE`
+Version | `GrimoireOfGaia3-1.12.2-1.6.3.jar`
+Release Type | `RELEASE`
+Author | `Silentine`
+
 Mod | Guide-API
 ---|---
 Provider | `CURSE`
@@ -943,6 +950,13 @@ Version | `1.10.0`
 Release Type | `RELEASE`
 Author | `mezz`
 
+Mod | Modular Powersuits
+---|---
+Provider | `CURSE`
+Version | `ModularPowersuits-1.12.2-ALPHA-8`
+Release Type | `ALPHA`
+Author | `MachineMuse`
+
 Mod | Morph-o-Tool
 ---|---
 Provider | `CURSE`
@@ -1127,6 +1141,13 @@ Provider | `CURSE`
 Version | `platforms-1.12.0-1.4.6.jar`
 Release Type | `RELEASE`
 Author | `ShetiPhian`
+
+Mod | Portality
+---|---
+Provider | `CURSE`
+Version | `portality-1.12.2-1.1.0-9.jar`
+Release Type | `RELEASE`
+Author | `Buuz135`
 
 Mod | Psi
 ---|---

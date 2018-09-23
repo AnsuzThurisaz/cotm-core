@@ -26,5 +26,3 @@ echo "please upload the server package to your minecraft server"
 echo "make sure the minecraft server is stopped"
 echo "run the server installer with the install location of your minecraft server"
 echo "start the server"
-
-rsync -av server_cotm/ kryst@107.173.23.162:/home/kryst/cotm/installer
