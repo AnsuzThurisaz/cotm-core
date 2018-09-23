@@ -101,7 +101,7 @@ Author | `SangarWasTaken`
 Mod | Better Advancements
 ---|---
 Provider | `CURSE`
-Version | `BetterAdvancements-1.12.2-0.0.13.61`
+Version | `BetterAdvancements-1.12.2-0.0.14.63`
 Release Type | `ALPHA`
 Author | `Way2muchnoise`
 
@@ -1159,7 +1159,7 @@ Author | `Vazkii`
 Mod | Quark
 ---|---
 Provider | `CURSE`
-Version | `Quark-r1.5-129.jar`
+Version | `Quark-r1.5-130.jar`
 Release Type | `RELEASE`
 Author | `Vazkii`
 
