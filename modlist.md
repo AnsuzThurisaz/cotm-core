@@ -402,7 +402,7 @@ Author | `theillusivec4`
 Mod | correlated
 ---|---
 Provider | `DIRECT`
-Version | `Correlated-1.12.2-2.1.139`
+Version | `Correlated-1.12.2-2.1.140`
 
 Mod | Cosmetic Armor Reworked
 ---|---
