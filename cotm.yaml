@@ -4,9 +4,9 @@
 id: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.9.1
+version: 2.1.9.2
 mcVersion: 1.12.2
-forge: 2759
+forge: 2765
 icon: icon.png
 sourceDir: src
 
@@ -238,6 +238,8 @@ root:
   - portality
   - modular-powersuits
   - grimoire-of-gaia
+  - hunting-dimension
+  - surge
 
   # because curse is stupid and there is just alpha of this, 
   # will be fixed in CurseProxy soon
@@ -264,7 +266,7 @@ root:
       id: nutrition
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.140.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.143.jar
       id: correlated
 
   # Jenkins Downloads      
@@ -421,7 +423,7 @@ root:
         - id: inventory-tweaks
           description: Adds amll changes to invetory handling to minor conviniences.
 
-        - id: nofov
+        - id: custom-fov
           description: Removes dynamic FOV shifting due to ingame effects.
 
     # OPT-IN
