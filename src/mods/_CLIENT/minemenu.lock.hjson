@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: minemenu,
-  name: MineMenu,
-  side: CLIENT,
-  projectID: 222378,
-  fileID: 2497593
-}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: item-scroller,
-  name: "Item Scroller",
-  side: CLIENT,
-  projectID: 242064,
-  fileID: 2581199
-}

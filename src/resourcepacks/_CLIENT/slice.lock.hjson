@@ -1,7 +1,0 @@
-{
-  provider: DIRECT,
-  id: slice,
-  name: slice,
-  side: CLIENT,
-  url: "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
-}

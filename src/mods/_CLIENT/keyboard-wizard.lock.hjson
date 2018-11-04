@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: keyboard-wizard,
-  name: "Keyboard Wizard",
-  side: CLIENT,
-  projectID: 262366,
-  fileID: 2493196
-}

@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: better-placement,
+  side: CLIENT,
+  projectID: 278406,
+  fileID: 2481852,
+  name: "Better Placement"
+}

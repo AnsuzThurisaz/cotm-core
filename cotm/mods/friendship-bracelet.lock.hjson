@@ -1,0 +1,8 @@
+{
+  provider: JENKINS,
+  id: friendship-bracelet,
+  jenkinsUrl: "https://ci.elytradev.com",
+  job: elytra/FriendshipBracelet/master,
+  buildNumber: 33,
+  name: "elytra/FriendshipBracelet/master 33"
+}

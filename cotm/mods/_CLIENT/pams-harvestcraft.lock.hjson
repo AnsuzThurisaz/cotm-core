@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: pams-harvestcraft,
+  side: CLIENT,
+  projectID: 221857,
+  fileID: 2628183,
+  name: "Pam's HarvestCraft"
+}

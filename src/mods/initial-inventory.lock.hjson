@@ -1,7 +1,0 @@
-{
-  provider: CURSE,
-  id: initial-inventory,
-  name: "Initial Inventory",
-  projectID: 253230,
-  fileID: 2465617
-}

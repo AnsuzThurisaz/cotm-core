@@ -1,8 +1,0 @@
-{
-  provider: JENKINS,
-  id: architecture-craft,
-  name: "elytra/ArchitectureCraft/1.12 70",
-  jenkinsUrl: "https://ci.elytradev.com",
-  job: elytra/ArchitectureCraft/1.12,
-  buildNumber: 70
-}

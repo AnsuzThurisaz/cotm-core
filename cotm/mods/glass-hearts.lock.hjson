@@ -1,0 +1,8 @@
+{
+  provider: JENKINS,
+  id: glass-hearts,
+  jenkinsUrl: "https://ci.elytradev.com",
+  job: elytra/GlassHearts/1.12.1,
+  buildNumber: 14,
+  name: "elytra/GlassHearts/1.12.1 14"
+}

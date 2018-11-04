@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: light-level-overlay-reloaded,
+  side: CLIENT,
+  projectID: 226670,
+  fileID: 2563430,
+  name: "Light Level Overlay Reloaded"
+}

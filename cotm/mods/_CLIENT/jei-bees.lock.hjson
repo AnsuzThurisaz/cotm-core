@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: jei-bees,
+  side: CLIENT,
+  projectID: 248370,
+  fileID: 2490058,
+  name: "JEI Bees"
+}

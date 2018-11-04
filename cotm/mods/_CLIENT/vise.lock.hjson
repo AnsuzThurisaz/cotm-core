@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: vise,
+  side: CLIENT,
+  projectID: 292437,
+  fileID: 2553433,
+  name: Vise
+}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: mod-name-tooltip,
-  name: "Mod Name Tooltip",
-  side: CLIENT,
-  projectID: 238747,
-  fileID: 2486868
-}
