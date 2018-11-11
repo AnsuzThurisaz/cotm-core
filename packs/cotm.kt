@@ -231,7 +231,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.yoyos)
                 +(Mod.badWitherNoCookieReloaded)
                 +(Mod.waystones)
-                +(Mod.aetherLegacy)
+                +(Mod.theAetherIi)
                 +(Mod.corpseComplex)
                 +(Mod.thaumcraftInventoryScanning)
                 +(Mod.peckish)
