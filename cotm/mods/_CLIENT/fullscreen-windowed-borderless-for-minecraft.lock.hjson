@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: fullscreen-windowed-borderless-for-minecraft,
+  side: CLIENT,
+  projectID: 227441,
+  fileID: 2456007,
+  name: "Fullscreen Windowed (Borderless) for Minecraft"
+}

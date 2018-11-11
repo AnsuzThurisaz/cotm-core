@@ -1,0 +1,6 @@
+{
+  provider: DIRECT,
+  id: galacticraftPlanets,
+  url: "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar",
+  name: galacticraftPlanets
+}

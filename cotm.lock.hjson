@@ -2,13 +2,13 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.1.9.2,
+    version: 2.2,
     authors: [
         AnsuzThuriaz,
         Falkreon,
         NikkyAi
     ],
-    forge: 2765,
+    forge: 2772,
     userFiles: {
         include: [
             options.txt,
@@ -148,8 +148,7 @@
         },
         {
             entries: [
-                just-enough-harvestcraft,
-                pams-harvestcraft
+                just-enough-harvestcraft
             ],
             feature: {
                 name: "Just Enough HarvestCraft (JEHC)",

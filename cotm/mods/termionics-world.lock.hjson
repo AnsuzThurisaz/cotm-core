@@ -1,0 +1,8 @@
+{
+  provider: JENKINS,
+  id: termionics-world,
+  jenkinsUrl: "https://ci.elytradev.com",
+  job: elytra/ThermionicsWorld/master,
+  buildNumber: 16,
+  name: "elytra/ThermionicsWorld/master 16"
+}

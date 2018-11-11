@@ -230,6 +230,12 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.modularPowersuits)
                 +(Mod.huntingDimension)
                 +(Mod.surge)
+                +(Mod.environmentalTech)
+                +(Mod.blockcraftery)
+                +(Mod.stygianEndBiomeExpansion)
+                +(Mod.theMidnight)
+                +(Mod.popcornSmelting)
+                +(Mod.armoryExpansion)
 
                 // Pulled due to outstanding issues
 

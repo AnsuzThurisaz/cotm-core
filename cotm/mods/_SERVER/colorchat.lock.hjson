@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: colorchat,
+  side: SERVER,
+  projectID: 221276,
+  fileID: 2485852,
+  name: ColorChat
+}

@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: login-shield,
+  projectID: 233255,
+  fileID: 2560971,
+  name: "Login Shield"
+}

@@ -7,6 +7,7 @@ pluginManagement {
         maven(url = "https://kotlin.bintray.com/kotlinx") {
             name = "kotlinX"
         }
+        maven(url = "https://jitpack.io")
         gradlePluginPortal()
     }
 }
