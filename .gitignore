@@ -8,7 +8,7 @@ build/
 out/
 
 # voodoo
-*.jar
+workspace/*.jar
 *.entry.hjson
 *.pack.hjson
 loaders/

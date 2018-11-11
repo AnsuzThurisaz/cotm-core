@@ -1,10 +1,13 @@
 import com.skcraft.launcher.model.modpack.Recommendation
+import kotlinx.coroutines.runBlocking
+import voodoo.Tome
 import voodoo.data.Side
 import voodoo.data.UserFiles
 import voodoo.data.curse.FileType
 import voodoo.provider.CurseProvider
 import voodoo.provider.DirectProvider
 import voodoo.provider.JenkinsProvider
+import voodoo.provider.Providers
 import voodoo.withDefaultMain
 
 fun main(args: Array<String>) = withDefaultMain(
@@ -13,6 +16,36 @@ fun main(args: Array<String>) = withDefaultMain(
 ) {
     docs {
         tomeRoot = rootDir.resolve("tome")
+        add("credits.md") { modpack, lockPack ->
+            Tome.logger.info("writing modlist")
+            buildString {
+                append(
+                    """# ${lockPack.title()}
+                    |**Authors:** ${lockPack.authors.joinToString(", ")}
+                    |
+                    |""".trimMargin()
+                )
+
+                runBlocking {
+                    modpack.lockEntrySet.sortedBy { it.name.toLowerCase() }.forEach { entry ->
+                        val provider = Providers[entry.provider]
+                        val thumbnailUrl = provider.getThumbnail(entry)
+                        val title = provider.generateName(entry)
+                        val projectPage = provider.getProjectPage(entry)
+                        val modAuthors = provider.getAuthors(entry)
+                        if (thumbnailUrl.isNotEmpty())
+                            append("""<img src="$thumbnailUrl" width=100 style="margin:0;margin-right:16px">""")
+                        append(
+                            """[**$title**]($projectPage)  \
+                            |**Author(s):** ${modAuthors.joinToString(", ")}
+                            |  \
+                            |""".trimMargin()
+                        )
+                    }
+                }
+
+            }
+        }
     }
     nestedPack(
         id = "cotm",
@@ -310,15 +343,15 @@ fun main(args: Array<String>) = withDefaultMain(
                 }.list {
                     +(Mod.laggoggles) configure {
                         description =
-                                "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+                            "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
                     +(Mod.sampler) configure {
                         description =
-                                "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+                            "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
                     +(Mod.openeye) configure {
                         description =
-                                "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
+                            "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
                     }
                 }
                 group {
@@ -405,7 +438,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
                         +(Mod.minemenu) configure {
                             description =
-                                    "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
+                                "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
                         }
                         +(Mod.itemzoom) configure {
                             description = "Check this if you like to get a closer look at item textures."
@@ -418,19 +451,19 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
                         +(Mod.fancyBlockParticles) configure {
                             description =
-                                    "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
+                                "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
                         }
                         +(Mod.dynamicSurroundings) configure {
                             description =
-                                    "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+                                "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                         }
                         +(Mod.rpgHud) configure {
                             description =
-                                    "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
+                                "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
                         }
                         +(Mod.betterFoliage) configure {
                             description =
-                                    "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
+                                "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
                         }
                         +(Mod.keyboardWizard) configure {
                             description = "Visual keybind manager."
@@ -447,7 +480,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         +TexturePack.unity configure {
                             fileName = "Unity.zip"
                             description =
-                                    "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
+                                "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
                         }
                         withProvider(DirectProvider).list {
                             +"slice" configure {
