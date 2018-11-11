@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: xaeros-minimap,
-  side: CLIENT,
-  projectID: 263420,
-  fileID: 2629820,
-  name: "Xaero's Minimap"
-}

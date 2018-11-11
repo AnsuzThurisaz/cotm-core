@@ -1,0 +1,1484 @@
+{
+  "name" : "cotm",
+  "title" : "Center of the Multiverse",
+  "version" : "2.1.9",
+  "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
+  "mcVersion" : "1.12.2",
+  "forge" : "2756",
+  "forgeBuild" : -1,
+  "launch" : {
+    "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
+  },
+  "userFiles" : {
+    "include" : [ "options.txt", "quark.cfg", "foamfix.cfg" ],
+    "exclude" : [ ]
+  },
+  "entries" : [ {
+    "provider" : "CURSE",
+    "name" : "Akashic Tome",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Botania",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Psi",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Quark",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Morph-o-Tool",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Architect",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Bedrock Ores",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Astral Sorcery",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "BiblioCraft",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Binnie's Mods",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chisel",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chisels & Bits",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Clumps",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Comforts",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Cooking for Blockheads",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Farming for Blockheads",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Cosmetic Armor Reworked",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Diamond Glass",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wearable Backpacks",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Items (JEI)",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "The Twilight Forest",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Upsizer Mod",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ViesCraft - Airships!",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Dynamics",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Expansion",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Innovation",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "MrCrayfish's Furniture Mod",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extra Alchemy",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "NoMoreGlowingPots",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ender IO",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Paintings ++",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumcraft",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Baubles",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Lib",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tweaks",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Block Carrying",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tablet",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Crafting",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Audio",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Storage - Locks",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "CharsetPatches",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Immersion",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "FoamFix for Minecraft",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unlimited Chisel Works",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unlimited Chisel Works - Botany",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "SimpleLogic Gates",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "SimpleLogic Wires",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tools",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Embers Rekindleated",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ender Storage 1.8.+",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Exchangers",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extra Bit Manipulation",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extra Utilities",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fairy Lights",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Forestry",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "FTB Utilities",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "FTBLib",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Gendustry",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Hwyla",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Initial Inventory",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Iron Chests",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Redstone Paste",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "MmmMmmMmmMmm",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "KleeSlabs",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Magic Bees",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "MalisisDoors",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mob Grinding Utils",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Natura",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Nature's Compass",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "NetherEx",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "NetherPortalFix",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "stimmedcow : NoMoreRecipeConflict",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "NotEnoughIDs",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenComputers",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenBlocks",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Packing Tape",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Pam's HarvestCraft",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Passthrough Signs",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Platforms",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Random Things",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "RandomTweaks",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ranged Pumps",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Recurrent Complex",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Redstone Flux",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Roguelike Dungeons",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Roots",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Scannable",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Simple Sponge",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Spartan Shields",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Storage Drawers",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Storage Drawers Extras",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tails",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "TamModized",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "[ANGRY PIXEL] The Betweenlands",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tinkers Construct",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tinkers' Tool Leveling",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extreme Reactors",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ZeroCore",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tool Belt",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "TorchMaster",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Robotic Parts",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Woot",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Quick Leaf Decay",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Blood Magic ",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ColorfulWater",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Construct's Armory",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Simple Void World",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Yoyos",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Bad Wither No Cookie - Reloaded",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Waystones",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Aether Legacy",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Corpse Complex",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic Inventory Scanning (Thaumcraft Addon)",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Peckish",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Electroblob's Wizardry",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Reliquary v1.3",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "CookieCore",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "FastWorkbench",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "DimensionalDoors",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Builder's Wands",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Login Shield",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Caliper",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Refined Storage",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Flopper",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Shadowfacts' Forgelin",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Catwalks 4",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wall-Jump!",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Outfox",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic Tinkerer",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ChocoCraft 3",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Reborn Storage",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Grappling Hook Mod",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ariente",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Magical Map",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Pewter",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "RFTools",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "RFTools Dimensions",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Nutrition",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.5.0/Nutrition-1.12.2-3.5.0.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Correlated",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.123.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Galacticraft Core",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "url" : "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Galacticraft Planets",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "url" : "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "MicdoodleCore",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "url" : "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Friendship Bracelet",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/FriendshipBracelet/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Infra Redstone",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/InfraRedstone/1.12.2"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Thermionics",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/Thermionics/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "ThermionicsWorld",
+    "dependencies" : {
+      "REQUIRED" : [ "Thermionics" ]
+    },
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/ThermionicsWorld/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Engination",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/Engination/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Magic Arsenal",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/MagicArsenal/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "GlassHearts",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/GlassHearts/1.12.1"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "FruitPhone",
+    "dependencies" : {
+      "REQUIRED" : [ "ProbeDataProvider" ]
+    },
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/FruitPhone/1.12.2"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "ProbeDataProvider",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/ProbeDataProvider/1.12"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "ArchitectureCraft",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/ArchitectureCraft/1.12"
+  }, {
+    "provider" : "CURSE",
+    "name" : "BTFU continuous rsync incremental backup",
+    "side" : "SERVER",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "SwingThroughGrass",
+    "side" : "SERVER",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ColorChat",
+    "side" : "SERVER",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "MatterLink",
+    "side" : "SERVER",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "JENKINS",
+    "name" : "MatterLink",
+    "side" : "SERVER",
+    "dependencies" : {
+      "REQUIRED" : [ "Shadowfacts' Forgelin" ]
+    },
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/MatterLink/master"
+  }, {
+    "provider" : "CURSE",
+    "name" : "LagGoggles",
+    "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+    "feature" : {
+      "selected" : false
+    },
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Sampler",
+    "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+    "feature" : {
+      "selected" : false
+    },
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenEye",
+    "description" : "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack.",
+    "feature" : {
+      "selected" : false
+    },
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Toast Control",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wawla - What Are We Looking At",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Waila Harvestability",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Integration",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "AppleSkin",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "BetterFps",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "NoNausea",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Placement",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Controlling",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Custom Main Menu",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Default Options",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fullscreen Windowed (Borderless) for Minecraft",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mod Name Tooltip",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ReAuth",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "CleanView",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Crafting Tweaks",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "AntiGhost",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Advancements",
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "JourneyMap",
+    "description" : "Mod-compatible mini-map.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "MAGE",
+    "description" : "Configurable graphics enhancements. Highly recomended.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Neat",
+    "description" : "Simple health and unit frames.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Client Tweaks",
+    "description" : "Various client related fixes and tweaks, all in a handy menu.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mouse Tweaks",
+    "description" : "Add extra mouse gestures for inventories and crafting grids.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic JEI",
+    "description" : "JEI Integration for Thaumcraft.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Bees",
+    "description" : "JEI Integration for Forestry/Gendustry Bees.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough HarvestCraft (JEHC)",
+    "description" : "JEI Integration for Pam's HarvestCraft.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Resources (JER)",
+    "description" : "JEI Integration that gives drop-rates for mobs, dungeonloot, etc.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Vise",
+    "description" : "More granular control over UI/HUD elements.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Smooth Font",
+    "description" : "It smoothes fonts.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Inventory Tweaks",
+    "description" : "Adds amll changes to invetory handling to minor conviniences.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "NoFov",
+    "description" : "Removes dynamic FOV shifting due to ingame effects.",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Item Scroller",
+    "description" : "Alternative to MouseTweaks.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Xaero's Minimap",
+    "description" : "Lightweight alternative to JourneyMap.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "MineMenu",
+    "description" : "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "ItemZoom",
+    "description" : "Check this if you like to get a closer look at item textures.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Light Level Overlay Reloaded",
+    "description" : "Smol light-level overlay if you aren't using Dynamic Surroundings.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Durability Show",
+    "description" : "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fancy Block Particles",
+    "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Surroundings",
+    "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "RPG-Hud",
+    "description" : "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Foliage",
+    "description" : "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Keyboard Wizard",
+    "description" : "Visual keybind manager.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chunk Animator",
+    "description" : "Configurable chunk pop-in animator.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Faster Ladder Climbing",
+    "description" : "Helps you control ladder climb speed and allows you to go a bit faster.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unity",
+    "description" : "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "fileName" : "Unity.zip",
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ]
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Slice",
+    "folder" : "resourcepacks",
+    "description" : "Custom client font based off of Chicago. Made by Falkreon.",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "BETA", "ALPHA" ],
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+  } ],
+  "versionCache" : "C:\\Users\\chris\\Documents\\GitHub\\Center-of-the-Multiverse\\.voodoo\\cotm\\versions.json",
+  "featureCache" : "C:\\Users\\chris\\Documents\\GitHub\\Center-of-the-Multiverse\\.voodoo\\cotm\\features.json",
+  "localDir" : "local",
+  "minecraftDir" : "src"
+}

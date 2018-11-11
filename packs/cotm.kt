@@ -20,8 +20,8 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.1.9.2"
-        forge = Forge.mc1_12_2.build2765
+        version = "2.2"
+        forge = Forge.mc1_12_2.build2772
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
             include = listOf(
@@ -77,9 +77,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 // ZLainSama
                 +(Mod.cosmeticArmorReworked)
 
-                // jaredlll08
-                +(Mod.diamondGlass)
-
                 // copygirl
                 +(Mod.wearableBackpacks)
 
@@ -100,14 +97,11 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.thermalexpansion)
                 +(Mod.thermalInnovation)
 
-                group {
-                    // because some alphas are buggy
-                    releaseTypes = setOf(FileType.BETA, FileType.RELEASE)
-                }.list {
-                    // McJTY
-                    +(Mod.rftools)
-                    +(Mod.rftoolsDimensions)
-                }
+                // mcjty
+                +(Mod.rftools)
+                +(Mod.rftoolsDimensions)
+                +(Mod.ariente)
+                +(Mod.theOneProbe)
 
                 // Mr_Crayfish
                 +(Mod.mrcrayfishFurnitureMod)
@@ -172,7 +166,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.opencomputers)
                 +(Mod.openblocks)
                 +(Mod.packingTape)
-                // +(Mod.pamsHarvestcraft)
+                +(Mod.pamsHarvestcraft)
                 +(Mod.passthroughSigns)
                 +(Mod.platforms)
                 +(Mod.randomThings)
@@ -206,7 +200,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.yoyos)
                 +(Mod.badWitherNoCookieReloaded)
                 +(Mod.waystones)
-                +(Mod.aetherLegacy)
+                +(Mod.theAetherIi)
                 +(Mod.corpseComplex)
                 +(Mod.thaumcraftInventoryScanning)
                 +(Mod.peckish)
@@ -215,6 +209,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.cookiecore)
                 +(Mod.thaumcraft)
                 +(Mod.fastworkbench)
+                +(Mod.fastfurnace)
                 +(Mod.dimensionaldoors)
                 +(Mod.betterBuildersWands)
                 +(Mod.antighost)
@@ -228,16 +223,13 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.pewter)
                 +(Mod.theErebus)
                 +(Mod.grapplingHookMod)
-                +(Mod.embersRekindled)
+                +(Mod.embers)
                 +(Mod.outfox)
                 +(Mod.chococraft)
                 +(Mod.portality)
                 +(Mod.modularPowersuits)
-                +(Mod.grimoireOfGaia)
                 +(Mod.huntingDimension)
                 +(Mod.surge)
-
-                +(Mod.ariente)
 
                 // Pulled due to outstanding issues
 
@@ -248,12 +240,30 @@ fun main(args: Array<String>) = withDefaultMain(
 
                 withProvider(DirectProvider).list {
                     +"nutrition" configure {
-                        url = "https://github.com/WesCook/Nutrition/releases/download/v3.5.0/Nutrition-1.12.2-3.5.0.jar"
+                        url = "https://github.com/WesCook/Nutrition/releases/download/v4.0.0/Nutrition-1.12.2-4.0.0.jar"
                     }
-                    +"correlated" configure {
-                        url = "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.143.jar"
+                    +"galacticraftCore" configure {
+                        url="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar"
+                    }
+                    +"galacticraftPlanets" configure {
+                        url = "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar"
+                    }
+                    +"micdoodleCore" configure {
+                        url = "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar"
                     }
                 }
+
+//                withProvider(JenkinsProvider) {
+//                    jenkinsUrl = "https://ci.micdoodle8.com"
+//                }.list {
+//                    +"micdoodleCore" configure {
+//                        job = "Galacticraft-1.12"
+//                        this.
+//                    }
+//                        +"galacticraftPlanets" job "Galacticraft-1.12"
+//                        +"galacticraftCore" job "Galacticraft-1.12"
+//                    }
+//                }
 
                 withProvider(JenkinsProvider) {
                     jenkinsUrl = "https://ci.elytradev.com"
@@ -265,18 +275,11 @@ fun main(args: Array<String>) = withDefaultMain(
                     // Falkreon
                     +"thermionics" job "elytra/Thermionics/master"
                     +"termionics-world" job "elytra/ThermionicsWorld/master"
-                    // TODO dependency  termionics-world -> thermionics
                     +"engination" job "elytra/Engination/master"
                     +"magic-arsenal" job "elytra/MagicArsenal/master"
 
                     // unascribed
                     +"glass-hearts" job "elytra/GlassHearts/1.12.1"
-                    +"probe-data-provider" job "elytra/ProbeDataProvider/1.12"
-                    +"fruit-phone" job "elytra/FruitPhone/1.12.2"
-                    // TODO dependency  fruit-phone -> probe-data-provider
-
-                    // Job is private - mirroring now
-                    // +("correlated") job "Correlated2-Dev"
 
                     // Darkevilmac
                     +"architecture-craft" job "elytra/ArchitectureCraft/1.12"
@@ -336,6 +339,7 @@ fun main(args: Array<String>) = withDefaultMain(
 
                     // Way2muchnoise
                     +(Mod.betterAdvancements)
+
                     // OPT-OUT
                     group {
                         feature {

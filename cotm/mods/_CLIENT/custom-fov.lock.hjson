@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: custom-fov,
-  side: CLIENT,
-  projectID: 303938,
-  fileID: 2625868,
-  name: "Custom FoV"
-}

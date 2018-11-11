@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: dynamic-surroundings,
-  side: CLIENT,
-  projectID: 238891,
-  fileID: 2634039,
-  name: "Dynamic Surroundings"
-}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: toast-control,
-  side: CLIENT,
-  projectID: 271740,
-  fileID: 2613730,
-  name: "Toast Control"
-}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: chunk-animator,
-  side: CLIENT,
-  projectID: 236484,
-  fileID: 2432424,
-  name: "Chunk Animator"
-}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: waila-harvestability,
-  side: CLIENT,
-  projectID: 79287,
-  fileID: 2481605,
-  name: "Waila Harvestability"
-}

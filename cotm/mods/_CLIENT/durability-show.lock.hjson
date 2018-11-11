@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: durability-show,
-  side: CLIENT,
-  projectID: 226099,
-  fileID: 2432683,
-  name: "Durability Show"
-}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: jei-integration,
-  side: CLIENT,
-  projectID: 265917,
-  fileID: 2491927,
-  name: "JEI Integration"
-}

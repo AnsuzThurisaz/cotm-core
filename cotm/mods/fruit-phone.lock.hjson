@@ -1,8 +1,0 @@
-{
-  provider: JENKINS,
-  id: fruit-phone,
-  jenkinsUrl: "https://ci.elytradev.com",
-  job: elytra/FruitPhone/1.12.2,
-  buildNumber: 8,
-  name: "elytra/FruitPhone/1.12.2 8"
-}

@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: mage,
-  side: CLIENT,
-  projectID: 287471,
-  fileID: 2625223,
-  name: "MAGE (Graphical Tweaks)"
-}
