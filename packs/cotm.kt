@@ -53,7 +53,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2"
+        version = "2.2.0"
         forge = Forge.mc1_12_2.build2772
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
