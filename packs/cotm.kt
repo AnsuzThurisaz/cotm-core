@@ -67,9 +67,6 @@ fun main(args: Array<String>) = withDefaultMain(
         root = rootEntry(CurseProvider) {
             releaseTypes = setOf(FileType.RELEASE, FileType.BETA, FileType.ALPHA)
             validMcVersions = setOf("1.12.1", "1.12")
-            // TODO: use type URL ?
-//            metaUrl = "https://curse.nikky.moe/api"
-//            metaUrl = "https://curse.nikky.moe/api/"
             list {
                 // Vazkii
                 +(Mod.akashicTome)
@@ -476,7 +473,6 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         // Resource packs
-                        // TODO: add curse resource packs
                         +TexturePack.unity configure {
                             fileName = "Unity.zip"
                             description =
