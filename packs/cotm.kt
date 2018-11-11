@@ -134,8 +134,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.foamfixForMinecraft)
                 +(Mod.unlimitedChiselWorks)
                 +(Mod.unlimitedChiselWorksBotany)
-                +(Mod.simplelogicGates)
-                +(Mod.simplelogicWires)
                 +(Mod.preston)
 
                 +(Mod.enderStorage18)
