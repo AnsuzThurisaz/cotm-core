@@ -3,6 +3,6 @@
   id: architecture-craft,
   jenkinsUrl: "https://ci.elytradev.com",
   job: elytra/ArchitectureCraft/1.12,
-  buildNumber: 76,
-  name: "elytra/ArchitectureCraft/1.12 76"
+  buildNumber: 77,
+  name: "elytra/ArchitectureCraft/1.12 77"
 }
