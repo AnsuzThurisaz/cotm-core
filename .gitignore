@@ -9,8 +9,6 @@ out/
 
 # voodoo
 workspace/*.jar
-*.entry.hjson
-*.pack.hjson
 loaders/
 .curse/
 _upload/

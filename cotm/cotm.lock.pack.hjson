@@ -23,8 +23,7 @@
     features: [
         {
             entries: [
-                better-foliage,
-                shadowfacts-forgelin
+                better-foliage
             ],
             feature: {
                 name: "Better Foliage",
