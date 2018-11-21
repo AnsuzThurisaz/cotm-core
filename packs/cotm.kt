@@ -53,7 +53,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.0"
+        version = "2.2.1"
         forge = Forge.mc1_12_2.build2772
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
@@ -130,7 +130,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 // mcjty
                 +(Mod.rftools)
                 +(Mod.rftoolsDimensions)
-                +(Mod.ariente)
                 +(Mod.theOneProbe)
 
                 // Mr_Crayfish
@@ -196,7 +195,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.packingTape)
                 +(Mod.pamsHarvestcraft)
                 +(Mod.passthroughSigns)
-                +(Mod.platforms)
                 +(Mod.randomThings)
                 +(Mod.randomtweaks)
                 +(Mod.rangedPumps)
@@ -210,8 +208,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.storageDrawers)
                 +(Mod.storageDrawersExtras)
                 +(Mod.tails)
-                +(Mod.tammodized)
-                +(Mod.angryPixelTheBetweenlandsMod)
                 +(Mod.tinkersConstruct)
                 +(Mod.tinkersToolLeveling)
                 +(Mod.extremeReactors)
@@ -222,7 +218,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.woot)
                 +(Mod.quickLeafDecay)
                 +(Mod.bloodMagic)
-                +(Mod.colorfulwater)
                 +(Mod.constructsArmory)
                 +(Mod.simpleVoidWorld)
                 +(Mod.yoyos)
@@ -234,7 +229,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.peckish)
                 +(Mod.electroblobsWizardry)
                 +(Mod.reliquaryV13)
-                +(Mod.cookiecore)
                 +(Mod.thaumcraft)
                 +(Mod.fastworkbench)
                 +(Mod.fastfurnace)
@@ -245,7 +239,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.caliper)
                 +(Mod.refinedStorage)
                 +(Mod.flopper)
-                +(Mod.catwalks4)
                 +(Mod.wallJump)
                 +(Mod.magicalMap)
                 +(Mod.pewter)
@@ -261,7 +254,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.environmentalTech)
                 +(Mod.blockcraftery)
                 +(Mod.stygianEndBiomeExpansion)
-                +(Mod.theMidnight)
                 +(Mod.popcornSmelting)
                 +(Mod.armoryExpansion)
 
@@ -276,28 +268,7 @@ fun main(args: Array<String>) = withDefaultMain(
                     +"nutrition" configure {
                         url = "https://github.com/WesCook/Nutrition/releases/download/v4.0.0/Nutrition-1.12.2-4.0.0.jar"
                     }
-                    +"galacticraftCore" configure {
-                        url="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar"
-                    }
-                    +"galacticraftPlanets" configure {
-                        url = "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar"
-                    }
-                    +"micdoodleCore" configure {
-                        url = "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar"
-                    }
                 }
-
-//                withProvider(JenkinsProvider) {
-//                    jenkinsUrl = "https://ci.micdoodle8.com"
-//                }.list {
-//                    +"micdoodleCore" configure {
-//                        job = "Galacticraft-1.12"
-//                        this.
-//                    }
-//                        +"galacticraftPlanets" job "Galacticraft-1.12"
-//                        +"galacticraftCore" job "Galacticraft-1.12"
-//                    }
-//                }
 
                 withProvider(JenkinsProvider) {
                     jenkinsUrl = "https://ci.elytradev.com"

@@ -3,6 +3,6 @@
   id: engination,
   jenkinsUrl: "https://ci.elytradev.com",
   job: elytra/Engination/master,
-  buildNumber: 9,
-  name: "elytra/Engination/master 9"
+  buildNumber: 10,
+  name: "elytra/Engination/master 10"
 }

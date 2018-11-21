@@ -1,0 +1,21 @@
+{
+    id: cotm,
+    mcVersion: 1.12.2,
+    title: "Center of the Multiverse",
+    version: 2.1.9.2,
+    authors: [
+        AnsuzThuriaz,
+        Falkreon,
+        NikkyAi
+    ],
+    forge: 2765,
+    userFiles: {
+        include: [
+            options.txt,
+            quark.cfg,
+            foamfix.cfg
+        ],
+        exclude: [
+        ]
+    }
+}
