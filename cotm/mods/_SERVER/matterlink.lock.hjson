@@ -4,6 +4,6 @@
   side: SERVER,
   jenkinsUrl: "https://ci.elytradev.com",
   job: elytra/MatterLink/master,
-  buildNumber: 171,
-  name: "elytra/MatterLink/master 171"
+  buildNumber: 173,
+  name: "elytra/MatterLink/master 173"
 }

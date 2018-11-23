@@ -20,11 +20,4 @@ docs/
 .multimc/
 .history/
 workspace/
-cotm.changelog.md
 server_cotm/
-debug\.log
-
-# scripts
-push_pack.sh
-push_server.sh
-push_sk_client.sh

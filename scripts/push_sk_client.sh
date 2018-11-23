@@ -1,0 +1,1 @@
+rsync -av workspace/_upload/ christ@173.255.235.180:/var/www/html/launcher

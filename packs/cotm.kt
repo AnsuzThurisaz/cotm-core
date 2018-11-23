@@ -402,7 +402,7 @@ fun main(args: Array<String>) = withDefaultMain(
                             description = "Alternative to MouseTweaks."
                         }
                         +(Mod.xaerosMinimap) configure {
-                            description = "Alternative to MouseTweaks."
+                            description = "Alternative to Journeymap."
                         }
                         +(Mod.minemenu) configure {
                             description =
@@ -431,7 +431,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
                         +(Mod.betterFoliage) configure {
                             description =
-                                "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
+                                "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
                         }
                         +(Mod.keyboardWizard) configure {
                             description = "Visual keybind manager."
