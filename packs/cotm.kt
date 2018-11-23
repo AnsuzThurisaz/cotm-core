@@ -53,8 +53,8 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.1"
-        forge = Forge.mc1_12_2.build2772
+        version = "2.2.2"
+        forge = Forge.mc1_12_2.build2775
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
             include = listOf(
@@ -367,18 +367,6 @@ fun main(args: Array<String>) = withDefaultMain(
                         +(Mod.mouseTweaks) configure {
                             description = "Add extra mouse gestures for inventories and crafting grids."
                         }
-                        +(Mod.thaumicJei) configure {
-                            description = "JEI Integration for Thaumcraft."
-                        }
-                        +(Mod.jeiBees) configure {
-                            description = "JEI Integration for Forestry/Gendustry Bees."
-                        }
-                        +(Mod.justEnoughHarvestcraft) configure {
-                            description = "JEI Integration for Pam's HarvestCraft."
-                        }
-                        +(Mod.justEnoughResourcesJer) configure {
-                            description = "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
-                        }
                         +(Mod.vise) configure {
                             description = "More granular control over UI/HUD elements."
                         }
@@ -398,6 +386,18 @@ fun main(args: Array<String>) = withDefaultMain(
                             selected = false
                         }
                     }.list {
+                        +(Mod.thaumicJei) configure {
+                            description = "JEI Integration for Thaumcraft."
+                        }
+                        +(Mod.jeiBees) configure {
+                            description = "JEI Integration for Forestry/Gendustry Bees."
+                        }
+                        +(Mod.justEnoughHarvestcraft) configure {
+                            description = "JEI Integration for Pam's HarvestCraft."
+                        }
+                        +(Mod.justEnoughResourcesJer) configure {
+                            description = "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
+                        }
                         +(Mod.itemScroller) configure {
                             description = "Alternative to MouseTweaks."
                         }
@@ -446,8 +446,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         // Resource packs
                         +TexturePack.unity configure {
                             fileName = "Unity.zip"
-                            description =
-                                "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
+                            description ="Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
                         }
                         withProvider(DirectProvider).list {
                             +"slice" configure {
