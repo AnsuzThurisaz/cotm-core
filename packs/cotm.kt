@@ -257,6 +257,10 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.armoryExpansion)
                 +(Mod.randompatches)
 
+                +(Mod.shadowfactsForgelin) configure {
+                    fileNameRegex = """Forgelin-1\.8\.0\.jar"""
+                }
+
                 // Pulled due to outstanding issues
                 // +(Mod.huntingDimension)
 
