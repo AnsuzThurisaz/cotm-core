@@ -137,7 +137,6 @@ fun main(args: Array<String>) = withDefaultMain(
 
                 // zabi94
                 +(Mod.extraAlchemy)
-                +(Mod.nomoreglowingpots)
 
                 // CrazyPants
                 +(Mod.enderIo)
@@ -148,6 +147,10 @@ fun main(args: Array<String>) = withDefaultMain(
                 // azanor
                 +(Mod.thaumcraft)
                 +(Mod.baubles)
+
+                // TheRandomLabs
+                +(Mod.randomtweaks)
+                +(Mod.randompatches)
 
                 // asie
                 +(Mod.charsetLib)
@@ -196,7 +199,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.pamsHarvestcraft)
                 +(Mod.passthroughSigns)
                 +(Mod.randomThings)
-                +(Mod.randomtweaks)
                 +(Mod.rangedPumps)
                 +(Mod.recurrentComplex)
                 +(Mod.redstoneFlux)
@@ -219,7 +221,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.quickLeafDecay)
                 +(Mod.bloodMagic)
                 +(Mod.constructsArmory)
-                +(Mod.simpleVoidWorld)
                 +(Mod.yoyos)
                 +(Mod.badWitherNoCookieReloaded)
                 +(Mod.waystones)
@@ -255,7 +256,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.stygianEndBiomeExpansion)
                 +(Mod.popcornSmelting)
                 +(Mod.armoryExpansion)
-                +(Mod.randompatches)
 
                 +(Mod.shadowfactsForgelin) configure {
                     fileNameRegex = """Forgelin-1\.8\.0\.jar"""
@@ -304,7 +304,7 @@ fun main(args: Array<String>) = withDefaultMain(
                     withProvider(JenkinsProvider) {
                         jenkinsUrl = "https://ci.elytradev.com"
                     }.list {
-                        +"matterlink" job "elytra/MatterLink/master"
+                    +"matterlink" job "elytra/MatterLink/master"
                     }
                 }
 
@@ -315,16 +315,13 @@ fun main(args: Array<String>) = withDefaultMain(
                     }
                 }.list {
                     +(Mod.laggoggles) configure {
-                        description =
-                            "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+                        description ="***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
                     +(Mod.sampler) configure {
-                        description =
-                            "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+                        description ="***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
                     +(Mod.openeye) configure {
-                        description =
-                            "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
+                        description ="Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
                     }
                 }
                 group {
@@ -358,31 +355,31 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
                     }.list {
                         +(Mod.journeymap) configure {
-                            description = "Mod-compatible mini-map."
+                            description ="Mod-compatible mini-map."
                         }
                         +(Mod.mage) configure {
-                            description = "Configurable graphics enhancements. Highly recomended."
+                            description ="Configurable graphics enhancements. Highly recomended."
                         }
                         +(Mod.neat) configure {
-                            description = "Simple health and unit frames."
+                            description ="Simple health and unit frames."
                         }
                         +(Mod.clientTweaks) configure {
-                            description = "Various client related fixes and tweaks, all in a handy menu."
+                            description ="Various client related fixes and tweaks, all in a handy menu."
                         }
                         +(Mod.mouseTweaks) configure {
-                            description = "Add extra mouse gestures for inventories and crafting grids."
+                            description ="Add extra mouse gestures for inventories and crafting grids."
                         }
                         +(Mod.vise) configure {
-                            description = "More granular control over UI/HUD elements."
+                            description ="More granular control over UI/HUD elements."
                         }
                         +(Mod.smoothFont) configure {
-                            description = "It smoothes fonts."
+                            description ="It smoothes fonts."
                         }
                         +(Mod.inventoryTweaks) configure {
-                            description = "Adds amll changes to invetory handling to minor conviniences."
+                            description ="Adds amll changes to invetory handling to minor conviniences."
                         }
                         +(Mod.customFov) configure {
-                            description = "Removes dynamic FOV shifting due to ingame effects."
+                            description ="Removes dynamic FOV shifting due to ingame effects."
                         }
                     }
                     // OPT-IN
@@ -392,60 +389,55 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
                     }.list {
                         +(Mod.thaumicJei) configure {
-                            description = "JEI Integration for Thaumcraft."
+                            description ="JEI Integration for Thaumcraft."
                         }
                         +(Mod.jeiBees) configure {
-                            description = "JEI Integration for Forestry/Gendustry Bees."
+                            description ="JEI Integration for Forestry/Gendustry Bees."
                         }
                         +(Mod.justEnoughHarvestcraft) configure {
-                            description = "JEI Integration for Pam's HarvestCraft."
+                            description ="JEI Integration for Pam's HarvestCraft."
                         }
                         +(Mod.justEnoughResourcesJer) configure {
-                            description = "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
+                            description ="JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
                         }
                         +(Mod.itemScroller) configure {
-                            description = "Alternative to MouseTweaks."
+                            description ="Alternative to MouseTweaks."
                         }
                         +(Mod.xaerosMinimap) configure {
-                            description = "Alternative to Journeymap."
+                            description ="Alternative to Journeymap."
                         }
                         +(Mod.minemenu) configure {
-                            description =
-                                "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
+                            description ="Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
                         }
                         +(Mod.itemzoom) configure {
-                            description = "Check this if you like to get a closer look at item textures."
+                            description ="Check this if you like to get a closer look at item textures."
                         }
                         +(Mod.lightLevelOverlayReloaded) configure {
-                            description = "Smol light-level overlay if you aren't using Dynamic Surroundings."
+                            description ="Smol light-level overlay if you aren't using Dynamic Surroundings."
                         }
                         +(Mod.durabilityShow) configure {
-                            description = "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
+                            description ="Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
                         }
                         +(Mod.fancyBlockParticles) configure {
-                            description =
-                                "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
+                            description ="Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
                         }
                         +(Mod.dynamicSurroundings) configure {
-                            description =
-                                "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+                            description ="Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                         }
                         +(Mod.rpgHud) configure {
-                            description =
-                                "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
+                            description ="Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
                         }
                         +(Mod.betterFoliage) configure {
-                            description =
-                                "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
+                            description ="Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
                         }
                         +(Mod.keyboardWizard) configure {
-                            description = "Visual keybind manager."
+                            description ="Visual keybind manager."
                         }
                         +(Mod.chunkAnimator) configure {
-                            description = "Configurable chunk pop-in animator."
+                            description ="Configurable chunk pop-in animator."
                         }
                         +(Mod.fasterLadderClimbing) configure {
-                            description = "Helps you control ladder climb speed and allows you to go a bit faster."
+                            description ="Helps you control ladder climb speed and allows you to go a bit faster."
                         }
 
                         // Resource packs
