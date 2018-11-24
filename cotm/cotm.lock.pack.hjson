@@ -2,13 +2,13 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.2.1,
+    version: 2.2.2,
     authors: [
         AnsuzThuriaz,
         Falkreon,
         NikkyAi
     ],
-    forge: 2772,
+    forge: 2775,
     userFiles: {
         include: [
             options.txt,
@@ -129,9 +129,8 @@
             ],
             feature: {
                 name: "JEI Bees",
-                selected: true,
-                description: "JEI Integration for Forestry/Gendustry Bees.",
-                recommendation: starred
+                selected: false,
+                description: "JEI Integration for Forestry/Gendustry Bees."
             }
         },
         {
@@ -151,9 +150,8 @@
             ],
             feature: {
                 name: "Just Enough HarvestCraft (JEHC)",
-                selected: true,
-                description: "JEI Integration for Pam's HarvestCraft.",
-                recommendation: starred
+                selected: false,
+                description: "JEI Integration for Pam's HarvestCraft."
             }
         },
         {
@@ -162,9 +160,8 @@
             ],
             feature: {
                 name: "Just Enough Resources (JER)",
-                selected: true,
-                description: "JEI Integration that gives drop-rates for mobs, dungeonloot, etc.",
-                recommendation: starred
+                selected: false,
+                description: "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
             }
         },
         {
@@ -287,9 +284,8 @@
             ],
             feature: {
                 name: "Thaumic JEI",
-                selected: true,
-                description: "JEI Integration for Thaumcraft.",
-                recommendation: starred
+                selected: false,
+                description: "JEI Integration for Thaumcraft."
             }
         },
         {

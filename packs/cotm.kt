@@ -246,18 +246,19 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.grapplingHookMod)
                 +(Mod.embers)
                 +(Mod.outfox)
-                +(Mod.chococraft)
+                +(Mod.chococraft3)
                 +(Mod.portality)
                 +(Mod.modularPowersuits)
-                +(Mod.huntingDimension)
                 +(Mod.surge)
                 +(Mod.environmentalTech)
                 +(Mod.blockcraftery)
                 +(Mod.stygianEndBiomeExpansion)
                 +(Mod.popcornSmelting)
                 +(Mod.armoryExpansion)
+                +(Mod.randompatches)
 
                 // Pulled due to outstanding issues
+                // +(Mod.huntingDimension)
 
                 // Unused mods
                 // +(Mod.justEnoughDimensions)
@@ -279,7 +280,7 @@ fun main(args: Array<String>) = withDefaultMain(
 
                     // Falkreon
                     +"thermionics" job "elytra/Thermionics/master"
-                    +"termionics-world" job "elytra/ThermionicsWorld/master"
+                    +"thermionics-world" job "elytra/ThermionicsWorld/master"
                     +"engination" job "elytra/Engination/master"
                     +"magic-arsenal" job "elytra/MagicArsenal/master"
 
