@@ -17,17 +17,17 @@
 		/* action messages */ 
 		"action": true,
 		/* handle join event */ 
-		"join": false,
+		"join": true,
 		/* handle leave events */ 
-		"leave": false,
+		"leave": true,
 		/* handle advancement events */ 
-		"advancement": false,
+		"advancement": true,
 		/* handle death events */ 
-		"death": false,
+		"death": true,
 		/* handle broadcast command */ 
-		"broadcast": false,
-		/* handles tatus updates */ 
-		"status": false
+		"broadcast": true,
+		/* handles status updates */
+		"status": true
 	},
 	/* default settings for incoming */ 
 	"incomingDefaults": { 
@@ -41,53 +41,61 @@
 		"commands": true
 	},
 	/* list of fixed chat locations */ 
-	"locations": [ 
-		{ 
-			/* location label for identification */ 
-			"label": "default",
-			/* matterbridge gateway identifier */ 
-			"gateway": "minecraft",
-			"area": { 
-				/* Area type identifier */ 
-				"type": "INFINITE",
-				/* list of dimension ids */ 
-				"dimensions": [ 
-					-1,
-					0,
-					1
-				],
-				/* ignores dimension list */ 
-				"allDimensions": true
-			},
-			/* Location outgoing settings */ 
-			"outgoing": { 
-				"advancements": true,
-				/* transmit death messages */ 
-				"death": true,
-				"joins": true,
-				"leaves": true,
-				/* transmit broadcasts */ 
-				"say": true,
-				/* list of other locations to ignore after handling this */ 
-				"skip": [ 
-					]
-			},
-			/* incoming settings */ 
-			"incoming": { 
-				/* transmit join events */ 
-				"plain": true,
-				/* transmit join events */ 
-				"action": true,
-				/* transmit join_leave events */ 
-				"join_leave": true,
-				/* receive commands */ 
-				"commands": true,
-				/* list of other locations to ignore after handling this */ 
-				"skip": [ 
-					]
-			}
-		}
-	],
+"locations": [
+        {
+            /* location label for identification */
+            "label": "default",
+            /* matterbridge gateway identifier */
+            "gateway": "minecraft",
+            "area": {
+                /* Area type identifier */
+                "type": "INFINITE",
+                /* list of dimension ids */
+                "dimensions": [
+                    -1,
+                    0,
+                    1
+                ],
+                /* ignores dimension list */
+                "allDimensions": true
+            },
+            /* Location outgoing settings */
+            "outgoing": {
+                /* transmit join events */
+                "plain": true,
+                /* transmit join events */
+                "action": true,
+                /* transmit join events */
+                "join": true,
+                /* transmit leave events */
+                "leave": true,
+                /* transmit advancements */
+                "advancement": true,
+                /* transmit death messages */
+                "death": true,
+                "broadcast": true,
+                /* transmit status updates */
+                "status": true,
+                /* list of other locations to ignore after handling this */
+                "skip": [
+                    ]
+            },
+            /* incoming settings */
+            "incoming": {
+                /* transmit join events */
+                "plain": true,
+                /* transmit join events */
+                "action": true,
+                /* transmit join_leave events */
+                "join_leave": true,
+                /* receive commands */
+                "commands": true,
+                /* list of other locations to ignore after handling this */
+                "skip": [
+                    ]
+            }
+        }
+    ],
 	/* Gateway -> Server
 Options all about receiving messages from the API
 Formatting options:
