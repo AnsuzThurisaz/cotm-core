@@ -53,8 +53,8 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.2"
-        forge = Forge.mc1_12_2.build2775
+        version = "2.2.3"
+        forge = Forge.mc1_12_2.build2784
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
             include = listOf(
@@ -256,10 +256,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.stygianEndBiomeExpansion)
                 +(Mod.popcornSmelting)
                 +(Mod.armoryExpansion)
-
-                +(Mod.shadowfactsForgelin) configure {
-                    fileNameRegex = """Forgelin-1\.8\.0\.jar"""
-                }
+                +(Mod.shadowfactsForgelin)
 
                 // Pulled due to outstanding issues
                 // +(Mod.huntingDimension)
