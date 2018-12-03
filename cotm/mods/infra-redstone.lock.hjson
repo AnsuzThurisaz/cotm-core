@@ -3,6 +3,6 @@
   id: infra-redstone,
   jenkinsUrl: "https://ci.elytradev.com",
   job: elytra/InfraRedstone/1.12.2,
-  buildNumber: 20,
-  name: "elytra/InfraRedstone/1.12.2 20"
+  buildNumber: 21,
+  name: "elytra/InfraRedstone/1.12.2 21"
 }

@@ -13,7 +13,7 @@ import voodoo.withDefaultMain
 fun main(args: Array<String>) = withDefaultMain(
     root = Constants.rootDir,
     arguments = args
-) {
+    ) {
     docs {
         tomeRoot = rootDir.resolve("tome")
         add("credits.md") { modpack, lockPack ->
@@ -43,7 +43,6 @@ fun main(args: Array<String>) = withDefaultMain(
                         )
                     }
                 }
-
             }
         }
     }
@@ -53,8 +52,8 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.3"
-        forge = Forge.mc1_12_2.build2784
+        version = "2.2.4"
+        forge = Forge.mc1_12_2.build2795
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
             include = listOf(
@@ -64,10 +63,12 @@ fun main(args: Array<String>) = withDefaultMain(
             ),
             exclude = listOf("")
         )
+
         root = rootEntry(CurseProvider) {
             releaseTypes = setOf(FileType.RELEASE, FileType.BETA, FileType.ALPHA)
             validMcVersions = setOf("1.12.1", "1.12")
             list {
+
                 // Vazkii
                 +(Mod.akashicTome)
                 +(Mod.botania)
@@ -165,7 +166,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.charsetImmersion)
                 +(Mod.foamfixForMinecraft)
                 +(Mod.unlimitedChiselWorks)
-                +(Mod.unlimitedChiselWorksBotany)
                 +(Mod.preston)
 
                 +(Mod.enderStorage18)
@@ -254,9 +254,11 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.environmentalTech)
                 +(Mod.blockcraftery)
                 +(Mod.stygianEndBiomeExpansion)
-                +(Mod.popcornSmelting)
                 +(Mod.armoryExpansion)
                 +(Mod.shadowfactsForgelin)
+
+                // Pre-Testing
+                // +(Mod.inControl)
 
                 // Pulled due to outstanding issues
                 // +(Mod.huntingDimension)
@@ -310,7 +312,9 @@ fun main(args: Array<String>) = withDefaultMain(
                     feature {
                         selected = false
                     }
+
                 }.list {
+
                     +(Mod.laggoggles) configure {
                         description ="***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
@@ -321,6 +325,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         description ="Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
                     }
                 }
+
                 group {
                     side = Side.CLIENT
                 }.list {
@@ -351,30 +356,39 @@ fun main(args: Array<String>) = withDefaultMain(
                             recommendation = Recommendation.starred
                         }
                     }.list {
+
                         +(Mod.journeymap) configure {
                             description ="Mod-compatible mini-map."
                         }
+
                         +(Mod.mage) configure {
                             description ="Configurable graphics enhancements. Highly recomended."
                         }
+
                         +(Mod.neat) configure {
                             description ="Simple health and unit frames."
                         }
+
                         +(Mod.clientTweaks) configure {
                             description ="Various client related fixes and tweaks, all in a handy menu."
                         }
+
                         +(Mod.mouseTweaks) configure {
                             description ="Add extra mouse gestures for inventories and crafting grids."
                         }
+
                         +(Mod.vise) configure {
                             description ="More granular control over UI/HUD elements."
                         }
+
                         +(Mod.smoothFont) configure {
                             description ="It smoothes fonts."
                         }
+
                         +(Mod.inventoryTweaks) configure {
                             description ="Adds amll changes to invetory handling to minor conviniences."
                         }
+
                         +(Mod.customFov) configure {
                             description ="Removes dynamic FOV shifting due to ingame effects."
                         }
@@ -385,54 +399,71 @@ fun main(args: Array<String>) = withDefaultMain(
                             selected = false
                         }
                     }.list {
+
                         +(Mod.thaumicJei) configure {
                             description ="JEI Integration for Thaumcraft."
                         }
+
                         +(Mod.jeiBees) configure {
                             description ="JEI Integration for Forestry/Gendustry Bees."
                         }
+
                         +(Mod.justEnoughHarvestcraft) configure {
                             description ="JEI Integration for Pam's HarvestCraft."
                         }
+
                         +(Mod.justEnoughResourcesJer) configure {
                             description ="JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
                         }
+
                         +(Mod.itemScroller) configure {
                             description ="Alternative to MouseTweaks."
                         }
+
                         +(Mod.xaerosMinimap) configure {
                             description ="Alternative to Journeymap."
                         }
+
                         +(Mod.minemenu) configure {
                             description ="Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
                         }
+
                         +(Mod.itemzoom) configure {
                             description ="Check this if you like to get a closer look at item textures."
                         }
+
                         +(Mod.lightLevelOverlayReloaded) configure {
                             description ="Smol light-level overlay if you aren't using Dynamic Surroundings."
                         }
+
                         +(Mod.durabilityShow) configure {
                             description ="Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
                         }
+
                         +(Mod.fancyBlockParticles) configure {
                             description ="Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
                         }
+
                         +(Mod.dynamicSurroundings) configure {
                             description ="Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                         }
+
                         +(Mod.rpgHud) configure {
                             description ="Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
                         }
+
                         +(Mod.betterFoliage) configure {
                             description ="Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
                         }
+
                         +(Mod.keyboardWizard) configure {
                             description ="Visual keybind manager."
                         }
+
                         +(Mod.chunkAnimator) configure {
                             description ="Configurable chunk pop-in animator."
                         }
+
                         +(Mod.fasterLadderClimbing) configure {
                             description ="Helps you control ladder climb speed and allows you to go a bit faster."
                         }
@@ -442,6 +473,7 @@ fun main(args: Array<String>) = withDefaultMain(
                             fileName = "Unity.zip"
                             description ="Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
                         }
+
                         withProvider(DirectProvider).list {
                             +"slice" configure {
                                 description = "Custom client font based off of Chicago. Made by Falkreon."
