@@ -52,7 +52,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.4"
+        version = "2.2.5"
         forge = Forge.mc1_12_2.build2795
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
@@ -121,7 +121,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.upsizerMod)
 
                 // Viesis
-                +(Mod.viescraftAirships)
+                 +(Mod.viesMachines)
 
                 // Team CoFH
                 +(Mod.thermalDynamics)
@@ -195,7 +195,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.notenoughids)
                 +(Mod.opencomputers)
                 +(Mod.openblocks)
-                +(Mod.packingTape)
                 +(Mod.pamsHarvestcraft)
                 +(Mod.passthroughSigns)
                 +(Mod.randomThings)
@@ -230,7 +229,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.peckish)
                 +(Mod.electroblobsWizardry)
                 +(Mod.reliquaryV13)
-                +(Mod.thaumcraft)
                 +(Mod.fastworkbench)
                 +(Mod.fastfurnace)
                 +(Mod.dimensionaldoors)
@@ -243,7 +241,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.wallJump)
                 +(Mod.magicalMap)
                 +(Mod.pewter)
-                +(Mod.theErebus)
                 +(Mod.grapplingHookMod)
                 +(Mod.embers)
                 +(Mod.outfox)
@@ -252,21 +249,19 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.modularPowersuits)
                 +(Mod.surge)
                 +(Mod.environmentalTech)
-                +(Mod.blockcraftery)
-                +(Mod.stygianEndBiomeExpansion)
                 +(Mod.armoryExpansion)
                 +(Mod.shadowfactsForgelin)
+                +(Mod.huntingDimension)
+                +(Mod.rebornstorage)
 
-                // Pre-Testing
+                // Pre-Testing / Un-used
                 // +(Mod.inControl)
-
-                // Pulled due to outstanding issues
-                // +(Mod.huntingDimension)
-
-                // Unused mods
                 // +(Mod.justEnoughDimensions)
                 // +(Mod.crafttweaker)
                 // +(Mod.modtweaker)
+
+                // Pulled due to outstanding issues
+
 
                 withProvider(DirectProvider).list {
                     +"nutrition" configure {
