@@ -3,6 +3,6 @@
   id: thermionics,
   jenkinsUrl: "https://ci.elytradev.com",
   job: elytra/Thermionics/master,
-  buildNumber: 51,
-  name: "elytra/Thermionics/master 51"
+  buildNumber: 52,
+  name: "elytra/Thermionics/master 52"
 }

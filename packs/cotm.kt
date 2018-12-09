@@ -177,7 +177,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.ftbUtilities)
                 +(Mod.ftblib)
                 +(Mod.gendustry)
-                +(Mod.hwyla)
                 +(Mod.initialInventory)
                 +(Mod.inventoryTweaks)
                 +(Mod.ironChests)
@@ -325,8 +324,6 @@ fun main(args: Array<String>) = withDefaultMain(
                     side = Side.CLIENT
                 }.list {
                     +(Mod.toastControl)
-                    +(Mod.wawlaWhatAreWeLookingAt)
-                    +(Mod.wailaHarvestability)
                     +(Mod.jeiIntegration)
                     +(Mod.appleskin)
                     +(Mod.betterfps)
