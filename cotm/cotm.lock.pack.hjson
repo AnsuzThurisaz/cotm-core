@@ -2,13 +2,13 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.2.5,
+    version: 2.2.6,
     authors: [
         AnsuzThuriaz,
         Falkreon,
         NikkyAi
     ],
-    forge: 2795,
+    forge: 2796,
     userFiles: {
         include: [
             options.txt,
