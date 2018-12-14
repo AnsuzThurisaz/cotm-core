@@ -2,7 +2,7 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.2.6,
+    version: 2.2.7,
     authors: [
         AnsuzThuriaz,
         Falkreon,
@@ -122,16 +122,6 @@
                 name: ItemZoom,
                 selected: false,
                 description: "Check this if you like to get a closer look at item textures."
-            }
-        },
-        {
-            entries: [
-                jei-bees
-            ],
-            feature: {
-                name: "JEI Bees",
-                selected: false,
-                description: "JEI Integration for Forestry/Gendustry Bees."
             }
         },
         {

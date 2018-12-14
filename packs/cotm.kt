@@ -262,6 +262,15 @@ fun main(args: Array<String>) = withDefaultMain(
                     +"nutrition" configure {
                         url = "https://github.com/WesCook/Nutrition/releases/download/v4.0.0/Nutrition-1.12.2-4.0.0.jar"
                     }
+                    +"galacticraftCore" configure {
+                        url="https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.181.jar"
+                    }
+                    +"galacticraftPlanets" configure {
+                        url = "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.181.jar"
+                    }
+                    +"micdoodleCore" configure {
+                        url = "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar"
+                    }
                 }
 
                 withProvider(JenkinsProvider) {

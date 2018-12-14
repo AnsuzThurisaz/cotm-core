@@ -1,0 +1,6 @@
+{
+  provider: DIRECT,
+  id: micdoodleCore,
+  url: "https://ci.micdoodle8.com/job/Galacticraft-1.12/181/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.181.jar",
+  name: micdoodleCore
+}
