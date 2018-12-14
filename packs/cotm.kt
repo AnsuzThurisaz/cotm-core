@@ -52,7 +52,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.6"
+        version = "2.2.7"
         forge = Forge.mc1_12_2.build2796
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
@@ -85,9 +85,6 @@ fun main(args: Array<String>) = withDefaultMain(
 
                 // Nuchaz
                 +(Mod.bibliocraft)
-
-                // Binnie
-                +(Mod.binniesMods)
 
                 // chiselTeam
                 +(Mod.chisel)
@@ -173,17 +170,14 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.extraBitManipulation)
                 +(Mod.extraUtilities)
                 +(Mod.fairyLights)
-                +(Mod.forestry)
                 +(Mod.ftbUtilities)
                 +(Mod.ftblib)
-                +(Mod.gendustry)
                 +(Mod.initialInventory)
                 +(Mod.inventoryTweaks)
                 +(Mod.ironChests)
                 +(Mod.redstonePaste)
                 +(Mod.mmmmmmmmmmmm)
                 +(Mod.kleeslabs)
-                +(Mod.magicBees)
                 +(Mod.malisisdoors)
                 +(Mod.mobGrindingUtils)
                 +(Mod.natura)
@@ -252,6 +246,9 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.shadowfactsForgelin)
                 +(Mod.huntingDimension)
                 +(Mod.rebornstorage)
+                +(Mod.theDisenchanterMod)
+                +(Mod.doggyTalents)
+                +(Mod.lootbags)
 
                 // Pre-Testing / Un-used
                 // +(Mod.inControl)
@@ -260,7 +257,6 @@ fun main(args: Array<String>) = withDefaultMain(
                 // +(Mod.modtweaker)
 
                 // Pulled due to outstanding issues
-
 
                 withProvider(DirectProvider).list {
                     +"nutrition" configure {
@@ -394,10 +390,6 @@ fun main(args: Array<String>) = withDefaultMain(
 
                         +(Mod.thaumicJei) configure {
                             description ="JEI Integration for Thaumcraft."
-                        }
-
-                        +(Mod.jeiBees) configure {
-                            description ="JEI Integration for Forestry/Gendustry Bees."
                         }
 
                         +(Mod.justEnoughHarvestcraft) configure {
