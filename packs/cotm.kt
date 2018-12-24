@@ -52,7 +52,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.8-release"
+        version = "2.2.9-testing"
         forge = Forge.mc1_12_2.build2796
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
@@ -118,7 +118,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.upsizerMod)
 
                 // Viesis
-                 +(Mod.viesMachines)
+                 +(Mod.viescraftAirships)
 
                 // Team CoFH
                 +(Mod.thermalDynamics)
@@ -249,6 +249,11 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.theDisenchanterMod)
                 +(Mod.doggyTalents)
                 +(Mod.lootbags)
+                +(Mod.snad)
+                +(Mod.fluxNetworks)
+                +(Mod.refinedStorageAddons)
+                +(Mod.compactdrawers)
+
 
                 // Pre-Testing / Un-used
                 // +(Mod.inControl)
