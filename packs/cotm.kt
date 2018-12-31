@@ -52,7 +52,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.9-release"
+        version = "2.2.10-testing"
         forge = Forge.mc1_12_2.build2796
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
@@ -253,7 +253,8 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.fluxNetworks)
                 +(Mod.refinedStorageAddons)
                 +(Mod.compactdrawers)
-
+                +(Mod.blockcraftery)
+                +(Mod.nuclearcraftMod)
 
                 // Pre-Testing / Un-used
                 // +(Mod.inControl)
@@ -443,15 +444,11 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         +(Mod.dynamicSurroundings) configure {
-                            description ="Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+                            description ="Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                         }
 
                         +(Mod.rpgHud) configure {
                             description ="Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
-                        }
-
-                        +(Mod.betterFoliage) configure {
-                            description ="Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
                         }
 
                         +(Mod.keyboardWizard) configure {
@@ -469,7 +466,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         // Resource packs
                         +TexturePack.unity configure {
                             fileName = "Unity.zip"
-                            description ="Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
+                            description ="Multi-mod compatible resource pack."
                         }
 
                         withProvider(DirectProvider).list {
