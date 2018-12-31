@@ -81,9 +81,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +(Mod.bedrockores)
 
                 // HellFirePvP
-                +(Mod.astralSorcery) configure {
-                version = "1.10.7"
-                }
+                +(Mod.astralSorcery)
 
                 // Nuchaz
                 +(Mod.bibliocraft)
