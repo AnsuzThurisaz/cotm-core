@@ -71,7 +71,7 @@
             feature: {
                 name: "Dynamic Surroundings",
                 selected: false,
-                description: "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+                description: "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
             }
         },
         {
@@ -81,7 +81,7 @@
             feature: {
                 name: "Fancy Block Particles",
                 selected: false,
-                description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
+                description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
             }
         },
         {
@@ -111,7 +111,7 @@
             feature: {
                 name: ItemZoom,
                 selected: false,
-                description: "Check this if you like to get a closer look at item textures."
+                description: "Enable this if you like to get a closer look at item textures."
             }
         },
         {
@@ -142,7 +142,7 @@
             feature: {
                 name: "Just Enough Resources (JER)",
                 selected: false,
-                description: "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
+                description: "JEI Integration that gives drop-rates for mobs, dungeon loot, etc."
             }
         },
         {
@@ -193,7 +193,7 @@
             feature: {
                 name: MineMenu,
                 selected: false,
-                description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
+                description: "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
             }
         },
         {

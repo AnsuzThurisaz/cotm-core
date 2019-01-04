@@ -411,7 +411,7 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         +(Mod.justEnoughResourcesJer) configure {
-                            description ="JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
+                            description ="JEI Integration that gives drop-rates for mobs, dungeon loot, etc."
                         }
 
                         +(Mod.itemScroller) configure {
@@ -423,11 +423,11 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         +(Mod.minemenu) configure {
-                            description ="Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
+                            description ="Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
                         }
 
                         +(Mod.itemzoom) configure {
-                            description ="Check this if you like to get a closer look at item textures."
+                            description ="Enable this if you like to get a closer look at item textures."
                         }
 
                         +(Mod.lightLevelOverlayReloaded) configure {
@@ -439,11 +439,11 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         +(Mod.fancyBlockParticles) configure {
-                            description ="Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
+                            description ="Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
                         }
 
                         +(Mod.dynamicSurroundings) configure {
-                            description ="Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+                            description ="Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
                         }
 
                         +(Mod.rpgHud) configure {
