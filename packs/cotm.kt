@@ -53,7 +53,7 @@ fun main(args: Array<String>) = withDefaultMain(
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
         version = "2.2.10-testing"
-        forge = Forge.mc1_12_2.build2796
+        forge = Forge.mc1_12_2.build2806
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
             include = listOf(
@@ -444,6 +444,7 @@ fun main(args: Array<String>) = withDefaultMain(
 
                         +(Mod.dynamicSurroundings) configure {
                             description ="Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+                            version ="3.5.4.0BETA"
                         }
 
                         +(Mod.rpgHud) configure {

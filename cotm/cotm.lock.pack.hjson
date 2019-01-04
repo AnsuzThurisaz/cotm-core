@@ -8,7 +8,7 @@
         Falkreon,
         NikkyAi
     ],
-    forge: 2796,
+    forge: 2806,
     userFiles: {
         include: [
             options.txt,
