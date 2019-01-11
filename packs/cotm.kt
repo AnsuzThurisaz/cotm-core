@@ -52,7 +52,7 @@ fun main(args: Array<String>) = withDefaultMain(
     ) {
         title = "Center of the Multiverse"
         authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-        version = "2.2.10-release"
+        version = "2.2.11-testing"
         forge = Forge.mc1_12_2.build2806
         icon = rootDir.resolve("icon.png")
         userFiles = UserFiles(
@@ -402,6 +402,10 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
                     }.list {
 
+                        +(Mod.betterFoliage) configure {
+                            description ="Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
+                        }
+
                         +(Mod.thaumicJei) configure {
                             description ="JEI Integration for Thaumcraft."
                         }
@@ -463,6 +467,11 @@ fun main(args: Array<String>) = withDefaultMain(
                             description ="Helps you control ladder climb speed and allows you to go a bit faster."
                         }
 
+                        withProvider(DirectProvider).list {
+                            +"Optifine" configure {
+                                description = "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
+                            } url "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
+
                         // Resource packs
                         +TexturePack.unity configure {
                             fileName = "Unity.zip"
@@ -470,10 +479,16 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         withProvider(DirectProvider).list {
-                            +"slice" configure {
+                            +"Slice" configure {
                                 description = "Custom client font based off of Chicago. Made by Falkreon."
                                 folder = "resourcepacks"
                             } url "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+
+                   withProvider(DirectProvider).list {
+                            +"SEUS Renewed" configure {
+                                description = "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
+                                folder = "shaderpacks"
+                            } url "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
                         }
                     }
                 }
