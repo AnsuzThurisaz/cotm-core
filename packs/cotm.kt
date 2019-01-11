@@ -467,11 +467,6 @@ fun main(args: Array<String>) = withDefaultMain(
                             description ="Helps you control ladder climb speed and allows you to go a bit faster."
                         }
 
-                        withProvider(DirectProvider).list {
-                            +"Optifine" configure {
-                                description = "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
-                            } url "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
-
                         // Resource packs
                         +TexturePack.unity configure {
                             fileName = "Unity.zip"
@@ -479,16 +474,24 @@ fun main(args: Array<String>) = withDefaultMain(
                         }
 
                         withProvider(DirectProvider).list {
-                            +"Slice" configure {
-                                description = "Custom client font based off of Chicago. Made by Falkreon."
-                                folder = "resourcepacks"
-                            } url "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+                            +"Optifine" configure {
+                            description = "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
+                        } url "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
 
-                   withProvider(DirectProvider).list {
-                            +"SEUS Renewed" configure {
-                                description = "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
-                                folder = "shaderpacks"
-                            } url "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
+                    withProvider(DirectProvider).list {
+                        +"Slice" configure {
+                            description = "Custom client font based off of Chicago. Made by Falkreon."
+                            folder = "resourcepacks"
+                        } url "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+
+                    withProvider(DirectProvider).list {
+                        +"SEUS Renewed" configure {
+                            description = "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
+                            folder = "shaderpacks"
+                        } url "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
+
+                               }
+                            }
                         }
                     }
                 }

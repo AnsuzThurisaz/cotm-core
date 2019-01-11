@@ -2,7 +2,7 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.2.10-release,
+    version: 2.2.11-testing,
     authors: [
         AnsuzThuriaz,
         Falkreon,
@@ -21,6 +21,16 @@
     },
     sourceDir: cotm,
     features: [
+        {
+            entries: [
+                better-foliage
+            ],
+            feature: {
+                name: "Better Foliage",
+                selected: false,
+                description: "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
+            }
+        },
         {
             entries: [
                 chunk-animator
@@ -230,6 +240,16 @@
         },
         {
             entries: [
+                Optifine
+            ],
+            feature: {
+                name: Optifine,
+                selected: false,
+                description: "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
+            }
+        },
+        {
+            entries: [
                 rpg-hud
             ],
             feature: {
@@ -240,12 +260,32 @@
         },
         {
             entries: [
+                "SEUS Renewed"
+            ],
+            feature: {
+                name: "SEUS Renewed",
+                selected: false,
+                description: "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
+            }
+        },
+        {
+            entries: [
                 sampler
             ],
             feature: {
                 name: Sampler,
                 selected: false,
                 description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+            }
+        },
+        {
+            entries: [
+                Slice
+            ],
+            feature: {
+                name: Slice,
+                selected: false,
+                description: "Custom client font based off of Chicago. Made by Falkreon."
             }
         },
         {
@@ -298,16 +338,6 @@
                 name: "Xaero's Minimap",
                 selected: false,
                 description: "Alternative to Journeymap."
-            }
-        },
-        {
-            entries: [
-                slice
-            ],
-            feature: {
-                name: slice,
-                selected: false,
-                description: "Custom client font based off of Chicago. Made by Falkreon."
             }
         }
     ]
