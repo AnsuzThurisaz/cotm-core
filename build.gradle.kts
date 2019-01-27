@@ -1,6 +1,6 @@
 plugins {
-//    kotlin("jvm") version "1.3.20-eap-100"
-//    idea
+    // kotlin("jvm") version "1.3.20" // automatically applied
+    // idea // automatically applied
     id("voodoo") version "0.4.5-SNAPSHOT"
 }
 
@@ -16,7 +16,6 @@ voodoo {
     addTask(name = "buildAndPackAll", parameters = listOf("build", "pack sk", "pack server", "pack mmc"))
 }
 
-// only required for plugin dev
 repositories {
     maven(url = "http://maven.modmuss50.me/") {
         name = "modmuss50"
@@ -31,9 +30,9 @@ repositories {
         name = "jitpack"
     }
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
     implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.5+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.5+")
 }
