@@ -1,7 +1,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.2.12-testing"
+version = "2.2.12-release"
 forge = Forge.mc1_12_2.build2808
 icon = rootDir.resolve("icon.png")
 userFiles = UserFiles(

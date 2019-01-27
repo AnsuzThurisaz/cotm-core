@@ -2,7 +2,7 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.2.12-testing,
+    version: 2.2.12-release,
     icon: "C:\\Users\\chris\\Documents\\GitHub\\Center-of-the-Multiverse\\icon.png",
     authors: [
         AnsuzThuriaz,

@@ -1,7 +1,7 @@
 Title | Center of the Multiverse
 ---|---
 ID | `cotm`
-Pack Version | `2.2.12-testing`
+Pack Version | `2.2.12-release`
 MC Version | `1.12.2`
 Forge Version | `14.23.5.2808`
 Author | `AnsuzThuriaz, Falkreon, NikkyAi`
