@@ -13,8 +13,6 @@ loaders/
 .curse/
 _upload/
 .voodoo/
-tome/
-docs/
 *.zip
 .server/
 .multimc/
