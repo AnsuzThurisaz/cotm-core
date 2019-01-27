@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: kleeslabs,
-  projectID: 241895,
-  fileID: 2611981,
-  name: KleeSlabs
+    provider: CURSE,
+    id: kleeslabs,
+    projectID: 241895,
+    fileID: 2611981,
+    name: KleeSlabs
 }

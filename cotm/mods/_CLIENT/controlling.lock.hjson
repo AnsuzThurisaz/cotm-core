@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: controlling,
-  side: CLIENT,
-  projectID: 250398,
-  fileID: 2522248,
-  name: Controlling
+    provider: CURSE,
+    id: controlling,
+    side: CLIENT,
+    projectID: 250398,
+    fileID: 2522248,
+    name: Controlling
 }

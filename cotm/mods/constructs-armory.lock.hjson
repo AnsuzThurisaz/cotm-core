@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: constructs-armory,
-  projectID: 287683,
-  fileID: 2660796,
-  name: "Construct's Armory"
+    provider: CURSE,
+    id: constructs-armory,
+    projectID: 287683,
+    fileID: 2660796,
+    name: "Construct's Armory"
 }

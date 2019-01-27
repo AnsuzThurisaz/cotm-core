@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: armory-expansion,
-  projectID: 293602,
-  fileID: 2626191,
-  name: "Armory Expansion"
+    provider: CURSE,
+    id: armory-expansion,
+    projectID: 293602,
+    fileID: 2626191,
+    name: "Armory Expansion"
 }

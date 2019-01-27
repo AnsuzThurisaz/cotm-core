@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: cooking-for-blockheads,
-  projectID: 231484,
-  fileID: 2659430,
-  name: "Cooking for Blockheads"
+    provider: CURSE,
+    id: cooking-for-blockheads,
+    projectID: 231484,
+    fileID: 2659430,
+    name: "Cooking for Blockheads"
 }

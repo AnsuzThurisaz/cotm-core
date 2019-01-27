@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: peckish,
-  projectID: 289309,
-  fileID: 2561659,
-  name: Peckish
+    provider: CURSE,
+    id: peckish,
+    projectID: 289309,
+    fileID: 2561659,
+    name: Peckish
 }

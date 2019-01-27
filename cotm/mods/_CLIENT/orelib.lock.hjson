@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: orelib,
-  side: CLIENT,
-  projectID: 307806,
-  fileID: 2657337,
-  name: OreLib
+    provider: CURSE,
+    id: orelib,
+    side: CLIENT,
+    projectID: 307806,
+    fileID: 2664386,
+    name: OreLib
 }

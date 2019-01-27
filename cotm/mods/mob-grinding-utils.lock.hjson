@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: mob-grinding-utils,
-  projectID: 254241,
-  fileID: 2656683,
-  name: "Mob Grinding Utils"
+    provider: CURSE,
+    id: mob-grinding-utils,
+    projectID: 254241,
+    fileID: 2656683,
+    name: "Mob Grinding Utils"
 }

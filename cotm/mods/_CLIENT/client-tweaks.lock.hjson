@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: client-tweaks,
-  side: CLIENT,
-  projectID: 251407,
-  fileID: 2624712,
-  name: "Client Tweaks"
+    provider: CURSE,
+    id: client-tweaks,
+    side: CLIENT,
+    projectID: 251407,
+    fileID: 2624712,
+    name: "Client Tweaks"
 }

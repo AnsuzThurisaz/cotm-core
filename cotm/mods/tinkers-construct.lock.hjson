@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: tinkers-construct,
-  projectID: 74072,
-  fileID: 2657445,
-  name: "Tinkers Construct"
+    provider: CURSE,
+    id: tinkers-construct,
+    projectID: 74072,
+    fileID: 2662253,
+    name: "Tinkers Construct"
 }

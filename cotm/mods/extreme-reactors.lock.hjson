@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: extreme-reactors,
-  projectID: 250277,
-  fileID: 2648892,
-  name: "Extreme Reactors"
+    provider: CURSE,
+    id: extreme-reactors,
+    projectID: 250277,
+    fileID: 2648892,
+    name: "Extreme Reactors"
 }

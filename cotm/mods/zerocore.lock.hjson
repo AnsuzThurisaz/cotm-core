@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: zerocore,
-  projectID: 247921,
-  fileID: 2648891,
-  name: ZeroCore
+    provider: CURSE,
+    id: zerocore,
+    projectID: 247921,
+    fileID: 2648891,
+    name: ZeroCore
 }

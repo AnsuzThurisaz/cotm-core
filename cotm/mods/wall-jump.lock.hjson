@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: wall-jump,
-  projectID: 295319,
-  fileID: 2648359,
-  name: Wall-Jump!
+    provider: CURSE,
+    id: wall-jump,
+    projectID: 295319,
+    fileID: 2648359,
+    name: Wall-Jump!
 }

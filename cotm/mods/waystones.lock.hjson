@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: waystones,
-  projectID: 245755,
-  fileID: 2624701,
-  name: Waystones
+    provider: CURSE,
+    id: waystones,
+    projectID: 245755,
+    fileID: 2624701,
+    name: Waystones
 }

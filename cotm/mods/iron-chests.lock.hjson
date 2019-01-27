@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: iron-chests,
-  projectID: 228756,
-  fileID: 2650333,
-  name: "Iron Chests"
+    provider: CURSE,
+    id: iron-chests,
+    projectID: 228756,
+    fileID: 2663493,
+    name: "Iron Chests"
 }

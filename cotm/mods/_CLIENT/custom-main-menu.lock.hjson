@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: custom-main-menu,
-  side: CLIENT,
-  projectID: 226406,
-  fileID: 2638282,
-  name: "Custom Main Menu"
+    provider: CURSE,
+    id: custom-main-menu,
+    side: CLIENT,
+    projectID: 226406,
+    fileID: 2638282,
+    name: "Custom Main Menu"
 }

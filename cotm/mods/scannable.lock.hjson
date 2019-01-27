@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: scannable,
-  projectID: 266784,
-  fileID: 2608542,
-  name: Scannable
+    provider: CURSE,
+    id: scannable,
+    projectID: 266784,
+    fileID: 2662364,
+    name: Scannable
 }

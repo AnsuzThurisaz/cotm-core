@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: smooth-font,
-  side: CLIENT,
-  projectID: 285742,
-  fileID: 2656365,
-  name: "Smooth Font"
+    provider: CURSE,
+    id: smooth-font,
+    side: CLIENT,
+    projectID: 285742,
+    fileID: 2665071,
+    name: "Smooth Font"
 }

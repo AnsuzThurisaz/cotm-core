@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: upsizer-mod,
-  projectID: 237514,
-  fileID: 2519662,
-  name: "Upsizer Mod"
+    provider: CURSE,
+    id: upsizer-mod,
+    projectID: 237514,
+    fileID: 2519662,
+    name: "Upsizer Mod"
 }

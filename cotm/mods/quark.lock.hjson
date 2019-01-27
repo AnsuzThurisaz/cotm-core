@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: quark,
-  projectID: 243121,
-  fileID: 2659519,
-  name: Quark
+    provider: CURSE,
+    id: quark,
+    projectID: 243121,
+    fileID: 2663450,
+    name: Quark
 }

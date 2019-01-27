@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: just-enough-harvestcraft,
-  side: CLIENT,
-  projectID: 267939,
-  fileID: 2637650,
-  name: "Just Enough HarvestCraft (JEHC)"
+    provider: CURSE,
+    id: just-enough-harvestcraft,
+    side: CLIENT,
+    projectID: 267939,
+    fileID: 2637650,
+    name: "Just Enough HarvestCraft (JEHC)"
 }

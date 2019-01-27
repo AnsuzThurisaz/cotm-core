@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: netherportalfix,
-  projectID: 241160,
-  fileID: 2612052,
-  name: NetherPortalFix
+    provider: CURSE,
+    id: netherportalfix,
+    projectID: 241160,
+    fileID: 2612052,
+    name: NetherPortalFix
 }

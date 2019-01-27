@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: ender-io,
-  projectID: 64578,
-  fileID: 2652322,
-  name: "Ender IO"
+    provider: CURSE,
+    id: ender-io,
+    projectID: 64578,
+    fileID: 2652322,
+    name: "Ender IO"
 }

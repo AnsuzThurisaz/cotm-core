@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: tinkers-tool-leveling,
-  projectID: 250957,
-  fileID: 2630860,
-  name: "Tinkers' Tool Leveling"
+    provider: CURSE,
+    id: tinkers-tool-leveling,
+    projectID: 250957,
+    fileID: 2630860,
+    name: "Tinkers' Tool Leveling"
 }

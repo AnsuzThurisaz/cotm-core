@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: ivtoolkit,
-  projectID: 224535,
-  fileID: 2443253,
-  name: IvToolkit
+    provider: CURSE,
+    id: ivtoolkit,
+    projectID: 224535,
+    fileID: 2443253,
+    name: IvToolkit
 }

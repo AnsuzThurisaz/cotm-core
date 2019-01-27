@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: mcjtylib,
-  projectID: 233105,
-  fileID: 2660396,
-  name: McJtyLib
+    provider: CURSE,
+    id: mcjtylib,
+    projectID: 233105,
+    fileID: 2660396,
+    name: McJtyLib
 }

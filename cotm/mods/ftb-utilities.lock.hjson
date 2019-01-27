@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: ftb-utilities,
-  projectID: 237102,
-  fileID: 2660712,
-  name: "FTB Utilities"
+    provider: CURSE,
+    id: ftb-utilities,
+    projectID: 237102,
+    fileID: 2664689,
+    name: "FTB Utilities"
 }

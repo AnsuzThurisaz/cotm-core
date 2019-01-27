@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: pams-harvestcraft,
-  projectID: 221857,
-  fileID: 2650315,
-  name: "Pam's HarvestCraft"
+    provider: CURSE,
+    id: pams-harvestcraft,
+    projectID: 221857,
+    fileID: 2650315,
+    name: "Pam's HarvestCraft"
 }

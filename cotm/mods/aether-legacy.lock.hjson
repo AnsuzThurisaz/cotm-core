@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: aether-legacy,
-  projectID: 255308,
-  fileID: 2593131,
-  name: "Aether Legacy"
+    provider: CURSE,
+    id: aether-legacy,
+    projectID: 255308,
+    fileID: 2593131,
+    name: "Aether Legacy"
 }

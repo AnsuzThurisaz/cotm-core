@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: charset-tweaks,
-  projectID: 285363,
-  fileID: 2626376,
-  name: "Charset Tweaks"
+    provider: CURSE,
+    id: charset-tweaks,
+    projectID: 285363,
+    fileID: 2626376,
+    name: "Charset Tweaks"
 }

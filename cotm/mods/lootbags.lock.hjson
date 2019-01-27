@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: lootbags,
-  projectID: 225946,
-  fileID: 2581863,
-  name: LootBags
+    provider: CURSE,
+    id: lootbags,
+    projectID: 225946,
+    fileID: 2581863,
+    name: LootBags
 }

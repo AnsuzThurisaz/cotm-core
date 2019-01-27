@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: comforts,
-  projectID: 276951,
-  fileID: 2651155,
-  name: Comforts
+    provider: CURSE,
+    id: comforts,
+    projectID: 276951,
+    fileID: 2651155,
+    name: Comforts
 }

@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: thaumic-jei,
-  side: CLIENT,
-  projectID: 285492,
-  fileID: 2637182,
-  name: "Thaumic JEI"
+    provider: CURSE,
+    id: thaumic-jei,
+    side: CLIENT,
+    projectID: 285492,
+    fileID: 2637182,
+    name: "Thaumic JEI"
 }

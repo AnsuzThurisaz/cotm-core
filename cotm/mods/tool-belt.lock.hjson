@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: tool-belt,
-  projectID: 260262,
-  fileID: 2461671,
-  name: "Tool Belt"
+    provider: CURSE,
+    id: tool-belt,
+    projectID: 260262,
+    fileID: 2461671,
+    name: "Tool Belt"
 }

@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: better-builders-wands,
-  projectID: 238403,
-  fileID: 2657628,
-  name: "Better Builder's Wands"
+    provider: CURSE,
+    id: better-builders-wands,
+    projectID: 238403,
+    fileID: 2657628,
+    name: "Better Builder's Wands"
 }

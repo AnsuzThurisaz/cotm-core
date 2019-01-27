@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: natures-compass,
-  projectID: 252848,
-  fileID: 2513221,
-  name: "Nature's Compass"
+    provider: CURSE,
+    id: natures-compass,
+    projectID: 252848,
+    fileID: 2513221,
+    name: "Nature's Compass"
 }

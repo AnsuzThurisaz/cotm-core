@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: akashic-tome,
-  projectID: 250577,
-  fileID: 2648656,
-  name: "Akashic Tome"
+    provider: CURSE,
+    id: akashic-tome,
+    projectID: 250577,
+    fileID: 2648656,
+    name: "Akashic Tome"
 }

@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: flux-networks,
-  projectID: 248020,
-  fileID: 2645165,
-  name: "Flux Networks"
+    provider: CURSE,
+    id: flux-networks,
+    projectID: 248020,
+    fileID: 2645165,
+    name: "Flux Networks"
 }

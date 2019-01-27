@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: storage-drawers,
-  projectID: 223852,
-  fileID: 2642386,
-  name: "Storage Drawers"
+    provider: CURSE,
+    id: storage-drawers,
+    projectID: 223852,
+    fileID: 2642386,
+    name: "Storage Drawers"
 }

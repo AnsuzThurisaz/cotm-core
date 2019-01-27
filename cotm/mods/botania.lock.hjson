@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: botania,
-  projectID: 225643,
-  fileID: 2642650,
-  name: Botania
+    provider: CURSE,
+    id: botania,
+    projectID: 225643,
+    fileID: 2642650,
+    name: Botania
 }

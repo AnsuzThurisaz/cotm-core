@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: mouse-tweaks,
-  side: CLIENT,
-  projectID: 60089,
-  fileID: 2632649,
-  name: "Mouse Tweaks"
+    provider: CURSE,
+    id: mouse-tweaks,
+    side: CLIENT,
+    projectID: 60089,
+    fileID: 2632649,
+    name: "Mouse Tweaks"
 }

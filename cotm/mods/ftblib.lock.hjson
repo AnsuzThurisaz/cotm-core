@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: ftblib,
-  projectID: 237167,
-  fileID: 2660050,
-  name: "FTB Library"
+    provider: CURSE,
+    id: ftblib,
+    projectID: 237167,
+    fileID: 2663884,
+    name: "FTB Library"
 }

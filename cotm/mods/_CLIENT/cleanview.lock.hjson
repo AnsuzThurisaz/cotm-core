@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: cleanview,
-  side: CLIENT,
-  projectID: 226889,
-  fileID: 2533542,
-  name: CleanView
+    provider: CURSE,
+    id: cleanview,
+    side: CLIENT,
+    projectID: 226889,
+    fileID: 2533542,
+    name: CleanView
 }

@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: environmental-tech,
-  projectID: 245453,
-  fileID: 2654968,
-  name: "Environmental Tech"
+    provider: CURSE,
+    id: environmental-tech,
+    projectID: 245453,
+    fileID: 2654968,
+    name: "Environmental Tech"
 }

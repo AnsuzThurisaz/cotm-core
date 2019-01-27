@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: guide-api,
-  projectID: 228832,
-  fileID: 2645992,
-  name: Guide-API
+    provider: CURSE,
+    id: guide-api,
+    projectID: 228832,
+    fileID: 2645992,
+    name: Guide-API
 }

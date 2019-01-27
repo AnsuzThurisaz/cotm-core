@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: randomtweaks,
-  projectID: 258205,
-  fileID: 2657954,
-  name: RandomTweaks
+    provider: CURSE,
+    id: randomtweaks,
+    projectID: 258205,
+    fileID: 2663755,
+    name: RandomTweaks
 }

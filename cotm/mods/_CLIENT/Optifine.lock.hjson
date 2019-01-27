@@ -1,7 +1,7 @@
 {
-  provider: DIRECT,
-  id: Optifine,
-  side: CLIENT,
-  url: "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar",
-  name: Optifine
+    provider: DIRECT,
+    id: Optifine,
+    side: CLIENT,
+    url: "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar",
+    name: Optifine
 }

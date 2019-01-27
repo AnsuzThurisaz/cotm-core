@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: natura,
-  projectID: 74120,
-  fileID: 2658980,
-  name: Natura
+    provider: CURSE,
+    id: natura,
+    projectID: 74120,
+    fileID: 2658980,
+    name: Natura
 }

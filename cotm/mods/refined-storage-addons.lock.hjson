@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: refined-storage-addons,
-  projectID: 272302,
-  fileID: 2632402,
-  name: "Refined Storage Addons"
+    provider: CURSE,
+    id: refined-storage-addons,
+    projectID: 272302,
+    fileID: 2632402,
+    name: "Refined Storage Addons"
 }

@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: reborncore,
-  projectID: 237903,
-  fileID: 2659014,
-  name: "Reborn Core"
+    provider: CURSE,
+    id: reborncore,
+    projectID: 237903,
+    fileID: 2661704,
+    name: "Reborn Core"
 }

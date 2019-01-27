@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: betterfps,
-  side: CLIENT,
-  projectID: 229876,
-  fileID: 2483393,
-  name: BetterFps
+    provider: CURSE,
+    id: betterfps,
+    side: CLIENT,
+    projectID: 229876,
+    fileID: 2483393,
+    name: BetterFps
 }

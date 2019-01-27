@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: portality,
-  projectID: 291493,
-  fileID: 2641377,
-  name: Portality
+    provider: CURSE,
+    id: portality,
+    projectID: 291493,
+    fileID: 2641377,
+    name: Portality
 }

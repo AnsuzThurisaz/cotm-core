@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: appleskin,
-  side: CLIENT,
-  projectID: 248787,
-  fileID: 2496585,
-  name: AppleSkin
+    provider: CURSE,
+    id: appleskin,
+    side: CLIENT,
+    projectID: 248787,
+    fileID: 2496585,
+    name: AppleSkin
 }

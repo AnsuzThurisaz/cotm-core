@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: fastfurnace,
-  projectID: 299540,
-  fileID: 2639417,
-  name: FastFurnace
+    provider: CURSE,
+    id: fastfurnace,
+    projectID: 299540,
+    fileID: 2639417,
+    name: FastFurnace
 }

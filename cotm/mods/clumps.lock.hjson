@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: clumps,
-  projectID: 256717,
-  fileID: 2576264,
-  name: Clumps
+    provider: CURSE,
+    id: clumps,
+    projectID: 256717,
+    fileID: 2576264,
+    name: Clumps
 }

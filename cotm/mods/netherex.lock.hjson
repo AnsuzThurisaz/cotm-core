@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: netherex,
-  projectID: 248039,
-  fileID: 2607787,
-  name: NetherEx
+    provider: CURSE,
+    id: netherex,
+    projectID: 248039,
+    fileID: 2607787,
+    name: NetherEx
 }

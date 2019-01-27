@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: extra-bit-manipulation,
-  projectID: 240959,
-  fileID: 2630081,
-  name: "Extra Bit Manipulation"
+    provider: CURSE,
+    id: extra-bit-manipulation,
+    projectID: 240959,
+    fileID: 2630081,
+    name: "Extra Bit Manipulation"
 }

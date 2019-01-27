@@ -2,13 +2,14 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.2.11-release,
+    version: 2.2.12-testing,
+    icon: "C:\\Users\\chris\\Documents\\GitHub\\Center-of-the-Multiverse\\icon.png",
     authors: [
         AnsuzThuriaz,
         Falkreon,
         NikkyAi
     ],
-    forge: 2806,
+    forge: 2808,
     userFiles: {
         include: [
             options.txt,
@@ -340,5 +341,10 @@
                 description: "Alternative to Journeymap."
             }
         }
-    ]
+    ],
+    packOptions: {
+        multimcOptions: {
+            skPackUrl: "https://centerofthemultiverse.net/launcher/cotm.json"
+        }
+    }
 }

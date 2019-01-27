@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: k4lib,
-  side: SERVER,
-  projectID: 224740,
-  fileID: 2516105,
-  name: K4Lib
+    provider: CURSE,
+    id: k4lib,
+    side: SERVER,
+    projectID: 224740,
+    fileID: 2516105,
+    name: K4Lib
 }

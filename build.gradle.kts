@@ -30,6 +30,7 @@ repositories {
         name = "jitpack"
     }
     mavenCentral()
+    jcenter()
 }
 
 dependencies {

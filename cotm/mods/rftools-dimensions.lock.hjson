@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: rftools-dimensions,
-  projectID: 240950,
-  fileID: 2660166,
-  name: "RFTools Dimensions"
+    provider: CURSE,
+    id: rftools-dimensions,
+    projectID: 240950,
+    fileID: 2660166,
+    name: "RFTools Dimensions"
 }

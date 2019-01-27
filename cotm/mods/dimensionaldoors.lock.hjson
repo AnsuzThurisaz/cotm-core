@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: dimensionaldoors,
-  projectID: 284876,
-  fileID: 2558528,
-  name: DimensionalDoors
+    provider: CURSE,
+    id: dimensionaldoors,
+    projectID: 284876,
+    fileID: 2558528,
+    name: DimensionalDoors
 }

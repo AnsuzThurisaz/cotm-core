@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: woot,
-  projectID: 244049,
-  fileID: 2656489,
-  name: Woot
+    provider: CURSE,
+    id: woot,
+    projectID: 244049,
+    fileID: 2656489,
+    name: Woot
 }

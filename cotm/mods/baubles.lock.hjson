@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: baubles,
-  projectID: 227083,
-  fileID: 2518667,
-  name: Baubles
+    provider: CURSE,
+    id: baubles,
+    projectID: 227083,
+    fileID: 2518667,
+    name: Baubles
 }

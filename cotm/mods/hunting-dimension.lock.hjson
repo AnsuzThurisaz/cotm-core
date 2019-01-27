@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: hunting-dimension,
-  projectID: 283235,
-  fileID: 2644004,
-  name: "Hunting Dimension"
+    provider: CURSE,
+    id: hunting-dimension,
+    projectID: 283235,
+    fileID: 2644004,
+    name: "Hunting Dimension"
 }

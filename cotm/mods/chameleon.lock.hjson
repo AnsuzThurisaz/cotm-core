@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: chameleon,
-  projectID: 230497,
-  fileID: 2450900,
-  name: Chameleon
+    provider: CURSE,
+    id: chameleon,
+    projectID: 230497,
+    fileID: 2450900,
+    name: Chameleon
 }

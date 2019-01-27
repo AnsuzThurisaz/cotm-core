@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: reliquary-v1-3,
-  projectID: 241319,
-  fileID: 2624074,
-  name: "Reliquary v1.3"
+    provider: CURSE,
+    id: reliquary-v1-3,
+    projectID: 241319,
+    fileID: 2624074,
+    name: "Reliquary v1.3"
 }

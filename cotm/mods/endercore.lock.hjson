@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: endercore,
-  projectID: 231868,
-  fileID: 2652469,
-  name: EnderCore
+    provider: CURSE,
+    id: endercore,
+    projectID: 231868,
+    fileID: 2664060,
+    name: EnderCore
 }

@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: notenoughids,
-  projectID: 235107,
-  fileID: 2625059,
-  name: NotEnoughIDs
+    provider: CURSE,
+    id: notenoughids,
+    projectID: 235107,
+    fileID: 2625059,
+    name: NotEnoughIDs
 }

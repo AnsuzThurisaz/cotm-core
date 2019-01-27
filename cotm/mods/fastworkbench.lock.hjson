@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: fastworkbench,
-  projectID: 288885,
-  fileID: 2636769,
-  name: FastWorkbench
+    provider: CURSE,
+    id: fastworkbench,
+    projectID: 288885,
+    fileID: 2636769,
+    name: FastWorkbench
 }

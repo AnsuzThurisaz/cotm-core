@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: simple-sponge,
-  projectID: 269141,
-  fileID: 2528670,
-  name: "Simple Sponge"
+    provider: CURSE,
+    id: simple-sponge,
+    projectID: 269141,
+    fileID: 2528670,
+    name: "Simple Sponge"
 }

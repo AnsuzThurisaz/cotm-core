@@ -1,7 +1,7 @@
 {
-  provider: CURSE,
-  id: morph-o-tool,
-  projectID: 245287,
-  fileID: 2658176,
-  name: Morph-o-Tool
+    provider: CURSE,
+    id: morph-o-tool,
+    projectID: 245287,
+    fileID: 2658176,
+    name: Morph-o-Tool
 }

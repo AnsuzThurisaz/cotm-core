@@ -1,8 +1,8 @@
 {
-  provider: CURSE,
-  id: rpg-hud,
-  side: CLIENT,
-  projectID: 235670,
-  fileID: 2483068,
-  name: RPG-Hud
+    provider: CURSE,
+    id: rpg-hud,
+    side: CLIENT,
+    projectID: 235670,
+    fileID: 2483068,
+    name: RPG-Hud
 }
