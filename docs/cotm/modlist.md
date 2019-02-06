@@ -1,9 +1,9 @@
 Title | Center of the Multiverse
 ---|---
 ID | `cotm`
-Pack Version | `2.2.12-release`
+Pack Version | `2.2.13-testing`
 MC Version | `1.12.2`
-Forge Version | `14.23.5.2808`
+Forge Version | `14.23.5.2811`
 Author | `AnsuzThuriaz, Falkreon, NikkyAi`
 Icon | <img src="icon.png" alt="icon" style="max-height: 128px;"/>
 
@@ -11,7 +11,7 @@ Icon | <img src="icon.png" alt="icon" style="max-height: 128px;"/>
 Mod | Aether Legacy
 ---|---
 Provider | `CURSE`
-Version | `Aether Legacy v3.2`
+Version | `Aether Legacy 1.12.2-v1.4.0`
 Release Type | `RELEASE`
 Author | `115kino, Kingboo177`
 
@@ -53,7 +53,7 @@ Author | `YaibaToKen`
 Mod | Astral Sorcery
 ---|---
 Provider | `CURSE`
-Version | `AstralSorcery-1.12.2-1.10.10.jar`
+Version | `AstralSorcery-1.12.2-1.10.11.jar`
 Release Type | `RELEASE`
 Author | `HellFirePvP`
 
@@ -95,7 +95,7 @@ Author | `Way2muchnoise`
 Mod | Better Builder's Wands
 ---|---
 Provider | `CURSE`
-Version | `Better Builder's Wands 0.12.1 [MC1.12; rev 254]`
+Version | `Better Builder's Wands 0.13.0 [MC1.12; rev 267]`
 Release Type | `BETA`
 Author | `Portablejim`
 
@@ -137,21 +137,21 @@ Author | `epicsquid319`
 Mod | Blood Magic 
 ---|---
 Provider | `CURSE`
-Version | `BloodMagic-1.12.2-2.3.3-101.jar`
+Version | `BloodMagic-1.12.2-2.4.0-102.jar`
 Release Type | `BETA`
 Author | `TehNut, WayofTime`
 
 Mod | Bookshelf
 ---|---
 Provider | `CURSE`
-Version | `Bookshelf-1.12.2-2.3.573.jar`
+Version | `Bookshelf-1.12.2-2.3.574.jar`
 Release Type | `RELEASE`
 Author | `Darkhax`
 
 Mod | Botania
 ---|---
 Provider | `CURSE`
-Version | `Botania r1.10-358.jar`
+Version | `Botania r1.10-359.jar`
 Release Type | `RELEASE`
 Author | `Vazkii`
 
@@ -168,6 +168,13 @@ Provider | `CURSE`
 Version | `Caliper-1.12.2-1.1.41.jar`
 Release Type | `RELEASE`
 Author | `Darkhax`
+
+Mod | Cathedral
+---|---
+Provider | `CURSE`
+Version | `Cathedral-1.12.2-1.9.7k.jar`
+Release Type | `BETA`
+Author | `ferreusveritas`
 
 Mod | Chameleon
 ---|---
@@ -274,6 +281,13 @@ Version | `ChunkAnimator-MC1.12-1.2.jar`
 Release Type | `RELEASE`
 Author | `lumien231`
 
+Mod | Chunk-Pregenerator
+---|---
+Provider | `CURSE`
+Version | `Chunk Pregenerator V1.12-2.0`
+Release Type | `RELEASE`
+Author | `Speiger`
+
 Mod | CleanView
 ---|---
 Provider | `CURSE`
@@ -291,7 +305,7 @@ Author | `BlayTheNinth`
 Mod | Clumps
 ---|---
 Provider | `CURSE`
-Version | `Clumps-3.1.1`
+Version | `Clumps-3.1.2`
 Release Type | `RELEASE`
 Author | `jaredlll08`
 
@@ -305,7 +319,7 @@ Author | `chicken_bones, covers1624`
 Mod | CoFH Core
 ---|---
 Provider | `CURSE`
-Version | `CoFHCore-1.12.2-4.6.1.22-universal.jar`
+Version | `CoFHCore-1.12.2-4.6.2.25-universal.jar`
 Release Type | `RELEASE`
 Author | `KingLemming, TeamCoFH`
 
@@ -322,6 +336,13 @@ Provider | `CURSE`
 Version | `colorchat-1.12.1-2.0.43-universal.jar`
 Release Type | `RELEASE`
 Author | `K4Unl`
+
+Mod | Colytra
+---|---
+Provider | `CURSE`
+Version | `colytra-1.12.2-1.1.0.3.jar`
+Release Type | `RELEASE`
+Author | `theillusivec4`
 
 Mod | Comforts
 ---|---
@@ -399,13 +420,6 @@ Provider | `CURSE`
 Version | `customfov-1.12.2-1.0.jar`
 Release Type | `RELEASE`
 Author | `theillusivec4`
-
-Mod | Custom Main Menu
----|---
-Provider | `CURSE`
-Version | `CustomMainMenu-MC1.12.2-2.0.9.jar`
-Release Type | `RELEASE`
-Author | `lumien231`
 
 Mod | Cyclops Core
 ---|---
@@ -505,19 +519,19 @@ Version | `MatterLink-1.12.2-1.6.4-184.jar`
 Job | `elytra/MatterLink/master`
 Build | `184`
 
-Mod | elytra/Thermionics/master 3
+Mod | elytra/Thermionics/master 9
 ---|---
 Provider | `JENKINS`
-Version | `Thermionics-MC1.12.2_ver1.1.1.jar`
+Version | `Thermionics-MC1.12.2_ver1.1.4.jar`
 Job | `elytra/Thermionics/master`
-Build | `3`
+Build | `9`
 
-Mod | elytra/ThermionicsWorld/master 27
+Mod | elytra/ThermionicsWorld/master 30
 ---|---
 Provider | `JENKINS`
-Version | `ThermionicsWorld-MC1.12.2_ver1.0.jar`
+Version | `ThermionicsWorld-MC1.12.2_ver1.0.2.jar`
 Job | `elytra/ThermionicsWorld/master`
-Build | `27`
+Build | `30`
 
 Mod | Embers
 ---|---
@@ -529,7 +543,7 @@ Author | `epicsquid319`
 Mod | Ender IO
 ---|---
 Provider | `CURSE`
-Version | `Ender IO - 5.0.39`
+Version | `Ender IO - 5.0.40`
 Release Type | `RELEASE`
 Author | `CrazyPants_MC, epicsquid319, Henry_Loenwind, MatthiasMann, tterrag1098`
 
@@ -544,7 +558,7 @@ Mod | EnderCore
 ---|---
 Provider | `CURSE`
 Version | `EnderCore - 1.12.2-0.5.45`
-Release Type | `ALPHA`
+Release Type | `RELEASE`
 Author | `CrazyPants_MC, Henry_Loenwind, tterrag1098`
 
 Mod | Environmental Tech
@@ -585,8 +599,8 @@ Author | `RWTema`
 Mod | Extreme Reactors
 ---|---
 Provider | `CURSE`
-Version | `ExtremeReactors-1.12.2-0.4.5.50.jar`
-Release Type | `BETA`
+Version | `ExtremeReactors-1.12.2-0.4.5.63.jar`
+Release Type | `ALPHA`
 Author | `ZeroNoRyouki`
 
 Mod | Fairy Lights
@@ -655,14 +669,14 @@ Author | `asiekierka`
 Mod | FTB Library
 ---|---
 Provider | `CURSE`
-Version | `FTBLib-5.4.1.80.jar`
+Version | `FTBLib-5.4.1.82.jar`
 Release Type | `RELEASE`
 Author | `FTB, jaredlll08, LatvianModder`
 
 Mod | FTB Utilities
 ---|---
 Provider | `CURSE`
-Version | `FTBUtilities-5.3.0.78.jar`
+Version | `FTBUtilities-5.3.0.80.jar`
 Release Type | `RELEASE`
 Author | `FTB, LatvianModder`
 
@@ -915,7 +929,7 @@ Author | `mezz`
 Mod | Modular Powersuits
 ---|---
 Provider | `CURSE`
-Version | `ModularPowersuits-1.12.2-ALPHA-31`
+Version | `ModularPowersuits-1.12.2-ALPHA-32`
 Release Type | `ALPHA`
 Author | `MachineMuse`
 
@@ -1142,21 +1156,21 @@ Author | `lumien231`
 Mod | Random Things
 ---|---
 Provider | `CURSE`
-Version | `RandomThings-MC1.12.2-4.2.5.jar`
+Version | `RandomThings-MC1.12.2-4.2.6.jar`
 Release Type | `RELEASE`
 Author | `lumien231`
 
 Mod | RandomPatches
 ---|---
 Provider | `CURSE`
-Version | `RandomPatches 1.12.2-1.12.1.0`
-Release Type | `RELEASE`
+Version | `RandomPatches 1.12.2-1.13.0.0`
+Release Type | `BETA`
 Author | `TheRandomLabs`
 
 Mod | RandomTweaks
 ---|---
 Provider | `CURSE`
-Version | `RandomTweaks 1.12.2-2.4.2.1`
+Version | `RandomTweaks 1.12.2-2.4.3.0`
 Release Type | `RELEASE`
 Author | `TheRandomLabs`
 
@@ -1177,7 +1191,7 @@ Author | `TechnicianLP`
 Mod | Reborn Core
 ---|---
 Provider | `CURSE`
-Version | `RebornCore-1.12.2-3.13.2.411-universal.jar`
+Version | `RebornCore-1.12.2-3.13.3.416-universal.jar`
 Release Type | `RELEASE`
 Author | `Gigabit1011, modmuss50, ProfessorProspector`
 
@@ -1313,7 +1327,7 @@ Version | `Slice`
 Mod | Smooth Font
 ---|---
 Provider | `CURSE`
-Version | `SmoothFont-mc1.12.2-2.0-alpha-2.jar`
+Version | `SmoothFont-mc1.12.2-2.0-alpha-5.jar`
 Release Type | `ALPHA`
 Author | `bre2el`
 
@@ -1362,8 +1376,8 @@ Author | `jaquadro`
 Mod | Surge
 ---|---
 Provider | `CURSE`
-Version | `Surge-1.12.2-2.0.76.jar`
-Release Type | `RELEASE`
+Version | `Surge-1.12.2-2.0.77.jar`
+Release Type | `ALPHA`
 Author | `Darkhax`
 
 Mod | SwingThroughGrass
@@ -1411,7 +1425,7 @@ Author | `eusunt`
 Mod | The One Probe
 ---|---
 Provider | `CURSE`
-Version | `TheOneProbe - 1.12-1.4.27`
+Version | `TheOneProbe - 1.12-1.4.28`
 Release Type | `RELEASE`
 Author | `McJty`
 
@@ -1425,28 +1439,28 @@ Author | `AtomicBlom, Benimatic, Drullkus, Tamaized, williewillus`
 Mod | Thermal Dynamics
 ---|---
 Provider | `CURSE`
-Version | `ThermalDynamics-1.12.2-2.5.3.16-universal.jar`
+Version | `ThermalDynamics-1.12.2-2.5.4.18-universal.jar`
 Release Type | `RELEASE`
 Author | `KingLemming, RWTema, TeamCoFH`
 
 Mod | Thermal Expansion
 ---|---
 Provider | `CURSE`
-Version | `ThermalExpansion-1.12.2-5.5.2.39-universal.jar`
+Version | `ThermalExpansion-1.12.2-5.5.3.41-universal.jar`
 Release Type | `RELEASE`
 Author | `KingLemming, TeamCoFH`
 
 Mod | Thermal Foundation
 ---|---
 Provider | `CURSE`
-Version | `ThermalFoundation-1.12.2-2.6.1.22-universal.jar`
+Version | `ThermalFoundation-1.12.2-2.6.2.26-universal.jar`
 Release Type | `RELEASE`
 Author | `KingLemming, TeamCoFH`
 
 Mod | Thermal Innovation
 ---|---
 Provider | `CURSE`
-Version | `ThermalInnovation-1.12.2-0.3.1.8-universal.jar`
+Version | `ThermalInnovation-1.12.2-0.3.2.11-universal.jar`
 Release Type | `RELEASE`
 Author | `KingLemming, TeamCoFH`
 
@@ -1572,6 +1586,6 @@ Author | `Raven2396`
 Mod | ZeroCore
 ---|---
 Provider | `CURSE`
-Version | `zerocore-1.12-0.1.2.3.jar`
-Release Type | `BETA`
+Version | `zerocore-1.12-0.1.2.7.jar`
+Release Type | `ALPHA`
 Author | `ZeroNoRyouki`

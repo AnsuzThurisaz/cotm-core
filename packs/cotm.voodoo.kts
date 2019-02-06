@@ -1,8 +1,8 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.2.12-release"
-forge = Forge.mc1_12_2.build2808
+version = "2.2.13-testing"
+forge = Forge.mc1_12_2.build2811
 icon = rootDir.resolve("icon.png")
 userFiles = UserFiles(
     include = listOf(
@@ -20,7 +20,7 @@ pack {
 }
 root(CurseProvider) {
     releaseTypes = setOf(FileType.RELEASE, FileType.BETA, FileType.ALPHA)
-    validMcVersions = setOf("1.12.1", "1.12")
+    validMcVersions = setOf("1.12.2", "1.12.1", "1.12")
     list {
 
         // Vazkii
@@ -193,7 +193,6 @@ root(CurseProvider) {
         +(Mod.outfox)
         +(Mod.chococraft3)
         +(Mod.portality)
-        +(Mod.modularPowersuits)
         +(Mod.surge)
         +(Mod.environmentalTech)
         +(Mod.armoryExpansion)
@@ -208,6 +207,10 @@ root(CurseProvider) {
         +(Mod.refinedStorageAddons)
         +(Mod.compactdrawers)
         +(Mod.blockcraftery)
+        +(Mod.modularPowersuits)
+        +(Mod.chunkpregenerator)
+        +(Mod.colytra)
+        +(Mod.cathedral)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
@@ -298,7 +301,7 @@ root(CurseProvider) {
             +(Mod.nonausea)
             +(Mod.betterPlacement)
             +(Mod.controlling)
-            +(Mod.customMainMenu)
+            //+(Mod.customMainMenu)
             +(Mod.defaultOptions)
             +(Mod.fullscreenWindowedBorderlessForMinecraft)
             +(Mod.modNameTooltip)
