@@ -669,7 +669,7 @@ Author | `asiekierka`
 Mod | FTB Library
 ---|---
 Provider | `CURSE`
-Version | `FTBLib-5.4.1.82.jar`
+Version | `FTBLib-5.4.1.83.jar`
 Release Type | `RELEASE`
 Author | `FTB, jaredlll08, LatvianModder`
 
@@ -929,7 +929,7 @@ Author | `mezz`
 Mod | Modular Powersuits
 ---|---
 Provider | `CURSE`
-Version | `ModularPowersuits-1.12.2-ALPHA-32`
+Version | `ModularPowersuits-1.12.2-ALPHA-31`
 Release Type | `ALPHA`
 Author | `MachineMuse`
 
