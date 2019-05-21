@@ -1,7 +1,7 @@
 plugins {
     // kotlin("jvm") version "1.3.20" // automatically applied
     // idea // automatically applied
-    id("voodoo") version "0.4.5-SNAPSHOT"
+    id("voodoo") version "0.4.6-SNAPSHOT"
 }
 
 voodoo {
@@ -26,14 +26,11 @@ repositories {
     maven(url = "https://kotlin.bintray.com/kotlinx") {
         name = "kotlinx"
     }
-    maven(url = "https://jitpack.io") {
-        name = "jitpack"
-    }
     mavenCentral()
     jcenter()
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.5+")
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.5+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.6+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.6+")
 }
