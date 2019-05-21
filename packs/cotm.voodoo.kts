@@ -1,17 +1,29 @@
+@file:GenerateMods(name = "Mod", mc = "1.12.2")
+@file:GenerateMods(name = "Mod", mc = "1.12.1")
+@file:GenerateMods(name = "Mod", mc = "1.12")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.2")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.1")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12")
+@file:GenerateForge(name = "Forge", mc = "1.12.2")
+
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
 version = "2.2.13-testing"
-forge = Forge.mc1_12_2.build2811
+forge = Forge.mc1_12_2.forge_14_23_5_2811
 icon = rootDir.resolve("icon.png")
-userFiles = UserFiles(
-    include = listOf(
-        "options.txt",
-        "quark.cfg",
-        "foamfix.cfg"
-    ),
-    exclude = listOf("")
-)
+pack {
+    skcraft {
+        userFiles = UserFiles(
+            include = listOf(
+                "options.txt",
+                "quark.cfg",
+                "foamfix.cfg"
+            ),
+            exclude = listOf("")
+        )
+    }
+}
 
 pack {
     multimc {
@@ -170,7 +182,7 @@ root(CurseProvider) {
         +(Mod.yoyos)
         +(Mod.badWitherNoCookieReloaded)
         +(Mod.waystones)
-        +(Mod.aetherLegacy)
+        +(Mod.theAether)
         +(Mod.corpseComplex)
         +(Mod.thaumcraftInventoryScanning)
         +(Mod.peckish)
@@ -314,9 +326,9 @@ root(CurseProvider) {
 
             // OPT-OUT
             group {
-                feature {
+                optional {
                     selected = true
-                    recommendation = Recommendation.starred
+                    skRecommendation = Recommendation.starred
                 }
             }.list {
 
@@ -358,7 +370,7 @@ root(CurseProvider) {
             }
             // OPT-IN
             group {
-                feature {
+                optional {
                     selected = false
                 }
             }.list {
@@ -442,23 +454,22 @@ root(CurseProvider) {
                     +"Optifine" configure {
                         description =
                             "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
-                    } url "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
-
-                    withProvider(DirectProvider).list {
-                        +"Slice" configure {
-                            description = "Custom client font based off of Chicago. Made by Falkreon."
-                            folder = "resourcepacks"
-                        } url "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
-
-                        withProvider(DirectProvider).list {
-                            +"SEUS Renewed" configure {
-                                description =
-                                    "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
-                                folder = "shaderpacks"
-                            } url "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
-
-                        }
+                        url = "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
                     }
+
+                    +"Slice" configure {
+                        description = "Custom client font based off of Chicago. Made by Falkreon."
+                        folder = "resourcepacks"
+                        url = "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+                    }
+
+                    +"SEUS Renewed" configure {
+                        description =
+                            "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
+                        folder = "shaderpacks"
+                        url = "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
+                    }
+
                 }
             }
         }
