@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: hunting-dimension,
+    dependencies: {
+        REQUIRED: [
+            bookshelf
+        ]
+    },
     projectID: 283235,
-    fileID: 2644004,
-    name: "Hunting Dimension"
+    fileID: 2705833
 }

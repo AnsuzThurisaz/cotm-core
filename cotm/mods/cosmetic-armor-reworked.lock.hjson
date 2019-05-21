@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: cosmetic-armor-reworked,
     projectID: 237307,
-    fileID: 2660068,
-    name: "Cosmetic Armor Reworked"
+    fileID: 2697672
 }

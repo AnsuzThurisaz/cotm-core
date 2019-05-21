@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: tinkers-tool-leveling,
+    dependencies: {
+        REQUIRED: [
+            tinkers-construct,
+            mantle
+        ]
+    },
     projectID: 250957,
-    fileID: 2630860,
-    name: "Tinkers' Tool Leveling"
+    fileID: 2630860
 }

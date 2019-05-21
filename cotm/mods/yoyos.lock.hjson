@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: yoyos,
     projectID: 262692,
-    fileID: 2536187,
-    name: Yoyos
+    fileID: 2536187
 }

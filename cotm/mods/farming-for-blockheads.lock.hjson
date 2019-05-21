@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: farming-for-blockheads,
     projectID: 261924,
-    fileID: 2620507,
-    name: "Farming for Blockheads"
+    fileID: 2620507
 }

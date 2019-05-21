@@ -1,8 +1,9 @@
 {
     provider: CURSE,
-    id: xaeros-minimap,
     side: CLIENT,
+    description: "Alternative to Journeymap.",
+    optionalData: {
+    },
     projectID: 263420,
-    fileID: 2665012,
-    name: "Xaero's Minimap"
+    fileID: 2711419
 }

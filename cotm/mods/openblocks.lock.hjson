@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: openblocks,
+    dependencies: {
+        REQUIRED: [
+            openmodslib
+        ]
+    },
     projectID: 228816,
-    fileID: 2620052,
-    name: OpenBlocks
+    fileID: 2699056
 }

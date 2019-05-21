@@ -9,18 +9,18 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.2.13-testing"
-forge = Forge.mc1_12_2.forge_14_23_5_2811
+version = "2.3-testing"
+forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
     skcraft {
         userFiles = UserFiles(
-            include = listOf(
-                "options.txt",
-                "quark.cfg",
-                "foamfix.cfg"
-            ),
-            exclude = listOf("")
+                include = listOf(
+                        "options.txt",
+                        "quark.cfg",
+                        "foamfix.cfg"
+                ),
+                exclude = listOf("")
         )
     }
 }
@@ -223,6 +223,10 @@ root(CurseProvider) {
         +(Mod.chunkpregenerator)
         +(Mod.colytra)
         +(Mod.cathedral)
+        +(Mod.architecturecraftElytradev)
+        +(Mod.draconicEvolution)
+        +(Mod.avaritia110)
+        +(Mod.numina)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
@@ -234,19 +238,19 @@ root(CurseProvider) {
 
         withProvider(DirectProvider).list {
             +"nutrition" configure {
-                url = "https://github.com/WesCook/Nutrition/releases/download/v4.0.0/Nutrition-1.12.2-4.0.0.jar"
+                url = "https://github.com/WesCook/Nutrition/releases/download/v4.3.0/Nutrition-1.12.2-4.3.0.jar"
             }
             +"galacticraftCore" configure {
                 url =
-                    "https://ci.micdoodle8.com/job/Galacticraft-1.12/190/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.2.190.jar"
+                        "https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.2.210.jar"
             }
             +"galacticraftPlanets" configure {
                 url =
-                    "https://ci.micdoodle8.com/job/Galacticraft-1.12/190/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.2.190.jar"
+                        "https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.2.210.jar"
             }
             +"micdoodleCore" configure {
                 url =
-                    "https://ci.micdoodle8.com/job/Galacticraft-1.12/190/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.2.190.jar"
+                        "https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.2.210.jar"
             }
         }
 
@@ -260,14 +264,11 @@ root(CurseProvider) {
             // Falkreon
             +"thermionics" job "elytra/Thermionics/master"
             +"thermionics-world" job "elytra/ThermionicsWorld/master"
-            +"engination" job "elytra/Engination/master"
             +"magic-arsenal" job "elytra/MagicArsenal/master"
+            +"engination" job "elytra/Engination/master"
 
             // unascribed
             +"glass-hearts" job "elytra/GlassHearts/1.12.1"
-
-            // Darkevilmac
-            +"architecture-craft" job "elytra/ArchitectureCraft/1.12"
         }
 
         group {
@@ -285,7 +286,7 @@ root(CurseProvider) {
 
         group {
             side = Side.BOTH
-            feature {
+            optional {
                 selected = false
             }
 
@@ -299,7 +300,7 @@ root(CurseProvider) {
             }
             +(Mod.openeye) configure {
                 description =
-                    "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
+                        "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
             }
         }
 
@@ -352,10 +353,6 @@ root(CurseProvider) {
                     description = "Add extra mouse gestures for inventories and crafting grids."
                 }
 
-                +(Mod.vise) configure {
-                    description = "More granular control over UI/HUD elements."
-                }
-
                 +(Mod.smoothFont) configure {
                     description = "It smoothes fonts."
                 }
@@ -401,7 +398,7 @@ root(CurseProvider) {
 
                 +(Mod.minemenu) configure {
                     description =
-                        "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
+                            "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
                 }
 
                 +(Mod.itemzoom) configure {
@@ -418,18 +415,18 @@ root(CurseProvider) {
 
                 +(Mod.fancyBlockParticles) configure {
                     description =
-                        "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+                            "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
                 }
 
                 +(Mod.dynamicSurroundings) configure {
                     description =
-                        "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+                            "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
                     version = "3.5.4.0BETA"
                 }
 
                 +(Mod.rpgHud) configure {
                     description =
-                        "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
+                            "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
                 }
 
                 +(Mod.keyboardWizard) configure {
@@ -453,7 +450,7 @@ root(CurseProvider) {
                 withProvider(DirectProvider).list {
                     +"Optifine" configure {
                         description =
-                            "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
+                                "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
                         url = "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
                     }
 
@@ -465,11 +462,10 @@ root(CurseProvider) {
 
                     +"SEUS Renewed" configure {
                         description =
-                            "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
+                                "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
                         folder = "shaderpacks"
                         url = "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
                     }
-
                 }
             }
         }

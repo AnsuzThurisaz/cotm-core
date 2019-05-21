@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: surge,
     projectID: 250290,
-    fileID: 2665849,
-    name: Surge
+    fileID: 2665849
 }

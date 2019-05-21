@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-block-carrying,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 284654,
-    fileID: 2601171,
-    name: "Charset Block Carrying"
+    fileID: 2601171
 }

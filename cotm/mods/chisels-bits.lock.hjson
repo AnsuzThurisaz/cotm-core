@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: chisels-bits,
     projectID: 231095,
-    fileID: 2663717,
-    name: "Chisels & Bits"
+    fileID: 2703696
 }

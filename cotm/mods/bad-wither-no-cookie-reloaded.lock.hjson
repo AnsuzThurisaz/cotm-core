@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: bad-wither-no-cookie-reloaded,
     projectID: 261251,
-    fileID: 2638317,
-    name: "Bad Wither No Cookie - Reloaded"
+    fileID: 2638317
 }

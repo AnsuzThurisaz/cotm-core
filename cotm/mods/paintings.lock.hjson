@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: paintings,
     projectID: 252042,
-    fileID: 2604365,
-    name: "Paintings ++"
+    fileID: 2675556
 }

@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: magical-map,
+    dependencies: {
+        REQUIRED: [
+            placebo
+        ]
+    },
     projectID: 261281,
-    fileID: 2636239,
-    name: "Magical Map"
+    fileID: 2636239
 }

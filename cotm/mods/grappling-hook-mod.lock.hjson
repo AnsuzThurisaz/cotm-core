@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: grappling-hook-mod,
     projectID: 238911,
-    fileID: 2604993,
-    name: "Grappling Hook Mod"
+    fileID: 2604993
 }

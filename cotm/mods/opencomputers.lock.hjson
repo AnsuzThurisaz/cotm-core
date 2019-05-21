@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: opencomputers,
     projectID: 223008,
-    fileID: 2638675,
-    name: OpenComputers
+    fileID: 2670112
 }

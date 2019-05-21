@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: valkyrielib,
     projectID: 245480,
-    fileID: 2654963,
-    name: ValkyrieLib
+    fileID: 2691542
 }

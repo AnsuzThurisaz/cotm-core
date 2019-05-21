@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: woot,
+    dependencies: {
+        REQUIRED: [
+            guide-api
+        ]
+    },
     projectID: 244049,
-    fileID: 2656489,
-    name: Woot
+    fileID: 2688432
 }

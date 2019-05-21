@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: morph-o-tool,
+    dependencies: {
+        REQUIRED: [
+            autoreglib
+        ]
+    },
     projectID: 245287,
-    fileID: 2658176,
-    name: Morph-o-Tool
+    fileID: 2658176
 }

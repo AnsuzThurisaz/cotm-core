@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: comforts,
     projectID: 276951,
-    fileID: 2651155,
-    name: Comforts
+    fileID: 2705810
 }

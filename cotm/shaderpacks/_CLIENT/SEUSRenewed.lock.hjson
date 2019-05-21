@@ -1,7 +1,0 @@
-{
-    provider: DIRECT,
-    id: "SEUS Renewed",
-    side: CLIENT,
-    url: "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip",
-    name: "SEUS Renewed"
-}

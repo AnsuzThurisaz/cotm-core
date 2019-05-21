@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-tweaks,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 285363,
-    fileID: 2626376,
-    name: "Charset Tweaks"
+    fileID: 2695678
 }

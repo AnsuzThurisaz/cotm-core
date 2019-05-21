@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: thaumcraft,
+    dependencies: {
+        REQUIRED: [
+            baubles
+        ]
+    },
     projectID: 223628,
-    fileID: 2629023,
-    name: Thaumcraft
+    fileID: 2629023
 }

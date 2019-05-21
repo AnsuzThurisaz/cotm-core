@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-tablet,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 285310,
-    fileID: 2607179,
-    name: "Charset Tablet"
+    fileID: 2695679
 }

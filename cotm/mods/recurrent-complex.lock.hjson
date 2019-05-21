@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: recurrent-complex,
+    dependencies: {
+        REQUIRED: [
+            ivtoolkit
+        ]
+    },
     projectID: 223150,
-    fileID: 2516761,
-    name: "Recurrent Complex"
+    fileID: 2689602
 }

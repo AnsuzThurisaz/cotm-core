@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: portality,
+    dependencies: {
+        REQUIRED: [
+            ctm
+        ]
+    },
     projectID: 291493,
-    fileID: 2641377,
-    name: Portality
+    fileID: 2641377
 }

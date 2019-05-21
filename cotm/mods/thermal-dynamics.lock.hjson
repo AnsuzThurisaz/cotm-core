@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: thermal-dynamics,
+    dependencies: {
+        REQUIRED: [
+            thermal-foundation,
+            codechicken-lib-1-8
+        ]
+    },
     projectID: 227443,
-    fileID: 2669256,
-    name: "Thermal Dynamics"
+    fileID: 2669256
 }

@@ -1,8 +1,9 @@
 {
     provider: CURSE,
-    id: rpg-hud,
     side: CLIENT,
+    description: "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)",
+    optionalData: {
+    },
     projectID: 235670,
-    fileID: 2483068,
-    name: RPG-Hud
+    fileID: 2483068
 }

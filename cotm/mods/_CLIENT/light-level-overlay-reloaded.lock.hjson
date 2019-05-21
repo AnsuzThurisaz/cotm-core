@@ -1,8 +1,9 @@
 {
     provider: CURSE,
-    id: light-level-overlay-reloaded,
     side: CLIENT,
+    description: "Smol light-level overlay if you aren't using Dynamic Surroundings.",
+    optionalData: {
+    },
     projectID: 226670,
-    fileID: 2563430,
-    name: "Light Level Overlay Reloaded"
+    fileID: 2563430
 }

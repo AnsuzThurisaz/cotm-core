@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: the-twilight-forest,
+    dependencies: {
+        REQUIRED: [
+            ctm,
+            patchouli
+        ]
+    },
     projectID: 227639,
-    fileID: 2659095,
-    name: "The Twilight Forest"
+    fileID: 2686476
 }

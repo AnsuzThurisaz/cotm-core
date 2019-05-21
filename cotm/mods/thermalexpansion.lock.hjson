@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: thermalexpansion,
+    dependencies: {
+        REQUIRED: [
+            thermal-foundation,
+            codechicken-lib-1-8
+        ]
+    },
     projectID: 69163,
-    fileID: 2669257,
-    name: "Thermal Expansion"
+    fileID: 2669257
 }

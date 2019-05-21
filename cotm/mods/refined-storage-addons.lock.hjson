@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: refined-storage-addons,
+    dependencies: {
+        REQUIRED: [
+            refined-storage
+        ]
+    },
     projectID: 272302,
-    fileID: 2632402,
-    name: "Refined Storage Addons"
+    fileID: 2690723
 }

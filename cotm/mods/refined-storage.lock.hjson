@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: refined-storage,
     projectID: 243076,
-    fileID: 2642249,
-    name: "Refined Storage"
+    fileID: 2690877
 }

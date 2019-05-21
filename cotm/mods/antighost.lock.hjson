@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: antighost,
     projectID: 273279,
-    fileID: 2458392,
-    name: AntiGhost
+    fileID: 2458392
 }

@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: cofhcore,
+    dependencies: {
+        REQUIRED: [
+            redstone-flux
+        ]
+    },
     projectID: 69162,
-    fileID: 2669253,
-    name: "CoFH Core"
+    fileID: 2669253
 }

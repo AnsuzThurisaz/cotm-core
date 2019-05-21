@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: environmental-tech,
+    dependencies: {
+        REQUIRED: [
+            valkyrielib
+        ]
+    },
     projectID: 245453,
-    fileID: 2654968,
-    name: "Environmental Tech"
+    fileID: 2691536
 }

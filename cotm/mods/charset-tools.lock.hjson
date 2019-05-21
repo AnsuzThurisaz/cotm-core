@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-tools,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 301054,
-    fileID: 2606994,
-    name: "Charset Tools"
+    fileID: 2606994
 }

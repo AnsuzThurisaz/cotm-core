@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: spartan-shields,
     projectID: 252239,
-    fileID: 2528265,
-    name: "Spartan Shields"
+    fileID: 2710063
 }

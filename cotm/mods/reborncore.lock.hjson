@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: reborncore,
     projectID: 237903,
-    fileID: 2667574,
-    name: "Reborn Core"
+    fileID: 2697453
 }

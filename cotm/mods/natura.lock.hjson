@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: natura,
+    dependencies: {
+        REQUIRED: [
+            mantle
+        ]
+    },
     projectID: 74120,
-    fileID: 2658980,
-    name: Natura
+    fileID: 2711439
 }

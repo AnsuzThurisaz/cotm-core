@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: the-one-probe,
     projectID: 245211,
-    fileID: 2667280,
-    name: "The One Probe"
+    fileID: 2667280
 }

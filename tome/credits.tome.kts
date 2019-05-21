@@ -2,7 +2,7 @@ import java.io.File
 
 logger.info("initializing credits")
 
-//filename = "credits.md"
+filename = "credits.md"
 generator = object : TomeGenerator() {
     override suspend fun generateHtml(modpack: ModPack, lockPack: LockPack, targetFolder: File): String {
         logger.info("writing credits for pack ${modpack.id}")

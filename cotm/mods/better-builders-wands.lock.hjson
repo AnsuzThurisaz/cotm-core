@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: better-builders-wands,
     projectID: 238403,
-    fileID: 2668846,
-    name: "Better Builder's Wands"
+    fileID: 2691084
 }

@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: initial-inventory,
+    dependencies: {
+        REQUIRED: [
+            crafttweaker,
+            mtlib
+        ]
+    },
     projectID: 253230,
-    fileID: 2465617,
-    name: "Initial Inventory"
+    fileID: 2465617
 }

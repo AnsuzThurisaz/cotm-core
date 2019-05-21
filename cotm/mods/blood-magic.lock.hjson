@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: blood-magic,
+    dependencies: {
+        REQUIRED: [
+            guide-api
+        ]
+    },
     projectID: 224791,
-    fileID: 2667460,
-    name: "Blood Magic "
+    fileID: 2667460
 }

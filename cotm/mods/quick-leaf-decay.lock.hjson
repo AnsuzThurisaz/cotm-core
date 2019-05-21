@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: quick-leaf-decay,
     projectID: 225839,
-    fileID: 2469364,
-    name: "Quick Leaf Decay"
+    fileID: 2469364
 }

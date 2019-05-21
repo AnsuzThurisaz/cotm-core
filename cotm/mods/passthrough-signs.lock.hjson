@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: passthrough-signs,
     projectID: 224633,
-    fileID: 2638019,
-    name: "Passthrough Signs"
+    fileID: 2638019
 }

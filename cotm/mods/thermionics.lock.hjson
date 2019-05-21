@@ -1,8 +1,6 @@
 {
     provider: JENKINS,
-    id: thermionics,
     jenkinsUrl: "https://ci.elytradev.com",
     job: elytra/Thermionics/master,
-    buildNumber: 9,
-    name: "elytra/Thermionics/master 9"
+    buildNumber: 9
 }

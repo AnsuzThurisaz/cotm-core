@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: blockcraftery,
+    dependencies: {
+        REQUIRED: [
+            mysticallib
+        ]
+    },
     projectID: 278882,
-    fileID: 2633665,
-    name: Blockcraftery
+    fileID: 2681355
 }

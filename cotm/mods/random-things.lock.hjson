@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: random-things,
     projectID: 59816,
-    fileID: 2667184,
-    name: "Random Things"
+    fileID: 2697894
 }

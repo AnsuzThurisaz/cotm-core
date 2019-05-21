@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-crafting,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 287664,
-    fileID: 2604818,
-    name: "Charset Crafting"
+    fileID: 2695689
 }

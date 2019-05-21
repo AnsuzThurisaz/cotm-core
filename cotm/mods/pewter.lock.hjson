@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: pewter,
+    dependencies: {
+        REQUIRED: [
+            tinkers-construct,
+            shadowfacts-forgelin
+        ]
+    },
     projectID: 293938,
-    fileID: 2652196,
-    name: Pewter
+    fileID: 2652196
 }

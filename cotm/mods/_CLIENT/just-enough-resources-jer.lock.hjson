@@ -1,8 +1,14 @@
 {
     provider: CURSE,
-    id: just-enough-resources-jer,
     side: CLIENT,
+    description: "JEI Integration that gives drop-rates for mobs, dungeon loot, etc.",
+    optionalData: {
+    },
+    dependencies: {
+        REQUIRED: [
+            jei
+        ]
+    },
     projectID: 240630,
-    fileID: 2603567,
-    name: "Just Enough Resources (JER)"
+    fileID: 2693889
 }

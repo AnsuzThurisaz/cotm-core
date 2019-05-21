@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-immersion,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 291374,
-    fileID: 2616123,
-    name: "Charset Immersion"
+    fileID: 2695681
 }

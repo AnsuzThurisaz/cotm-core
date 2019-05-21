@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: netherex,
+    dependencies: {
+        REQUIRED: [
+            libraryex
+        ]
+    },
     projectID: 248039,
-    fileID: 2607787,
-    name: NetherEx
+    fileID: 2607787
 }

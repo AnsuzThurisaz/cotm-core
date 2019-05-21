@@ -1,8 +1,11 @@
 {
     provider: CURSE,
-    id: neat,
     side: CLIENT,
+    description: "Simple health and unit frames.",
+    optionalData: {
+        selected: true,
+        skRecommendation: starred
+    },
     projectID: 238372,
-    fileID: 2595310,
-    name: Neat
+    fileID: 2595310
 }

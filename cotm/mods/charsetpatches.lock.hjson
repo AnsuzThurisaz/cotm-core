@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charsetpatches,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 278527,
-    fileID: 2595136,
-    name: CharsetPatches
+    fileID: 2595136
 }

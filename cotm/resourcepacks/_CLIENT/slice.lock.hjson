@@ -1,7 +1,8 @@
 {
     provider: DIRECT,
-    id: Slice,
     side: CLIENT,
-    url: "https://centerofthemultiverse.net/launcher/mirror/Slice.zip",
-    name: Slice
+    description: "Custom client font based off of Chicago. Made by Falkreon.",
+    optionalData: {
+    },
+    url: "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
 }

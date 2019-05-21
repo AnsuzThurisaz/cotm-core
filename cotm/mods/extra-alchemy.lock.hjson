@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: extra-alchemy,
     projectID: 247357,
-    fileID: 2623984,
-    name: "Extra Alchemy"
+    fileID: 2623984
 }

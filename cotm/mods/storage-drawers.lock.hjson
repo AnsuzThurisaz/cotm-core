@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: storage-drawers,
+    dependencies: {
+        REQUIRED: [
+            chameleon
+        ]
+    },
     projectID: 223852,
-    fileID: 2642386,
-    name: "Storage Drawers"
+    fileID: 2642386
 }

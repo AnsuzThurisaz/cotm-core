@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: doggy-talents,
     projectID: 271050,
-    fileID: 2646444,
-    name: "Doggy Talents"
+    fileID: 2705213
 }

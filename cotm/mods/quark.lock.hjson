@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: quark,
+    dependencies: {
+        REQUIRED: [
+            autoreglib
+        ]
+    },
     projectID: 243121,
-    fileID: 2663450,
-    name: Quark
+    fileID: 2711356
 }

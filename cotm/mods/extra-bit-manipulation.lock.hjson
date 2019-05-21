@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: extra-bit-manipulation,
+    dependencies: {
+        REQUIRED: [
+            chisels-bits
+        ]
+    },
     projectID: 240959,
-    fileID: 2630081,
-    name: "Extra Bit Manipulation"
+    fileID: 2630081
 }

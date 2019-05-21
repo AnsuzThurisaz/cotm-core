@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: extreme-reactors,
+    dependencies: {
+        REQUIRED: [
+            zerocore
+        ]
+    },
     projectID: 250277,
-    fileID: 2666085,
-    name: "Extreme Reactors"
+    fileID: 2705875
 }

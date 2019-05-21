@@ -1,8 +1,11 @@
 {
     provider: CURSE,
-    id: mouse-tweaks,
     side: CLIENT,
+    description: "Add extra mouse gestures for inventories and crafting grids.",
+    optionalData: {
+        selected: true,
+        skRecommendation: starred
+    },
     projectID: 60089,
-    fileID: 2632649,
-    name: "Mouse Tweaks"
+    fileID: 2671937
 }

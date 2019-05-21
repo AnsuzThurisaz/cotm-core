@@ -1,7 +1,8 @@
 {
     provider: CURSE,
-    id: laggoggles,
+    description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+    optionalData: {
+    },
     projectID: 283525,
-    fileID: 2536205,
-    name: LagGoggles
+    fileID: 2702823
 }

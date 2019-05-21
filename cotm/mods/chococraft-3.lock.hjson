@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: chococraft-3,
     projectID: 297854,
-    fileID: 2606476,
-    name: "ChocoCraft 3"
+    fileID: 2700246
 }

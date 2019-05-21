@@ -1,8 +1,6 @@
 {
     provider: CURSE,
-    id: default-options,
     side: CLIENT,
     projectID: 232131,
-    fileID: 2624732,
-    name: "Default Options"
+    fileID: 2624732
 }

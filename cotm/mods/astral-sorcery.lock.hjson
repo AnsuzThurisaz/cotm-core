@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: astral-sorcery,
+    dependencies: {
+        REQUIRED: [
+            baubles
+        ]
+    },
     projectID: 241721,
-    fileID: 2667338,
-    name: "Astral Sorcery"
+    fileID: 2709438
 }

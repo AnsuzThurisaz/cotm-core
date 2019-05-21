@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: malisisdoors,
+    dependencies: {
+        REQUIRED: [
+            malisiscore
+        ]
+    },
     projectID: 223891,
-    fileID: 2526674,
-    name: MalisisDoors
+    fileID: 2526674
 }

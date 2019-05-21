@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: corpse-complex,
     projectID: 271605,
-    fileID: 2626296,
-    name: "Corpse Complex"
+    fileID: 2683085
 }

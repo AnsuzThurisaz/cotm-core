@@ -1,8 +1,11 @@
 {
     provider: CURSE,
-    id: toast-control,
     side: CLIENT,
+    dependencies: {
+        REQUIRED: [
+            placebo
+        ]
+    },
     projectID: 271740,
-    fileID: 2661198,
-    name: "Toast Control"
+    fileID: 2707353
 }

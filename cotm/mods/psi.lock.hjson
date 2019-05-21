@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: psi,
+    dependencies: {
+        REQUIRED: [
+            autoreglib
+        ]
+    },
     projectID: 241665,
-    fileID: 2661975,
-    name: Psi
+    fileID: 2707714
 }

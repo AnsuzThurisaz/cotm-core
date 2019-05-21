@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: roots,
     projectID: 246183,
-    fileID: 2510836,
-    name: Roots
+    fileID: 2510836
 }

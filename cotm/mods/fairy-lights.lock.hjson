@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: fairy-lights,
     projectID: 233342,
-    fileID: 2645366,
-    name: "Fairy Lights"
+    fileID: 2703165
 }

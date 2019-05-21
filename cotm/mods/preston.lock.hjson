@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: preston,
     projectID: 284461,
-    fileID: 2598214,
-    name: Preston
+    fileID: 2675706
 }

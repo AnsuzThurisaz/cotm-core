@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: ender-io,
+    dependencies: {
+        REQUIRED: [
+            endercore
+        ]
+    },
     projectID: 64578,
-    fileID: 2666521,
-    name: "Ender IO"
+    fileID: 2708308
 }

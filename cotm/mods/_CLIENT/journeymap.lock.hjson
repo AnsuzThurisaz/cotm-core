@@ -1,8 +1,11 @@
 {
     provider: CURSE,
-    id: journeymap,
     side: CLIENT,
+    description: "Mod-compatible mini-map.",
+    optionalData: {
+        selected: true,
+        skRecommendation: starred
+    },
     projectID: 32274,
-    fileID: 2640111,
-    name: JourneyMap
+    fileID: 2709306
 }

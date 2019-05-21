@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            codechicken-lib-1-8,
+            redstone-flux
+        ]
+    },
+    projectID: 231382,
+    fileID: 2710581
+}

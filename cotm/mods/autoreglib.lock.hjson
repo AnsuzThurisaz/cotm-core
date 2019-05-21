@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: autoreglib,
     projectID: 250363,
-    fileID: 2652766,
-    name: AutoRegLib
+    fileID: 2704893
 }

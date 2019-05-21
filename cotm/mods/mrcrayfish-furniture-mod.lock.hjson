@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: mrcrayfish-furniture-mod,
     projectID: 55438,
-    fileID: 2648279,
-    name: "MrCrayfish's Furniture Mod"
+    fileID: 2710556
 }

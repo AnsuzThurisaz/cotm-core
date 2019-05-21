@@ -1,7 +1,11 @@
 {
     provider: CURSE,
-    id: rftools-dimensions,
+    dependencies: {
+        REQUIRED: [
+            rftools,
+            mcjtylib
+        ]
+    },
     projectID: 240950,
-    fileID: 2660166,
-    name: "RFTools Dimensions"
+    fileID: 2707390
 }

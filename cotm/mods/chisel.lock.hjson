@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: chisel,
+    dependencies: {
+        REQUIRED: [
+            ctm
+        ]
+    },
     projectID: 235279,
-    fileID: 2619468,
-    name: Chisel
+    fileID: 2619468
 }

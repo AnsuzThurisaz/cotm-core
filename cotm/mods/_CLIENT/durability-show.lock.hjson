@@ -1,8 +1,9 @@
 {
     provider: CURSE,
-    id: durability-show,
     side: CLIENT,
+    description: "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD.",
+    optionalData: {
+    },
     projectID: 226099,
-    fileID: 2432683,
-    name: "Durability Show"
+    fileID: 2432683
 }

@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: compactdrawers,
     projectID: 293968,
-    fileID: 2654081,
-    name: "Compact Drawers"
+    fileID: 2676614
 }

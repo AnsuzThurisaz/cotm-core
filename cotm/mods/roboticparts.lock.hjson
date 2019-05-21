@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: roboticparts,
     projectID: 283377,
-    fileID: 2607656,
-    name: "Robotic Parts"
+    fileID: 2607656
 }

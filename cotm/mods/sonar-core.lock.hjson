@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: sonar-core,
     projectID: 239418,
-    fileID: 2645156,
-    name: "Sonar Core"
+    fileID: 2645156
 }

@@ -1,7 +1,8 @@
 {
     provider: CURSE,
-    id: openeye,
+    description: "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack.",
+    optionalData: {
+    },
     projectID: 251457,
-    fileID: 2545677,
-    name: OpenEye
+    fileID: 2545677
 }

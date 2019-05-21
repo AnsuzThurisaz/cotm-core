@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: botania,
+    dependencies: {
+        REQUIRED: [
+            baubles
+        ]
+    },
     projectID: 225643,
-    fileID: 2668710,
-    name: Botania
+    fileID: 2698039
 }

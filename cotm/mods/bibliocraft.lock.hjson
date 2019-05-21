@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: bibliocraft,
     projectID: 228027,
-    fileID: 2574880,
-    name: BiblioCraft
+    fileID: 2574880
 }

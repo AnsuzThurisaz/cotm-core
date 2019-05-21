@@ -1,8 +1,6 @@
 {
     provider: CURSE,
-    id: better-advancements,
     side: CLIENT,
     projectID: 272515,
-    fileID: 2663925,
-    name: "Better Advancements"
+    fileID: 2685984
 }

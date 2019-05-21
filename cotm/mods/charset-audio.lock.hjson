@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: charset-audio,
+    dependencies: {
+        REQUIRED: [
+            charset-lib
+        ]
+    },
     projectID: 284580,
-    fileID: 2626373,
-    name: "Charset Audio"
+    fileID: 2695676
 }

@@ -1,8 +1,9 @@
 {
     provider: CURSE,
-    id: minemenu,
     side: CLIENT,
+    description: "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu.",
+    optionalData: {
+    },
     projectID: 222378,
-    fileID: 2650003,
-    name: MineMenu
+    fileID: 2706118
 }

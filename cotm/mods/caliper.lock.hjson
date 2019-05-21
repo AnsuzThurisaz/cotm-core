@@ -1,7 +1,10 @@
 {
     provider: CURSE,
-    id: caliper,
+    dependencies: {
+        REQUIRED: [
+            bookshelf
+        ]
+    },
     projectID: 266824,
-    fileID: 2664243,
-    name: Caliper
+    fileID: 2705827
 }

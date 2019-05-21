@@ -1,8 +1,11 @@
 {
     provider: CURSE,
-    id: colorchat,
     side: SERVER,
+    dependencies: {
+        REQUIRED: [
+            k4lib
+        ]
+    },
     projectID: 221276,
-    fileID: 2485852,
-    name: ColorChat
+    fileID: 2485852
 }

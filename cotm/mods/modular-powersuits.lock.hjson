@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: modular-powersuits,
     projectID: 235442,
-    fileID: 2665679,
-    name: "Modular Powersuits"
+    fileID: 2705000
 }

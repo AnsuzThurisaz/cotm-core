@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: chunkpregenerator,
     projectID: 267193,
-    fileID: 2668221,
-    name: Chunk-Pregenerator
+    fileID: 2676149
 }

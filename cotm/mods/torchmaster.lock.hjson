@@ -1,7 +1,5 @@
 {
     provider: CURSE,
-    id: torchmaster,
     projectID: 254268,
-    fileID: 2657299,
-    name: TorchMaster
+    fileID: 2657299
 }

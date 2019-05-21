@@ -6,6 +6,7 @@ plugins {
 
 voodoo {
     addTask(name = "build", parameters = listOf("build"))
+    addTask(name = "build_mmc_test", parameters = listOf("build", "cotm_test_mmc"))
     addTask(name = "pack_sk", parameters = listOf("pack sk"))
     addTask(name = "pack_mmc", parameters = listOf("pack mmc"))
     addTask(name = "pack_mmc-static", parameters = listOf("pack mmc-static"))
