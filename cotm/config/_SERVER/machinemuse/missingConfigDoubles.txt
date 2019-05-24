@@ -1,1 +1,0 @@
-put( "airtightSeal.slotPoints.base", 1.0D );

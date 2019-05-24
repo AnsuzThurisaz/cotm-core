@@ -10,9 +10,7 @@
 
   <recipe name="Alloy: Construction Alloy" disabled="true" />
 
-  <grindingball name="Construction Alloy Ball" disabled="true" durability="1">
-    <item name="CONSTRUCTION_ALLOY_BALL"/>
-  </grindingball>
+  <grindingball name="Construction Alloy Ball" disabled="true" />
 
   <recipe name="Construction Alloy Ball Crafting" disabled="true" />
 

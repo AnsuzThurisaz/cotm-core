@@ -42,6 +42,7 @@ tasks.create("syncConfigs") {
     group = "cotm"
     doFirst {
         val testInstance = File("C:\\Users\\chris\\Documents\\MultiMC\\instances\\voodoo_test_cotm\\.minecraft")
+     // val testInstance = File("/home/nikky/.local/share/multimc/instances/cotm/.minecraft/")
         val configFolder = testInstance.resolve("config")
 
         val sourceFolder = configFolder
@@ -52,7 +53,7 @@ tasks.create("syncConfigs") {
             if(targetLocation.exists()) {
                 if(targetLocation.isFile && targetLocation.readText() != file.readText()) {
                     logger.lifecycle("updating $relativeLocation")
-                     targetLocation.writeText(file.readText())
+//                     targetLocation.writeText(file.readText())
                 }
             }
         }
