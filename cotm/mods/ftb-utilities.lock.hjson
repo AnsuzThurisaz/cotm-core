@@ -1,9 +1,9 @@
 {
     provider: CURSE,
     dependencies: {
-        REQUIRED: [
-            ftblib,
-            ftb-utilities-backups
+        RequiredDependency: [
+            ftb-utilities-backups,
+            ftblib
         ]
     },
     projectID: 237102,

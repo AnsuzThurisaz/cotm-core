@@ -1,0 +1,84 @@
+diff --git a/.meta/cotm/2.3-testing/changelog.md b/.meta/cotm/2.3-testing/changelog.md
+index 98dc09d..9f4b7bd 100644
+--- a/.meta/cotm/2.3-testing/changelog.md
++++ b/.meta/cotm/2.3-testing/changelog.md
+@@ -910,20 +910,6 @@ Author |  | `kroeser`
+ 
+ 
+ 
+-added `default-options`
+-
+-Property | old value | new value
+----|---|---
+-ID |  | `default-options`
+-Version |  | `DefaultOptions_1.12.2-9.2.8.jar`
+-Provider |  | `CURSE`
+-Side |  | `CLIENT`
+-Optional |  | `false`
+-Release Type |  | `RELEASE`
+-Author |  | `BlayTheNinth`
+-
+-
+-
+ added `dimensionaldoors`
+ 
+ Property | old value | new value
+@@ -2366,7 +2352,7 @@ Property | old value | new value
+ ID |  | `placebo`
+ Version |  | `Placebo-1.12.2-1.6.0.jar`
+ Provider |  | `CURSE`
+-Side |  | `CLIENT`
++Side |  | `BOTH`
+ Optional |  | `false`
+ Release Type |  | `RELEASE`
+ Author |  | `Shadows_of_Fire`
+diff --git a/.meta/cotm/2.3-testing/entry.meta.hjson b/.meta/cotm/2.3-testing/entry.meta.hjson
+index 3623cce..1b74cf5 100644
+--- a/.meta/cotm/2.3-testing/entry.meta.hjson
++++ b/.meta/cotm/2.3-testing/entry.meta.hjson
+@@ -1971,36 +1971,6 @@
+             value: `kroeser`
+         }
+     },
+-    default-options: {
+-        id: {
+-            name: ID,
+-            value: `default-options`
+-        },
+-        version: {
+-            name: Version,
+-            value: `DefaultOptions_1.12.2-9.2.8.jar`
+-        },
+-        provider: {
+-            name: Provider,
+-            value: `CURSE`
+-        },
+-        side: {
+-            name: Side,
+-            value: `CLIENT`
+-        },
+-        optional: {
+-            name: Optional,
+-            value: `false`
+-        },
+-        curse_release_type: {
+-            name: "Release Type",
+-            value: `RELEASE`
+-        },
+-        curse_author: {
+-            name: Author,
+-            value: `BlayTheNinth`
+-        }
+-    },
+     dimensionaldoors: {
+         id: {
+             name: ID,
+@@ -5156,7 +5126,7 @@
+         },
+         side: {
+             name: Side,
+-            value: `CLIENT`
++            value: `BOTH`
+         },
+         optional: {
+             name: Optional,

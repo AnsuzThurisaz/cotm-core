@@ -2,7 +2,7 @@
     provider: CURSE,
     side: SERVER,
     dependencies: {
-        REQUIRED: [
+        RequiredDependency: [
             k4lib
         ]
     },

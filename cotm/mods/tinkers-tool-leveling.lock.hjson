@@ -1,9 +1,9 @@
 {
     provider: CURSE,
     dependencies: {
-        REQUIRED: [
-            tinkers-construct,
-            mantle
+        RequiredDependency: [
+            mantle,
+            tinkers-construct
         ]
     },
     projectID: 250957,

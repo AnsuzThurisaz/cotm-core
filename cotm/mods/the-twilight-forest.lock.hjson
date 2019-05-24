@@ -1,9 +1,9 @@
 {
     provider: CURSE,
     dependencies: {
-        REQUIRED: [
-            ctm,
-            patchouli
+        RequiredDependency: [
+            patchouli,
+            ctm
         ]
     },
     projectID: 227639,

@@ -1,3 +1,5 @@
+import voodoo.util.unixPath
+
 plugins {
     // kotlin("jvm") version "1.3.20" // automatically applied
     // idea // automatically applied
@@ -34,4 +36,40 @@ repositories {
 dependencies {
     implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.7+")
     implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.7+")
+}
+
+tasks.create("syncConfigs") {
+    group = "cotm"
+    doFirst {
+        val testInstance = File("C:\\Users\\chris\\Documents\\MultiMC\\instances\\voodoo_test_cotm\\.minecraft")
+     // val testInstance = File("/home/nikky/.local/share/multimc/instances/cotm/.minecraft/")
+        val configFolder = testInstance.resolve("config")
+
+        val sourceFolder = configFolder
+        val targetFolder = project.file("cotm").resolve("config")
+        sourceFolder.walkTopDown().forEach { file ->
+            val relativeLocation = file.relativeTo(sourceFolder)
+            val targetLocation = targetFolder.resolve(relativeLocation)
+            if(targetLocation.exists()) {
+                if(targetLocation.isFile && targetLocation.readText() != file.readText()) {
+                    logger.lifecycle("updating $relativeLocation")
+//                     targetLocation.writeText(file.readText())
+                }
+            }
+        }
+    }
+}
+
+tasks.create("listConfigs") {
+    group = "cotm"
+    doFirst {
+        val sourceFolder = project.file("cotm").resolve("config")
+        val paths = sourceFolder.walkTopDown().filter {
+            it.isFile && !it.toPath().contains(File("_SERVER").toPath())
+        }.map { file ->
+            "\"" + file.relativeTo(sourceFolder).path.replace("\\", "/") + "\""
+        }
+        val result = paths.joinToString(",\n")
+        logger.lifecycle("config paths: \n $result")
+    }
 }
