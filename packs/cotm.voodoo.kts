@@ -683,7 +683,7 @@ root(CurseProvider) {
         +(Mod.draconicEvolution)
         +(Mod.avaritia110)
         +(Mod.numina)
-        
+
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
