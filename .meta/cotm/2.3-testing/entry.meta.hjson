@@ -1907,6 +1907,36 @@
             value: `jaredlll08`
         }
     },
+    creativecore: {
+        id: {
+            name: ID,
+            value: `creativecore`
+        },
+        version: {
+            name: Version,
+            value: `CreativeCore_v1.9.45_mc1.12.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `CreativeMD`
+        }
+    },
     custom-fov: {
         id: {
             name: ID,
@@ -1969,6 +1999,36 @@
         curse_author: {
             name: Author,
             value: `kroeser`
+        }
+    },
+    default-options: {
+        id: {
+            name: ID,
+            value: `default-options`
+        },
+        version: {
+            name: Version,
+            value: `DefaultOptions_1.12.2-9.2.8.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `CLIENT`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `BlayTheNinth`
         }
     },
     dimensionaldoors: {
@@ -3135,6 +3195,36 @@
         curse_author: {
             name: Author,
             value: `hancin`
+        }
+    },
+    future-mc: {
+        id: {
+            name: ID,
+            value: `future-mc`
+        },
+        version: {
+            name: Version,
+            value: `future-mc-0.1.5c.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: `thedarkcolour`
         }
     },
     galacticraftcore: {
@@ -4344,7 +4434,7 @@
         },
         version: {
             name: Version,
-            value: `furniture-6.2.1-1.12.2.jar`
+            value: `furniture-6.3.0-1.12.2.jar`
         },
         provider: {
             name: Provider,
@@ -5139,6 +5229,40 @@
         curse_author: {
             name: Author,
             value: `Shadows_of_Fire`
+        }
+    },
+    playerrevive: {
+        id: {
+            name: ID,
+            value: `playerrevive`
+        },
+        version: {
+            name: Version,
+            value: `PlayerRevive_v1.2.26_mc1.12.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `creativecore`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `CreativeMD`
         }
     },
     portality: {
@@ -6791,6 +6915,40 @@
         curse_author: {
             name: Author,
             value: "`bonusboni, KnightMiner, mDiyo`"
+        }
+    },
+    tinkers-compendium: {
+        id: {
+            name: ID,
+            value: `tinkers-compendium`
+        },
+        version: {
+            name: Version,
+            value: `tinkersdefense-1.4.2.27.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`baubles`, `tinkers-construct`"
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: `Lance5057`
         }
     },
     tinkers-tool-leveling: {

@@ -881,6 +881,20 @@ Author |  | `jaredlll08`
 
 
 
+added `creativecore`
+
+Property | old value | new value
+---|---|---
+ID |  | `creativecore`
+Version |  | `CreativeCore_v1.9.45_mc1.12.2.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `CreativeMD`
+
+
+
 added `custom-fov`
 
 Property | old value | new value
@@ -907,6 +921,20 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `kroeser`
+
+
+
+added `default-options`
+
+Property | old value | new value
+---|---|---
+ID |  | `default-options`
+Version |  | `DefaultOptions_1.12.2-9.2.8.jar`
+Provider |  | `CURSE`
+Side |  | `CLIENT`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `BlayTheNinth`
 
 
 
@@ -1439,6 +1467,20 @@ Side |  | `CLIENT`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `hancin`
+
+
+
+added `future-mc`
+
+Property | old value | new value
+---|---|---
+ID |  | `future-mc`
+Version |  | `future-mc-0.1.5c.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Beta`
+Author |  | `thedarkcolour`
 
 
 
@@ -1994,7 +2036,7 @@ added `mrcrayfish-furniture-mod`
 Property | old value | new value
 ---|---|---
 ID |  | `mrcrayfish-furniture-mod`
-Version |  | `furniture-6.2.1-1.12.2.jar`
+Version |  | `furniture-6.3.0-1.12.2.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2356,6 +2398,21 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `Shadows_of_Fire`
+
+
+
+added `playerrevive`
+
+Property | old value | new value
+---|---|---
+ID |  | `playerrevive`
+Version |  | `PlayerRevive_v1.2.26_mc1.12.2.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `creativecore`
+Release Type |  | `Release`
+Author |  | `CreativeMD`
 
 
 
@@ -3107,6 +3164,21 @@ Optional |  | `false`
 Required Dependencies |  | `mantle`
 Release Type |  | `Release`
 Author |  | `bonusboni, KnightMiner, mDiyo`
+
+
+
+added `tinkers-compendium`
+
+Property | old value | new value
+---|---|---
+ID |  | `tinkers-compendium`
+Version |  | `tinkersdefense-1.4.2.27.2.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `baubles`, `tinkers-construct`
+Release Type |  | `Beta`
+Author |  | `Lance5057`
 
 
 

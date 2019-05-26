@@ -85,107 +85,8 @@ pack {
                         "CustomMainMenu/mainmenu.json",
                         "cyberware.cfg",
                         "cyclopscore.cfg",
-                        "defaultoptions/antighost.cfg",
-                        "defaultoptions/appleskin.cfg",
-                        "defaultoptions/betteradvancements/betteradvancements.cfg",
-                        "defaultoptions/betterfoliage.cfg",
-                        "defaultoptions/betterfps.json",
-                        "defaultoptions/betterplacement.cfg",
-                        "defaultoptions/charset/charset.cfg",
-                        "defaultoptions/charset/ids.cfg",
-                        "defaultoptions/charset/module/audio.noteblock.cfg",
-                        "defaultoptions/charset/module/crafting.cauldron.cfg",
-                        "defaultoptions/charset/module/lib.cfg",
-                        "defaultoptions/charset/module/lib.shiftScroll/rules.json.default",
-                        "defaultoptions/charset/module/storage.barrels.cfg",
-                        "defaultoptions/charset/module/storage.locks.cfg",
-                        "defaultoptions/charset/module/tablet.cfg",
-                        "defaultoptions/charset/module/tools.engineering.cfg",
-                        "defaultoptions/charset/module/tweak.bonemeal.cfg",
-                        "defaultoptions/charset/module/tweak.carry.cfg",
-                        "defaultoptions/charset/module/tweak.mobControl.cfg",
-                        "defaultoptions/charset/module/tweak.rightClickHarvest.cfg",
-                        "defaultoptions/charset/modules.cfg",
-                        "defaultoptions/charset/patches.cfg",
-                        "defaultoptions/chunkanimator.cfg",
-                        "defaultoptions/clienttweaks.cfg",
-                        "defaultoptions/config.txt",
-                        "defaultoptions/cosmeticarmorreworked.cfg",
-                        "defaultoptions/craftingtweaks.cfg",
-                        "defaultoptions/customfov.cfg",
-                        "defaultoptions/dsurround/chris - Shortcut.lnk",
-                        "defaultoptions/dsurround/dsurround.cfg",
-                        "defaultoptions/durabilityshow.cfg",
-                        "defaultoptions/ExtraBitManipulation/armor_data.cfg",
-                        "defaultoptions/ExtraBitManipulation/client.cfg",
-                        "defaultoptions/ExtraBitManipulation/common.cfg",
-                        "defaultoptions/ExtraBitManipulation/modeling_data.cfg",
-                        "defaultoptions/ExtraBitManipulation/sculpting_data.cfg",
-                        "defaultoptions/ExtraBitManipulation/server.cfg",
-                        "defaultoptions/FBP/AnimBlockBlacklist.txt",
-                        "defaultoptions/FBP/AnimBlockExceptions.txt",
-                        "defaultoptions/FBP/FloatingMaterials.txt",
-                        "defaultoptions/FBP/Particle.properties",
-                        "defaultoptions/FBP/ParticleBlockBlacklist.txt",
-                        "defaultoptions/FBP/ParticleBlockExceptions.txt",
-                        "defaultoptions/fruitphone.cfg",
-                        "defaultoptions/fw.cfg",
-                        "defaultoptions/InvTweaks.cfg",
-                        "defaultoptions/InvTweaksRules.txt",
-                        "defaultoptions/InvTweaksTree.txt",
-                        "defaultoptions/itemscroller.cfg",
-                        "defaultoptions/itemzoom.cfg",
-                        "defaultoptions/jei/itemBlacklist.cfg",
-                        "defaultoptions/jei/jei.cfg",
-                        "defaultoptions/jei/searchColors.cfg",
-                        "defaultoptions/jei/worldSettings.cfg",
-                        "defaultoptions/jeibees.cfg",
-                        "defaultoptions/jeiintegration.cfg",
-                        "defaultoptions/jeresources/jeresources.cfg",
-                        "defaultoptions/keybindings.txt",
-                        "defaultoptions/LagGoggles-client.cfg",
-                        "defaultoptions/LagGoggles-server.cfg",
-                        "defaultoptions/LLOverlayReloaded.cfg",
-                        "defaultoptions/mage/mage.cfg",
-                        "defaultoptions/mage/mage.smoothWater.cfg",
-                        "defaultoptions/Mercurius.cfg",
-                        "defaultoptions/MineMenu.cfg",
-                        "defaultoptions/modnametooltip.cfg",
-                        "defaultoptions/MouseTweaks.cfg",
-                        "defaultoptions/neat.cfg",
-                        "defaultoptions/NoNausea.cfg",
-                        "defaultoptions/OpenEye.json",
                         "defaultoptions/options.txt",
-                        "defaultoptions/presets/dsurround_emojis.presets",
-                        "defaultoptions/presets/dsurround_ponies.presets",
-                        "defaultoptions/presets/dsurround_skyblock.presets",
-                        "defaultoptions/presets/dsurround_turnalloff.presets",
-                        "defaultoptions/presets/presets.cfg",
-                        "defaultoptions/presets/presets_level0.presets",
-                        "defaultoptions/presets/presets_level1.presets",
-                        "defaultoptions/presets/presets_level2.presets",
-                        "defaultoptions/presets/presets_level3.presets",
-                        "defaultoptions/quark.cfg",
-                        "defaultoptions/RPG-HUD/hud/default.cfg",
-                        "defaultoptions/RPG-HUD/hud/extended.cfg",
-                        "defaultoptions/RPG-HUD/hud/hotbar.cfg",
-                        "defaultoptions/RPG-HUD/hud/modern.cfg",
-                        "defaultoptions/RPG-HUD/hud/texture.cfg",
-                        "defaultoptions/RPG-HUD/hud/vanilla.cfg",
-                        "defaultoptions/RPG-HUD/settings.cfg",
                         "defaultoptions/servers.dat",
-                        "defaultoptions/smoothfont/smoothfont.cfg",
-                        "defaultoptions/smoothwater.cfg",
-                        "defaultoptions/tails.cfg",
-                        "defaultoptions/thaumcraft_graphics.cfg",
-                        "defaultoptions/thaumicjei.cfg",
-                        "defaultoptions/thaumicjei_itemstack_aspects.json",
-                        "defaultoptions/toastcontrol.cfg",
-                        "defaultoptions/vise.cfg",
-                        "defaultoptions/wailaharvestability.cfg",
-                        "defaultoptions/wawla.cfg",
-                        "defaultoptions/xaerominimap.txt",
-                        "defaultoptions/xaeropatreon.txt",
                         "defaultoptions.cfg",
                         "diamondglass.cfg",
                         "dimdoors.cfg",
@@ -683,13 +584,16 @@ root(CurseProvider) {
         +(Mod.draconicEvolution)
         +(Mod.avaritia110)
         +(Mod.numina)
-        
+        +(Mod.futureMc)
+        +(Mod.tinkersCompendium)
+        +(Mod.playerrevive)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
         // +(Mod.crafttweaker)
         // +(Mod.modtweaker)
+        // +(Mod.tweakersConstruct)
 
         // Pulled due to outstanding issues
 
@@ -772,14 +676,12 @@ root(CurseProvider) {
             +(Mod.betterPlacement)
             +(Mod.controlling)
 //            +(Mod.customMainMenu)
-//            +(Mod.defaultOptions)
+            +(Mod.defaultOptions)
             +(Mod.fullscreenWindowedBorderlessForMinecraft)
             +(Mod.modNameTooltip)
             +(Mod.reauth)
             +(Mod.cleanview)
             +(Mod.craftingTweaks)
-
-            // Way2muchnoise
             +(Mod.betterAdvancements)
 
             // OPT-OUT
