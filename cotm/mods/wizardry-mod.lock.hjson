@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         RequiredDependency: [
-            librarianlib,
-            shadowfacts-forgelin
+            shadowfacts-forgelin,
+            librarianlib
         ]
     },
     projectID: 278155,
-    fileID: 2720389
+    fileID: 2720514
 }

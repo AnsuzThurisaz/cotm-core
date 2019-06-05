@@ -1783,36 +1783,6 @@
             value: `BlayTheNinth`
         }
     },
-    corpse-complex: {
-        id: {
-            name: ID,
-            value: `corpse-complex`
-        },
-        version: {
-            name: Version,
-            value: `corpsecomplex-1.12.2-1.0.5.1.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `theillusivec4`
-        }
-    },
     cosmetic-armor-reworked: {
         id: {
             name: ID,
@@ -2027,74 +1997,6 @@
             value: `kroeser`
         }
     },
-    deep-mob-learning: {
-        id: {
-            name: ID,
-            value: `deep-mob-learning`
-        },
-        version: {
-            name: Version,
-            value: `deepmoblearning-1.12.2-2.5.2-universal.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `patchouli`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `IterationFunk`
-        }
-    },
-    deep-mob-learning-blood-magic-addon: {
-        id: {
-            name: ID,
-            value: `deep-mob-learning-blood-magic-addon`
-        },
-        version: {
-            name: Version,
-            value: `deepmoblearningbm-1.12.2-1.0.1-universal.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: "`deep-mob-learning`, `blood-magic`"
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `IterationFunk`
-        }
-    },
     default-options: {
         id: {
             name: ID,
@@ -2183,6 +2085,36 @@
         curse_author: {
             name: Author,
             value: `percivalalb`
+        }
+    },
+    dm2: {
+        id: {
+            name: ID,
+            value: `dm2`
+        },
+        version: {
+            name: Version,
+            value: `DragonMounts-1.12.2-1.5.8(HOTFIX).jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`kingdomall, TheRPGAdventurer101`"
         }
     },
     durability-show: {
@@ -3217,40 +3149,6 @@
         curse_author: {
             name: Author,
             value: `TehNut`
-        }
-    },
-    ice-and-fire-dragons: {
-        id: {
-            name: ID,
-            value: `ice-and-fire-dragons`
-        },
-        version: {
-            name: Version,
-            value: `iceandfire-1.7.1-1.12.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `llibrary`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: "`alex1the1666, raptorfarian`"
         }
     },
     initial-inventory: {
@@ -5078,7 +4976,7 @@
         },
         side: {
             name: Side,
-            value: `BOTH`
+            value: `CLIENT`
         },
         optional: {
             name: Optional,
@@ -6352,7 +6250,7 @@
         },
         version: {
             name: Version,
-            value: `themidnight-0.3.3.jar`
+            value: `themidnight-0.3.4.jar`
         },
         provider: {
             name: Provider,
@@ -6441,40 +6339,6 @@
         curse_author: {
             name: Author,
             value: "`bonusboni, KnightMiner, mDiyo`"
-        }
-    },
-    tinkers-compendium: {
-        id: {
-            name: ID,
-            value: `tinkers-compendium`
-        },
-        version: {
-            name: Version,
-            value: `tinkersdefense-1.4.2.27.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: "`baubles`, `tinkers-construct`"
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Beta`
-        },
-        curse_author: {
-            name: Author,
-            value: `Lance5057`
         }
     },
     tinkers-tool-leveling: {
@@ -6864,7 +6728,7 @@
         },
         version: {
             name: Version,
-            value: `wizardry-0.10.5.jar`
+            value: `wizardry-0.10.6.jar`
         },
         provider: {
             name: Provider,
@@ -6880,7 +6744,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`librarianlib`, `shadowfacts-forgelin`"
+            value: "`shadowfacts-forgelin`, `librarianlib`"
         },
         curse_release_type: {
             name: "Release Type",

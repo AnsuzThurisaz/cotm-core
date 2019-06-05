@@ -127,33 +127,17 @@ Author |  | `theillusivec4`
 
 
 
-added `deep-mob-learning`
+added `dm2`
 
 Property | old value | new value
 ---|---|---
-ID |  | `deep-mob-learning`
-Version |  | `deepmoblearning-1.12.2-2.5.2-universal.jar`
+ID |  | `dm2`
+Version |  | `DragonMounts-1.12.2-1.5.8(HOTFIX).jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `patchouli`
 Release Type |  | `Release`
-Author |  | `IterationFunk`
-
-
-
-added `deep-mob-learning-blood-magic-addon`
-
-Property | old value | new value
----|---|---
-ID |  | `deep-mob-learning-blood-magic-addon`
-Version |  | `deepmoblearningbm-1.12.2-1.0.1-universal.jar`
-Provider |  | `CURSE`
-Side |  | `BOTH`
-Optional |  | `false`
-Required Dependencies |  | `deep-mob-learning`, `blood-magic`
-Release Type |  | `Release`
-Author |  | `IterationFunk`
+Author |  | `kingdomall, TheRPGAdventurer101`
 
 
 
@@ -211,21 +195,6 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `TehNut`
-
-
-
-added `ice-and-fire-dragons`
-
-Property | old value | new value
----|---|---
-ID |  | `ice-and-fire-dragons`
-Version |  | `iceandfire-1.7.1-1.12.2.jar`
-Provider |  | `CURSE`
-Side |  | `BOTH`
-Optional |  | `false`
-Required Dependencies |  | `llibrary`
-Release Type |  | `Release`
-Author |  | `alex1the1666, raptorfarian`
 
 
 
@@ -391,7 +360,7 @@ added `the-midnight`
 Property | old value | new value
 ---|---|---
 ID |  | `the-midnight`
-Version |  | `themidnight-0.3.3.jar`
+Version |  | `themidnight-0.3.4.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -420,11 +389,11 @@ added `wizardry-mod`
 Property | old value | new value
 ---|---|---
 ID |  | `wizardry-mod`
-Version |  | `wizardry-0.10.5.jar`
+Version |  | `wizardry-0.10.6.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `librarianlib`, `shadowfacts-forgelin`
+Required Dependencies |  | `shadowfacts-forgelin`, `librarianlib`
 Release Type |  | `Beta`
 Author |  | `Demoniaque1, murapix`
 
@@ -568,6 +537,14 @@ updated `patchouli`
 Property | old value | new value
 ---|---|---
 Author | `Vazkii` | `Vazkii_`
+
+
+
+updated `placebo`
+
+Property | old value | new value
+---|---|---
+Side | `BOTH` | `CLIENT`
 
 
 
@@ -715,6 +692,20 @@ Side | `BOTH` |
 Optional | `false` | 
 Release Type | `Release` | 
 Author | `KingLemming, skyboy026, TeamCoFH` | 
+
+
+
+removed `corpse-complex`
+
+Property | old value | new value
+---|---|---
+ID | `corpse-complex` | 
+Version | `corpsecomplex-1.12.2-1.0.5.1.jar` | 
+Provider | `CURSE` | 
+Side | `BOTH` | 
+Optional | `false` | 
+Release Type | `Release` | 
+Author | `theillusivec4` | 
 
 
 
@@ -1231,6 +1222,21 @@ Optional | `false` |
 Required Dependencies | `thermal-foundation` | 
 Release Type | `Release` | 
 Author | `KingLemming, TeamCoFH` | 
+
+
+
+removed `tinkers-compendium`
+
+Property | old value | new value
+---|---|---
+ID | `tinkers-compendium` | 
+Version | `tinkersdefense-1.4.2.27.2.jar` | 
+Provider | `CURSE` | 
+Side | `BOTH` | 
+Optional | `false` | 
+Required Dependencies | `baubles`, `tinkers-construct` | 
+Release Type | `Beta` | 
+Author | `Lance5057` | 
 
 
 
