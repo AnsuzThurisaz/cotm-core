@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            ftb-utilities-backups,
+            ftblib
+        ]
+    },
+    projectID: 237102,
+    fileID: 2716547
+}

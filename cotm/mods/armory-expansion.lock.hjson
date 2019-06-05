@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            constructs-armory,
+            tinkers-construct,
+            mantle
+        ]
+    },
+    projectID: 293602,
+    fileID: 2718638
+}

@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            blood-magic,
+            baubles
+        ]
+    },
+    projectID: 228823,
+    fileID: 2701933
+}

@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            openmodslib
+        ]
+    },
+    projectID: 228816,
+    fileID: 2699056
+}

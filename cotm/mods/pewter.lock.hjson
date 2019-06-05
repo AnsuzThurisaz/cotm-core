@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            tinkers-construct,
+            shadowfacts-forgelin
+        ]
+    },
+    projectID: 293938,
+    fileID: 2652196
+}

@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            autoreglib,
+            psi
+        ]
+    },
+    projectID: 280893,
+    fileID: 2678409
+}

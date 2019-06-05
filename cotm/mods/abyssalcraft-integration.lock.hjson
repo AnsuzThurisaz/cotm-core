@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            abyssalcraft
+        ]
+    },
+    projectID: 234851,
+    fileID: 2688149
+}
