@@ -1873,36 +1873,6 @@
             value: `Jaredlll08`
         }
     },
-    creativecore: {
-        id: {
-            name: ID,
-            value: `creativecore`
-        },
-        version: {
-            name: Version,
-            value: `CreativeCore_v1.9.45_mc1.12.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `CreativeMD`
-        }
-    },
     culinary-construct: {
         id: {
             name: ID,
@@ -4059,36 +4029,6 @@
             value: `MegaT145`
         }
     },
-    minecraft-comes-alive-mca: {
-        id: {
-            name: ID,
-            value: `minecraft-comes-alive-mca`
-        },
-        version: {
-            name: Version,
-            value: `MCA-1.12.2-6.0.0-beta-universal.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Beta`
-        },
-        curse_author: {
-            name: Author,
-            value: `WildBamaBoy`
-        }
-    },
     minemenu: {
         id: {
             name: ID,
@@ -4976,7 +4916,7 @@
         },
         side: {
             name: Side,
-            value: `CLIENT`
+            value: `BOTH`
         },
         optional: {
             name: Optional,
@@ -4989,40 +4929,6 @@
         curse_author: {
             name: Author,
             value: `Shadows_of_Fire`
-        }
-    },
-    playerrevive: {
-        id: {
-            name: ID,
-            value: `playerrevive`
-        },
-        version: {
-            name: Version,
-            value: `PlayerRevive_v1.2.26_mc1.12.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `creativecore`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `CreativeMD`
         }
     },
     preston: {
@@ -6436,7 +6342,7 @@
         },
         curse_author: {
             name: Author,
-            value: `gigaherz`
+            value: `TheRealGigaherz`
         }
     },
     torchmaster: {
