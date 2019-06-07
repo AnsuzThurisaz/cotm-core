@@ -199,6 +199,8 @@ root(CurseProvider) {
         +(Mod.abyssalcraft)
         +(Mod.abyssalcraftIntegration)
         +(Mod.angelOfVengeance)
+        +(Mod.vampirismBecomeAVampire)
+        +(Mod.vampirismIntegrations)
         +(Mod.grimoireOfGaia)
         +(Mod.wizardryMod)
         +(Mod.rustic)
@@ -212,10 +214,11 @@ root(CurseProvider) {
         +(Mod.deepMobLearningBloodMagicAddon)
         +(Mod.bloodArsenal)
         +(Mod.culinaryConstruct)
+        +(Mod.iceAndFireDragons)
         +(Mod.wings)
         +(Mod.theErebus)
         +(Mod.hwyla)
-        +(Mod.dm2)
+
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
