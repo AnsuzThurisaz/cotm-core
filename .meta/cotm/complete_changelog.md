@@ -3703,6 +3703,20 @@ Author |  | `MegaT145`
 
 
 
+added `minecraft-comes-alive-mca`
+
+Property | old value | new value
+---|---|---
+ID |  | `minecraft-comes-alive-mca`
+Version |  | `MCA-1.12.2-6.0.0-beta-universal.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Beta`
+Author |  | `WildBamaBoy`
+
+
+
 added `rustic`
 
 Property | old value | new value
@@ -3958,6 +3972,14 @@ Author | `Vazkii` | `Vazkii_`
 
 
 
+updated `placebo`
+
+Property | old value | new value
+---|---|---
+Side | `BOTH` | `CLIENT`
+
+
+
 updated `psi`
 
 Property | old value | new value
@@ -3989,14 +4011,6 @@ updated `tails`
 Property | old value | new value
 ---|---|---
 Author | `KitsuneKihira, TTFTCUTS` | `Kihira, TTFTCUTS`
-
-
-
-updated `tool-belt`
-
-Property | old value | new value
----|---|---
-Author | `gigaherz` | `TheRealGigaherz`
 
 
 
@@ -4124,20 +4138,6 @@ Side | `BOTH` |
 Optional | `false` | 
 Release Type | `Release` | 
 Author | `theillusivec4` | 
-
-
-
-removed `creativecore`
-
-Property | old value | new value
----|---|---
-ID | `creativecore` | 
-Version | `CreativeCore_v1.9.45_mc1.12.2.jar` | 
-Provider | `CURSE` | 
-Side | `BOTH` | 
-Optional | `false` | 
-Release Type | `Release` | 
-Author | `CreativeMD` | 
 
 
 
@@ -4407,21 +4407,6 @@ Side | `BOTH` |
 Optional | `false` | 
 Release Type | `Release` | 
 Author | `SangarWasTaken` | 
-
-
-
-removed `playerrevive`
-
-Property | old value | new value
----|---|---
-ID | `playerrevive` | 
-Version | `PlayerRevive_v1.2.26_mc1.12.2.jar` | 
-Provider | `CURSE` | 
-Side | `BOTH` | 
-Optional | `false` | 
-Required Dependencies | `creativecore` | 
-Release Type | `Release` | 
-Author | `CreativeMD` | 
 
 
 
