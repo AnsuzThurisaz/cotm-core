@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            deep-mob-learning,
+            blood-magic
+        ]
+    },
+    projectID: 297720,
+    fileID: 2708711
+}

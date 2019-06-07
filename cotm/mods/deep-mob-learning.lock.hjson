@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            patchouli
+        ]
+    },
+    projectID: 284229,
+    fileID: 2718649
+}
