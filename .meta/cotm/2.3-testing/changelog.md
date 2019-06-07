@@ -105,7 +105,7 @@ added `astral-sorcery`
 Property | old value | new value
 ---|---|---
 ID |  | `astral-sorcery`
-Version |  | `astralsorcery-1.12.2-1.10.19.jar`
+Version |  | `astralsorcery-1.12.2-1.10.18.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -120,7 +120,7 @@ added `autoreglib`
 Property | old value | new value
 ---|---|---
 ID |  | `autoreglib`
-Version |  | `AutoRegLib-1.3-30.jar`
+Version |  | `AutoRegLib-1.3-29.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -277,7 +277,7 @@ added `blockcraftery`
 Property | old value | new value
 ---|---|---
 ID |  | `blockcraftery`
-Version |  | `blockcraftery-1.12.2-1.3.1.jar`
+Version |  | `blockcraftery-1.12.2-1.2.0.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -307,11 +307,11 @@ added `bookshelf`
 Property | old value | new value
 ---|---|---
 ID |  | `bookshelf`
-Version |  | `Bookshelf-1.12.2-2.3.581.jar`
+Version |  | `Bookshelf-1.12.2-2.3.580.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Release Type |  | `Release`
+Release Type |  | `Alpha`
 Author |  | `Darkhax`
 
 
@@ -365,12 +365,12 @@ added `caliper`
 Property | old value | new value
 ---|---|---
 ID |  | `caliper`
-Version |  | `Caliper-1.12.2-1.1.45.jar`
+Version |  | `Caliper-1.12.2-1.1.44.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `bookshelf`
-Release Type |  | `Alpha`
+Release Type |  | `Release`
 Author |  | `Darkhax`
 
 
@@ -682,12 +682,12 @@ Author |  | `chicken_bones, covers1624`
 
 
 
-added `cofh-core`
+added `cofhcore`
 
 Property | old value | new value
 ---|---|---
-ID |  | `cofh-core`
-Version |  | `CoFHCore-1.12.2-4.6.3.27-universal.jar`
+ID |  | `cofhcore`
+Version |  | `CoFHCore-1.12.2-4.6.2.25-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -702,7 +702,7 @@ added `cofh-world`
 Property | old value | new value
 ---|---|---
 ID |  | `cofh-world`
-Version |  | `CoFHWorld-1.12.2-1.3.1.7-universal.jar`
+Version |  | `CoFHWorld-1.12.2-1.3.0.6-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -900,7 +900,7 @@ added `custom-fov`
 Property | old value | new value
 ---|---|---
 ID |  | `custom-fov`
-Version |  | `customfov-1.12.2-1.0.1.jar`
+Version |  | `customfov-1.12.2-1.0.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `Removes dynamic FOV shifting due to ingame effects.`
@@ -957,12 +957,12 @@ added `doggy-talents`
 Property | old value | new value
 ---|---|---
 ID |  | `doggy-talents`
-Version |  | `DoggyTalents-1.12.2-1.15.0.0-universal.jar`
+Version |  | `DoggyTalents-1.12.2-1.14.2.451-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `percivalalb`
+Author |  | `Percivalalb`
 
 
 
@@ -1360,7 +1360,7 @@ added `fastworkbench`
 Property | old value | new value
 ---|---|---
 ID |  | `fastworkbench`
-Version |  | `FastWorkbench-1.12.2-1.7.2.jar`
+Version |  | `FastWorkbench-1.12.2-1.7.1.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1418,11 +1418,11 @@ added `ftblib`
 Property | old value | new value
 ---|---|---
 ID |  | `ftblib`
-Version |  | `FTBLib-5.4.3.100.jar`
+Version |  | `FTBLib-5.4.1.99.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Release Type |  | `Alpha`
+Release Type |  | `Release`
 Author |  | `FTB, LatvianModder`
 
 
@@ -1432,12 +1432,12 @@ added `ftb-utilities`
 Property | old value | new value
 ---|---|---
 ID |  | `ftb-utilities`
-Version |  | `FTBUtilities-5.4.0.97.jar`
+Version |  | `FTBUtilities-5.4.0.96.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `ftb-utilities-backups`, `ftblib`
-Release Type |  | `Alpha`
+Release Type |  | `Release`
 Author |  | `FTB, LatvianModder`
 
 
@@ -1447,7 +1447,7 @@ added `ftb-utilities-backups`
 Property | old value | new value
 ---|---|---
 ID |  | `ftb-utilities-backups`
-Version |  | `FTBUtilitiesBackups-1.0.0.4.jar`
+Version |  | `FTBUtilitiesBackups-1.0.0.3.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1520,7 +1520,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `yyonne`
+Author |  | `Yyon`
 
 
 
@@ -2065,7 +2065,7 @@ added `mysticallib`
 Property | old value | new value
 ---|---|---
 ID |  | `mysticallib`
-Version |  | `mysticallib-1.12.2-1.2.1.jar`
+Version |  | `mysticallib-1.12.2-1.1.1.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2321,7 +2321,7 @@ added `pams-harvestcraft`
 Property | old value | new value
 ---|---|---
 ID |  | `pams-harvestcraft`
-Version |  | `Pam's HarvestCraft 1.12.2zd Surprise for Yogcast.jar`
+Version |  | `Pam's HarvestCraft 1.12.2zc The 7mm Kidney Stone Update.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2465,7 +2465,7 @@ added `quark`
 Property | old value | new value
 ---|---|---
 ID |  | `quark`
-Version |  | `Quark-r1.5-155.jar`
+Version |  | `Quark-r1.5-152.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2522,7 +2522,7 @@ added `randomtweaks`
 Property | old value | new value
 ---|---|---
 ID |  | `randomtweaks`
-Version |  | `randomtweaks-1.12.2-2.5.0.6.jar`
+Version |  | `randomtweaks-1.12.2-2.5.0.5.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2578,11 +2578,11 @@ added `rebornstorage`
 Property | old value | new value
 ---|---|---
 ID |  | `rebornstorage`
-Version |  | `RebornStorage-1.12.2-3.3.4.85.jar`
+Version |  | `RebornStorage-1.12.2-3.3.3.83.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `refined-storage`, `reborncore`
+Required Dependencies |  | `reborncore`, `refined-storage`
 Release Type |  | `Release`
 Author |  | `Gigabit1011, modmuss50`
 
@@ -2851,12 +2851,12 @@ added `smooth-font`
 Property | old value | new value
 ---|---|---
 ID |  | `smooth-font`
-Version |  | `SmoothFont-mc1.12.2-2.0.jar`
+Version |  | `SmoothFont-mc1.12.2-2.0-alpha-11.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `It smoothes fonts.`
 Optional |  | `true`
-Release Type |  | `Release`
+Release Type |  | `Alpha`
 Author |  | `bre2el`
 
 
@@ -3045,7 +3045,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `GildedGames, user_10599132`
+Author |  | `115kino, GildedGames`
 
 
 
@@ -3060,20 +3060,6 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `eusunt`
-
-
-
-added `the-lost-cities`
-
-Property | old value | new value
----|---|---
-ID |  | `the-lost-cities`
-Version |  | `lostcities-1.12-2.0.20.jar`
-Provider |  | `CURSE`
-Side |  | `BOTH`
-Optional |  | `false`
-Release Type |  | `Release`
-Author |  | `McJty`
 
 
 
@@ -3111,7 +3097,7 @@ added `thermal-dynamics`
 Property | old value | new value
 ---|---|---
 ID |  | `thermal-dynamics`
-Version |  | `ThermalDynamics-1.12.2-2.5.5.21-universal.jar`
+Version |  | `ThermalDynamics-1.12.2-2.5.4.18-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3121,12 +3107,12 @@ Author |  | `KingLemming, RWTema, TeamCoFH`
 
 
 
-added `thermal-expansion`
+added `thermalexpansion`
 
 Property | old value | new value
 ---|---|---
-ID |  | `thermal-expansion`
-Version |  | `ThermalExpansion-1.12.2-5.5.4.43-universal.jar`
+ID |  | `thermalexpansion`
+Version |  | `ThermalExpansion-1.12.2-5.5.3.41-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3141,11 +3127,11 @@ added `thermal-foundation`
 Property | old value | new value
 ---|---|---
 ID |  | `thermal-foundation`
-Version |  | `ThermalFoundation-1.12.2-2.6.3.27-universal.jar`
+Version |  | `ThermalFoundation-1.12.2-2.6.2.26-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `cofh-core`, `cofh-world`
+Required Dependencies |  | `cofh-world`, `cofhcore`
 Release Type |  | `Release`
 Author |  | `KingLemming, TeamCoFH`
 
@@ -3156,7 +3142,7 @@ added `thermal-innovation`
 Property | old value | new value
 ---|---|---
 ID |  | `thermal-innovation`
-Version |  | `ThermalInnovation-1.12.2-0.3.3.12-universal.jar`
+Version |  | `ThermalInnovation-1.12.2-0.3.2.11-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3388,7 +3374,7 @@ added `xaeros-minimap`
 Property | old value | new value
 ---|---|---
 ID |  | `xaeros-minimap`
-Version |  | `Xaeros_Minimap_1.17_Forge_1.12.jar`
+Version |  | `Xaeros_Minimap_1.16.9_Forge_1.12.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `Alternative to Journeymap.`

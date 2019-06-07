@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            baubles,
+            tinkers-construct
+        ]
+    },
+    projectID: 226910,
+    fileID: 2712936
+}

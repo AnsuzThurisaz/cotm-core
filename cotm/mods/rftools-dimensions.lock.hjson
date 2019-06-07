@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            rftools,
+            mcjtylib
+        ]
+    },
+    projectID: 240950,
+    fileID: 2707390
+}

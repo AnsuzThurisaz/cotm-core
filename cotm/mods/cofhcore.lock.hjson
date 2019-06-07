@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            redstone-flux
+        ]
+    },
+    projectID: 69162,
+    fileID: 2669253
+}

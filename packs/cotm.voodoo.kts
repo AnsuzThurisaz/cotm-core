@@ -7,9 +7,9 @@
 @file:GenerateForge(name = "Forge", mc = "1.12.2")
 
 mcVersion = "1.12.2"
-title = "CotM-Majik"
-authors = listOf("AnsuzThuriaz")
-version = "0.1-testing"
+title = "Center of the Multiverse"
+authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
+version = "2.3-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -445,7 +445,7 @@ root(CurseProvider) {
 
         // Team CoFH
         +(Mod.thermalDynamics)
-        +(Mod.thermalExpansion)
+        +(Mod.thermalexpansion)
         +(Mod.thermalInnovation)
 
         // mcjty
@@ -587,7 +587,6 @@ root(CurseProvider) {
         +(Mod.futureMc)
         +(Mod.tinkersCompendium)
         +(Mod.playerrevive)
-        +(Mod.theLostCities)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)

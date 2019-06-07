@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            mantle
+        ]
+    },
+    projectID: 74072,
+    fileID: 2693496
+}

@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            libraryex
+        ]
+    },
+    projectID: 248039,
+    fileID: 2607787
+}

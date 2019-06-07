@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    side: SERVER,
+    dependencies: {
+        RequiredDependency: [
+            k4lib
+        ]
+    },
+    projectID: 221276,
+    fileID: 2485852
+}

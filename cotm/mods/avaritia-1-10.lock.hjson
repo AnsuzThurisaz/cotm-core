@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            codechicken-lib-1-8
+        ]
+    },
+    projectID: 261348,
+    fileID: 2660801
+}

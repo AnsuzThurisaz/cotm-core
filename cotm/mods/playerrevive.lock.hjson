@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            creativecore
+        ]
+    },
+    projectID: 266890,
+    fileID: 2705881
+}
