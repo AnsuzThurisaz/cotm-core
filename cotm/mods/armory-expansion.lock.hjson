@@ -3,10 +3,10 @@
     dependencies: {
         RequiredDependency: [
             constructs-armory,
-            mantle,
-            tinkers-construct
+            tinkers-construct,
+            mantle
         ]
     },
     projectID: 293602,
-    fileID: 2714061
+    fileID: 2718638
 }

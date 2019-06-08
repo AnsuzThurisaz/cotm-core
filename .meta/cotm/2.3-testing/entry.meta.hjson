@@ -1,4 +1,34 @@
 {
+    ai-improvements: {
+        id: {
+            name: ID,
+            value: `ai-improvements`
+        },
+        version: {
+            name: Version,
+            value: `AIImprovements-1.12.1-0.0.1b1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Alpha`
+        },
+        curse_author: {
+            name: Author,
+            value: `DarkGuardsman`
+        }
+    },
     akashic-tome: {
         id: {
             name: ID,
@@ -30,7 +60,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     antighost: {
@@ -160,7 +190,7 @@
         },
         version: {
             name: Version,
-            value: `armoryexpansion-WebClient-beta3.jar`
+            value: `armoryexpansion-1.3.1.jar`
         },
         provider: {
             name: Provider,
@@ -176,11 +206,11 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`constructs-armory`, `mantle`, `tinkers-construct`"
+            value: "`constructs-armory`, `tinkers-construct`, `mantle`"
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -194,7 +224,7 @@
         },
         version: {
             name: Version,
-            value: `astralsorcery-1.12.2-1.10.18.jar`
+            value: `astralsorcery-1.12.2-1.10.19.jar`
         },
         provider: {
             name: Provider,
@@ -228,7 +258,7 @@
         },
         version: {
             name: Version,
-            value: `AutoRegLib-1.3-29.jar`
+            value: `AutoRegLib-1.3-30.jar`
         },
         provider: {
             name: Provider,
@@ -248,7 +278,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     avaritia-1-10: {
@@ -570,7 +600,7 @@
         },
         version: {
             name: Version,
-            value: `blockcraftery-1.12.2-1.2.0.jar`
+            value: `blockcraftery-1.12.2-1.3.1.jar`
         },
         provider: {
             name: Provider,
@@ -638,7 +668,7 @@
         },
         version: {
             name: Version,
-            value: `Bookshelf-1.12.2-2.3.580.jar`
+            value: `Bookshelf-1.12.2-2.3.582.jar`
         },
         provider: {
             name: Provider,
@@ -692,7 +722,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     brandons-core: {
@@ -766,7 +796,7 @@
         },
         version: {
             name: Version,
-            value: `Caliper-1.12.2-1.1.44.jar`
+            value: `Caliper-1.12.2-1.1.45.jar`
         },
         provider: {
             name: Provider,
@@ -786,7 +816,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Release`
+            value: `Alpha`
         },
         curse_author: {
             name: Author,
@@ -1234,7 +1264,7 @@
         },
         version: {
             name: Version,
-            value: `chiselsandbits-14.32.jar`
+            value: `chiselsandbits-14.33.jar`
         },
         provider: {
             name: Provider,
@@ -1442,7 +1472,7 @@
         },
         curse_author: {
             name: Author,
-            value: `jaredlll08`
+            value: `Jaredlll08`
         }
     },
     codechicken-lib-1-8: {
@@ -1475,14 +1505,14 @@
             value: "`chicken_bones, covers1624`"
         }
     },
-    cofhcore: {
+    cofh-core: {
         id: {
             name: ID,
-            value: `cofhcore`
+            value: `cofh-core`
         },
         version: {
             name: Version,
-            value: `CoFHCore-1.12.2-4.6.2.25-universal.jar`
+            value: `CoFHCore-1.12.2-4.6.3.27-universal.jar`
         },
         provider: {
             name: Provider,
@@ -1516,7 +1546,7 @@
         },
         version: {
             name: Version,
-            value: `CoFHWorld-1.12.2-1.3.0.6-universal.jar`
+            value: `CoFHWorld-1.12.2-1.3.1.7-universal.jar`
         },
         provider: {
             name: Provider,
@@ -1640,7 +1670,7 @@
         },
         version: {
             name: Version,
-            value: `CompactDrawers-1.12.2-1.0.5.121.jar`
+            value: `CompactDrawers-1.12.2-1.0.5.123.jar`
         },
         provider: {
             name: Provider,
@@ -1656,7 +1686,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Release`
+            value: `Beta`
         },
         curse_author: {
             name: Author,
@@ -1700,7 +1730,7 @@
         },
         version: {
             name: Version,
-            value: `conarm-1.12.2-1.2.3.4.jar`
+            value: `conarm-1.12.2-1.2.4.jar`
         },
         provider: {
             name: Provider,
@@ -1754,7 +1784,7 @@
         },
         curse_author: {
             name: Author,
-            value: `jaredlll08`
+            value: `Jaredlll08`
         }
     },
     cooking-for-blockheads: {
@@ -1904,37 +1934,7 @@
         },
         curse_author: {
             name: Author,
-            value: `jaredlll08`
-        }
-    },
-    creativecore: {
-        id: {
-            name: ID,
-            value: `creativecore`
-        },
-        version: {
-            name: Version,
-            value: `CreativeCore_v1.9.45_mc1.12.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `CreativeMD`
+            value: `Jaredlll08`
         }
     },
     custom-fov: {
@@ -1944,7 +1944,7 @@
         },
         version: {
             name: Version,
-            value: `customfov-1.12.2-1.0.jar`
+            value: `customfov-1.12.2-1.0.1.jar`
         },
         provider: {
             name: Provider,
@@ -2068,7 +2068,7 @@
         },
         version: {
             name: Version,
-            value: `DoggyTalents-1.12.2-1.14.2.451-universal.jar`
+            value: `DoggyTalents-1.12.2-1.15.0.0-universal.jar`
         },
         provider: {
             name: Provider,
@@ -2088,7 +2088,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Percivalalb`
+            value: `percivalalb`
         }
     },
     draconic-evolution: {
@@ -2794,7 +2794,7 @@
         },
         version: {
             name: Version,
-            value: `fairylights-2.1.6-1.12.2.jar`
+            value: `fairylights-2.1.7-1.12.2.jar`
         },
         provider: {
             name: Provider,
@@ -2952,7 +2952,7 @@
         },
         version: {
             name: Version,
-            value: `FastWorkbench-1.12.2-1.7.1.jar`
+            value: `FastWorkbench-1.12.2-1.7.2.jar`
         },
         provider: {
             name: Provider,
@@ -3080,7 +3080,7 @@
         },
         version: {
             name: Version,
-            value: `FTBLib-5.4.1.99.jar`
+            value: `FTBLib-5.4.3.103.jar`
         },
         provider: {
             name: Provider,
@@ -3110,7 +3110,7 @@
         },
         version: {
             name: Version,
-            value: `FTBUtilities-5.4.0.96.jar`
+            value: `FTBUtilities-5.4.0.97.jar`
         },
         provider: {
             name: Provider,
@@ -3144,7 +3144,7 @@
         },
         version: {
             name: Version,
-            value: `FTBUtilitiesBackups-1.0.0.3.jar`
+            value: `FTBUtilitiesBackups-1.0.0.4.jar`
         },
         provider: {
             name: Provider,
@@ -3306,7 +3306,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Yyon`
+            value: `yyonne`
         }
     },
     guide-api: {
@@ -3404,7 +3404,7 @@
         },
         curse_author: {
             name: Author,
-            value: `jaredlll08`
+            value: `Jaredlll08`
         }
     },
     inventory-tweaks: {
@@ -3444,7 +3444,7 @@
         },
         version: {
             name: Version,
-            value: `ironchest-1.12.2-7.0.64.843.jar`
+            value: `ironchest-1.12.2-7.0.67.844.jar`
         },
         provider: {
             name: Provider,
@@ -3674,7 +3674,7 @@
         },
         version: {
             name: Version,
-            value: `jei_1.12.2-4.15.0.279.jar`
+            value: `jei_1.12.2-4.15.0.280.jar`
         },
         provider: {
             name: Provider,
@@ -3704,7 +3704,7 @@
         },
         version: {
             name: Version,
-            value: `JustEnoughResources-1.12.2-0.9.0.53.jar`
+            value: `JustEnoughResources-1.12.2-0.9.1.56.jar`
         },
         provider: {
             name: Provider,
@@ -4390,7 +4390,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     mouse-tweaks: {
@@ -4488,7 +4488,7 @@
         },
         curse_author: {
             name: Author,
-            value: `jaredlll08`
+            value: `Jaredlll08`
         }
     },
     mysticallib: {
@@ -4498,7 +4498,7 @@
         },
         version: {
             name: Version,
-            value: `mysticallib-1.12.2-1.1.1.jar`
+            value: `mysticallib-1.12.2-1.2.1.jar`
         },
         provider: {
             name: Provider,
@@ -4616,7 +4616,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     netherex: {
@@ -5054,7 +5054,7 @@
         },
         version: {
             name: Version,
-            value: "`Pam's HarvestCraft 1.12.2zc The 7mm Kidney Stone Update.jar`"
+            value: "`Pam's HarvestCraft 1.12.2zd Surprise for Yogcast.jar`"
         },
         provider: {
             name: Provider,
@@ -5134,7 +5134,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     peckish: {
@@ -5201,6 +5201,36 @@
             value: `ejektaflex`
         }
     },
+    phosphor: {
+        id: {
+            name: ID,
+            value: `phosphor`
+        },
+        version: {
+            name: Version,
+            value: `phosphor-1.12.2-0.2.4+build46-universal.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: `jellysquid_`
+        }
+    },
     placebo: {
         id: {
             name: ID,
@@ -5231,40 +5261,6 @@
             value: `Shadows_of_Fire`
         }
     },
-    playerrevive: {
-        id: {
-            name: ID,
-            value: `playerrevive`
-        },
-        version: {
-            name: Version,
-            value: `PlayerRevive_v1.2.26_mc1.12.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `creativecore`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `CreativeMD`
-        }
-    },
     portality: {
         id: {
             name: ID,
@@ -5272,7 +5268,7 @@
         },
         version: {
             name: Version,
-            value: `portality-1.12.2-1.2.2-14.jar`
+            value: `portality-1.12.2-1.2.3-15.jar`
         },
         provider: {
             name: Provider,
@@ -5360,7 +5356,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     quark: {
@@ -5370,7 +5366,7 @@
         },
         version: {
             name: Version,
-            value: `Quark-r1.5-152.jar`
+            value: `Quark-r1.5-156.jar`
         },
         provider: {
             name: Provider,
@@ -5394,7 +5390,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii`
+            value: `Vazkii_`
         }
     },
     quick-leaf-decay: {
@@ -5464,7 +5460,7 @@
         },
         version: {
             name: Version,
-            value: `randompatches-1.12.2-1.15.1.0.jar`
+            value: `randompatches-1.12.2-1.16.0.0.jar`
         },
         provider: {
             name: Provider,
@@ -5480,7 +5476,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Release`
+            value: `Beta`
         },
         curse_author: {
             name: Author,
@@ -5494,7 +5490,7 @@
         },
         version: {
             name: Version,
-            value: `randomtweaks-1.12.2-2.5.0.5.jar`
+            value: `randomtweaks-1.12.2-2.5.0.6.jar`
         },
         provider: {
             name: Provider,
@@ -5614,7 +5610,7 @@
         },
         version: {
             name: Version,
-            value: `RebornStorage-1.12.2-3.3.3.83.jar`
+            value: `RebornStorage-1.12.2-3.3.4.85.jar`
         },
         provider: {
             name: Provider,
@@ -5630,7 +5626,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`reborncore`, `refined-storage`"
+            value: "`refined-storage`, `reborncore`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -6212,7 +6208,7 @@
         },
         version: {
             name: Version,
-            value: `SmoothFont-mc1.12.2-2.0-alpha-11.jar`
+            value: `SmoothFont-mc1.12.2-2.0.jar`
         },
         provider: {
             name: Provider,
@@ -6232,7 +6228,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Alpha`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -6514,7 +6510,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`KitsuneKihira, TTFTCUTS`"
+            value: "`Kihira, TTFTCUTS`"
         }
     },
     thaumcraft: {
@@ -6650,7 +6646,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`115kino, GildedGames`"
+            value: "`GildedGames, user_10599132`"
         }
     },
     the-disenchanter-mod: {
@@ -6754,7 +6750,7 @@
         },
         version: {
             name: Version,
-            value: `ThermalDynamics-1.12.2-2.5.4.18-universal.jar`
+            value: `ThermalDynamics-1.12.2-2.5.5.21-universal.jar`
         },
         provider: {
             name: Provider,
@@ -6781,14 +6777,14 @@
             value: "`KingLemming, RWTema, TeamCoFH`"
         }
     },
-    thermalexpansion: {
+    thermal-expansion: {
         id: {
             name: ID,
-            value: `thermalexpansion`
+            value: `thermal-expansion`
         },
         version: {
             name: Version,
-            value: `ThermalExpansion-1.12.2-5.5.3.41-universal.jar`
+            value: `ThermalExpansion-1.12.2-5.5.4.43-universal.jar`
         },
         provider: {
             name: Provider,
@@ -6822,7 +6818,7 @@
         },
         version: {
             name: Version,
-            value: `ThermalFoundation-1.12.2-2.6.2.26-universal.jar`
+            value: `ThermalFoundation-1.12.2-2.6.3.27-universal.jar`
         },
         provider: {
             name: Provider,
@@ -6838,7 +6834,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`cofh-world`, `cofhcore`"
+            value: "`cofh-core`, `cofh-world`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -6856,7 +6852,7 @@
         },
         version: {
             name: Version,
-            value: `ThermalInnovation-1.12.2-0.3.2.11-universal.jar`
+            value: `ThermalInnovation-1.12.2-0.3.3.12-universal.jar`
         },
         provider: {
             name: Provider,
@@ -6915,40 +6911,6 @@
         curse_author: {
             name: Author,
             value: "`bonusboni, KnightMiner, mDiyo`"
-        }
-    },
-    tinkers-compendium: {
-        id: {
-            name: ID,
-            value: `tinkers-compendium`
-        },
-        version: {
-            name: Version,
-            value: `tinkersdefense-1.4.2.27.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: "`baubles`, `tinkers-construct`"
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Beta`
-        },
-        curse_author: {
-            name: Author,
-            value: `Lance5057`
         }
     },
     tinkers-tool-leveling: {
@@ -7046,7 +7008,7 @@
         },
         curse_author: {
             name: Author,
-            value: `gigaherz`
+            value: `TheRealGigaherz`
         }
     },
     torchmaster: {
@@ -7174,7 +7136,7 @@
         },
         curse_author: {
             name: Author,
-            value: `The_Wabbit`
+            value: `The_Wabbit0101`
         }
     },
     valkyrielib: {
@@ -7368,7 +7330,7 @@
         },
         version: {
             name: Version,
-            value: `Xaeros_Minimap_1.16.9_Forge_1.12.jar`
+            value: `Xaeros_Minimap_1.17.1_Forge_1.12.jar`
         },
         provider: {
             name: Provider,

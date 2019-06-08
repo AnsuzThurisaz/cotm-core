@@ -14,6 +14,20 @@ Icon | <img src="icon.png" alt="icon" style="max-height: 128px;"/>
 
 ### Added Entries
 
+added `ai-improvements`
+
+Property | old value | new value
+---|---|---
+ID |  | `ai-improvements`
+Version |  | `AIImprovements-1.12.1-0.0.1b1.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Alpha`
+Author |  | `DarkGuardsman`
+
+
+
 added `akashic-tome`
 
 Property | old value | new value
@@ -25,7 +39,7 @@ Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `autoreglib`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -90,12 +104,12 @@ added `armory-expansion`
 Property | old value | new value
 ---|---|---
 ID |  | `armory-expansion`
-Version |  | `armoryexpansion-WebClient-beta3.jar`
+Version |  | `armoryexpansion-1.3.1.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `constructs-armory`, `mantle`, `tinkers-construct`
-Release Type |  | `Beta`
+Required Dependencies |  | `constructs-armory`, `tinkers-construct`, `mantle`
+Release Type |  | `Release`
 Author |  | `AshuraNoYami`
 
 
@@ -105,7 +119,7 @@ added `astral-sorcery`
 Property | old value | new value
 ---|---|---
 ID |  | `astral-sorcery`
-Version |  | `astralsorcery-1.12.2-1.10.18.jar`
+Version |  | `astralsorcery-1.12.2-1.10.19.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -120,12 +134,12 @@ added `autoreglib`
 Property | old value | new value
 ---|---|---
 ID |  | `autoreglib`
-Version |  | `AutoRegLib-1.3-29.jar`
+Version |  | `AutoRegLib-1.3-30.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -277,7 +291,7 @@ added `blockcraftery`
 Property | old value | new value
 ---|---|---
 ID |  | `blockcraftery`
-Version |  | `blockcraftery-1.12.2-1.2.0.jar`
+Version |  | `blockcraftery-1.12.2-1.3.1.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -307,7 +321,7 @@ added `bookshelf`
 Property | old value | new value
 ---|---|---
 ID |  | `bookshelf`
-Version |  | `Bookshelf-1.12.2-2.3.580.jar`
+Version |  | `Bookshelf-1.12.2-2.3.582.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -327,7 +341,7 @@ Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `baubles`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -365,12 +379,12 @@ added `caliper`
 Property | old value | new value
 ---|---|---
 ID |  | `caliper`
-Version |  | `Caliper-1.12.2-1.1.44.jar`
+Version |  | `Caliper-1.12.2-1.1.45.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `bookshelf`
-Release Type |  | `Release`
+Release Type |  | `Alpha`
 Author |  | `Darkhax`
 
 
@@ -573,7 +587,7 @@ added `chisels-bits`
 Property | old value | new value
 ---|---|---
 ID |  | `chisels-bits`
-Version |  | `chiselsandbits-14.32.jar`
+Version |  | `chiselsandbits-14.33.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -664,7 +678,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `jaredlll08`
+Author |  | `Jaredlll08`
 
 
 
@@ -682,12 +696,12 @@ Author |  | `chicken_bones, covers1624`
 
 
 
-added `cofhcore`
+added `cofh-core`
 
 Property | old value | new value
 ---|---|---
-ID |  | `cofhcore`
-Version |  | `CoFHCore-1.12.2-4.6.2.25-universal.jar`
+ID |  | `cofh-core`
+Version |  | `CoFHCore-1.12.2-4.6.3.27-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -702,7 +716,7 @@ added `cofh-world`
 Property | old value | new value
 ---|---|---
 ID |  | `cofh-world`
-Version |  | `CoFHWorld-1.12.2-1.3.0.6-universal.jar`
+Version |  | `CoFHWorld-1.12.2-1.3.1.7-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -759,11 +773,11 @@ added `compactdrawers`
 Property | old value | new value
 ---|---|---
 ID |  | `compactdrawers`
-Version |  | `CompactDrawers-1.12.2-1.0.5.121.jar`
+Version |  | `CompactDrawers-1.12.2-1.0.5.123.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Release Type |  | `Release`
+Release Type |  | `Beta`
 Author |  | `Samtrion`
 
 
@@ -787,7 +801,7 @@ added `constructs-armory`
 Property | old value | new value
 ---|---|---
 ID |  | `constructs-armory`
-Version |  | `conarm-1.12.2-1.2.3.4.jar`
+Version |  | `conarm-1.12.2-1.2.4.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -807,7 +821,7 @@ Provider |  | `CURSE`
 Side |  | `CLIENT`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `jaredlll08`
+Author |  | `Jaredlll08`
 
 
 
@@ -877,21 +891,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `jaredlll08`
-
-
-
-added `creativecore`
-
-Property | old value | new value
----|---|---
-ID |  | `creativecore`
-Version |  | `CreativeCore_v1.9.45_mc1.12.2.jar`
-Provider |  | `CURSE`
-Side |  | `BOTH`
-Optional |  | `false`
-Release Type |  | `Release`
-Author |  | `CreativeMD`
+Author |  | `Jaredlll08`
 
 
 
@@ -900,7 +900,7 @@ added `custom-fov`
 Property | old value | new value
 ---|---|---
 ID |  | `custom-fov`
-Version |  | `customfov-1.12.2-1.0.jar`
+Version |  | `customfov-1.12.2-1.0.1.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `Removes dynamic FOV shifting due to ingame effects.`
@@ -957,12 +957,12 @@ added `doggy-talents`
 Property | old value | new value
 ---|---|---
 ID |  | `doggy-talents`
-Version |  | `DoggyTalents-1.12.2-1.14.2.451-universal.jar`
+Version |  | `DoggyTalents-1.12.2-1.15.0.0-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `Percivalalb`
+Author |  | `percivalalb`
 
 
 
@@ -1288,7 +1288,7 @@ added `fairy-lights`
 Property | old value | new value
 ---|---|---
 ID |  | `fairy-lights`
-Version |  | `fairylights-2.1.6-1.12.2.jar`
+Version |  | `fairylights-2.1.7-1.12.2.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1360,7 +1360,7 @@ added `fastworkbench`
 Property | old value | new value
 ---|---|---
 ID |  | `fastworkbench`
-Version |  | `FastWorkbench-1.12.2-1.7.1.jar`
+Version |  | `FastWorkbench-1.12.2-1.7.2.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1418,7 +1418,7 @@ added `ftblib`
 Property | old value | new value
 ---|---|---
 ID |  | `ftblib`
-Version |  | `FTBLib-5.4.1.99.jar`
+Version |  | `FTBLib-5.4.3.103.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1432,7 +1432,7 @@ added `ftb-utilities`
 Property | old value | new value
 ---|---|---
 ID |  | `ftb-utilities`
-Version |  | `FTBUtilities-5.4.0.96.jar`
+Version |  | `FTBUtilities-5.4.0.97.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1447,7 +1447,7 @@ added `ftb-utilities-backups`
 Property | old value | new value
 ---|---|---
 ID |  | `ftb-utilities-backups`
-Version |  | `FTBUtilitiesBackups-1.0.0.3.jar`
+Version |  | `FTBUtilitiesBackups-1.0.0.4.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1520,7 +1520,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `Yyon`
+Author |  | `yyonne`
 
 
 
@@ -1564,7 +1564,7 @@ Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `crafttweaker`, `mtlib`
 Release Type |  | `Release`
-Author |  | `jaredlll08`
+Author |  | `Jaredlll08`
 
 
 
@@ -1587,7 +1587,7 @@ added `iron-chests`
 Property | old value | new value
 ---|---|---
 ID |  | `iron-chests`
-Version |  | `ironchest-1.12.2-7.0.64.843.jar`
+Version |  | `ironchest-1.12.2-7.0.67.844.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1690,7 +1690,7 @@ added `jei`
 Property | old value | new value
 ---|---|---
 ID |  | `jei`
-Version |  | `jei_1.12.2-4.15.0.279.jar`
+Version |  | `jei_1.12.2-4.15.0.280.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -1704,7 +1704,7 @@ added `just-enough-resources-jer`
 Property | old value | new value
 ---|---|---
 ID |  | `just-enough-resources-jer`
-Version |  | `JustEnoughResources-1.12.2-0.9.0.53.jar`
+Version |  | `JustEnoughResources-1.12.2-0.9.1.56.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `JEI Integration that gives drop-rates for mobs, dungeon loot, etc.`
@@ -2012,7 +2012,7 @@ Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `autoreglib`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -2056,7 +2056,7 @@ Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `crafttweaker`
 Release Type |  | `Release`
-Author |  | `jaredlll08`
+Author |  | `Jaredlll08`
 
 
 
@@ -2065,7 +2065,7 @@ added `mysticallib`
 Property | old value | new value
 ---|---|---
 ID |  | `mysticallib`
-Version |  | `mysticallib-1.12.2-1.1.1.jar`
+Version |  | `mysticallib-1.12.2-1.2.1.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2114,7 +2114,7 @@ Side |  | `CLIENT`
 Description |  | `Simple health and unit frames.`
 Optional |  | `true`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -2321,7 +2321,7 @@ added `pams-harvestcraft`
 Property | old value | new value
 ---|---|---
 ID |  | `pams-harvestcraft`
-Version |  | `Pam's HarvestCraft 1.12.2zc The 7mm Kidney Stone Update.jar`
+Version |  | `Pam's HarvestCraft 1.12.2zd Surprise for Yogcast.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2354,7 +2354,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -2387,6 +2387,20 @@ Author |  | `ejektaflex`
 
 
 
+added `phosphor`
+
+Property | old value | new value
+---|---|---
+ID |  | `phosphor`
+Version |  | `phosphor-1.12.2-0.2.4+build46-universal.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Beta`
+Author |  | `jellysquid_`
+
+
+
 added `placebo`
 
 Property | old value | new value
@@ -2401,27 +2415,12 @@ Author |  | `Shadows_of_Fire`
 
 
 
-added `playerrevive`
-
-Property | old value | new value
----|---|---
-ID |  | `playerrevive`
-Version |  | `PlayerRevive_v1.2.26_mc1.12.2.jar`
-Provider |  | `CURSE`
-Side |  | `BOTH`
-Optional |  | `false`
-Required Dependencies |  | `creativecore`
-Release Type |  | `Release`
-Author |  | `CreativeMD`
-
-
-
 added `portality`
 
 Property | old value | new value
 ---|---|---
 ID |  | `portality`
-Version |  | `portality-1.12.2-1.2.2-14.jar`
+Version |  | `portality-1.12.2-1.2.3-15.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2456,7 +2455,7 @@ Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `autoreglib`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -2465,13 +2464,13 @@ added `quark`
 Property | old value | new value
 ---|---|---
 ID |  | `quark`
-Version |  | `Quark-r1.5-152.jar`
+Version |  | `Quark-r1.5-156.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `autoreglib`
 Release Type |  | `Release`
-Author |  | `Vazkii`
+Author |  | `Vazkii_`
 
 
 
@@ -2508,11 +2507,11 @@ added `randompatches`
 Property | old value | new value
 ---|---|---
 ID |  | `randompatches`
-Version |  | `randompatches-1.12.2-1.15.1.0.jar`
+Version |  | `randompatches-1.12.2-1.16.0.0.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Release Type |  | `Release`
+Release Type |  | `Beta`
 Author |  | `TheRandomLabs`
 
 
@@ -2522,7 +2521,7 @@ added `randomtweaks`
 Property | old value | new value
 ---|---|---
 ID |  | `randomtweaks`
-Version |  | `randomtweaks-1.12.2-2.5.0.5.jar`
+Version |  | `randomtweaks-1.12.2-2.5.0.6.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2578,11 +2577,11 @@ added `rebornstorage`
 Property | old value | new value
 ---|---|---
 ID |  | `rebornstorage`
-Version |  | `RebornStorage-1.12.2-3.3.3.83.jar`
+Version |  | `RebornStorage-1.12.2-3.3.4.85.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `reborncore`, `refined-storage`
+Required Dependencies |  | `refined-storage`, `reborncore`
 Release Type |  | `Release`
 Author |  | `Gigabit1011, modmuss50`
 
@@ -2851,12 +2850,12 @@ added `smooth-font`
 Property | old value | new value
 ---|---|---
 ID |  | `smooth-font`
-Version |  | `SmoothFont-mc1.12.2-2.0-alpha-11.jar`
+Version |  | `SmoothFont-mc1.12.2-2.0.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `It smoothes fonts.`
 Optional |  | `true`
-Release Type |  | `Alpha`
+Release Type |  | `Release`
 Author |  | `bre2el`
 
 
@@ -2985,7 +2984,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `KitsuneKihira, TTFTCUTS`
+Author |  | `Kihira, TTFTCUTS`
 
 
 
@@ -3045,7 +3044,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `115kino, GildedGames`
+Author |  | `GildedGames, user_10599132`
 
 
 
@@ -3097,7 +3096,7 @@ added `thermal-dynamics`
 Property | old value | new value
 ---|---|---
 ID |  | `thermal-dynamics`
-Version |  | `ThermalDynamics-1.12.2-2.5.4.18-universal.jar`
+Version |  | `ThermalDynamics-1.12.2-2.5.5.21-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3107,12 +3106,12 @@ Author |  | `KingLemming, RWTema, TeamCoFH`
 
 
 
-added `thermalexpansion`
+added `thermal-expansion`
 
 Property | old value | new value
 ---|---|---
-ID |  | `thermalexpansion`
-Version |  | `ThermalExpansion-1.12.2-5.5.3.41-universal.jar`
+ID |  | `thermal-expansion`
+Version |  | `ThermalExpansion-1.12.2-5.5.4.43-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3127,11 +3126,11 @@ added `thermal-foundation`
 Property | old value | new value
 ---|---|---
 ID |  | `thermal-foundation`
-Version |  | `ThermalFoundation-1.12.2-2.6.2.26-universal.jar`
+Version |  | `ThermalFoundation-1.12.2-2.6.3.27-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `cofh-world`, `cofhcore`
+Required Dependencies |  | `cofh-core`, `cofh-world`
 Release Type |  | `Release`
 Author |  | `KingLemming, TeamCoFH`
 
@@ -3142,7 +3141,7 @@ added `thermal-innovation`
 Property | old value | new value
 ---|---|---
 ID |  | `thermal-innovation`
-Version |  | `ThermalInnovation-1.12.2-0.3.2.11-universal.jar`
+Version |  | `ThermalInnovation-1.12.2-0.3.3.12-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3164,21 +3163,6 @@ Optional |  | `false`
 Required Dependencies |  | `mantle`
 Release Type |  | `Release`
 Author |  | `bonusboni, KnightMiner, mDiyo`
-
-
-
-added `tinkers-compendium`
-
-Property | old value | new value
----|---|---
-ID |  | `tinkers-compendium`
-Version |  | `tinkersdefense-1.4.2.27.2.jar`
-Provider |  | `CURSE`
-Side |  | `BOTH`
-Optional |  | `false`
-Required Dependencies |  | `baubles`, `tinkers-construct`
-Release Type |  | `Beta`
-Author |  | `Lance5057`
 
 
 
@@ -3222,7 +3206,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `gigaherz`
+Author |  | `TheRealGigaherz`
 
 
 
@@ -3280,7 +3264,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `The_Wabbit`
+Author |  | `The_Wabbit0101`
 
 
 
@@ -3374,7 +3358,7 @@ added `xaeros-minimap`
 Property | old value | new value
 ---|---|---
 ID |  | `xaeros-minimap`
-Version |  | `Xaeros_Minimap_1.16.9_Forge_1.12.jar`
+Version |  | `Xaeros_Minimap_1.17.1_Forge_1.12.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `Alternative to Journeymap.`

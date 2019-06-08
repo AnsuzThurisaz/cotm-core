@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         RequiredDependency: [
-            creativecore
+            redstone-flux
         ]
     },
-    projectID: 266890,
-    fileID: 2705881
+    projectID: 69162,
+    fileID: 2716100
 }

@@ -445,7 +445,7 @@ root(CurseProvider) {
 
         // Team CoFH
         +(Mod.thermalDynamics)
-        +(Mod.thermalexpansion)
+        +(Mod.thermalExpansion)
         +(Mod.thermalInnovation)
 
         // mcjty
@@ -585,8 +585,9 @@ root(CurseProvider) {
         +(Mod.avaritia110)
         +(Mod.numina)
         +(Mod.futureMc)
-        +(Mod.tinkersCompendium)
-        +(Mod.playerrevive)
+        +(Mod.phosphor)
+        +(Mod.aiImprovements)
+        +(Mod.placebo)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
