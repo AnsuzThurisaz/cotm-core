@@ -1,10 +1,10 @@
 {
     provider: CURSE,
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             bookshelf
         ]
     },
     projectID: 283235,
-    fileID: 2705833
+    fileID: 2723377
 }

@@ -5,10 +5,10 @@
     optionalData: {
     },
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             orelib
         ]
     },
     projectID: 238891,
-    fileID: 2650200
+    fileID: 2664392
 }

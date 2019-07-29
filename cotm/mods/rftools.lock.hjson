@@ -1,10 +1,10 @@
 {
     provider: CURSE,
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             mcjtylib
         ]
     },
     projectID: 224641,
-    fileID: 2707388
+    fileID: 2745848
 }

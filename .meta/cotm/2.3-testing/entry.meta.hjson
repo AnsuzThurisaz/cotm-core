@@ -153,10 +153,10 @@
             value: `SangarWasTaken`
         }
     },
-    architecturecraft-elytradev: {
+    architecturecraft-tridev: {
         id: {
             name: ID,
-            value: `architecturecraft-elytradev`
+            value: `architecturecraft-tridev`
         },
         version: {
             name: Version,
@@ -2166,7 +2166,7 @@
         },
         version: {
             name: Version,
-            value: `DynamicSurroundings-1.12.2-3.5.4.0BETA.jar`
+            value: `DynamicSurroundings-1.12.2-3.5.4.3.jar`
         },
         provider: {
             name: Provider,
@@ -2190,7 +2190,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -2467,14 +2467,14 @@
             value: `30`
         }
     },
-    embers: {
+    embers-rekindled: {
         id: {
             name: ID,
-            value: `embers`
+            value: `embers-rekindled`
         },
         version: {
             name: Version,
-            value: `embers-0.230.jar`
+            value: `EmbersRekindled-1.13-hotfix2.jar`
         },
         provider: {
             name: Provider,
@@ -2494,7 +2494,7 @@
         },
         curse_author: {
             name: Author,
-            value: `epicsquid319`
+            value: `BordListian`
         }
     },
     ender-io: {
@@ -2760,7 +2760,7 @@
         },
         version: {
             name: Version,
-            value: `ExtremeReactors-1.12.2-0.4.5.66.jar`
+            value: `ExtremeReactors-1.12.2-0.4.5.67.jar`
         },
         provider: {
             name: Provider,
@@ -5366,7 +5366,7 @@
         },
         version: {
             name: Version,
-            value: `Quark-r1.5-156.jar`
+            value: `Quark-r1.5-158.jar`
         },
         provider: {
             name: Provider,
@@ -5460,7 +5460,7 @@
         },
         version: {
             name: Version,
-            value: `randompatches-1.12.2-1.16.0.0.jar`
+            value: `randompatches-1.12.2-1.16.1.0.jar`
         },
         provider: {
             name: Provider,
@@ -5476,7 +5476,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,

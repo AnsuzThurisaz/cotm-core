@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3-testing"
+version = "2.3-test2"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -434,9 +434,6 @@ root(CurseProvider) {
         // mezz
         +(Mod.jei)
 
-        // Benimatic
-        +(Mod.theTwilightForest)
-
         // The_Wabbit
         +(Mod.upsizerMod)
 
@@ -487,6 +484,17 @@ root(CurseProvider) {
         +(Mod.foamfixForMinecraft)
         +(Mod.unlimitedChiselWorks)
         +(Mod.preston)
+
+        // dimms
+        +(Mod.atum)
+        +(Mod.theLostCities)
+        +(Mod.angryPixelTheBetweenlandsMod)
+        +(Mod.theAetherIi)
+        +(Mod.theMidnight)
+        +(Mod.theErebus)
+        +(Mod.dimensionaldoors)
+        +(Mod.huntingDimension)
+        +(Mod.theTwilightForest)
 
         +(Mod.enderStorage18)
         +(Mod.exchangers)
@@ -539,7 +547,6 @@ root(CurseProvider) {
         +(Mod.yoyos)
         +(Mod.badWitherNoCookieReloaded)
         +(Mod.waystones)
-        +(Mod.theAether)
         +(Mod.corpseComplex)
         +(Mod.thaumcraftInventoryScanning)
         +(Mod.peckish)
@@ -547,7 +554,6 @@ root(CurseProvider) {
         +(Mod.reliquaryV13)
         +(Mod.fastworkbench)
         +(Mod.fastfurnace)
-        +(Mod.dimensionaldoors)
         +(Mod.betterBuildersWands)
         +(Mod.antighost)
         +(Mod.loginShield)
@@ -558,7 +564,7 @@ root(CurseProvider) {
         +(Mod.magicalMap)
         +(Mod.pewter)
         +(Mod.grapplingHookMod)
-        +(Mod.embers)
+        +(Mod.embersRekindled)
         +(Mod.outfox)
         +(Mod.chococraft3)
         +(Mod.portality)
@@ -566,7 +572,6 @@ root(CurseProvider) {
         +(Mod.environmentalTech)
         +(Mod.armoryExpansion)
         +(Mod.shadowfactsForgelin)
-        +(Mod.huntingDimension)
         +(Mod.rebornstorage)
         +(Mod.theDisenchanterMod)
         +(Mod.doggyTalents)
@@ -580,7 +585,7 @@ root(CurseProvider) {
         +(Mod.chunkpregenerator)
         +(Mod.colytra)
         +(Mod.cathedral)
-        +(Mod.architecturecraftElytradev)
+        +(Mod.architecturecraftTridev)
         +(Mod.draconicEvolution)
         +(Mod.avaritia110)
         +(Mod.numina)
@@ -588,19 +593,20 @@ root(CurseProvider) {
         +(Mod.phosphor)
         +(Mod.aiImprovements)
         +(Mod.placebo)
+        +(Mod.futureMc)
 
-        // Pre-Testing / Un-used
+
+        // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
         // +(Mod.crafttweaker)
         // +(Mod.modtweaker)
         // +(Mod.tweakersConstruct)
-
-        // Pulled due to outstanding issues
+        // +(Mod.customMainMenu)
 
         withProvider(DirectProvider).list {
             +"nutrition" configure {
-                url = "https://github.com/WesCook/Nutrition/releases/download/v4.3.0/Nutrition-1.12.2-4.3.0.jar"
+                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
             }
             +"galacticraftCore" configure {
                 url =
@@ -676,7 +682,6 @@ root(CurseProvider) {
             +(Mod.nonausea)
             +(Mod.betterPlacement)
             +(Mod.controlling)
-//            +(Mod.customMainMenu)
             +(Mod.defaultOptions)
             +(Mod.fullscreenWindowedBorderlessForMinecraft)
             +(Mod.modNameTooltip)
@@ -781,7 +786,6 @@ root(CurseProvider) {
                 +(Mod.dynamicSurroundings) configure {
                     description =
                             "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-                    version = "3.5.4.0BETA"
                 }
 
                 +(Mod.rpgHud) configure {

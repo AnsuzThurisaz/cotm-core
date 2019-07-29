@@ -3,7 +3,7 @@ import voodoo.util.unixPath
 plugins {
     // kotlin("jvm") version "1.3.20" // automatically applied
     // idea // automatically applied
-    id("voodoo") version "0.4.7-SNAPSHOT"
+    id("voodoo") version "0.4.8-SNAPSHOT"
 }
 
 voodoo {

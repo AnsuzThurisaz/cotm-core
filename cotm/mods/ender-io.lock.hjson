@@ -1,10 +1,10 @@
 {
     provider: CURSE,
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             endercore
         ]
     },
     projectID: 64578,
-    fileID: 2708308
+    fileID: 2732703
 }

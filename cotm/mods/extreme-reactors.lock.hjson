@@ -1,10 +1,10 @@
 {
     provider: CURSE,
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             zerocore
         ]
     },
     projectID: 250277,
-    fileID: 2705875
+    fileID: 2722271
 }

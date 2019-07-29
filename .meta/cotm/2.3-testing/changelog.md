@@ -85,11 +85,11 @@ Author |  | `SangarWasTaken`
 
 
 
-added `architecturecraft-elytradev`
+added `architecturecraft-tridev`
 
 Property | old value | new value
 ---|---|---
-ID |  | `architecturecraft-elytradev`
+ID |  | `architecturecraft-tridev`
 Version |  | `architecturecraft-1.12-3.80.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
@@ -1001,13 +1001,13 @@ added `dynamic-surroundings`
 Property | old value | new value
 ---|---|---
 ID |  | `dynamic-surroundings`
-Version |  | `DynamicSurroundings-1.12.2-3.5.4.0BETA.jar`
+Version |  | `DynamicSurroundings-1.12.2-3.5.4.3.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay.`
 Optional |  | `true`
 Required Dependencies |  | `orelib`
-Release Type |  | `Beta`
+Release Type |  | `Release`
 Author |  | `OreCruncher`
 
 
@@ -1138,17 +1138,17 @@ Build |  | `30`
 
 
 
-added `embers`
+added `embers-rekindled`
 
 Property | old value | new value
 ---|---|---
-ID |  | `embers`
-Version |  | `embers-0.230.jar`
+ID |  | `embers-rekindled`
+Version |  | `EmbersRekindled-1.13-hotfix2.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
-Author |  | `epicsquid319`
+Author |  | `BordListian`
 
 
 
@@ -1273,7 +1273,7 @@ added `extreme-reactors`
 Property | old value | new value
 ---|---|---
 ID |  | `extreme-reactors`
-Version |  | `ExtremeReactors-1.12.2-0.4.5.66.jar`
+Version |  | `ExtremeReactors-1.12.2-0.4.5.67.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2464,7 +2464,7 @@ added `quark`
 Property | old value | new value
 ---|---|---
 ID |  | `quark`
-Version |  | `Quark-r1.5-156.jar`
+Version |  | `Quark-r1.5-158.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -2507,11 +2507,11 @@ added `randompatches`
 Property | old value | new value
 ---|---|---
 ID |  | `randompatches`
-Version |  | `randompatches-1.12.2-1.16.0.0.jar`
+Version |  | `randompatches-1.12.2-1.16.1.0.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Release Type |  | `Beta`
+Release Type |  | `Release`
 Author |  | `TheRandomLabs`
 
 
