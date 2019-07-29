@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            botania,
+            librarianlib,
+            baubles
+        ]
+    },
+    projectID: 247704,
+    fileID: 2740703
+}

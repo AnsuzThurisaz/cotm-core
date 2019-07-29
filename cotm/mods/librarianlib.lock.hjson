@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            codechicken-lib-1-8
+            shadowfacts-forgelin
         ]
     },
-    projectID: 261348,
-    fileID: 2660801
+    projectID: 252910,
+    fileID: 2725449
 }

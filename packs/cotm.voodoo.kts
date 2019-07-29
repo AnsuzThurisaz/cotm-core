@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3-test2"
+version = "2.3-test3"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -490,11 +490,11 @@ root(CurseProvider) {
         +(Mod.theLostCities)
         +(Mod.angryPixelTheBetweenlandsMod)
         +(Mod.theAetherIi)
-        +(Mod.theMidnight)
         +(Mod.theErebus)
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
+        +(Mod.tropicraft)
 
         +(Mod.enderStorage18)
         +(Mod.exchangers)
@@ -587,14 +587,15 @@ root(CurseProvider) {
         +(Mod.cathedral)
         +(Mod.architecturecraftTridev)
         +(Mod.draconicEvolution)
-        +(Mod.avaritia110)
         +(Mod.numina)
         +(Mod.futureMc)
         +(Mod.phosphor)
         +(Mod.aiImprovements)
         +(Mod.placebo)
         +(Mod.futureMc)
-
+        +(Mod.calculator)
+        +(Mod.actuallyAdditions)
+        +(Mod.naturalPledge)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
