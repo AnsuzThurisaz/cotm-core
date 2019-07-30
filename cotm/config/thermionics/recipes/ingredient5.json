@@ -1,0 +1,15 @@
+{ 
+	"type": "thermionics:serger",
+	"torque": 6,
+	"revolutions": 10,
+	"result": { 
+		"item": "thermionics:ingredient",
+		"meta": 0
+	},
+	"pattern": [ 
+		"sss"
+	],
+	"key": { 
+		"s": "minecraft:string"
+	}
+}

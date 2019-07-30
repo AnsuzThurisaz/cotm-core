@@ -1,0 +1,11 @@
+{ 
+	"type": "thermionics:hammer_mill",
+	"torque": 10,
+	"revolutions": 4,
+	"result": { 
+		"item": "minecraft:dye",
+		"count": 10,
+		"meta": 4
+	},
+	"ingredient": "oreLapis"
+}

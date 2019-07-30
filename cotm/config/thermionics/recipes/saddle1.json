@@ -1,0 +1,14 @@
+{ 
+	"type": "thermionics:serger",
+	"torque": 10,
+	"revolutions": 30,
+	"result": "minecraft:saddle",
+	"pattern": [ 
+		"lll",
+		"i i"
+	],
+	"key": { 
+		"l": "leather",
+		"i": "ingotIron"
+	}
+}

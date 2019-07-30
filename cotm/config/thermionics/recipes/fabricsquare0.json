@@ -1,0 +1,13 @@
+{ 
+	"type": "thermionics:serger",
+	"torque": 6,
+	"revolutions": 10,
+	"result": "thermionics:fabricsquare",
+	"pattern": [ 
+		"ss",
+		"ss"
+	],
+	"key": { 
+		"s": "minecraft:string"
+	}
+}

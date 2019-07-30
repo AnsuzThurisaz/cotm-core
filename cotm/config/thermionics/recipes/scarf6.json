@@ -1,0 +1,19 @@
+{ 
+	"type": "thermionics:serger",
+	"torque": 6,
+	"revolutions": 10,
+	"result": "thermionics:scarf",
+	"pattern": [ 
+		"rfr"
+	],
+	"key": { 
+		"r": { 
+			"item": "thermionics:ingredient",
+			"meta": 0
+		},
+		"f": { 
+			"item": "thermionics:fabricsquare",
+			"ignore_nbt": true
+		}
+	}
+}

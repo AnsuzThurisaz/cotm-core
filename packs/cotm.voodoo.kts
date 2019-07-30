@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3-test3"
+version = "2.3-test4"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -596,6 +596,7 @@ root(CurseProvider) {
         +(Mod.calculator)
         +(Mod.actuallyAdditions)
         +(Mod.naturalPledge)
+        +(Mod.advancedRocketry)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
@@ -608,18 +609,6 @@ root(CurseProvider) {
         withProvider(DirectProvider).list {
             +"nutrition" configure {
                 url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
-            }
-            +"galacticraftCore" configure {
-                url =
-                        "https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.2.210.jar"
-            }
-            +"galacticraftPlanets" configure {
-                url =
-                        "https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.2.210.jar"
-            }
-            +"micdoodleCore" configure {
-                url =
-                        "https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.2.210.jar"
             }
         }
 

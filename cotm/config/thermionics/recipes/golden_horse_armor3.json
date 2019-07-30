@@ -1,0 +1,15 @@
+{ 
+	"type": "thermionics:serger",
+	"torque": 6,
+	"revolutions": 30,
+	"flippable": true,
+	"result": "minecraft:golden_horse_armor",
+	"pattern": [ 
+		"  d",
+		"ddd",
+		"ddd"
+	],
+	"key": { 
+		"d": "ingotGold"
+	}
+}

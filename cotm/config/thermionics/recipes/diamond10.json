@@ -1,0 +1,10 @@
+{ 
+	"type": "thermionics:hammer_mill",
+	"torque": 10,
+	"revolutions": 20,
+	"result": { 
+		"item": "minecraft:diamond",
+		"count": 2
+	},
+	"ingredient": "oreDiamond"
+}

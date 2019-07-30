@@ -1,0 +1,13 @@
+{ 
+	"type": "thermionics:hammer_mill",
+	"torque": 8,
+	"revolutions": 20,
+	"result": { 
+		"item": "minecraft:sand",
+		"count": 4
+	},
+	"ingredient": { 
+		"item": "minecraft:sandstone",
+		"meta": "*"
+	}
+}

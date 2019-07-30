@@ -1,0 +1,15 @@
+{ 
+	"type": "thermionics:serger",
+	"torque": 15,
+	"revolutions": 30,
+	"flippable": true,
+	"result": "minecraft:diamond_horse_armor",
+	"pattern": [ 
+		"  d",
+		"ddd",
+		"ddd"
+	],
+	"key": { 
+		"d": "gemDiamond"
+	}
+}
