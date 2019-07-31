@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.0-release"
+version = "2.3.0-1-release"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -495,6 +495,15 @@ root(CurseProvider) {
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
 
+        // unresolved/stubborn dependencies
+        +(Mod.mantle)
+        +(Mod.librarianlib)
+        +(Mod.shadowfactsForgelin)
+        +(Mod.bookshelf)
+        +(Mod.placebo)
+        +(Mod.shadowfactsForgelin)
+
+        // unsorted mods
         +(Mod.enderStorage18)
         +(Mod.exchangers)
         +(Mod.extraBitManipulation)
@@ -609,24 +618,45 @@ root(CurseProvider) {
             +"nutrition" configure {
                 url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
             }
+            +"friendship-bracelet" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar"
+            }
+            +"infra-redstone" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar"
+            }
+            +"thermionics" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar"
+            }
+            +"thermionics-world" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/ThermionicsWorld-MC1.12.2_ver1.0.2.jar"
+            }
+            +"magic-arsenal" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar"
+            }
+            +"engination" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar"
+            }
+            +"glass-hearts" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar"
+            }
         }
 
-        withProvider(JenkinsProvider) {
-            jenkinsUrl = "https://ci.elytradev.com"
-        }.list {
-            // b0undrybreaker
-            +"friendship-bracelet" job "elytra/FriendshipBracelet/master"
-            +"infra-redstone" job "elytra/InfraRedstone/1.12.2"
-
-            // Falkreon
-            +"thermionics" job "elytra/Thermionics/master"
-            +"thermionics-world" job "elytra/ThermionicsWorld/master"
-            +"magic-arsenal" job "elytra/MagicArsenal/master"
-            +"engination" job "elytra/Engination/master"
-
-            // unascribed
-            +"glass-hearts" job "elytra/GlassHearts/1.12.1"
-        }
+//        withProvider(JenkinsProvider) {
+//            jenkinsUrl = "https://ci.elytradev.com"
+//        }.list {
+//            // b0undrybreaker
+//            +"friendship-bracelet" job "elytra/FriendshipBracelet/master"
+//            +"infra-redstone" job "elytra/InfraRedstone/1.12.2"
+//
+//            // Falkreon
+//            +"thermionics" job "elytra/Thermionics/master"
+//            +"thermionics-world" job "elytra/ThermionicsWorld/master"
+//            +"magic-arsenal" job "elytra/MagicArsenal/master"
+//            +"engination" job "elytra/Engination/master"
+//
+//            // unascribed
+//            +"glass-hearts" job "elytra/GlassHearts/1.12.1"
+//        }
 
         group {
             side = Side.SERVER
@@ -634,11 +664,16 @@ root(CurseProvider) {
             +(Mod.btfuContinuousRsyncIncrementalBackup)
             +(Mod.swingthroughgrass)
             +(Mod.colorchat)
-            withProvider(JenkinsProvider) {
-                jenkinsUrl = "https://ci.elytradev.com"
-            }.list {
-                +"matterlink" job "elytra/MatterLink/master"
+            withProvider(DirectProvider).list {
+            +"matterlink" configure {
+                url = "https://centerofthemultiverse.net/launcher/mirror/MatterLink-1.12.2-1.6.4-184.jar"
+                }
             }
+//            withProvider(JenkinsProvider) {
+//                jenkinsUrl = "https://ci.elytradev.com"
+//            }.list {
+//                +"matterlink" job "elytra/MatterLink/master"
+//            }
         }
 
         group {

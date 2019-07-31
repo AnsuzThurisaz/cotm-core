@@ -1,6 +1,4 @@
 {
-    provider: JENKINS,
-    jenkinsUrl: "https://ci.elytradev.com",
-    job: elytra/InfraRedstone/1.12.2,
-    buildNumber: 21
+    provider: DIRECT,
+    url: "https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar"
 }

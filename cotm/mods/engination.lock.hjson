@@ -1,6 +1,4 @@
 {
-    provider: JENKINS,
-    jenkinsUrl: "https://ci.elytradev.com",
-    job: elytra/Engination/master,
-    buildNumber: 11
+    provider: DIRECT,
+    url: "https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar"
 }

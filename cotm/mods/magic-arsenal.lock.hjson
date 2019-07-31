@@ -1,6 +1,4 @@
 {
-    provider: JENKINS,
-    jenkinsUrl: "https://ci.elytradev.com",
-    job: elytra/MagicArsenal/master,
-    buildNumber: 90
+    provider: DIRECT,
+    url: "https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar"
 }

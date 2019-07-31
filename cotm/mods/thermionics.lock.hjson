@@ -1,6 +1,4 @@
 {
-    provider: JENKINS,
-    jenkinsUrl: "https://ci.elytradev.com",
-    job: elytra/Thermionics/master,
-    buildNumber: 12
+    provider: DIRECT,
+    url: "https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar"
 }
