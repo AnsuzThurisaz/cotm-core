@@ -105,6 +105,20 @@ Url | `https://ci.micdoodle8.com/job/Galacticraft-1.12/210/artifact/Forge/build/
 
 
 
+removed `tropicraft`
+
+Property | old value | new value
+---|---|---
+ID | `tropicraft` | 
+Version | `tropicraft-MC1.12.2-7.1.9.115.jar` | 
+Provider | `CURSE` | 
+Side | `BOTH` | 
+Optional | `false` | 
+Release Type | `Beta` | 
+Author | `Cojomax99, Corosus, Mr_okushama, tterrag1098` | 
+
+
+
 
 
 

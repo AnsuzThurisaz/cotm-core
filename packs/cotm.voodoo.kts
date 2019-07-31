@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3-test4"
+version = "2.3.0-release"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -489,12 +489,11 @@ root(CurseProvider) {
         +(Mod.atum)
         +(Mod.theLostCities)
         +(Mod.angryPixelTheBetweenlandsMod)
-        +(Mod.theAetherIi)
+        +(Mod.theAether)
         +(Mod.theErebus)
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
-        +(Mod.tropicraft)
 
         +(Mod.enderStorage18)
         +(Mod.exchangers)

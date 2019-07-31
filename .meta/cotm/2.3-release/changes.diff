@@ -1,0 +1,7 @@
+Common subdirectories: 2.3-test4/_CLIENT and 2.3-release/_CLIENT
+Only in 2.3-test4: changes.diff
+Common subdirectories: 2.3-test4/config and 2.3-release/config
+Common subdirectories: 2.3-test4/mods and 2.3-release/mods
+Common subdirectories: 2.3-test4/resourcepacks and 2.3-release/resourcepacks
+Common subdirectories: 2.3-test4/scripts and 2.3-release/scripts
+Common subdirectories: 2.3-test4/shaderpacks and 2.3-release/shaderpacks
