@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.0-2-release"
+version = "2.3.1-1"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -397,6 +397,7 @@ root(CurseProvider) {
         +(Mod.botania)
         +(Mod.psi)
         +(Mod.quark)
+        +(Mod.quarkOddities)
         +(Mod.morphOTool)
 
         // Sangar
@@ -494,6 +495,7 @@ root(CurseProvider) {
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
+//        +(Mod.tropicraft) #fluid registry errors?
 
         // unresolved/stubborn dependencies
         +(Mod.mantle)
@@ -513,7 +515,8 @@ root(CurseProvider) {
         +(Mod.ftblib)
         +(Mod.initialInventory)
         +(Mod.inventoryTweaks)
-        +(Mod.ironChests)
+//        +(Mod.ironChests)
+        +(Mod.metalchests)
         +(Mod.redstonePaste)
         +(Mod.mmmmmmmmmmmm)
         +(Mod.kleeslabs)
@@ -583,7 +586,6 @@ root(CurseProvider) {
         +(Mod.rebornstorage)
         +(Mod.theDisenchanterMod)
         +(Mod.doggyTalents)
-        +(Mod.lootbags)
         +(Mod.snad)
         +(Mod.fluxNetworks)
         +(Mod.refinedStorageAddons)
@@ -592,7 +594,7 @@ root(CurseProvider) {
         +(Mod.modularPowersuits)
         +(Mod.chunkpregenerator)
         +(Mod.colytra)
-//        +(Mod.cathedral)
+//        +(Mod.cathedral) # empty crafting grid causes
         +(Mod.architecturecraftTridev)
         +(Mod.draconicEvolution)
         +(Mod.numina)
@@ -601,10 +603,11 @@ root(CurseProvider) {
         +(Mod.aiImprovements)
         +(Mod.placebo)
         +(Mod.futureMc)
-        +(Mod.calculator)
+//        +(Mod.calculator) #too op at early game needs to be force-tweaked
         +(Mod.actuallyAdditions)
         +(Mod.naturalPledge)
         +(Mod.advancedRocketry)
+        +(Mod.bewitchment)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
