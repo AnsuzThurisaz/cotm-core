@@ -352,7 +352,7 @@
         },
         version: {
             name: Version,
-            value: `Atum-1.12.2-2.0.11.jar`
+            value: `Atum-1.12.2-2.0.12.jar`
         },
         provider: {
             name: Provider,
@@ -463,36 +463,6 @@
         curse_author: {
             name: Author,
             value: `Azanor13`
-        }
-    },
-    bedrockores: {
-        id: {
-            name: ID,
-            value: `bedrockores`
-        },
-        version: {
-            name: Version,
-            value: "`Bedrock Ores-MC1.12-1.2.7.42.jar`"
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `SangarWasTaken`
         }
     },
     better-advancements: {
@@ -911,6 +881,36 @@
         curse_author: {
             name: Author,
             value: `capitalthree`
+        }
+    },
+    building-gadgets: {
+        id: {
+            name: ID,
+            value: `building-gadgets`
+        },
+        version: {
+            name: Version,
+            value: `BuildingGadgets-2.7.1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`direwolf20, Lumous, MolecularPhylo`"
         }
     },
     caliper: {
@@ -1568,7 +1568,7 @@
         },
         version: {
             name: Version,
-            value: `CodeChickenLib-1.12.2-3.2.2.353-universal.jar`
+            value: `CodeChickenLib-1.12.2-3.2.3.357-universal.jar`
         },
         provider: {
             name: Provider,
@@ -1696,7 +1696,7 @@
         },
         version: {
             name: Version,
-            value: `colytra-1.12.2-1.2.0.2.jar`
+            value: `colytra-1.12.2-1.2.0.3.jar`
         },
         provider: {
             name: Provider,
@@ -2117,6 +2117,36 @@
             value: `BlayTheNinth`
         }
     },
+    dense-metals: {
+        id: {
+            name: ID,
+            value: `dense-metals`
+        },
+        version: {
+            name: Version,
+            value: `DenseMetals-1.12-1.2.0.21.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek, knoxhack`"
+        }
+    },
     dimensionaldoors: {
         id: {
             name: ID,
@@ -2343,6 +2373,40 @@
             value: `BordListian`
         }
     },
+    end-metals: {
+        id: {
+            name: ID,
+            value: `end-metals`
+        },
+        version: {
+            name: Version,
+            value: `EndMetals-1.12-1.2.0-rc2.67.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`mmd-orespawn`, `mmdlib`"
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek, knoxhack`"
+        }
+    },
     ender-io: {
         id: {
             name: ID,
@@ -2350,7 +2414,7 @@
         },
         version: {
             name: Version,
-            value: `EnderIO-1.12.2-5.0.49.jar`
+            value: `EnderIO-1.12.2-5.0.50.jar`
         },
         provider: {
             name: Provider,
@@ -2384,7 +2448,7 @@
         },
         version: {
             name: Version,
-            value: `EnderStorage-1.12.2-2.4.5.135-universal.jar`
+            value: `EnderStorage-1.12.2-2.4.6.137-universal.jar`
         },
         provider: {
             name: Provider,
@@ -3474,7 +3538,7 @@
         },
         version: {
             name: Version,
-            value: `journeymap-1.12.2-5.5.5b9.jar`
+            value: `journeymap-1.12.2-5.5.5.jar`
         },
         provider: {
             name: Provider,
@@ -3494,7 +3558,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -3802,7 +3866,7 @@
         },
         version: {
             name: Version,
-            value: `LibVulpes-1.12.2-0.4.1-60-universal.jar`
+            value: `LibVulpes-1.12.2-0.4.1-1-universal.jar`
         },
         provider: {
             name: Provider,
@@ -4199,6 +4263,66 @@
         curse_author: {
             name: Author,
             value: `Girafi`
+        }
+    },
+    mmd-orespawn: {
+        id: {
+            name: ID,
+            value: `mmd-orespawn`
+        },
+        version: {
+            name: Version,
+            value: `OreSpawn-1.12-3.3.1.172.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek`"
+        }
+    },
+    mmdlib: {
+        id: {
+            name: ID,
+            value: `mmdlib`
+        },
+        version: {
+            name: Version,
+            value: `MMDLib-1.12-1.0.0-rc2.36.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: "`DarkhaxDev, dshadowwolf, jriwanek, MinecraftModDevelopment`"
         }
     },
     mmmmmmmmmmmm: {
@@ -4647,6 +4771,40 @@
         curse_author: {
             name: Author,
             value: `Vazkii_`
+        }
+    },
+    nether-metals: {
+        id: {
+            name: ID,
+            value: `nether-metals`
+        },
+        version: {
+            name: Version,
+            value: `NetherMetals-1.12-1.2.0-rc2.76.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`mmdlib`, `mmd-orespawn`"
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek, knoxhack`"
         }
     },
     netherex: {
@@ -5396,7 +5554,7 @@
         },
         version: {
             name: Version,
-            value: `Quark-r1.6-174.jar`
+            value: `Quark-r1.6-175.jar`
         },
         provider: {
             name: Provider,
@@ -7540,7 +7698,7 @@
         },
         version: {
             name: Version,
-            value: `Xaeros_Minimap_1.17.4_Forge_1.12.jar`
+            value: `Xaeros_Minimap_1.17.5_Forge_1.12.jar`
         },
         provider: {
             name: Provider,

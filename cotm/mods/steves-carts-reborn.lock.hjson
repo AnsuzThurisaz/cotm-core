@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            reborncore
+        ]
+    },
+    projectID: 253462,
+    fileID: 2738722
+}

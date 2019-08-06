@@ -1,0 +1,7 @@
+Common subdirectories: 2.3.1-1-release/_CLIENT and 2.3.2-testing/_CLIENT
+Only in 2.3.1-1-release: changes.diff
+Common subdirectories: 2.3.1-1-release/config and 2.3.2-testing/config
+Common subdirectories: 2.3.1-1-release/mods and 2.3.2-testing/mods
+Common subdirectories: 2.3.1-1-release/resourcepacks and 2.3.2-testing/resourcepacks
+Common subdirectories: 2.3.1-1-release/scripts and 2.3.2-testing/scripts
+Common subdirectories: 2.3.1-1-release/shaderpacks and 2.3.2-testing/shaderpacks

@@ -1,0 +1,104 @@
+{
+    "traceEvents": [
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 0,
+            "dur": 10507000,
+            "ph": "X",
+            "name": "main",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 2000,
+            "dur": 265000,
+            "ph": "X",
+            "name": "initTome",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 160000,
+            "dur": 106000,
+            "ph": "X",
+            "name": "evalScript_tome",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 267000,
+            "dur": 2000,
+            "ph": "X",
+            "name": "initChangelogBuilder",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 273000,
+            "dur": 7343000,
+            "ph": "X",
+            "name": "evalScript",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 7618000,
+            "dur": 2889000,
+            "ph": "X",
+            "name": "packWatch",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 7955000,
+            "dur": 2552000,
+            "ph": "X",
+            "name": "pack",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 8262000,
+            "dur": 2244000,
+            "ph": "X",
+            "name": "MultiMC Static Pack-timer",
+            "cname": null
+        },
+        {
+            "cat": "watchadoin",
+            "pid": 1,
+            "tid": 1,
+            "id": null,
+            "ts": 8426000,
+            "dur": 1741000,
+            "ph": "X",
+            "name": "downloadArtifact",
+            "cname": null
+        }
+    ],
+    "displayTimeUnit": "ns"
+}

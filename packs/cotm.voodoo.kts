@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.1-1-release"
+version = "2.3.2-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -402,7 +402,7 @@ root(CurseProvider) {
 
         // Sangar
         +(Mod.architect)
-        +(Mod.bedrockores)
+//        +(Mod.bedrockores)
 
         // HellFirePvP
         +(Mod.astralSorcery)
@@ -495,7 +495,6 @@ root(CurseProvider) {
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
-//        +(Mod.tropicraft) #fluid registry errors?
 
         // unresolved/stubborn dependencies
         +(Mod.mantle)
@@ -515,7 +514,6 @@ root(CurseProvider) {
         +(Mod.ftblib)
         +(Mod.initialInventory)
         +(Mod.inventoryTweaks)
-//        +(Mod.ironChests)
         +(Mod.metalchests)
         +(Mod.redstonePaste)
         +(Mod.mmmmmmmmmmmm)
@@ -594,7 +592,6 @@ root(CurseProvider) {
         +(Mod.modularPowersuits)
         +(Mod.chunkpregenerator)
         +(Mod.colytra)
-//        +(Mod.cathedral) # empty crafting grid causes
         +(Mod.architecturecraftTridev)
         +(Mod.draconicEvolution)
         +(Mod.numina)
@@ -603,11 +600,16 @@ root(CurseProvider) {
         +(Mod.aiImprovements)
         +(Mod.placebo)
         +(Mod.futureMc)
-//        +(Mod.calculator) #too op at early game needs to be force-tweaked
         +(Mod.actuallyAdditions)
         +(Mod.naturalPledge)
         +(Mod.advancedRocketry)
         +(Mod.bewitchment)
+        +(Mod.endMetals)
+        +(Mod.netherMetals)
+        +(Mod.denseMetals)
+        +(Mod.buildingGadgets)
+        +(Mod.stevesCartsReborn)
+        +(Mod.timberjack)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
@@ -616,6 +618,8 @@ root(CurseProvider) {
         // +(Mod.modtweaker)
         // +(Mod.tweakersConstruct)
         // +(Mod.customMainMenu)
+        // +(Mod.cathedral) # empty crafting grid causes
+        // +(Mod.tropicraft) #fluid registry errors?
 
         withProvider(DirectProvider).list {
             +"nutrition" configure {
