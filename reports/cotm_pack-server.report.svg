@@ -1,0 +1,145 @@
+<svg id="stopwatch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200.7231 228" width="1200.7231" height="228"><g>
+                            <line stroke-dasharray="5, 5" x1="10" y1="10" x2="10" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="10" y="210" font-family="Verdana" font-size="8" fill="#00000077">0ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="60" y1="10" x2="60" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="60" y="210" font-family="Verdana" font-size="8" fill="#00000077">1400ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="111" y1="10" x2="111" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="111" y="210" font-family="Verdana" font-size="8" fill="#00000077">2800ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="161" y1="10" x2="161" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="161" y="210" font-family="Verdana" font-size="8" fill="#00000077">4200ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="212" y1="10" x2="212" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="212" y="210" font-family="Verdana" font-size="8" fill="#00000077">5600ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="263" y1="10" x2="263" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="263" y="210" font-family="Verdana" font-size="8" fill="#00000077">7000ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="313" y1="10" x2="313" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="313" y="210" font-family="Verdana" font-size="8" fill="#00000077">8400ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="364" y1="10" x2="364" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="364" y="210" font-family="Verdana" font-size="8" fill="#00000077">9800ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="414" y1="10" x2="414" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="414" y="210" font-family="Verdana" font-size="8" fill="#00000077">11200ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="465" y1="10" x2="465" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="465" y="210" font-family="Verdana" font-size="8" fill="#00000077">12600ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="516" y1="10" x2="516" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="516" y="210" font-family="Verdana" font-size="8" fill="#00000077">14000ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="566" y1="10" x2="566" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="566" y="210" font-family="Verdana" font-size="8" fill="#00000077">15400ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="617" y1="10" x2="617" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="617" y="210" font-family="Verdana" font-size="8" fill="#00000077">16800ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="668" y1="10" x2="668" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="668" y="210" font-family="Verdana" font-size="8" fill="#00000077">18200ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="718" y1="10" x2="718" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="718" y="210" font-family="Verdana" font-size="8" fill="#00000077">19600ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="769" y1="10" x2="769" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="769" y="210" font-family="Verdana" font-size="8" fill="#00000077">21000ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="819" y1="10" x2="819" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="819" y="210" font-family="Verdana" font-size="8" fill="#00000077">22400ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="870" y1="10" x2="870" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="870" y="210" font-family="Verdana" font-size="8" fill="#00000077">23800ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="921" y1="10" x2="921" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="921" y="210" font-family="Verdana" font-size="8" fill="#00000077">25200ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="971" y1="10" x2="971" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="971" y="210" font-family="Verdana" font-size="8" fill="#00000077">26600ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="1022" y1="10" x2="1022" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="1022" y="210" font-family="Verdana" font-size="8" fill="#00000077">28000ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="1073" y1="10" x2="1073" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="1073" y="210" font-family="Verdana" font-size="8" fill="#00000077">29400ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="1123" y1="10" x2="1123" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="1123" y="210" font-family="Verdana" font-size="8" fill="#00000077">30800ms</text>
+                         </g><g>
+                            <line stroke-dasharray="5, 5" x1="1174" y1="10" x2="1174" y2="200" style="stroke-width:1;stroke:rgba(0,0,0,0.5)"/>
+                            <text x="1174" y="210" font-family="Verdana" font-size="8" fill="#00000077">32200ms</text>
+                         </g><g id="timebox_0">
+         <rect x="10" y="10" width="1199" height="30" style="fill:rgba(76,175,80,1.0);"></rect>
+         <rect x="1208" y="10" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="20" y="28" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip0)">main</text>
+         <text x="20" y="37.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip0)">tid=1</text>
+         <clipPath id="clip0">
+           <rect x="10" y="10" width="1199" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_1">
+         <rect x="10" y="50" width="9" height="30" style="fill:rgba(76,175,80,0.8);"></rect>
+         <rect x="18" y="50" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="20" y="68" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip1)">initTome</text>
+         <text x="20" y="77.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip1)">tid=1</text>
+         <clipPath id="clip1">
+           <rect x="10" y="50" width="9" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_2">
+         <rect x="15" y="90" width="3" height="30" style="fill:rgba(76,175,80,0.6);"></rect>
+         <rect x="17" y="90" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="25" y="108" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip2)">evalScript_tome</text>
+         <text x="25" y="117.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip2)">tid=1</text>
+         <clipPath id="clip2">
+           <rect x="15" y="90" width="3" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_3">
+         <rect x="19" y="50" width="0" height="30" style="fill:rgba(76,175,80,0.8);"></rect>
+         <rect x="18" y="50" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="29" y="68" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip3)">initChangelogBuilder</text>
+         <text x="29" y="77.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip3)">tid=1</text>
+         <clipPath id="clip3">
+           <rect x="19" y="50" width="0" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_4">
+         <rect x="19" y="50" width="1035" height="30" style="fill:rgba(76,175,80,0.8);"></rect>
+         <rect x="1053" y="50" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="29" y="68" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip4)">evalScript</text>
+         <text x="29" y="77.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip4)">tid=1</text>
+         <clipPath id="clip4">
+           <rect x="19" y="50" width="1035" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_5">
+         <rect x="1055" y="50" width="154" height="30" style="fill:rgba(76,175,80,0.8);"></rect>
+         <rect x="1208" y="50" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="1065" y="68" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip5)">packWatch</text>
+         <text x="1065" y="77.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip5)">tid=1</text>
+         <clipPath id="clip5">
+           <rect x="1055" y="50" width="154" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_6">
+         <rect x="1067" y="90" width="142" height="30" style="fill:rgba(76,175,80,0.6);"></rect>
+         <rect x="1208" y="90" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="1077" y="108" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip6)">pack</text>
+         <text x="1077" y="117.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip6)">tid=1</text>
+         <clipPath id="clip6">
+           <rect x="1067" y="90" width="142" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_7">
+         <rect x="1078" y="130" width="131" height="30" style="fill:rgba(76,175,80,0.39999998);"></rect>
+         <rect x="1208" y="130" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="1088" y="148" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip7)">Server SK Pack-timer</text>
+         <text x="1088" y="157.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip7)">tid=1</text>
+         <clipPath id="clip7">
+           <rect x="1078" y="130" width="131" height="30" class="clipRect"/>
+         </clipPath>
+       </g><g id="timebox_8">
+         <rect x="1186" y="170" width="22" height="30" style="fill:rgba(76,175,80,0.25);"></rect>
+         <rect x="1207" y="170" width="2" height="30" style="fill:rgba(0,0,0,1);"></rect>
+         <text x="1196" y="188" font-family="Verdana" font-size="12" fill="#000000" clip-path="url(#clip8)">downloadArtifact server installer</text>
+         <text x="1196" y="197.6" font-family="Verdana" font-size="8" fill="#000000" clip-path="url(#clip8)">tid=1</text>
+         <clipPath id="clip8">
+           <rect x="1186" y="170" width="22" height="30" class="clipRect"/>
+         </clipPath>
+       </g></svg>
