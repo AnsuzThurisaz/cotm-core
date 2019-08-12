@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.2-release"
+version = "2.3.3-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -495,6 +495,7 @@ root(CurseProvider) {
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
+        +(Mod.simpleVoidWorld)
 
         // unresolved/stubborn dependencies
         +(Mod.mantle)
@@ -610,6 +611,9 @@ root(CurseProvider) {
         +(Mod.buildingGadgets)
         +(Mod.stevesCartsReborn)
         +(Mod.timberjack)
+        +(Mod.culinaryConstruct)
+        +(Mod.openmodularturrets)
+        +(Mod.ftbQuests)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
@@ -720,6 +724,7 @@ root(CurseProvider) {
             +(Mod.cleanview)
             +(Mod.craftingTweaks)
             +(Mod.betterAdvancements)
+            +(Mod.tinkersJei)
 
             // OPT-OUT
             group {

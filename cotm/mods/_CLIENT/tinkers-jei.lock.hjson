@@ -1,12 +1,12 @@
 {
     provider: CURSE,
+    side: CLIENT,
     dependencies: {
         REQUIRED: [
             tinkers-construct,
-            constructs-armory,
-            mantle
+            jei
         ]
     },
-    projectID: 293602,
-    fileID: 2759260
+    projectID: 291786,
+    fileID: 2701203
 }

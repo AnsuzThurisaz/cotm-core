@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            mysticallib
+            omlib
         ]
     },
-    projectID: 282940,
-    fileID: 2758636
+    projectID: 224663,
+    fileID: 2725199
 }

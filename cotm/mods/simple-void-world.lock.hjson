@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            mysticallib
+            reborncore
         ]
     },
-    projectID: 282940,
-    fileID: 2758636
+    projectID: 254466,
+    fileID: 2498115
 }

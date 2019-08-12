@@ -2,11 +2,11 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            patchouli,
+            mystic-world,
             mysticallib,
-            mystic-world
+            patchouli
         ]
     },
     projectID: 246183,
-    fileID: 2743467
+    fileID: 2758637
 }
