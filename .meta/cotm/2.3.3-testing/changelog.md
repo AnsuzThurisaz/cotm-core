@@ -7,6 +7,7 @@ Pack Version | `2.3.2-1-testing` | `2.3.3-testing`
 
 ## Entries
 
+### Added Entries
 
 added `bed-patch`
 
