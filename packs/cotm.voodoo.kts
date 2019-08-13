@@ -613,7 +613,8 @@ root(CurseProvider) {
         +(Mod.timberjack)
         +(Mod.culinaryConstruct)
         +(Mod.openmodularturrets)
-        +(Mod.ftbQuests)
+        +(Mod.hardcoreQuestingMode)
+        +(Mod.bedPatch)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)

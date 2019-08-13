@@ -465,6 +465,36 @@
             value: `Azanor13`
         }
     },
+    bed-patch: {
+        id: {
+            name: ID,
+            value: `bed-patch`
+        },
+        version: {
+            name: Version,
+            value: `bedpatch-2.2-1.12.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Mordenkainen3141`
+        }
+    },
     better-advancements: {
         id: {
             name: ID,
@@ -3095,40 +3125,6 @@
             value: "`FTB, LatvianModder`"
         }
     },
-    ftb-quests: {
-        id: {
-            name: ID,
-            value: `ftb-quests`
-        },
-        version: {
-            name: Version,
-            value: `FTBQuests-1.7.2.189.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: "`ftblib`, `item-filters`"
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `LatvianModder`
-        }
-    },
     ftb-utilities: {
         id: {
             name: ID,
@@ -3339,6 +3335,36 @@
             value: "`TehNut, Tombenpotter`"
         }
     },
+    hardcore-questing-mode: {
+        id: {
+            name: ID,
+            value: `hardcore-questing-mode`
+        },
+        version: {
+            name: Version,
+            value: `HQM-1.12-5.4.0-hotfix1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`lorddusk, Newcastlegeek, Vswe`"
+        }
+    },
     hunting-dimension: {
         id: {
             name: ID,
@@ -3461,36 +3487,6 @@
         curse_author: {
             name: Author,
             value: `Kobata`
-        }
-    },
-    item-filters: {
-        id: {
-            name: ID,
-            value: `item-filters`
-        },
-        version: {
-            name: Version,
-            value: `ItemFilters-1.0.3.12.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `LatvianModder`
         }
     },
     item-scroller: {
@@ -5960,7 +5956,7 @@
         },
         version: {
             name: Version,
-            value: `RebornCore-1.12.2-3.15.5.467-universal.jar`
+            value: `RebornCore-1.12.2-3.16.0.469-universal.jar`
         },
         provider: {
             name: Provider,
@@ -6182,7 +6178,7 @@
         },
         version: {
             name: Version,
-            value: `Reliquary-1.12.2-1.3.4.786.jar`
+            value: `Reliquary-1.12.2-1.3.4.792.jar`
         },
         provider: {
             name: Provider,
