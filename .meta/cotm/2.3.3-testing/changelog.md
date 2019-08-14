@@ -37,6 +37,50 @@ Author |  | `lorddusk, Newcastlegeek, Vswe`
 
 
 
+added `minetweaker-recipemaker`
+
+Property | old value | new value
+---|---|---
+ID |  | `minetweaker-recipemaker`
+Version |  | `MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `Claycorp, DoubleDoorDevelopment, dries007`
+
+
+
+added `modtweaker`
+
+Property | old value | new value
+---|---|---
+ID |  | `modtweaker`
+Version |  | `modtweaker-4.0.17.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `mtlib`
+Release Type |  | `Release`
+Author |  | `Jaredlll08`
+
+
+
+added `tweakers-construct`
+
+Property | old value | new value
+---|---|---
+ID |  | `tweakers-construct`
+Version |  | `tweakersconstruct-1.12.2-1.5.1.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `tinkers-construct`
+Release Type |  | `Release`
+Author |  | `RCXcrafter`
+
+
+
 ### Updated Entries
 
 updated `reborncore`
@@ -51,7 +95,15 @@ updated `reliquary-v1-3`
 
 Property | old value | new value
 ---|---|---
-Version | `Reliquary-1.12.2-1.3.4.786.jar` | `Reliquary-1.12.2-1.3.4.792.jar`
+Version | `Reliquary-1.12.2-1.3.4.786.jar` | `Reliquary-1.12.2-1.3.4.796.jar`
+
+
+
+updated `xaeros-minimap`
+
+Property | old value | new value
+---|---|---
+Version | `Xaeros_Minimap_1.17.5_Forge_1.12.jar` | `Xaeros_Minimap_1.17.6_Forge_1.12.jar`
 
 
 

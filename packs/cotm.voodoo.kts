@@ -615,13 +615,14 @@ root(CurseProvider) {
         +(Mod.openmodularturrets)
         +(Mod.hardcoreQuestingMode)
         +(Mod.bedPatch)
+        +(Mod.minetweakerRecipemaker)
+        +(Mod.crafttweaker)
+        +(Mod.modtweaker)
+        +(Mod.tweakersConstruct)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
-        // +(Mod.crafttweaker)
-        // +(Mod.modtweaker)
-        // +(Mod.tweakersConstruct)
         // +(Mod.customMainMenu)
         // +(Mod.cathedral) # empty crafting grid causes
         // +(Mod.tropicraft) #fluid registry errors?
