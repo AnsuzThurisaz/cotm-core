@@ -55,7 +55,6 @@
   "gritty",
   "stiff",
   "unnatural",
-  "writable2",
   "writable1",
   "cheap",
   "bouncy_armor",

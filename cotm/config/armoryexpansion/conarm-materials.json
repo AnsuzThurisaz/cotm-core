@@ -16,7 +16,6 @@
       "materialType": "trim"
     },
     "identifier": "xu_demonic_metal",
-    "meta": 0,
     "color": -6079744,
     "type": "METAL",
     "isCastable": true,
@@ -40,7 +39,6 @@
       "materialType": "trim"
     },
     "identifier": "pulsating_iron",
-    "meta": 0,
     "color": -13856700,
     "type": "METAL",
     "isCastable": true,
@@ -64,7 +62,6 @@
       "materialType": "trim"
     },
     "identifier": "knightmetal",
-    "meta": 0,
     "color": -3873106,
     "type": "METAL",
     "isCastable": true,
@@ -88,7 +85,6 @@
       "materialType": "trim"
     },
     "identifier": "electrical_steel",
-    "meta": 0,
     "color": -5658199,
     "type": "METAL",
     "isCastable": true,
@@ -112,7 +108,6 @@
       "materialType": "trim"
     },
     "identifier": "dark_steel",
-    "meta": 0,
     "color": -9671572,
     "type": "METAL",
     "isCastable": true,
@@ -136,7 +131,6 @@
       "materialType": "trim"
     },
     "identifier": "construction_alloy",
-    "meta": 0,
     "color": -14084054,
     "type": "METAL",
     "isCastable": true,
@@ -160,7 +154,6 @@
       "materialType": "trim"
     },
     "identifier": "fierymetal",
-    "meta": 0,
     "color": -142243,
     "type": "METAL",
     "isCastable": true,
@@ -184,7 +177,6 @@
       "materialType": "trim"
     },
     "identifier": "redstone_alloy",
-    "meta": 0,
     "color": -5167321,
     "type": "METAL",
     "isCastable": true,
@@ -208,7 +200,6 @@
       "materialType": "trim"
     },
     "identifier": "steeleaf",
-    "meta": 0,
     "color": -11368646,
     "type": "METAL",
     "isCastable": false,
@@ -232,7 +223,6 @@
       "materialType": "trim"
     },
     "identifier": "soularium",
-    "meta": 0,
     "color": -9872563,
     "type": "METAL",
     "isCastable": true,
@@ -256,7 +246,6 @@
       "materialType": "trim"
     },
     "identifier": "end_steel",
-    "meta": 0,
     "color": -262989,
     "type": "METAL",
     "isCastable": true,
@@ -280,7 +269,6 @@
       "materialType": "trim"
     },
     "identifier": "energetic_alloy",
-    "meta": 0,
     "color": -2518196,
     "type": "METAL",
     "isCastable": true,
@@ -304,7 +292,6 @@
       "materialType": "trim"
     },
     "identifier": "conductive_iron",
-    "meta": 0,
     "color": -5546657,
     "type": "METAL",
     "isCastable": true,
@@ -328,7 +315,6 @@
       "materialType": "trim"
     },
     "identifier": "xu_magical_wood",
-    "meta": 0,
     "color": -131160,
     "type": "METAL",
     "isCastable": false,
@@ -352,7 +338,6 @@
       "materialType": "trim"
     },
     "identifier": "nagascale",
-    "meta": 0,
     "color": -13476571,
     "type": "METAL",
     "isCastable": false,
@@ -376,7 +361,6 @@
       "materialType": "trim"
     },
     "identifier": "xu_evil_metal",
-    "meta": 0,
     "color": -131160,
     "type": "METAL",
     "isCastable": true,
@@ -400,7 +384,6 @@
       "materialType": "trim"
     },
     "identifier": "vibrant_alloy",
-    "meta": 0,
     "color": -4798352,
     "type": "METAL",
     "isCastable": true,
@@ -424,7 +407,6 @@
       "materialType": "trim"
     },
     "identifier": "xu_enchanted_metal",
-    "meta": 0,
     "color": -4197792,
     "type": "METAL",
     "isCastable": true,
