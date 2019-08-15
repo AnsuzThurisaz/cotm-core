@@ -5511,6 +5511,47 @@ Author |  | `RCXcrafter`
 
 ### Updated Entries
 
+updated `bewitchment`
+
+Property | old value | new value
+---|---|---
+Version | `bewitchment-1.12.2-0.0.20.6.jar` | `bewitchment-1.12.2-0.0.20.7.jar`
+
+
+
+updated `doggy-talents`
+
+Property | old value | new value
+---|---|---
+Version | `DoggyTalents-1.12.2-1.15.0.6-universal.jar` | `DoggyTalents-1.12.2-1.15.1.3-universal.jar`
+
+
+
+updated `libraryex`
+
+Property | old value | new value
+---|---|---
+Version | `LibraryEx-1.12.2-1.0.9.jar` | `LibraryEx-1.12.2-1.0.10.jar`
+
+
+
+updated `libvulpes`
+
+Property | old value | new value
+---|---|---
+Version | `LibVulpes-1.12.2-0.4.1-1-universal.jar` | `LibVulpes-1.12.2-0.4.1-61-universal.jar`
+
+
+
+updated `netherex`
+
+Property | old value | new value
+---|---|---
+Version | `NetherEx-1.12.2-2.0.10.jar` | `NetherEx-1.12.2-2.0.11.jar`
+Release Type | `Release` | `Alpha`
+
+
+
 updated `reborncore`
 
 Property | old value | new value
@@ -5524,6 +5565,14 @@ updated `reliquary-v1-3`
 Property | old value | new value
 ---|---|---
 Version | `Reliquary-1.12.2-1.3.4.786.jar` | `Reliquary-1.12.2-1.3.4.796.jar`
+
+
+
+updated `unlimited-chisel-works`
+
+Property | old value | new value
+---|---|---
+Version | `UnlimitedChiselWorks-0.2.3.jar` | `UnlimitedChiselWorks-0.2.4.jar`
 
 
 
@@ -5565,6 +5614,18 @@ Release Type | `Release` |
 Author | `LatvianModder` | 
 
 
+
+
+
+
+
+# Center of the Multiverse 2.3.3-rc1
+
+Property | old value | new value
+---|---|---
+Pack Version | `2.3.3-testing` | `2.3.3-rc1`
+
+No change in entries
 
 
 
