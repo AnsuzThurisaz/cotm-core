@@ -17,6 +17,10 @@ voodoo {
     addTask(name = "pack_curse", parameters = listOf("pack curse"))
     addTask(name = "test_mmc", parameters = listOf("test mmc"))
     addTask(name = "buildAndPackAll", parameters = listOf("build", "pack sk", "pack server", "pack mmc"))
+
+    generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
+    generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
+    generateForge("Forge", "1.12.2")
 }
 
 repositories {
@@ -34,8 +38,8 @@ repositories {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.7+")
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.7+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.9+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
 }
 
 tasks.create("syncConfigs") {
