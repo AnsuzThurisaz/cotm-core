@@ -7,16 +7,40 @@ plugins {
 }
 
 voodoo {
-    addTask(name = "build", parameters = listOf("build"))
-    addTask(name = "build_mmc_test", parameters = listOf("build", "cotm_test_mmc"))
-    addTask(name = "pack_sk", parameters = listOf("pack sk"))
-    addTask(name = "pack_mmc", parameters = listOf("pack mmc"))
-    addTask(name = "pack_mmc-static", parameters = listOf("pack mmc-static"))
-    addTask(name = "pack_mmc-fat", parameters = listOf("pack mmc-fat"))
-    addTask(name = "pack_server", parameters = listOf("pack server"))
-    addTask(name = "pack_curse", parameters = listOf("pack curse"))
-    addTask(name = "test_mmc", parameters = listOf("test mmc"))
-    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack sk", "pack server", "pack mmc"))
+    addTask(name = "build") {
+            build()
+    }
+    addTask(name = "build_mmc_test"){
+        build()
+        test().multimc()
+    }
+    addTask(name = "pack_sk") {
+        pack().sklauncher()
+    }
+    addTask(name = "pack_mmc") {
+        pack().multimc()
+    }
+    addTask(name = "pack_mmc-static") {
+        pack().multimcStatic()
+    }
+    addTask(name = "pack_mmc-fat") {
+        pack().multimcFat()
+    }
+    addTask(name = "pack_server") {
+        pack().server()
+    }
+    addTask(name = "pack_curse") {
+        pack().curse()
+    }
+    addTask(name = "test_mmc") {
+        test().multimc()
+    }
+    addTask(name = "buildAndPackAll") {
+        build()
+        pack().sklauncher()
+        pack().server()
+        pack().multimc()
+    }
 
     generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
     generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
@@ -40,6 +64,7 @@ repositories {
 dependencies {
     implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.9+")
     implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
+    kotlinScriptDef(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
 }
 
 tasks.create("syncConfigs") {

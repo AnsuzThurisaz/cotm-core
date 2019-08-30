@@ -1,3 +1,11 @@
+@file:GenerateMods(name = "Mod", mc = "1.12.2")
+@file:GenerateMods(name = "Mod", mc = "1.12.1")
+@file:GenerateMods(name = "Mod", mc = "1.12")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.2")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.1")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12")
+@file:GenerateForge(name = "Forge", mc = "1.12.2")
+
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
