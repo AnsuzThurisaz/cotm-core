@@ -1,5 +1,7 @@
 {
-    provider: DIRECT,
+    provider: JENKINS,
     side: SERVER,
-    url: "https://centerofthemultiverse.net/launcher/mirror/MatterLink-1.12.2-1.6.4-184.jar"
+    jenkinsUrl: "https://ci.elytradev.com",
+    job: elytra/MatterLink/master,
+    buildNumber: 184
 }

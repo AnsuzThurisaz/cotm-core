@@ -660,7 +660,7 @@
         },
         version: {
             name: Version,
-            value: `bewitchment-1.12.2-0.0.20.7.jar`
+            value: `bewitchment-1.12.2-0.0.20.8.jar`
         },
         provider: {
             name: Provider,
@@ -1746,7 +1746,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     comforts: {
@@ -1776,7 +1776,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     compactdrawers: {
@@ -1870,7 +1870,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     controlling: {
@@ -1960,7 +1960,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     cosmetic-armor-reworked: {
@@ -2080,7 +2080,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     custom-fov: {
@@ -2114,7 +2114,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     cyclops-core: {
@@ -5171,6 +5171,40 @@
             value: `Keridos`
         }
     },
+    openmodularturrets: {
+        id: {
+            name: ID,
+            value: `openmodularturrets`
+        },
+        version: {
+            name: Version,
+            value: `openmodularturrets-1.12.2-3.1.3-355.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `omlib`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Keridos`
+        }
+    },
     openblocks: {
         id: {
             name: ID,
@@ -5299,40 +5333,6 @@
             value: "`OpenMods, other_boq`"
         }
     },
-    openmodularturrets: {
-        id: {
-            name: ID,
-            value: `openmodularturrets`
-        },
-        version: {
-            name: Version,
-            value: `openmodularturrets-1.12.2-3.1.3-355.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `omlib`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `Keridos`
-        }
-    },
     optifine: {
         id: {
             name: ID,
@@ -5421,6 +5421,36 @@
         curse_author: {
             name: Author,
             value: `KaiserYoshi`
+        }
+    },
+    overpowered-armor-bar: {
+        id: {
+            name: ID,
+            value: `overpowered-armor-bar`
+        },
+        version: {
+            name: Version,
+            value: `overpoweredarmorbar-1.12.2-0.3.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `LocusWay`
         }
     },
     paintings: {
@@ -7316,7 +7346,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`Bryuf, dylankaizer, sokratis12GR, vadis365`"
+            value: "`Bryuf, DylanKaizer, sokratis12GR, vadis365`"
         }
     },
     the-lost-cities: {

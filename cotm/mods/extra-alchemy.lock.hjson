@@ -1,5 +1,10 @@
 {
     provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            minerva-library
+        ]
+    },
     projectID: 247357,
-    fileID: 2623984
+    fileID: 2766997
 }

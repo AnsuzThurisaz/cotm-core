@@ -36,7 +36,7 @@
         },
         version: {
             name: Version,
-            value: `ActuallyAdditions-1.12.2-r149.jar`
+            value: `ActuallyAdditions-1.12.2-r150.jar`
         },
         provider: {
             name: Provider,
@@ -660,7 +660,7 @@
         },
         version: {
             name: Version,
-            value: `bewitchment-1.12.2-0.0.20.7.jar`
+            value: `bewitchment-1.12.2-0.0.20.8.jar`
         },
         provider: {
             name: Provider,
@@ -920,7 +920,7 @@
         },
         version: {
             name: Version,
-            value: `BuildingGadgets-2.7.2.jar`
+            value: `BuildingGadgets-2.7.3.jar`
         },
         provider: {
             name: Provider,
@@ -1746,7 +1746,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     comforts: {
@@ -1776,7 +1776,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     compactdrawers: {
@@ -1870,7 +1870,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     controlling: {
@@ -1960,7 +1960,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     cosmetic-armor-reworked: {
@@ -2080,7 +2080,7 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
         }
     },
     custom-fov: {
@@ -2114,7 +2114,37 @@
         },
         curse_author: {
             name: Author,
-            value: `theillusivec4`
+            value: `TheIllusiveC4`
+        }
+    },
+    custom-main-menu: {
+        id: {
+            name: ID,
+            value: `custom-main-menu`
+        },
+        version: {
+            name: Version,
+            value: `CustomMainMenu-MC1.12.2-2.0.9.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `lumien231`
         }
     },
     cyclops-core: {
@@ -2403,6 +2433,246 @@
             value: `electroblob`
         }
     },
+    engination: {
+        id: {
+            name: ID,
+            value: `engination`
+        },
+        version: {
+            name: Version,
+            value: `Engination-MC1.12.2_ver1.07.03.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/Engination/master`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `11`
+        }
+    },
+    friendship-bracelet: {
+        id: {
+            name: ID,
+            value: `friendship-bracelet`
+        },
+        version: {
+            name: Version,
+            value: `FriendshipBracelet-master-1.1.2.36.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/FriendshipBracelet/master`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `33`
+        }
+    },
+    glass-hearts: {
+        id: {
+            name: ID,
+            value: `glass-hearts`
+        },
+        version: {
+            name: Version,
+            value: `GlassHearts-1.12.1-1.0.73.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/GlassHearts/1.12.1`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `14`
+        }
+    },
+    infra-redstone: {
+        id: {
+            name: ID,
+            value: `infra-redstone`
+        },
+        version: {
+            name: Version,
+            value: `InfraRedstone-1.12.2-1.2.1.114.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/InfraRedstone/1.12.2`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `21`
+        }
+    },
+    magic-arsenal: {
+        id: {
+            name: ID,
+            value: `magic-arsenal`
+        },
+        version: {
+            name: Version,
+            value: `MagicArsenal-MC1.12_ver1.2.6.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/MagicArsenal/master`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `90`
+        }
+    },
+    matterlink: {
+        id: {
+            name: ID,
+            value: `matterlink`
+        },
+        version: {
+            name: Version,
+            value: `MatterLink-1.12.2-1.6.4-184.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `SERVER`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/MatterLink/master`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `184`
+        }
+    },
+    thermionics: {
+        id: {
+            name: ID,
+            value: `thermionics`
+        },
+        version: {
+            name: Version,
+            value: `Thermionics-MC1.12.2_ver1.1.4.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/Thermionics/master`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `13`
+        }
+    },
+    thermionics-world: {
+        id: {
+            name: ID,
+            value: `thermionics-world`
+        },
+        version: {
+            name: Version,
+            value: `ThermionicsWorld-MC1.12.2_ver1.0.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `JENKINS`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        jenkins_job: {
+            name: Job,
+            value: `elytra/ThermionicsWorld/master`
+        },
+        jenkins_build: {
+            name: Build,
+            value: `32`
+        }
+    },
     embers-rekindled: {
         id: {
             name: ID,
@@ -2563,32 +2833,6 @@
         curse_author: {
             name: Author,
             value: "`CrazyPants_MC, Henry_Loenwind, tterrag1098`"
-        }
-    },
-    engination: {
-        id: {
-            name: ID,
-            value: `engination`
-        },
-        version: {
-            name: Version,
-            value: `Engination-MC1.12.2_ver1.07.03`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar`"
         }
     },
     environmental-tech: {
@@ -3073,32 +3317,6 @@
             value: `asiekierka`
         }
     },
-    friendship-bracelet: {
-        id: {
-            name: ID,
-            value: `friendship-bracelet`
-        },
-        version: {
-            name: Version,
-            value: `FriendshipBracelet-master-1.1.2.36`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar`"
-        }
-    },
     ftblib: {
         id: {
             name: ID,
@@ -3106,7 +3324,7 @@
         },
         version: {
             name: Version,
-            value: `FTBLib-5.4.3.131.jar`
+            value: `FTBLib-5.4.3.132.jar`
         },
         provider: {
             name: Provider,
@@ -3136,7 +3354,7 @@
         },
         version: {
             name: Version,
-            value: `FTBUtilities-5.4.0.101.jar`
+            value: `FTBUtilities-5.4.0.102.jar`
         },
         provider: {
             name: Provider,
@@ -3152,7 +3370,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`ftblib`, `ftb-utilities-backups`"
+            value: "`ftb-utilities-backups`, `ftblib`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -3251,32 +3469,6 @@
         curse_author: {
             name: Author,
             value: `thedarkcolour`
-        }
-    },
-    glass-hearts: {
-        id: {
-            name: ID,
-            value: `glass-hearts`
-        },
-        version: {
-            name: Version,
-            value: `GlassHearts-1.12.1-1.0.73`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar`"
         }
     },
     grappling-hook-mod: {
@@ -3401,32 +3593,6 @@
         curse_author: {
             name: Author,
             value: `DarkhaxDev`
-        }
-    },
-    infra-redstone: {
-        id: {
-            name: ID,
-            value: `infra-redstone`
-        },
-        version: {
-            name: Version,
-            value: `InfraRedstone-1.12.2-1.2.1.114`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar`"
         }
     },
     initial-inventory: {
@@ -4081,32 +4247,6 @@
             value: `asiekierka`
         }
     },
-    magic-arsenal: {
-        id: {
-            name: ID,
-            value: `magic-arsenal`
-        },
-        version: {
-            name: Version,
-            value: `MagicArsenal-MC1.12_ver1.2.6`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar`"
-        }
-    },
     magical-map: {
         id: {
             name: ID,
@@ -4233,32 +4373,6 @@
         curse_author: {
             name: Author,
             value: "`bonusboni, mDiyo, progwml6`"
-        }
-    },
-    matterlink: {
-        id: {
-            name: ID,
-            value: `matterlink`
-        },
-        version: {
-            name: Version,
-            value: `MatterLink-1.12.2-1.6.4-184`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `SERVER`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/MatterLink-1.12.2-1.6.4-184.jar`"
         }
     },
     mcjtylib: {
@@ -4569,6 +4683,40 @@
             value: `mezz`
         }
     },
+    modtweaker: {
+        id: {
+            name: ID,
+            value: `modtweaker`
+        },
+        version: {
+            name: Version,
+            value: `modtweaker-4.0.17.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `mtlib`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Jaredlll08`
+        }
+    },
     modular-powersuits: {
         id: {
             name: ID,
@@ -4738,7 +4886,7 @@
         },
         version: {
             name: Version,
-            value: `MysticWorld-1.12.2-1.4.2.jar`
+            value: `MysticWorld-1.12.2-1.4.3.jar`
         },
         provider: {
             name: Provider,
@@ -4772,7 +4920,7 @@
         },
         version: {
             name: Version,
-            value: `mysticallib-1.12.2-1.3.3.jar`
+            value: `mysticallib-1.12.2-1.3.4.jar`
         },
         provider: {
             name: Provider,
@@ -5115,32 +5263,6 @@
             value: `MachineMuse`
         }
     },
-    nutrition: {
-        id: {
-            name: ID,
-            value: `nutrition`
-        },
-        version: {
-            name: Version,
-            value: `Nutrition-1.12.2-4.4.0`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar`"
-        }
-    },
     omlib: {
         id: {
             name: ID,
@@ -5161,6 +5283,40 @@
         optional: {
             name: Optional,
             value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Keridos`
+        }
+    },
+    openmodularturrets: {
+        id: {
+            name: ID,
+            value: `openmodularturrets`
+        },
+        version: {
+            name: Version,
+            value: `openmodularturrets-1.12.2-3.1.3-355.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `omlib`
         },
         curse_release_type: {
             name: "Release Type",
@@ -5299,40 +5455,6 @@
             value: "`OpenMods, other_boq`"
         }
     },
-    openmodularturrets: {
-        id: {
-            name: ID,
-            value: `openmodularturrets`
-        },
-        version: {
-            name: Version,
-            value: `openmodularturrets-1.12.2-3.1.3-355.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `omlib`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `Keridos`
-        }
-    },
     optifine: {
         id: {
             name: ID,
@@ -5400,7 +5522,7 @@
         },
         version: {
             name: Version,
-            value: `outfox-0.1.3-mc1.12.2.jar`
+            value: `outfox-0.1.4-mc1.12.2.jar`
         },
         provider: {
             name: Provider,
@@ -5421,6 +5543,36 @@
         curse_author: {
             name: Author,
             value: `KaiserYoshi`
+        }
+    },
+    overpowered-armor-bar: {
+        id: {
+            name: ID,
+            value: `overpowered-armor-bar`
+        },
+        version: {
+            name: Version,
+            value: `overpoweredarmorbar-1.12.2-0.3.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `LocusWay`
         }
     },
     paintings: {
@@ -5460,7 +5612,7 @@
         },
         version: {
             name: Version,
-            value: "`Pam's HarvestCraft 1.12.2ze.jar`"
+            value: "`Pam's HarvestCraft 1.12.2zf.jar`"
         },
         provider: {
             name: Provider,
@@ -6468,7 +6620,7 @@
         },
         version: {
             name: Version,
-            value: `Roots-1.12.2-3.0.7.jar`
+            value: `Roots-1.12.2-3.0.9.jar`
         },
         provider: {
             name: Provider,
@@ -6484,7 +6636,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`patchouli`, `mystic-world`, `mysticallib`"
+            value: "`patchouli`, `mysticallib`, `mystic-world`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -7316,7 +7468,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`Bryuf, dylankaizer, sokratis12GR, vadis365`"
+            value: "`Bryuf, DylanKaizer, sokratis12GR, vadis365`"
         }
     },
     the-lost-cities: {
@@ -7549,58 +7701,6 @@
             value: "`KingLemming, TeamCoFH`"
         }
     },
-    thermionics: {
-        id: {
-            name: ID,
-            value: `thermionics`
-        },
-        version: {
-            name: Version,
-            value: `Thermionics-MC1.12.2_ver1.1.4`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar`"
-        }
-    },
-    thermionics-world: {
-        id: {
-            name: ID,
-            value: `thermionics-world`
-        },
-        version: {
-            name: Version,
-            value: `ThermionicsWorld-MC1.12.2_ver1.0.2`
-        },
-        provider: {
-            name: Provider,
-            value: `DIRECT`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        direct_url: {
-            name: Url,
-            value: "`https://centerofthemultiverse.net/launcher/mirror/ThermionicsWorld-MC1.12.2_ver1.0.2.jar`"
-        }
-    },
     timberjack: {
         id: {
             name: ID,
@@ -7804,7 +7904,7 @@
         },
         version: {
             name: Version,
-            value: `torchmaster_1.12.2-1.7.1.74.jar`
+            value: `torchmaster_1.12.2-1.8.0.79.jar`
         },
         provider: {
             name: Provider,
@@ -7825,6 +7925,40 @@
         curse_author: {
             name: Author,
             value: `xalcon`
+        }
+    },
+    tweakers-construct: {
+        id: {
+            name: ID,
+            value: `tweakers-construct`
+        },
+        version: {
+            name: Version,
+            value: `tweakersconstruct-1.12.2-1.5.1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `tinkers-construct`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `RCXcrafter`
         }
     },
     unity: {
@@ -8086,7 +8220,7 @@
         },
         version: {
             name: Version,
-            value: `Xaeros_Minimap_1.17.7_Forge_1.12.jar`
+            value: `Xaeros_Minimap_1.17.8_Forge_1.12.jar`
         },
         provider: {
             name: Provider,

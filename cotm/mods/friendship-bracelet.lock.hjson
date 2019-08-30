@@ -1,4 +1,6 @@
 {
-    provider: DIRECT,
-    url: "https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar"
+    provider: JENKINS,
+    jenkinsUrl: "https://ci.elytradev.com",
+    job: elytra/FriendshipBracelet/master,
+    buildNumber: 33
 }

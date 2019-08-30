@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            brandons-core,
+            codechicken-lib-1-8,
+            redstone-flux
+        ]
+    },
+    projectID: 306028,
+    fileID: 2762334
+}

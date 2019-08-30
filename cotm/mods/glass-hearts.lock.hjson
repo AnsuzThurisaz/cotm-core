@@ -1,4 +1,6 @@
 {
-    provider: DIRECT,
-    url: "https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar"
+    provider: JENKINS,
+    jenkinsUrl: "https://ci.elytradev.com",
+    job: elytra/GlassHearts/1.12.1,
+    buildNumber: 14
 }

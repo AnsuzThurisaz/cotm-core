@@ -17,3 +17,7 @@
 2.3.3-testing
 2.3.3-rc1
 2.3.3-rc2
+2.3.4-testing
+2.3.4-testing2
+2.3.4-testing3
+2.3.4-testing4
