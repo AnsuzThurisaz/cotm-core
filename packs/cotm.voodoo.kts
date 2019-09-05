@@ -1,16 +1,8 @@
-@file:GenerateMods(name = "Mod", mc = "1.12.2")
-@file:GenerateMods(name = "Mod", mc = "1.12.1")
-@file:GenerateMods(name = "Mod", mc = "1.12")
-@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.2")
-@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.1")
-@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12")
-@file:GenerateForge(name = "Forge", mc = "1.12.2")
-
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.4-testing4"
-forge = Forge.mc1_12_2.forge_14_23_5_2838
+version = "2.3.4-testing5"
+forge = Forge.mc1_12_2.forge_14_23_5_2844
 icon = rootDir.resolve("icon.png")
 pack {
     skcraft {
@@ -263,6 +255,9 @@ root(CurseProvider) {
         (+Mod.overpoweredArmorBar)
         +(Mod.customMainMenu)
         +(Mod.shadowfactsForgelin)
+        +(Mod.plustic)
+        +(Mod.externalTweaker)
+        +(Mod.spiceOfLifeCarrotEdition)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
@@ -470,15 +465,6 @@ root(CurseProvider) {
                             "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
                 }
 
-                +(Mod.rpgHud) configure {
-                    description =
-                            "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
-                }
-
-                +(Mod.keyboardWizard) configure {
-                    description = "Visual keybind manager."
-                }
-
                 +(Mod.chunkAnimator) configure {
                     description = "Configurable chunk pop-in animator."
                 }
@@ -493,28 +479,12 @@ root(CurseProvider) {
                     description = "Multi-mod compatible resource pack."
                 }
 
-                withProvider(DirectProvider).list {
-                    +"Optifine" configure {
-                        description =
-                                "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
-                        url = "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
-                    }
-
                     +"Slice" configure {
                         description = "Custom client font based off of Chicago. Made by Falkreon."
                         folder = "resourcepacks"
                         url = "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
                     }
-
-                    +"SEUS Renewed" configure {
-                        description =
-                                "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
-                        folder = "shaderpacks"
-                        url = "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
-                    }
                 }
             }
         }
     }
-}
-
