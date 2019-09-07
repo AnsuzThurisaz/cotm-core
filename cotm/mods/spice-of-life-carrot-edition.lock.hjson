@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            chameleon
+            applecore
         ]
     },
-    projectID: 223852,
-    fileID: 2777929
+    projectID: 277616,
+    fileID: 2731062
 }

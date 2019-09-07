@@ -1,7 +1,15 @@
+@file:GenerateMods(name = "Mod", mc = "1.12.2")
+@file:GenerateMods(name = "Mod", mc = "1.12.1")
+@file:GenerateMods(name = "Mod", mc = "1.12")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.2")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12.1")
+@file:GenerateTexturePacks(name = "TexturePack", mc = "1.12")
+@file:GenerateForge(name = "Forge", mc = "1.12.2")
+
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.4-testing5"
+version = "2.3.5testing1"
 forge = Forge.mc1_12_2.forge_14_23_5_2844
 icon = rootDir.resolve("icon.png")
 pack {
@@ -479,6 +487,7 @@ root(CurseProvider) {
                     description = "Multi-mod compatible resource pack."
                 }
 
+                withProvider(DirectProvider).list {
                     +"Slice" configure {
                         description = "Custom client font based off of Chicago. Made by Falkreon."
                         folder = "resourcepacks"
@@ -488,3 +497,4 @@ root(CurseProvider) {
             }
         }
     }
+}

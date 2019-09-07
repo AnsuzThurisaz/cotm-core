@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            chameleon
+            crafttweaker
         ]
     },
-    projectID: 223852,
-    fileID: 2777929
+    projectID: 270558,
+    fileID: 2452858
 }

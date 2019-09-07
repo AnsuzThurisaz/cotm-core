@@ -330,11 +330,11 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`tinkers-construct`, `mantle`, `constructs-armory`"
+            value: "`constructs-armory`, `tinkers-construct`, `mantle`"
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,

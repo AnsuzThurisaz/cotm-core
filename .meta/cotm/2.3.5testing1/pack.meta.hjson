@@ -9,7 +9,7 @@
     },
     packVersion: {
         name: "Pack Version",
-        value: `2.3.4-testing5`
+        value: `2.3.5testing1`
     },
     mcVersion: {
         name: "MC Version",

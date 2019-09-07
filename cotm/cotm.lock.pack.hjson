@@ -2,13 +2,13 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.3.4-testing5,
+    version: 2.3.5testing1,
     authors: [
         AnsuzThuriaz,
         Falkreon,
         NikkyAi
     ],
-    forge: 1.12.2-14.23.5.2838,
+    forge: 1.12.2-14.23.5.2844,
     packOptions: {
         multimcOptions: {
             skPackUrl: "https://centerofthemultiverse.net/launcher/cotm.json"

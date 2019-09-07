@@ -42,9 +42,6 @@ voodoo {
         pack().multimc()
     }
 
-    generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
-    generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
-    generateForge("Forge", "1.12.2")
 }
 
 repositories {
