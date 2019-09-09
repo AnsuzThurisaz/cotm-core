@@ -5545,36 +5545,6 @@
             value: `KaiserYoshi`
         }
     },
-    overpowered-armor-bar: {
-        id: {
-            name: ID,
-            value: `overpowered-armor-bar`
-        },
-        version: {
-            name: Version,
-            value: `overpoweredarmorbar-1.12.2-0.3.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `LocusWay`
-        }
-    },
     paintings: {
         id: {
             name: ID,

@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.5testing1"
+version = "2.3.rc"
 forge = Forge.mc1_12_2.forge_14_23_5_2844
 icon = rootDir.resolve("icon.png")
 pack {
@@ -260,7 +260,6 @@ root(CurseProvider) {
         +(Mod.tweakersConstruct)
         +(Mod.randomPsideas)
         +(Mod.projectIntelligence)
-        (+Mod.overpoweredArmorBar)
         +(Mod.customMainMenu)
         +(Mod.shadowfactsForgelin)
         +(Mod.plustic)
