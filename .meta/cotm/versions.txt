@@ -24,3 +24,6 @@
 2.3.4-testing5
 2.3.5testing1
 2.3.rc
+2.3.5release
+2.3.6-testing
+2.3.6-testing2

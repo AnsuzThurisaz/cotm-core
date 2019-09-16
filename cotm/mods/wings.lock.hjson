@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            libraryex
+            llibrary
         ]
     },
-    projectID: 248039,
-    fileID: 2783989
+    projectID: 302584,
+    fileID: 2722018
 }

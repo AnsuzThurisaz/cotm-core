@@ -2,7 +2,7 @@
     id: cotm,
     mcVersion: 1.12.2,
     title: "Center of the Multiverse",
-    version: 2.3.rc,
+    version: 2.3.6-testing2,
     authors: [
         AnsuzThuriaz,
         Falkreon,
