@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.6-testing2"
+version = "2.3.7-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2844
 icon = rootDir.resolve("icon.png")
 pack {
@@ -266,6 +266,11 @@ root(CurseProvider) {
         +(Mod.externalTweaker)
         +(Mod.spiceOfLifeCarrotEdition)
         +(Mod.wings)
+        +(Mod.lycanitesMobs)
+        +(Mod.betterportals)
+        +(Mod.iceAndFireDragons)
+        +(Mod.grimoireOfGaia)
+        +(Mod.maxPotionIdExtender)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)

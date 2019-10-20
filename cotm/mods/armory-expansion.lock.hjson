@@ -2,11 +2,11 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            mantle,
+            constructs-armory,
             tinkers-construct,
-            constructs-armory
+            mantle
         ]
     },
     projectID: 293602,
-    fileID: 2779715
+    fileID: 2790265
 }
