@@ -2,11 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            mysticallib,
             patchouli,
-            baubles
+            mysticallib
         ]
     },
     projectID: 282940,
-    fileID: 2817911
+    fileID: 2804533
 }

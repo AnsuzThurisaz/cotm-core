@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            sonar-core
+            shadowfacts-forgelin
         ]
     },
-    projectID: 225104,
-    fileID: 2643351
+    projectID: 322948,
+    fileID: 2812330
 }

@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            charset-lib
+            llibrary
         ]
     },
-    projectID: 285358,
-    fileID: 2586946
+    projectID: 264231,
+    fileID: 2803425
 }
