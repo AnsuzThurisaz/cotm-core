@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            minerva-library
+            abyssalcraft
         ]
     },
-    projectID: 247357,
-    fileID: 2819089
+    projectID: 234851,
+    fileID: 2749615
 }

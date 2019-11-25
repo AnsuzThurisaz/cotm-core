@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            minerva-library
+            botania
         ]
     },
-    projectID: 247357,
-    fileID: 2819089
+    projectID: 300842,
+    fileID: 2822894
 }

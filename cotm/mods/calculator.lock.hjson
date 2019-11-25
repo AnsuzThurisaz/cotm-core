@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            minerva-library
+            sonar-core
         ]
     },
-    projectID: 247357,
-    fileID: 2819089
+    projectID: 225104,
+    fileID: 2643351
 }

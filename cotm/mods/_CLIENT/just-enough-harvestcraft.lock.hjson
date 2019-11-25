@@ -4,6 +4,12 @@
     description: "JEI Integration for Pam's HarvestCraft.",
     optionalData: {
     },
+    dependencies: {
+        REQUIRED: [
+            jei,
+            pams-harvestcraft
+        ]
+    },
     projectID: 267939,
-    fileID: 2723786
+    fileID: 2823958
 }

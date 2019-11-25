@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            llibrary
+            tammodized
         ]
     },
-    projectID: 264231,
-    fileID: 2803425
+    projectID: 251730,
+    fileID: 2536024
 }

@@ -6,7 +6,7 @@
         },
         version: {
             name: Version,
-            value: `TheBetweenlands-3.4.12-universal.jar`
+            value: `TheBetweenlands-3.5.1-universal.jar`
         },
         provider: {
             name: Provider,
@@ -27,6 +27,70 @@
         curse_author: {
             name: Author,
             value: "`bobmowzie, GoryMoon, imdutch21, oily_oli, pau101, TheCyberBrick, Tripleheadedsheep, vadis365, wightofshadows`"
+        }
+    },
+    abyssalcraft: {
+        id: {
+            name: ID,
+            value: `abyssalcraft`
+        },
+        version: {
+            name: Version,
+            value: `AbyssalCraft-1.12.2-1.9.13.1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Shinoow`
+        }
+    },
+    abyssalcraft-integration: {
+        id: {
+            name: ID,
+            value: `abyssalcraft-integration`
+        },
+        version: {
+            name: Version,
+            value: "`AbyssalCraft Integration-1.12.2-1.9.0.jar`"
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `abyssalcraft`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Shinoow`
         }
     },
     actually-additions: {
@@ -66,7 +130,7 @@
         },
         version: {
             name: Version,
-            value: `AdvancedRocketry-1.12.2-1.6.0-186-universal.jar`
+            value: `AdvancedRocketry-1.12.2-1.6.0-187-universal.jar`
         },
         provider: {
             name: Provider,
@@ -154,7 +218,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     antighost: {
@@ -314,7 +378,7 @@
         },
         version: {
             name: Version,
-            value: `armoryexpansion-1.4.0.jar`
+            value: `armoryexpansion-1.4.1.jar`
         },
         provider: {
             name: Provider,
@@ -330,7 +394,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`constructs-armory`, `tinkers-construct`, `mantle`"
+            value: "`mantle`, `constructs-armory`, `tinkers-construct`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -432,7 +496,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     bad-wither-no-cookie-reloaded: {
@@ -683,40 +747,6 @@
             value: `Guichaguri`
         }
     },
-    betterportals: {
-        id: {
-            name: ID,
-            value: `betterportals`
-        },
-        version: {
-            name: Version,
-            value: `betterportals-0.3.7.1.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `shadowfacts-forgelin`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Beta`
-        },
-        curse_author: {
-            name: Author,
-            value: `Johni0702`
-        }
-    },
     bewitchment: {
         id: {
             name: ID,
@@ -822,7 +852,7 @@
         },
         version: {
             name: Version,
-            value: `BloodMagic-1.12.2-2.4.2-104.jar`
+            value: `BloodMagic-1.12.2-2.4.3-105.jar`
         },
         provider: {
             name: Provider,
@@ -847,6 +877,36 @@
         curse_author: {
             name: Author,
             value: "`TehNut, WayofTime`"
+        }
+    },
+    bonsai-trees: {
+        id: {
+            name: ID,
+            value: `bonsai-trees`
+        },
+        version: {
+            name: Version,
+            value: `bonsaitrees-1.1.3-b156.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `davenonymous`
         }
     },
     bookshelf: {
@@ -910,7 +970,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     brandons-core: {
@@ -984,7 +1044,7 @@
         },
         version: {
             name: Version,
-            value: `BuildingGadgets-2.7.3.jar`
+            value: `BuildingGadgets-2.7.4.jar`
         },
         provider: {
             name: Provider,
@@ -1005,6 +1065,40 @@
         curse_author: {
             name: Author,
             value: "`Direwolf20, Lumous, Phylogeny`"
+        }
+    },
+    calculator: {
+        id: {
+            name: ID,
+            value: `calculator`
+        },
+        version: {
+            name: Version,
+            value: `calculator-1.12.2-5.0.11-12.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `sonar-core`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `sonar_sonic`
         }
     },
     caliper: {
@@ -1214,7 +1308,7 @@
         },
         version: {
             name: Version,
-            value: `Charset-Lib-0.5.6.3.jar`
+            value: `Charset-Lib-0.5.6.4.jar`
         },
         provider: {
             name: Provider,
@@ -1244,7 +1338,7 @@
         },
         version: {
             name: Version,
-            value: `Charset-StorageLocks-0.5.2.0.jar`
+            value: `Charset-StorageLocks-0.5.6.4.jar`
         },
         provider: {
             name: Provider,
@@ -1403,6 +1497,36 @@
             value: `asiekierka`
         }
     },
+    chest-transporter: {
+        id: {
+            name: ID,
+            value: `chest-transporter`
+        },
+        version: {
+            name: Version,
+            value: `ChestTransporter-1.12.2-2.8.8.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `cubex2`
+        }
+    },
     chisel: {
         id: {
             name: ID,
@@ -1410,7 +1534,7 @@
         },
         version: {
             name: Version,
-            value: `Chisel-MC1.12.2-1.0.0.42.jar`
+            value: `Chisel-MC1.12.2-1.0.1.44.jar`
         },
         provider: {
             name: Provider,
@@ -1430,7 +1554,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -1623,6 +1747,36 @@
         curse_author: {
             name: Author,
             value: `BlayTheNinth`
+        }
+    },
+    clockwork-phase: {
+        id: {
+            name: ID,
+            value: `clockwork-phase`
+        },
+        version: {
+            name: Version,
+            value: `ClockworkPhase-1.12.2-1.0g.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Lumaceon`
         }
     },
     clumps: {
@@ -1850,7 +2004,7 @@
         },
         version: {
             name: Version,
-            value: `CompactDrawers-1.12.2-1.0.5.124.jar`
+            value: `CompactDrawers-1.12.2-1.0.5.125.jar`
         },
         provider: {
             name: Provider,
@@ -1866,7 +2020,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -1910,7 +2064,7 @@
         },
         version: {
             name: Version,
-            value: `conarm-1.12.2-1.2.5.jar`
+            value: `conarm-1.12.2-1.2.5.3.jar`
         },
         provider: {
             name: Provider,
@@ -2211,6 +2365,36 @@
             value: `Lumien231`
         }
     },
+    cyclic: {
+        id: {
+            name: ID,
+            value: `cyclic`
+        },
+        version: {
+            name: Version,
+            value: `Cyclic-1.12.2-1.19.18.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Lothrazar`
+        }
+    },
     cyclops-core: {
         id: {
             name: ID,
@@ -2395,6 +2579,66 @@
             value: `brandon3055`
         }
     },
+    dragon-drops-elytra: {
+        id: {
+            name: ID,
+            value: `dragon-drops-elytra`
+        },
+        version: {
+            name: Version,
+            value: `dde_1.12-1.0.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Serilum`
+        }
+    },
+    dm2: {
+        id: {
+            name: ID,
+            value: `dm2`
+        },
+        version: {
+            name: Version,
+            value: `DragonMounts2-1.12.2-1.6.3.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`Kingdomall, TheRPGAdventurer101`"
+        }
+    },
     durability-show: {
         id: {
             name: ID,
@@ -2436,7 +2680,7 @@
         },
         version: {
             name: Version,
-            value: `DynamicSurroundings-1.12.2-3.5.5.0.jar`
+            value: `DynamicSurroundings-1.12.2-3.6.0.1.jar`
         },
         provider: {
             name: Provider,
@@ -2876,7 +3120,7 @@
         },
         version: {
             name: Version,
-            value: `EnderCore-1.12.2-0.5.72.jar`
+            value: `EnderCore-1.12.2-0.5.73.jar`
         },
         provider: {
             name: Provider,
@@ -3004,7 +3248,7 @@
         },
         version: {
             name: Version,
-            value: `extraalchemy-0.5.1.jar`
+            value: `extraalchemy-0.5.2.jar`
         },
         provider: {
             name: Provider,
@@ -3358,7 +3602,7 @@
         },
         version: {
             name: Version,
-            value: `fluxnetworks-1.12.2-4.0.12-29.jar`
+            value: `fluxnetworks-1.12.2-4.0.13-30.jar`
         },
         provider: {
             name: Provider,
@@ -3411,6 +3655,36 @@
             value: `asiekierka`
         }
     },
+    ftb-backups: {
+        id: {
+            name: ID,
+            value: `ftb-backups`
+        },
+        version: {
+            name: Version,
+            value: `FTBBackups-1.1.0.1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`FTB, LatvianModder`"
+        }
+    },
     ftblib: {
         id: {
             name: ID,
@@ -3418,7 +3692,7 @@
         },
         version: {
             name: Version,
-            value: `FTBLib-5.4.3.142.jar`
+            value: `FTBLib-5.4.4.4.jar`
         },
         provider: {
             name: Provider,
@@ -3448,7 +3722,7 @@
         },
         version: {
             name: Version,
-            value: `FTBUtilities-5.4.0.109.jar`
+            value: `FTBUtilities-5.4.0.120.jar`
         },
         provider: {
             name: Provider,
@@ -3464,37 +3738,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`ftblib`, `ftb-utilities-backups`"
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: "`FTB, LatvianModder`"
-        }
-    },
-    ftb-utilities-backups: {
-        id: {
-            name: ID,
-            value: `ftb-utilities-backups`
-        },
-        version: {
-            name: Version,
-            value: `FTBUtilitiesBackups-1.0.0.12.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
+            value: "`ftb-backups`, `ftblib`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -3719,14 +3963,14 @@
             value: `DarkhaxDev`
         }
     },
-    ice-and-fire-dragons: {
+    incorporeal: {
         id: {
             name: ID,
-            value: `ice-and-fire-dragons`
+            value: `incorporeal`
         },
         version: {
             name: Version,
-            value: `iceandfire-1.8.3.jar`
+            value: `incorporeal-1.2.4.jar`
         },
         provider: {
             name: Provider,
@@ -3742,7 +3986,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: `llibrary`
+            value: `botania`
         },
         curse_release_type: {
             name: "Release Type",
@@ -3750,7 +3994,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`alex1the1666, raptorfarian`"
+            value: `quat1024`
         }
     },
     initial-inventory: {
@@ -3990,7 +4234,7 @@
         },
         version: {
             name: Version,
-            value: `jehc-1.12.2-1.6.4.jar`
+            value: `just-enough-harvestcraft-1.12.2-1.6.6.jar`
         },
         provider: {
             name: Provider,
@@ -4008,6 +4252,10 @@
             name: Optional,
             value: `true`
         },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`jei`, `pams-harvestcraft`"
+        },
         curse_release_type: {
             name: "Release Type",
             value: `Release`
@@ -4024,7 +4272,7 @@
         },
         version: {
             name: Version,
-            value: `jei_1.12.2-4.15.0.291.jar`
+            value: `jei_1.12.2-4.15.0.292.jar`
         },
         provider: {
             name: Provider,
@@ -4040,7 +4288,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Release`
+            value: `Beta`
         },
         curse_author: {
             name: Author,
@@ -4152,7 +4400,7 @@
         },
         version: {
             name: Version,
-            value: `LagGoggles-FAT-1.12.2-4.8.jar`
+            value: `LagGoggles-FAT-1.12.2-4.9.jar`
         },
         provider: {
             name: Provider,
@@ -4367,36 +4615,6 @@
             value: `Glasspelican`
         }
     },
-    lycanites-mobs: {
-        id: {
-            name: ID,
-            value: `lycanites-mobs`
-        },
-        version: {
-            name: Version,
-            value: `lycanitesmobs-1.12.2-2.0.1.0.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `Lycanite`
-        }
-    },
     mage: {
         id: {
             name: ID,
@@ -4566,7 +4784,7 @@
         },
         version: {
             name: Version,
-            value: `maxpotidext-0.0.2.1.jar`
+            value: `maxpotidext-1.0.3.jar`
         },
         provider: {
             name: Provider,
@@ -4992,7 +5210,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     mouse-tweaks: {
@@ -5093,14 +5311,14 @@
             value: `Jaredlll08`
         }
     },
-    mystic-world: {
+    mystical-world: {
         id: {
             name: ID,
-            value: `mystic-world`
+            value: `mystical-world`
         },
         version: {
             name: Version,
-            value: `MysticWorld-1.12.2-1.4.7.jar`
+            value: `mysticalworld-1.12.2-1.5.0.jar`
         },
         provider: {
             name: Provider,
@@ -5116,7 +5334,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`patchouli`, `mysticallib`"
+            value: "`mysticallib`, `patchouli`, `baubles`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -5134,7 +5352,7 @@
         },
         version: {
             name: Version,
-            value: `mysticallib-1.12.2-1.3.8.jar`
+            value: `mysticallib-1.12.2-1.4.0.jar`
         },
         provider: {
             name: Provider,
@@ -5232,7 +5450,7 @@
         },
         version: {
             name: Version,
-            value: `NaturesCompass-1.12.2-1.5.1.jar`
+            value: `NaturesCompass-1.12.2-1.6.0.jar`
         },
         provider: {
             name: Provider,
@@ -5286,7 +5504,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     nether-metals: {
@@ -5676,7 +5894,7 @@
         },
         version: {
             name: Version,
-            value: `OreLib-1.12.2-3.5.2.3.jar`
+            value: `OreLib-1.12.2-3.6.0.1.jar`
         },
         provider: {
             name: Provider,
@@ -5846,7 +6064,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     peckish: {
@@ -6136,7 +6354,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     quark: {
@@ -6170,7 +6388,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`Vazkii_, wiresegal`"
+            value: "`Vazkii, wiresegal`"
         }
     },
     quark-oddities: {
@@ -6204,7 +6422,7 @@
         },
         curse_author: {
             name: Author,
-            value: `Vazkii_`
+            value: `Vazkii`
         }
     },
     quick-leaf-decay: {
@@ -6428,7 +6646,7 @@
         },
         version: {
             name: Version,
-            value: `RebornCore-1.12.2-3.16.3.476-universal.jar`
+            value: `RebornCore-1.12.2-3.16.4.478-universal.jar`
         },
         provider: {
             name: Provider,
@@ -6808,7 +7026,7 @@
         },
         version: {
             name: Version,
-            value: `Roots-1.12.2-3.0.17.jar`
+            value: `Roots-1.12.2-3.0.21.jar`
         },
         provider: {
             name: Provider,
@@ -6824,7 +7042,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`mystic-world`, `mysticallib`, `patchouli`"
+            value: "`mystical-world`, `baubles`, `mysticallib`, `patchouli`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -7085,6 +7303,70 @@
         curse_author: {
             name: Author,
             value: `TheRoBrit`
+        }
+    },
+    sonar-core: {
+        id: {
+            name: ID,
+            value: `sonar-core`
+        },
+        version: {
+            name: Version,
+            value: `sonarcore-1.12.2-5.0.19-20.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `sonar_sonic`
+        }
+    },
+    soot: {
+        id: {
+            name: ID,
+            value: `soot`
+        },
+        version: {
+            name: Version,
+            value: `Soot-1.6.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `embers-rekindled`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `BordListian`
         }
     },
     spartan-shields: {
@@ -7371,6 +7653,36 @@
         curse_author: {
             name: Author,
             value: "`Kihira, TTFTCUTS`"
+        }
+    },
+    tammodized: {
+        id: {
+            name: ID,
+            value: `tammodized`
+        },
+        version: {
+            name: Version,
+            value: `TamModized-1.12.2-0.15.6.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: `Tamaized`
         }
     },
     tbone: {
@@ -7666,7 +7978,7 @@
         },
         version: {
             name: Version,
-            value: `twilightforest-1.12.2-3.9.984-universal.jar`
+            value: `twilightforest-1.12.2-3.10.1013-universal.jar`
         },
         provider: {
             name: Provider,
@@ -8217,6 +8529,40 @@
             value: `Vies`
         }
     },
+    voidcraft: {
+        id: {
+            name: ID,
+            value: `voidcraft`
+        },
+        version: {
+            name: Version,
+            value: `VoidCraft-1.12-0.26.10.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `tammodized`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: `Tamaized`
+        }
+    },
     wall-jump: {
         id: {
             name: ID,
@@ -8382,7 +8728,7 @@
         },
         version: {
             name: Version,
-            value: `Xaeros_Minimap_1.18.5.3_Forge_1.12.jar`
+            value: `Xaeros_Minimap_1.18.7_Forge_1.12.jar`
         },
         provider: {
             name: Provider,

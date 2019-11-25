@@ -10,7 +10,7 @@ mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
 version = "2.3.7-testing"
-forge = Forge.mc1_12_2.forge_14_23_5_2844
+forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
     skcraft {
@@ -266,11 +266,30 @@ root(CurseProvider) {
         +(Mod.externalTweaker)
         +(Mod.spiceOfLifeCarrotEdition)
         +(Mod.wings)
-        +(Mod.lycanitesMobs)
-        +(Mod.betterportals)
-        +(Mod.iceAndFireDragons)
         +(Mod.grimoireOfGaia)
         +(Mod.maxPotionIdExtender)
+        +(Mod.calculator)
+        +(Mod.dm2)
+        +(Mod.soot)
+        +(Mod.voidcraft)
+        +(Mod.cyclic)
+        +(Mod.spiceOfLifeCarrotEdition)
+        +(Mod.projectIntelligence)
+        +(Mod.customMainMenu)
+        +(Mod.shadowfactsForgelin)
+        +(Mod.hardcoreQuestingMode)
+        +(Mod.bedPatch)
+        +(Mod.minetweakerRecipemaker)
+        +(Mod.crafttweaker)
+        +(Mod.modtweaker)
+        +(Mod.tweakersConstruct)
+        +(Mod.dragonDropsElytra)
+        +(Mod.clockworkPhase)
+        +(Mod.bonsaiTrees)
+        +(Mod.incorporeal)
+        +(Mod.chestTransporter)
+        +(Mod.abyssalcraft)
+        +(Mod.abyssalcraftIntegration)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
@@ -278,33 +297,6 @@ root(CurseProvider) {
         // +(Mod.cathedral) # empty crafting grid causes
         // +(Mod.tropicraft) #fluid registry errors?
         // +(Mod.unlimitedChiselWorks)
-
-//        withProvider(DirectProvider).list {
-//            +"nutrition" configure {
-//                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
-//            }
-//            +"friendship-bracelet" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar"
-//            }
-//            +"infra-redstone" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar"
-//            }
-//            +"thermionics" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar"
-//            }
-//            +"thermionics-world" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/ThermionicsWorld-MC1.12.2_ver1.0.2.jar"
-//            }
-//            +"magic-arsenal" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar"
-//            }
-//            +"engination" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar"
-//            }
-//            +"glass-hearts" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar"
-//            }
-//        }
 
         withProvider(JenkinsProvider) {
             jenkinsUrl = "https://ci.elytradev.com"

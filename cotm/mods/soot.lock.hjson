@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            shadowfacts-forgelin
+            embers-rekindled
         ]
     },
-    projectID: 322948,
-    fileID: 2812330
+    projectID: 281528,
+    fileID: 2697925
 }

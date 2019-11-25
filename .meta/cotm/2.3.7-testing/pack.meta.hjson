@@ -17,7 +17,7 @@
     },
     forgeVersion: {
         name: "Forge Version",
-        value: `14.23.5.2844`
+        value: `14.23.5.2847`
     },
     authors: {
         name: Author,
