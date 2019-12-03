@@ -1,9 +1,11 @@
 import voodoo.util.unixPath
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     // kotlin("jvm") version "1.3.20" // automatically applied
     // idea // automatically applied
     id("voodoo") version "0.4.9-SNAPSHOT"
+    kotlin("jvm") version "1.3.61"
 }
 
 voodoo {
@@ -62,6 +64,8 @@ dependencies {
     implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.9+")
     implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
     kotlinScriptDef(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
+    implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("script-runtime"))
 }
 
 tasks.create("syncConfigs") {
@@ -98,4 +102,12 @@ tasks.create("listConfigs") {
         val result = paths.joinToString(",\n")
         logger.lifecycle("config paths: \n $result")
     }
+}
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "1.8"
 }
