@@ -3,10 +3,10 @@
     dependencies: {
         REQUIRED: [
             mysticallib,
-            patchouli,
-            baubles
+            baubles,
+            patchouli
         ]
     },
     projectID: 282940,
-    fileID: 2817911
+    fileID: 2838234
 }

@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            baubles,
-            patchouli
+            patchouli,
+            baubles
         ]
     },
     projectID: 285439,
-    fileID: 2834939
+    fileID: 2837132
 }

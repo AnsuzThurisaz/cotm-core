@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.3.8-release"
+version = "2.4-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -291,6 +291,7 @@ root(CurseProvider) {
         +(Mod.chestTransporter)
         +(Mod.abyssalcraft)
         +(Mod.abyssalcraftIntegration)
+        +(Mod.avaritia110)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)

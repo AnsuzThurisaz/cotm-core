@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            placebo
+            codechicken-lib-1-8
         ]
     },
-    projectID: 288885,
-    fileID: 2838777
+    projectID: 261348,
+    fileID: 2660801
 }
