@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            mysticalmechanics
+        ]
+    },
+    projectID: 317915,
+    fileID: 2750115
+}

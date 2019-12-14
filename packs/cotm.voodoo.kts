@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.4-testing"
+version = "2.4-testing2"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -137,7 +137,7 @@ root(CurseProvider) {
         +(Mod.theTwilightForest)
         +(Mod.simpleVoidWorld)
 
-        // unresolved/stubborn dependencies
+        // unresolved/stubborn/forced dependencies
         +(Mod.mantle)
         +(Mod.librarianlib)
         +(Mod.shadowfactsForgelin)
@@ -231,7 +231,6 @@ root(CurseProvider) {
         +(Mod.compactdrawers)
         +(Mod.blockcraftery)
         +(Mod.modularPowersuits)
-        +(Mod.chunkpregenerator)
         +(Mod.colytra)
         +(Mod.architecturecraftTridev)
         +(Mod.draconicEvolution)
@@ -292,11 +291,16 @@ root(CurseProvider) {
         +(Mod.abyssalcraft)
         +(Mod.abyssalcraftIntegration)
         +(Mod.avaritia110)
+        +(Mod.soot)
+        +(Mod.biomeBundle)
+        +(Mod.openTerrainGenerator)
+        +(Mod.otgSkylands)
+        +(Mod.mysticalGears)
+        +(Mod.cathedral)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
-        // +(Mod.cathedral) # empty crafting grid causes
         // +(Mod.tropicraft) #fluid registry errors?
         // +(Mod.unlimitedChiselWorks)
 
