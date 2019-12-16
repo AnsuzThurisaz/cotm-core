@@ -44,6 +44,18 @@
 			"maximumGroupCount": 2
 		}, 
 		{
+			"entity": "ebwizardry:lightning_wraith",
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "ebwizardry:evil_wizard",
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
 			"entity": "natura:imp",
 			"spawnWeight": 10,
 			"minimumGroupCount": 8,

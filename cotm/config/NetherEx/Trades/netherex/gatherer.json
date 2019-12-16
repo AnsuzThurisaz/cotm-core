@@ -12,8 +12,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 2,
-				"maxCount": 2
+				"minCount": 1,
+				"maxCount": 1
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 8,
@@ -29,8 +29,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 2,
-				"maxCount": 4
+				"minCount": 1,
+				"maxCount": 3
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 8,
@@ -46,8 +46,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 2,
-				"maxCount": 4
+				"minCount": 1,
+				"maxCount": 3
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 8,
@@ -63,8 +63,8 @@
 			"inputOne": {
 				"item": "netherex:wither_bone",
 				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
+				"minCount": 32,
+				"maxCount": 64
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 4,
@@ -80,8 +80,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 3,
-				"maxCount": 3
+				"minCount": 2,
+				"maxCount": 4
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 8,
@@ -97,8 +97,8 @@
 			"inputOne": {
 				"item": "minecraft:quartz",
 				"meta": 0,
-				"minCount": 3,
-				"maxCount": 3
+				"minCount": 12,
+				"maxCount": 16
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 3,
@@ -115,7 +115,7 @@
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
 				"minCount": 3,
-				"maxCount": 5
+				"maxCount": 4
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 6,

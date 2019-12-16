@@ -50,8 +50,8 @@
 			"maximumGroupCount": 4
 		}, 
 		{
-			"entity": "ebwizardry:evil_wizard",
-			"spawnWeight": 3,
+			"entity": "mysticalworld:entity_lava_cat",
+			"spawnWeight": 2,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 1
 		}, 
@@ -62,10 +62,46 @@
 			"maximumGroupCount": 4
 		}, 
 		{
-			"entity": "bewitchment:serpent",
+			"entity": "bewitchment:feuerwurm",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "ebwizardry:lightning_wraith",
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "ebwizardry:evil_wizard",
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "abyssalcraft:demonpig",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demoncow",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demonchicken",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demonsheep",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
 		}, 
 		{
 			"entity": "minecraft:blaze",

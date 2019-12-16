@@ -12,8 +12,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 4,
-				"maxCount": 16
+				"minCount": 1,
+				"maxCount": 2
 			},
 			"minTradeCount": 4,
 			"maxTradeCount": 16,
@@ -31,8 +31,8 @@
 				"properties": {
 					"variant": "stone"
 				},
-				"minCount": 1,
-				"maxCount": 2
+				"minCount": 16,
+				"maxCount": 32
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 4,
@@ -52,7 +52,7 @@
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
 				"minCount": 1,
-				"maxCount": 4
+				"maxCount": 2
 			},
 			"minTradeCount": 4,
 			"maxTradeCount": 16,
@@ -68,8 +68,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 8,
-				"maxCount": 16
+				"minCount": 1,
+				"maxCount": 2
 			},
 			"minTradeCount": 4,
 			"maxTradeCount": 16,
@@ -88,8 +88,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 1,
-				"maxCount": 4
+				"minCount": 3,
+				"maxCount": 8
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 8,
@@ -106,7 +106,7 @@
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
 				"minCount": 1,
-				"maxCount": 3
+				"maxCount": 2
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 8,
@@ -122,8 +122,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 3,
-				"maxCount": 7
+				"minCount": 1,
+				"maxCount": 2
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 4,
@@ -139,8 +139,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 3,
-				"maxCount": 7
+				"minCount": 1,
+				"maxCount": 2
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 4,
@@ -156,8 +156,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 1,
-				"maxCount": 2
+				"minCount": 4,
+				"maxCount": 8
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 3,
@@ -173,8 +173,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 1,
-				"maxCount": 3
+				"minCount": 2,
+				"maxCount": 4
 			},
 			"minTradeCount": 1,
 			"maxTradeCount": 4,
