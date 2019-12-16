@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            sanlib
+        ]
+    },
+    projectID: 227543,
+    fileID: 2653725
+}

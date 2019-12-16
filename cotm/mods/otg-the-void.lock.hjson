@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            tammodized
+            open-terrain-generator
         ]
     },
-    projectID: 251730,
-    fileID: 2536024
+    projectID: 265903,
+    fileID: 2486113
 }

@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            reborncore
+            tesla-core-lib
         ]
     },
-    projectID: 254466,
-    fileID: 2498115
+    projectID: 266515,
+    fileID: 2745321
 }

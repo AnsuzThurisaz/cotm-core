@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.4-testing2"
+version = "2.4.1-testing2"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -40,6 +40,7 @@ root(CurseProvider) {
         +(Mod.quark)
         +(Mod.quarkOddities)
         +(Mod.morphOTool)
+        +(Mod.patchouli)
 
         // Sangar
         +(Mod.architect)
@@ -89,6 +90,7 @@ root(CurseProvider) {
         // mcjty
         +(Mod.rftools)
         +(Mod.rftoolsDimensions)
+        +(Mod.rftoolsPower)
         +(Mod.theOneProbe)
 
         // Mr_Crayfish
@@ -135,7 +137,8 @@ root(CurseProvider) {
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
-        +(Mod.simpleVoidWorld)
+        +(Mod.otgTheVoid)
+        +(Mod.otgSkylands)
 
         // unresolved/stubborn/forced dependencies
         +(Mod.mantle)
@@ -271,7 +274,6 @@ root(CurseProvider) {
         +(Mod.calculator)
         +(Mod.dm2)
         +(Mod.soot)
-        +(Mod.voidcraft)
         +(Mod.cyclic)
         +(Mod.spiceOfLifeCarrotEdition)
         +(Mod.projectIntelligence)
@@ -294,9 +296,11 @@ root(CurseProvider) {
         +(Mod.soot)
         +(Mod.biomeBundle)
         +(Mod.openTerrainGenerator)
-        +(Mod.otgSkylands)
         +(Mod.mysticalGears)
-        +(Mod.cathedral)
+//        +(Mod.cathedral)
+        +(Mod.industrialForegoing)
+        +(Mod.tinkersComplement)
+        +(Mod.claySoldiersMod)
 
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
