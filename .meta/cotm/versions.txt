@@ -36,3 +36,7 @@
 2.4-testing2
 2.4.1-testing
 2.4.1-testing2
+2.4.2-testing
+2.4.2-testing2
+2.4.2-testing3
+2.4.2-testing4

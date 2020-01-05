@@ -9038,3 +9038,376 @@ Version | `UnlimitedChiselWorks-0.3.1.jar` | `UnlimitedChiselWorks-0.3.2.jar`
 
 
 
+
+# Center of the Multiverse 2.4.2-testing
+
+Property | old value | new value
+---|---|---
+Pack Version | `2.4.1-testing2` | `2.4.2-testing`
+
+
+## Entries
+
+### Added Entries
+
+added `discordintegration`
+
+Property | old value | new value
+---|---|---
+ID |  | `discordintegration`
+Version |  | `DiscordIntegration-mc1.12.2-3.0.5.jar`
+Provider |  | `CURSE`
+Side |  | `SERVER`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `TheChikachi`
+
+
+
+### Updated Entries
+
+updated `actually-additions`
+
+Property | old value | new value
+---|---|---
+Version | `ActuallyAdditions-1.12.2-r151.jar` | `ActuallyAdditions-1.12.2-r151-2.jar`
+
+
+
+### Removed Entries
+
+removed `matterlink`
+
+Property | old value | new value
+---|---|---
+ID | `matterlink` | 
+Version | `MatterLink-1.12.2-1.6.4-184.jar` | 
+Provider | `JENKINS` | 
+Side | `SERVER` | 
+Optional | `false` | 
+Job | `elytra/MatterLink/master` | 
+Build | `184` | 
+
+
+
+removed `external-tweaker`
+
+Property | old value | new value
+---|---|---
+ID | `external-tweaker` | 
+Version | `externaltweaker-1.12-0.3.jar` | 
+Provider | `CURSE` | 
+Side | `BOTH` | 
+Optional | `false` | 
+Required Dependencies | `crafttweaker` | 
+Release Type | `Beta` | 
+Author | `Bartz24` | 
+
+
+
+
+
+
+
+# Center of the Multiverse 2.4.2-testing2
+
+Property | old value | new value
+---|---|---
+Pack Version | `2.4.2-testing` | `2.4.2-testing2`
+
+
+## Entries
+
+### Added Entries
+
+added `foamfix-optimization-mod`
+
+Property | old value | new value
+---|---|---
+ID |  | `foamfix-optimization-mod`
+Version |  | `foamfix-0.10.10-1.12.2.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `asiekierka`
+
+
+
+### Updated Entries
+
+updated `advanced-rocketry`
+
+Property | old value | new value
+---|---|---
+Version | `AdvancedRocketry-1.12.2-1.6.0-188-universal.jar` | `AdvancedRocketry-1.12.2-1.6.0-190-universal.jar`
+
+
+
+updated `bonsai-trees`
+
+Property | old value | new value
+---|---|---
+Version | `bonsaitrees-1.1.3-b156.jar` | `bonsaitrees-1.1.4-b170.jar`
+
+
+
+updated `botania`
+
+Property | old value | new value
+---|---|---
+Version | `Botania r1.10-362.jar` | `Botania r1.10-363.jar`
+
+
+
+updated `electroblobs-wizardry`
+
+Property | old value | new value
+---|---|---
+Version | `ElectroblobsWizardry-4.2.5-MC1.12.2.jar` | `ElectroblobsWizardry-4.2.7-MC1.12.2.jar`
+
+
+
+updated `journeymap`
+
+Property | old value | new value
+---|---|---
+Version | `journeymap-1.12.2-5.5.6b4.jar` | `journeymap-1.12.2-5.5.6.jar`
+Release Type | `Beta` | `Release`
+
+
+
+updated `natures-compass`
+
+Property | old value | new value
+---|---|---
+Version | `NaturesCompass-1.12.2-1.6.2.jar` | `NaturesCompass-1.12.2-1.7.0.jar`
+
+
+
+updated `phosphor`
+
+Property | old value | new value
+---|---|---
+Release Type | `Beta` | `Release`
+
+
+
+updated `tinkers-complement`
+
+Property | old value | new value
+---|---|---
+Required Dependencies | `tinkers-construct`, `mantle` | `mantle`, `tinkers-construct`
+Release Type | `Beta` | `Release`
+
+
+
+updated `unlimited-chisel-works`
+
+Property | old value | new value
+---|---|---
+Version | `UnlimitedChiselWorks-0.3.2.jar` | `UnlimitedChiselWorks-0.3.3.jar`
+
+
+
+updated `xaeros-minimap`
+
+Property | old value | new value
+---|---|---
+Version | `Xaeros_Minimap_1.19.2_Forge_1.12.jar` | `Xaeros_Minimap_1.19.3_Forge_1.12.jar`
+
+
+
+### Removed Entries
+
+removed `foamfix-for-minecraft`
+
+Property | old value | new value
+---|---|---
+ID | `foamfix-for-minecraft` | 
+Version | `foamfix-0.10.9-1.12.2.jar` | 
+Provider | `CURSE` | 
+Side | `BOTH` | 
+Optional | `false` | 
+Release Type | `Release` | 
+Author | `asiekierka` | 
+
+
+
+
+
+
+
+# Center of the Multiverse 2.4.2-testing3
+
+Property | old value | new value
+---|---|---
+Pack Version | `2.4.2-testing2` | `2.4.2-testing3`
+
+
+## Entries
+
+### Updated Entries
+
+updated `bewitchment`
+
+Property | old value | new value
+---|---|---
+Version | `bewitchment-1.12.2-0.0.21.3.jar` | `bewitchment-1.12.2-0.0.21.5.jar`
+
+
+
+updated `calculator`
+
+Property | old value | new value
+---|---|---
+Version | `calculator-1.12.2-5.0.11-12.jar` | `calculator-1.12.2-5.0.12-15.jar`
+
+
+
+updated `inventory-tweaks`
+
+Property | old value | new value
+---|---|---
+Version | `InventoryTweaks-1.64+dev.146.jar` | `InventoryTweaks-1.64+dev.150.jar`
+Author | `Kobata` | `JimeoWan, Kobata`
+
+
+
+updated `just-enough-harvestcraft`
+
+Property | old value | new value
+---|---|---
+Version | `just-enough-harvestcraft-1.12.2-1.6.6.jar` | `just-enough-harvestcraft-1.12.2-1.7.0.jar`
+
+
+
+updated `jei`
+
+Property | old value | new value
+---|---|---
+Version | `jei_1.12.2-4.15.0.292.jar` | `jei_1.12.2-4.15.0.293.jar`
+
+
+
+updated `randompatches`
+
+Property | old value | new value
+---|---|---
+Release Type | `Beta` | `Release`
+
+
+
+updated `xaeros-minimap`
+
+Property | old value | new value
+---|---|---
+Version | `Xaeros_Minimap_1.19.3_Forge_1.12.jar` | `Xaeros_Minimap_1.19.4_Forge_1.12.jar`
+
+
+
+
+
+
+
+# Center of the Multiverse 2.4.2-testing4
+
+Property | old value | new value
+---|---|---
+Pack Version | `2.4.2-testing3` | `2.4.2-testing4`
+
+
+## Entries
+
+### Added Entries
+
+added `nutrition`
+
+Property | old value | new value
+---|---|---
+ID |  | `Nutrition`
+Version |  | `Nutrition-1.12.2-4.4.0`
+Provider |  | `DIRECT`
+Side |  | `BOTH`
+Optional |  | `false`
+Url |  | `https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar`
+
+
+
+### Updated Entries
+
+updated `abyssalcraft`
+
+Property | old value | new value
+---|---|---
+Version | `AbyssalCraft-1.12.2-1.9.14.jar` | `AbyssalCraft-1.12.2-1.9.15.jar`
+
+
+
+updated `advanced-rocketry`
+
+Property | old value | new value
+---|---|---
+Version | `AdvancedRocketry-1.12.2-1.6.0-190-universal.jar` | `AdvancedRocketry-1.12.2-1.6.0-193-universal.jar`
+
+
+
+updated `better-foliage`
+
+Property | old value | new value
+---|---|---
+Version | `BetterFoliage-MC1.12-2.2.0.jar` | `BetterFoliage-MC1.12-2.3.1.jar`
+
+
+
+updated `cyclic`
+
+Property | old value | new value
+---|---|---
+Version | `Cyclic-1.12.2-1.19.18.jar` | `Cyclic-1.12.2-1.19.19.jar`
+
+
+
+updated `grimoire-of-gaia`
+
+Property | old value | new value
+---|---|---
+Author | `enitneliS` | `Silentine_`
+
+
+
+updated `natures-compass`
+
+Property | old value | new value
+---|---|---
+Version | `NaturesCompass-1.12.2-1.7.0.jar` | `NaturesCompass-1.12.2-1.8.0.jar`
+
+
+
+updated `tinkers-construct`
+
+Property | old value | new value
+---|---|---
+Release Type | `Beta` | `Release`
+
+
+
+updated `unlimited-chisel-works`
+
+Property | old value | new value
+---|---|---
+Version | `UnlimitedChiselWorks-0.3.3.jar` | `UnlimitedChiselWorks-0.3.4.jar`
+
+
+
+updated `xaeros-minimap`
+
+Property | old value | new value
+---|---|---
+Version | `Xaeros_Minimap_1.19.4_Forge_1.12.jar` | `Xaeros_Minimap_1.19.5_Forge_1.12.jar`
+
+
+
+
+
+

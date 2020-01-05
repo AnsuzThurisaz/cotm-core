@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.4.1-testing2"
+version = "2.4.2-testing4"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -266,7 +266,6 @@ root(CurseProvider) {
         +(Mod.customMainMenu)
         +(Mod.shadowfactsForgelin)
         +(Mod.plustic)
-        +(Mod.externalTweaker)
         +(Mod.spiceOfLifeCarrotEdition)
         +(Mod.wings)
         +(Mod.grimoireOfGaia)
@@ -297,16 +296,19 @@ root(CurseProvider) {
         +(Mod.biomeBundle)
         +(Mod.openTerrainGenerator)
         +(Mod.mysticalGears)
-//        +(Mod.cathedral)
         +(Mod.industrialForegoing)
         +(Mod.tinkersComplement)
         +(Mod.claySoldiersMod)
 
+        withProvider(DirectProvider).list {
+            +"Nutrition" configure {
+                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
+            }
+        }
+
         // Pre-Testing / Un-used / Pulled due to issues
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
-        // +(Mod.tropicraft) #fluid registry errors?
-        // +(Mod.unlimitedChiselWorks)
 
         withProvider(JenkinsProvider) {
             jenkinsUrl = "https://ci.elytradev.com"
@@ -331,16 +333,7 @@ root(CurseProvider) {
             +(Mod.btfuContinuousRsyncIncrementalBackup)
             +(Mod.swingthroughgrass)
             +(Mod.colorchat)
-//            withProvider(DirectProvider).list {
-//            +"matterlink" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/MatterLink-1.12.2-1.6.4-184.jar"
-//                }
-//            }
-            withProvider(JenkinsProvider) {
-                jenkinsUrl = "https://ci.elytradev.com"
-            }.list {
-                +"matterlink" job "elytra/MatterLink/master"
-            }
+            +(Mod.discordintegration)
         }
 
         group {
