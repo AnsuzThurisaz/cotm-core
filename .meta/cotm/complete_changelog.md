@@ -9452,6 +9452,20 @@ Author |  | `Phenix246, Timmypote, ZeAmateis`
 
 
 
+added `immersive-engineering`
+
+Property | old value | new value
+---|---|---
+ID |  | `immersive-engineering`
+Version |  | `ImmersiveEngineering-0.12-92.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `BluSunrize, malte0811`
+
+
+
 added `mcmultipart`
 
 Property | old value | new value
@@ -9522,6 +9536,15 @@ Version | `bewitchment-1.12.2-0.0.21.5.jar` | `bewitchment-1.12.2-0.0.21.6.jar`
 
 
 
+updated `brandons-core`
+
+Property | old value | new value
+---|---|---
+Version | `BrandonsCore-1.12.2-2.4.17.208-universal.jar` | `BrandonsCore-1.12.2-2.4.18.210-universal.jar`
+Required Dependencies | `redstone-flux`, `codechicken-lib-1-8` | `codechicken-lib-1-8`, `redstone-flux`
+
+
+
 updated `controlling`
 
 Property | old value | new value
@@ -9543,6 +9566,15 @@ updated `custom-main-menu`
 Property | old value | new value
 ---|---|---
 Version | `CustomMainMenu-MC1.12.2-2.0.9.jar` | `CustomMainMenu-MC1.12.2-2.0.9.1.jar`
+
+
+
+updated `draconic-evolution`
+
+Property | old value | new value
+---|---|---
+Version | `Draconic-Evolution-1.12.2-2.3.24.349-universal.jar` | `Draconic-Evolution-1.12.2-2.3.25.351-universal.jar`
+Required Dependencies | `redstone-flux`, `codechicken-lib-1-8`, `brandons-core` | `codechicken-lib-1-8`, `redstone-flux`, `brandons-core`
 
 
 
@@ -9691,6 +9723,51 @@ updated `xaeros-minimap`
 Property | old value | new value
 ---|---|---
 Version | `Xaeros_Minimap_1.19.5_Forge_1.12.jar` | `Xaeros_Minimap_20.0.0_Forge_1.12.jar`
+
+
+
+
+
+
+
+# Center of the Multiverse 2.4.3-testing5
+
+Property | old value | new value
+---|---|---
+Pack Version | `2.4.3-testing4` | `2.4.3-testing5`
+
+
+## Entries
+
+### Added Entries
+
+added `dcintegration`
+
+Property | old value | new value
+---|---|---
+ID |  | `dcintegration`
+Version |  | `dcintegration-1.1.11-1.12.jar`
+Provider |  | `CURSE`
+Side |  | `SERVER`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `ErdbeerbaerLP`
+
+
+
+### Removed Entries
+
+removed `discordintegration`
+
+Property | old value | new value
+---|---|---
+ID | `discordintegration` | 
+Version | `DiscordIntegration-mc1.12.2-3.0.5.jar` | 
+Provider | `CURSE` | 
+Side | `SERVER` | 
+Optional | `false` | 
+Release Type | `Release` | 
+Author | `TheChikachi` | 
 
 
 

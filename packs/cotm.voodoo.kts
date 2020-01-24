@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.4.3-testing4"
+version = "2.4.3-testing5"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -302,6 +302,7 @@ root(CurseProvider) {
         +(Mod.mcmultipart)
         +(Mod.animania)
         +(Mod.environmentalTech)
+        +(Mod.immersiveEngineering)
 
         withProvider(DirectProvider).list {
             +"Nutrition" configure {
@@ -336,7 +337,7 @@ root(CurseProvider) {
             +(Mod.btfuContinuousRsyncIncrementalBackup)
             +(Mod.swingthroughgrass)
             +(Mod.colorchat)
-            +(Mod.discordintegration)
+            +(Mod.dcintegration)
         }
 
         group {

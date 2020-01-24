@@ -1082,7 +1082,7 @@
         },
         version: {
             name: Version,
-            value: `BrandonsCore-1.12.2-2.4.17.208-universal.jar`
+            value: `BrandonsCore-1.12.2-2.4.18.210-universal.jar`
         },
         provider: {
             name: Provider,
@@ -1098,7 +1098,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`redstone-flux`, `codechicken-lib-1-8`"
+            value: "`codechicken-lib-1-8`, `redstone-flux`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -2718,7 +2718,7 @@
         },
         version: {
             name: Version,
-            value: `Draconic-Evolution-1.12.2-2.3.24.349-universal.jar`
+            value: `Draconic-Evolution-1.12.2-2.3.25.351-universal.jar`
         },
         provider: {
             name: Provider,
@@ -2734,7 +2734,7 @@
         },
         dependencies_required: {
             name: "Required Dependencies",
-            value: "`redstone-flux`, `codechicken-lib-1-8`, `brandons-core`"
+            value: "`codechicken-lib-1-8`, `redstone-flux`, `brandons-core`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -4067,6 +4067,36 @@
         curse_author: {
             name: Author,
             value: `DarkhaxDev`
+        }
+    },
+    immersive-engineering: {
+        id: {
+            name: ID,
+            value: `immersive-engineering`
+        },
+        version: {
+            name: Version,
+            value: `ImmersiveEngineering-0.12-92.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`BluSunrize, malte0811`"
         }
     },
     incorporeal: {

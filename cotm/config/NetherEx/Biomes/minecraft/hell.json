@@ -50,12 +50,6 @@
 			"maximumGroupCount": 4
 		}, 
 		{
-			"entity": "mysticalworld:entity_lava_cat",
-			"spawnWeight": 2,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 1
-		}, 
-		{
 			"entity": "bewitchment:hellhound",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
@@ -120,6 +114,12 @@
 			"spawnWeight": 60,
 			"minimumGroupCount": 4,
 			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "mysticalworld:entity_lava_cat",
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
 		}, 
 		{
 			"entity": "natura:imp",

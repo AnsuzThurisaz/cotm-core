@@ -99,6 +99,7 @@
   "petramor",
   "mundane1_armor",
   "duritos_ranch_armor",
+  "thermalinversion",
   "squeaky",
   "branded_armor",
   "cheapskate_armor",

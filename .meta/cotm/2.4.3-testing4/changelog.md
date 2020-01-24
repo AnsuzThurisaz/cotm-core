@@ -38,6 +38,20 @@ Author |  | `Phenix246, Timmypote, ZeAmateis`
 
 
 
+added `immersive-engineering`
+
+Property | old value | new value
+---|---|---
+ID |  | `immersive-engineering`
+Version |  | `ImmersiveEngineering-0.12-92.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `BluSunrize, malte0811`
+
+
+
 added `mcmultipart`
 
 Property | old value | new value
@@ -108,6 +122,15 @@ Version | `bewitchment-1.12.2-0.0.21.5.jar` | `bewitchment-1.12.2-0.0.21.6.jar`
 
 
 
+updated `brandons-core`
+
+Property | old value | new value
+---|---|---
+Version | `BrandonsCore-1.12.2-2.4.17.208-universal.jar` | `BrandonsCore-1.12.2-2.4.18.210-universal.jar`
+Required Dependencies | `redstone-flux`, `codechicken-lib-1-8` | `codechicken-lib-1-8`, `redstone-flux`
+
+
+
 updated `controlling`
 
 Property | old value | new value
@@ -129,6 +152,15 @@ updated `custom-main-menu`
 Property | old value | new value
 ---|---|---
 Version | `CustomMainMenu-MC1.12.2-2.0.9.jar` | `CustomMainMenu-MC1.12.2-2.0.9.1.jar`
+
+
+
+updated `draconic-evolution`
+
+Property | old value | new value
+---|---|---
+Version | `Draconic-Evolution-1.12.2-2.3.24.349-universal.jar` | `Draconic-Evolution-1.12.2-2.3.25.351-universal.jar`
+Required Dependencies | `redstone-flux`, `codechicken-lib-1-8`, `brandons-core` | `codechicken-lib-1-8`, `redstone-flux`, `brandons-core`
 
 
 
