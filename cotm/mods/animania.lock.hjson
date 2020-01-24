@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            bookshelf
+            craftstudio-api
         ]
     },
-    projectID: 283235,
-    fileID: 2860453
+    projectID: 261199,
+    fileID: 2814991
 }

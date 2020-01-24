@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.4.2-testing4"
+version = "2.4.3-testing4"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -222,7 +222,6 @@ root(CurseProvider) {
         +(Mod.chococraft3)
         +(Mod.portality)
         +(Mod.surge)
-        +(Mod.environmentalTech)
         +(Mod.armoryExpansion)
         +(Mod.shadowfactsForgelin)
         +(Mod.rebornstorage)
@@ -299,6 +298,10 @@ root(CurseProvider) {
         +(Mod.industrialForegoing)
         +(Mod.tinkersComplement)
         +(Mod.claySoldiersMod)
+        +(Mod.notenoughcodecs)
+        +(Mod.mcmultipart)
+        +(Mod.animania)
+        +(Mod.environmentalTech)
 
         withProvider(DirectProvider).list {
             +"Nutrition" configure {
