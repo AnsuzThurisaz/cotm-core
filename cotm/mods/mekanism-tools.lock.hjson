@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            mekanism
+        ]
+    },
+    projectID: 268567,
+    fileID: 2835178
+}

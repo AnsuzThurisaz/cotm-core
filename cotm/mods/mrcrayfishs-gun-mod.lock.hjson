@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            obfuscate
+        ]
+    },
+    projectID: 289479,
+    fileID: 2854400
+}

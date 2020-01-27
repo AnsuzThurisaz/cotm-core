@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            cucumber
+        ]
+    },
+    projectID: 246640,
+    fileID: 2704562
+}
