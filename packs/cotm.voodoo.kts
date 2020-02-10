@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "Center of the Multiverse"
 authors = listOf("AnsuzThuriaz", "Falkreon", "NikkyAi")
-version = "2.5-testing1"
+version = "2.4.3-testing5"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -137,8 +137,8 @@ root(CurseProvider) {
         +(Mod.dimensionaldoors)
         +(Mod.huntingDimension)
         +(Mod.theTwilightForest)
-        +(Mod.mistyWorld)
-        +(Mod.tropicraft)
+        +(Mod.otgTheVoid)
+        +(Mod.otgSkylands)
 
         // unresolved/stubborn/forced dependencies
         +(Mod.mantle)
@@ -168,6 +168,7 @@ root(CurseProvider) {
         +(Mod.naturesCompass)
         +(Mod.netherex)
         +(Mod.netherportalfix)
+        +(Mod.stimmedcowNomorerecipeconflict)
         +(Mod.notenoughids)
         +(Mod.opencomputers)
         +(Mod.openblocks)
@@ -292,6 +293,7 @@ root(CurseProvider) {
         +(Mod.avaritia110)
         +(Mod.soot)
         +(Mod.biomeBundle)
+        +(Mod.openTerrainGenerator)
         +(Mod.mysticalGears)
         +(Mod.industrialForegoing)
         +(Mod.tinkersComplement)
@@ -301,21 +303,6 @@ root(CurseProvider) {
         +(Mod.animania)
         +(Mod.environmentalTech)
         +(Mod.immersiveEngineering)
-        +(Mod.mekanism)
-        +(Mod.mekanismGenerators)
-        +(Mod.mekanismTools)
-        +(Mod.mysticalAgriculture)
-        +(Mod.mysticalAgradditions)
-        +(Mod.matteroverdrive)
-        +(Mod.futurepack)
-        +(Mod.mrcrayfishsGunMod)
-        +(Mod.yungsBetterCaves)
-        +(Mod.cathedral)
-        +(Mod.otgSkylands)
-        +(Mod.otgTheVoid)
-        +(Mod.openTerrainGenerator)
-        +(Mod.icbmClassic)
-        +(Mod.bedrockores)
 
         withProvider(DirectProvider).list {
             +"Nutrition" configure {

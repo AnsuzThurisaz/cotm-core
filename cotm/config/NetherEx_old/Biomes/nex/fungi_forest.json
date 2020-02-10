@@ -1,0 +1,292 @@
+{
+	"biome": "nex:fungi_forest",
+	"weight": 4,
+	"enabled": true,
+	"genDefaultFeatures": true,
+	"blocks": {
+		"wallBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "lively"
+			}
+		},
+		"fillerBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "lively"
+			}
+		},
+		"oceanBlock": {
+			"block": "minecraft:lava"
+		},
+		"ceilingBottomBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "lively"
+			}
+		},
+		"topBlock": {
+			"block": "nex:hyphae"
+		},
+		"ceilingFillerBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "lively"
+			}
+		}
+	},
+	"entities": [
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 6,
+			"weight": 100,
+			"creatureType": "monster",
+			"entity": "nex:mogus"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 25,
+			"creatureType": "monster",
+			"entity": "nex:spore"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 50,
+			"creatureType": "monster",
+			"entity": "nex:spore_creeper"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:heatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:babyheatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 6,
+			"weight": 8,
+			"creatureType": "monster",
+			"entity": "natura:nitrocreeper"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 2,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "thaumcraft:firebat"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 1,
+			"weight": 5,
+			"creatureType": "monster",
+			"entity": "thaumcraft:wisp"
+		}, 
+		{
+			"minGroupCount": 8,
+			"spawn": true,
+			"maxGroupCount": 12,
+			"weight": 10,
+			"creatureType": "creature",
+			"entity": "natura:imp"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:heatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:babyheatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 6,
+			"weight": 8,
+			"creatureType": "monster",
+			"entity": "natura:nitrocreeper"
+		}, 
+		{
+			"minGroupCount": 8,
+			"spawn": true,
+			"maxGroupCount": 12,
+			"weight": 10,
+			"creatureType": "creature",
+			"entity": "natura:imp"
+		}
+	],
+	"features": [
+		{
+			"randomizeGenAttempts": true,
+			"feature": "lex:cluster",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"maxGenHeight": 124,
+			"genProbability": 1.0,
+			"netherrack": {
+				"block": "nex:block_netherrack",
+				"properties": {
+					"type": "lively"
+				}
+			},
+			"generate": true,
+			"blockToAttachTo": {
+				"block": "minecraft:barrier",
+				"properties": {}
+			},
+			"minGenHeight": 4,
+			"direction": "down",
+			"genAttempts": 10
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:cluster",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"maxGenHeight": 128,
+			"genProbability": 1.0,
+			"netherrack": {
+				"block": "nex:block_netherrack",
+				"properties": {
+					"type": "lively"
+				}
+			},
+			"generate": true,
+			"blockToAttachTo": {
+				"block": "minecraft:barrier",
+				"properties": {}
+			},
+			"minGenHeight": 1,
+			"direction": "down",
+			"genAttempts": 10
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:ore",
+			"genStage": "ore",
+			"blockToSpawn": {
+				"block": "nex:quartz_ore",
+				"properties": {
+					"type": "lively"
+				}
+			},
+			"veinSize": 14,
+			"maxGenHeight": 108,
+			"blockToReplace": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "lively"
+				}
+			},
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 10,
+			"genAttempts": 16
+		}, 
+		{
+			"randomizeGenAttempts": true,
+			"feature": "lex:big_mushroom",
+			"shape": "flat",
+			"genStage": "decorate",
+			"maxGenHeight": 108,
+			"genProbability": 1.0,
+			"blockToPlaceOn": {
+				"block": "nex:hyphae"
+			},
+			"mushroomCap": {
+				"block": "nex:elder_mushroom_cap",
+				"properties": {
+					"type": "brown"
+				}
+			},
+			"generate": true,
+			"mushroomStem": {
+				"block": "nex:elder_mushroom_stem"
+			},
+			"minGenHeight": 32,
+			"genAttempts": 256
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:big_mushroom",
+			"shape": "bulb",
+			"genStage": "decorate",
+			"maxGenHeight": 108,
+			"genProbability": 1.0,
+			"blockToPlaceOn": {
+				"block": "nex:hyphae"
+			},
+			"mushroomCap": {
+				"block": "nex:elder_mushroom_cap",
+				"properties": {
+					"type": "red"
+				}
+			},
+			"generate": true,
+			"mushroomStem": {
+				"block": "nex:elder_mushroom_stem"
+			},
+			"minGenHeight": 32,
+			"genAttempts": 256
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "nex:enoki",
+			"genStage": "decorate",
+			"maxGenHeight": 108,
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 64,
+			"genAttempts": 16
+		}, 
+		{
+			"mirror": "random",
+			"genStage": "populate",
+			"maxGenHeight": 116,
+			"rotation": "random",
+			"clearancePercentage": 1.0,
+			"ignoredBlock": {
+				"block": "minecraft:structure_void",
+				"properties": {}
+			},
+			"type": "floating",
+			"structure": "nex:ghast_queen_shrine",
+			"genAttempts": 1,
+			"randomizeGenAttempts": false,
+			"feature": "lex:structure",
+			"genProbability": 0.0125,
+			"generate": true,
+			"minGenHeight": 32
+		}
+	]
+}

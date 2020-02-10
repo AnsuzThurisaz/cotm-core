@@ -1,0 +1,334 @@
+{
+	"biome": "nex:torrid_wasteland",
+	"weight": 6,
+	"enabled": true,
+	"genDefaultFeatures": true,
+	"blocks": {
+		"wallBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "fiery"
+			}
+		},
+		"fillerBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "fiery"
+			}
+		},
+		"oceanBlock": {
+			"block": "minecraft:lava"
+		},
+		"ceilingBottomBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "fiery"
+			}
+		},
+		"topBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "fiery"
+			}
+		},
+		"ceilingFillerBlock": {
+			"block": "nex:netherrack",
+			"properties": {
+				"type": "fiery"
+			}
+		}
+	},
+	"entities": [
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 25,
+			"creatureType": "monster",
+			"entity": "minecraft:magma_cube"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 6,
+			"weight": 50,
+			"creatureType": "monster",
+			"entity": "nex:ember"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 100,
+			"creatureType": "monster",
+			"entity": "nex:salamander"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:heatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:babyheatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 6,
+			"weight": 8,
+			"creatureType": "monster",
+			"entity": "natura:nitrocreeper"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 2,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "thaumcraft:firebat"
+		}, 
+		{
+			"minGroupCount": 1,
+			"spawn": true,
+			"maxGroupCount": 1,
+			"weight": 5,
+			"creatureType": "monster",
+			"entity": "thaumcraft:wisp"
+		}, 
+		{
+			"minGroupCount": 8,
+			"spawn": true,
+			"maxGroupCount": 12,
+			"weight": 10,
+			"creatureType": "creature",
+			"entity": "natura:imp"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:heatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 4,
+			"weight": 10,
+			"creatureType": "monster",
+			"entity": "natura:babyheatscarspider"
+		}, 
+		{
+			"minGroupCount": 4,
+			"spawn": true,
+			"maxGroupCount": 6,
+			"weight": 8,
+			"creatureType": "monster",
+			"entity": "natura:nitrocreeper"
+		}, 
+		{
+			"minGroupCount": 8,
+			"spawn": true,
+			"maxGroupCount": 12,
+			"weight": 10,
+			"creatureType": "creature",
+			"entity": "natura:imp"
+		}
+	],
+	"features": [
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:fluid",
+			"hidden": false,
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"blockToTarget": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"maxGenHeight": 124,
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 4,
+			"genAttempts": 16
+		}, 
+		{
+			"randomizeGenAttempts": true,
+			"feature": "lex:scatter",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:fire"
+			},
+			"blockToTarget": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"maxGenHeight": 124,
+			"genProbability": 1.0,
+			"placement": "on_ground",
+			"generate": true,
+			"minGenHeight": 4,
+			"genAttempts": 20
+		}, 
+		{
+			"randomizeGenAttempts": true,
+			"feature": "lex:cluster",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"maxGenHeight": 124,
+			"genProbability": 1.0,
+			"blockToAttachTo": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"generate": true,
+			"minGenHeight": 4,
+			"direction": "down",
+			"genAttempts": 10
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:cluster",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"maxGenHeight": 128,
+			"genProbability": 1.0,
+			"blockToAttachTo": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"generate": true,
+			"minGenHeight": 1,
+			"direction": "down",
+			"genAttempts": 10
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:ore",
+			"genStage": "ore",
+			"blockToSpawn": {
+				"block": "nex:quartz_ore",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"veinSize": 14,
+			"maxGenHeight": 108,
+			"blockToReplace": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 10,
+			"genAttempts": 16
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:ore",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "nex:basalt",
+				"properties": {
+					"type": "normal"
+				}
+			},
+			"veinSize": 24,
+			"maxGenHeight": 108,
+			"blockToReplace": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 10,
+			"genAttempts": 14
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:ore",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:magma"
+			},
+			"veinSize": 32,
+			"maxGenHeight": 38,
+			"blockToReplace": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 28,
+			"genAttempts": 8
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:fluid",
+			"hidden": true,
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"blockToTarget": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"maxGenHeight": 118,
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 10,
+			"genAttempts": 16
+		}, 
+		{
+			"randomizeGenAttempts": false,
+			"feature": "lex:pool",
+			"genStage": "populate",
+			"blockToSpawn": {
+				"block": "minecraft:lava"
+			},
+			"maxGenHeight": 108,
+			"blockToSurround": {
+				"block": "nex:netherrack",
+				"properties": {
+					"type": "fiery"
+				}
+			},
+			"genProbability": 1.0,
+			"generate": true,
+			"minGenHeight": 10,
+			"genAttempts": 8
+		}
+	]
+}
